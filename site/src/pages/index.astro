@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title="O começo de uma nova aventura">
+  <section class="hero">
+    <div class="hero__content">
+      <span class="eyebrow"><span class="signal"></span> UM NOVO MUNDO ESTÁ TOMANDO FORMA</span>
+      <h1>Seu próximo<br /><em>grande mundo.</em></h1>
+      <p>Sobrevivência reinventada. Engenharia, magia, dimensões e descobertas reunidas em uma jornada com progressão própria.</p>
+      <div class="actions">
+        <a class="button button--primary" href={`${base}/progressao/`}>Explorar progressão <span>↗</span></a>
+        <a class="button button--ghost" href={`${base}/instalacao/`}>Como instalar →</a>
+      </div>
+      <div class="hero__info"><span><b>1.21.1</b> MINECRAFT JAVA</span><span><b>NEOFORGE</b> MOD LOADER</span><span><b>EM CONSTRUÇÃO</b> STATUS</span></div>
+    </div>
+    <div class="hero__art" aria-hidden="true"><div class="moon"></div><div class="mountain mountain--back"></div><div class="mountain mountain--front"></div><div class="art__label"><span>01 / 04</span> EXPLORE O DESCONHECIDO</div></div>
+  </section>
+  <section class="section">
+    <div class="section-heading"><div><span class="kicker">UM MUNDO PARA DESCOBRIR</span><h2>Escolha seu caminho.</h2></div><p>O objetivo é conectar os maiores sistemas do modpack em uma aventura coerente — sem perder a liberdade de exploração.</p></div>
+    <div class="feature-grid">
+      <article class="feature"><span class="feature__number">01 /</span><div class="feature__symbol">⚙</div><h3>Construa o impossível</h3><p>Engenharia, mecanismos e automação com espaço para criatividade.</p><a href={`${base}/mods/`}>Conheça os mods →</a></article>
+      <article class="feature"><span class="feature__number">02 /</span><div class="feature__symbol">✦</div><h3>Domine o arcano</h3><p>Descubra a progressão mágica planejada e os novos objetivos.</p><a href={`${base}/progressao/`}>Ver a jornada →</a></article>
+      <article class="feature"><span class="feature__number">03 /</span><div class="feature__symbol">◈</div><h3>Atravesse fronteiras</h3><p>Dimensões, ameaças e recompensas além do mundo habitual.</p><a href={`${base}/progressao/`}>Explorar etapas →</a></article>
+    </div>
+  </section>
+  <section class="notice"><span class="notice__tag">DEV LOG / 001</span><div><h2>Estamos construindo a fundação.</h2><p>O Minecraft 2 ainda está em planejamento. Os conteúdos da wiki são propostas iniciais, e a distribuição do modpack será anunciada após testes.</p></div><a href="https://github.com/Leonn190/Minecraft-2" target="_blank" rel="noreferrer">Acompanhar no GitHub ↗</a></section>
+</Base>

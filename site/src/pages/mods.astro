@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+const groups = [
+  ['Engenharia', 'Create e addons', 'Progressão tecnológica e mecanismos.'],
+  ['Magia', 'Ars Nouveau', 'Uma possível trilha de progressão arcana.'],
+  ['Exploração', 'Alex’s Caves, Cataclysm', 'Biomas, ameaças e recompensas a validar.'],
+  ['Dimensões', 'Undergarden, Midnight, Deeper and Darker', 'Candidatos para regiões dimensionais.'],
+  ['Interface e suporte', 'JEI, Jade, Sophisticated Backpacks', 'Ferramentas para a experiência de jogo.'],
+  ['Customização', 'KubeJS', 'Receitas e regras próprias, após validação.'],
+];
+---
+<Base title="Enciclopédia de mods">
+  <section class="page-head"><span class="kicker">ENCICLOPÉDIA / PLANEJAMENTO</span><h1>Várias possibilidades.<br /><em>Uma única jornada.</em></h1><p>Estes são mods candidatos ao Minecraft 2. Ainda estamos verificando versões, licenças e compatibilidade com NeoForge 1.21.1.</p></section>
+  <div class="feature-grid feature-grid--two">
+    {groups.map(([area, mods, text], i) => <article class="feature"><span class="feature__number">{String(i + 1).padStart(2,'0')} / CANDIDATOS</span><h2>{area}</h2><h3>{mods}</h3><p>{text}</p></article>)}
+  </div>
+</Base>

@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+const stages = [
+  ['01', 'O início', 'Primeiros dias', 'Sobreviva, descubra ferramentas e estabeleça sua primeira base.'],
+  ['02', 'O mundo', 'Expansão', 'Explore novos biomas, prepare equipamento e defina seus caminhos.'],
+  ['03', 'As máquinas', 'Engenharia', 'Experimente Create e abra oportunidades de automação.'],
+  ['04', 'O arcano', 'Magia', 'Aprenda os fundamentos de sistemas mágicos e seus recursos.'],
+  ['05', 'O desconhecido', 'Dimensões', 'Supere regiões perigosas e desafios mais exigentes.'],
+  ['06', 'O horizonte', 'Endgame', 'Prepare objetivos de longa duração e desafios finais.'],
+];
+---
+<Base title="Guia de progressão" description="Roteiro inicial de progressão planejada do Minecraft 2.">
+  <section class="page-head"><span class="kicker">GUIA DO JOGADOR / RASCUNHO</span><h1>A jornada não acaba<br /><em>no primeiro portal.</em></h1><p>Uma proposta de capítulos para conectar sobrevivência, engenharia, magia e exploração. As etapas ainda não representam conteúdo implementado.</p></section>
+  <div class="alert"><strong>Em planejamento:</strong> caminhos, receitas e pré-requisitos serão definidos e testados antes da primeira versão jogável.</div>
+  <div class="stage-list">
+    {stages.map(([number, label, title, text]) => <article class="stage"><span class="stage__number">{number}</span><div><small>{label}</small><h2>{title}</h2><p>{text}</p></div><span class="stage__state">PROPOSTA</span></article>)}
+  </div>
+</Base>

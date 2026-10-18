@@ -1,0 +1,36 @@
+# Dependencies and build
+**/node_modules/
+**/dist/
+**/.astro/
+**/.cache/
+**/build/
+**/.gradle/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Modpack / local Minecraft runtime (do not track)
+**/logs/
+**/crash-reports/
+**/saves/
+**/screenshots/
+**/shaderpacks/
+**/mods/*.jar
+**/mods/*.zip
+**/runtime/
+**/run/
+
+# Archives and temporary binaries
+*.tmp
+*.log
