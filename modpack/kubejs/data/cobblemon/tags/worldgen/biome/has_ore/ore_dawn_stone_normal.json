@@ -1,0 +1,55 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_peak",
+    "#cobblemon:is_sky",
+    {
+      "id": "m2pokemon:minecraft/frozen_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/jagged_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_slopes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/stony_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/emerald_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/rocky_mountains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/scarlet_mountains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/skylands_autumn",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/skylands_spring",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/skylands_summer",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/skylands_winter",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/windswept_spires",
+      "required": false
+    }
+  ]
+}

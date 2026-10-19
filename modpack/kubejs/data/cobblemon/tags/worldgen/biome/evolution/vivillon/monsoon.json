@@ -1,0 +1,107 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_mountain",
+    "#cobblemon:is_peak",
+    {
+      "id": "m2pokemon:minecraft/frozen_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/jagged_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/meadow",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_slopes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/stony_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpine_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/arid_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/emerald_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/forested_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lavender_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lush_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/moonlight_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/rocky_mountains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sakura_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/savanna_slopes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/scarlet_mountains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/stony_spires",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/temperate_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/volcanic_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/windswept_spires",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yosemite_cliffs",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yosemite_lowlands",
+      "required": false
+    }
+  ]
+}

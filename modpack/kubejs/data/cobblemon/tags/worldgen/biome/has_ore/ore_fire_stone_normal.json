@@ -1,0 +1,64 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_desert",
+    "#cobblemon:is_thermal",
+    "#cobblemon:is_volcanic",
+    {
+      "id": "m2pokemon:minecraft/desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ancient_sands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/caldera",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/mantle_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/thermal_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_canyon",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_spires",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lush_desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/red_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sandstone_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/volcanic_crater",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/volcanic_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yellowstone",
+      "required": false
+    }
+  ]
+}

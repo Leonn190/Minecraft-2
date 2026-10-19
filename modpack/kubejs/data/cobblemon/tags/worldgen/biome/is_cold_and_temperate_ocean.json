@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cold_ocean",
+    "minecraft:deep_cold_ocean",
+    "minecraft:ocean",
+    "minecraft:deep_ocean",
+    {
+      "id": "clifftree:stone_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/cold_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_cold_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/ocean",
+      "required": false
+    }
+  ]
+}

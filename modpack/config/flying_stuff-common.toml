@@ -1,0 +1,39 @@
+[glider]
+	#Enable glider stamina. Disable for unlimited gliding and no stamina HUD. Freefall is unchanged. In multiplayer the server's setting applies; your local setting is for your singleplayer worlds.
+	staminaEnabled = true
+	#Seconds to drain a full unenchanted glider stamina bar at 20 ticks/second. Default 12.5 preserves the old drain rate; the exhaustion cutoff ends usable flight slightly earlier. Lightweight still reduces drain at each level.
+	# Default: 12.5
+	# Range: 1.0 ~ 3600.0
+	gliderDurationSeconds = 12.5
+	#Seconds to refill an empty stamina bar when not actively gliding. Default 6 preserves the old refill rate and exhaustion recovery threshold.
+	# Default: 6.0
+	# Range: 0.1 ~ 600.0
+	staminaRefillSeconds = 6.0
+
+	[islandDensity.skyBiomes]
+		#Island/structure frequency relative to normal: 100 = default, 50 = roughly half, 200 = roughly double, 300 = roughly triple, 0 = disabled. Does not change island size, biome coverage, vegetation, ores or existing chunks. Large structures generate as a whole. Restart the world/server after changing; only newly generated chunks are affected.
+		# Default: 100
+		# Range: 0 ~ 300
+		small = 100
+		#Island/structure frequency relative to normal: 100 = default, 50 = roughly half, 200 = roughly double, 300 = roughly triple, 0 = disabled. Does not change island size, biome coverage, vegetation, ores or existing chunks. Large structures generate as a whole. Restart the world/server after changing; only newly generated chunks are affected.
+		# Default: 100
+		# Range: 0 ~ 300
+		medium = 100
+		#Island/structure frequency relative to normal: 100 = default, 50 = roughly half, 200 = roughly double, 300 = roughly triple, 0 = disabled. Does not change island size, biome coverage, vegetation, ores or existing chunks. Large structures generate as a whole. Restart the world/server after changing; only newly generated chunks are affected.
+		# Default: 100
+		# Range: 0 ~ 300
+		large = 100
+
+	[islandDensity.otherBiomes]
+		#Island/structure frequency relative to normal: 100 = default, 50 = roughly half, 200 = roughly double, 300 = roughly triple, 0 = disabled. Does not change island size, biome coverage, vegetation, ores or existing chunks. Large structures generate as a whole. Restart the world/server after changing; only newly generated chunks are affected.
+		# Default: 100
+		# Range: 0 ~ 300
+		small = 100
+		#Island/structure frequency relative to normal: 100 = default, 50 = roughly half, 200 = roughly double, 300 = roughly triple, 0 = disabled. Does not change island size, biome coverage, vegetation, ores or existing chunks. Large structures generate as a whole. Restart the world/server after changing; only newly generated chunks are affected.
+		# Default: 100
+		# Range: 0 ~ 300
+		medium = 100
+		#Island/structure frequency relative to normal: 100 = default, 50 = roughly half, 200 = roughly double, 300 = roughly triple, 0 = disabled. Does not change island size, biome coverage, vegetation, ores or existing chunks. Large structures generate as a whole. Restart the world/server after changing; only newly generated chunks are affected.
+		# Default: 100
+		# Range: 0 ~ 300
+		large = 100

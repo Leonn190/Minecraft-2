@@ -1,0 +1,6 @@
+Minecraft 2 - Dimensoes Pokemon e Arcana v0.3.1
+
+Pokemon: /trigger m2p_enter set 1 e /trigger m2p_leave set 1
+Arcana: /trigger m2a_enter set 1 e /trigger m2a_leave set 1
+
+LEIA OS AVISOS NO RELATORIO DE INSTALACAO; interface dos mods nao bloqueada.

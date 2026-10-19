@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_jungle",
+    "#cobblemon:is_thermal",
+    "#cobblemon:is_tropical_island",
+    {
+      "id": "m2pokemon:terralith/caldera",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/thermal_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/underground_jungle",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yellowstone",
+      "required": false
+    }
+  ]
+}

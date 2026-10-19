@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ocean",
+    "minecraft:deep_ocean",
+    {
+      "id": "clifftree:stone_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/ocean",
+      "required": false
+    }
+  ]
+}

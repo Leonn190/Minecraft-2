@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "m2arcana:ars_nouveau/archwood_forest",
+    "m2arcana:minecraft/beach",
+    "m2arcana:minecraft/birch_forest",
+    "m2arcana:minecraft/cold_ocean",
+    "m2arcana:minecraft/dark_forest",
+    "m2arcana:minecraft/desert",
+    "m2arcana:minecraft/forest",
+    "m2arcana:minecraft/frozen_ocean",
+    "m2arcana:minecraft/jungle",
+    "m2arcana:minecraft/lukewarm_ocean",
+    "m2arcana:minecraft/ocean",
+    "m2arcana:minecraft/old_growth_spruce_taiga",
+    "m2arcana:minecraft/plains",
+    "m2arcana:minecraft/savanna",
+    "m2arcana:minecraft/snowy_beach",
+    "m2arcana:minecraft/snowy_plains",
+    "m2arcana:minecraft/snowy_taiga",
+    "m2arcana:minecraft/stony_shore",
+    "m2arcana:minecraft/taiga",
+    "m2arcana:minecraft/warm_ocean"
+  ]
+}

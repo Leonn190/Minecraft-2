@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_tundra",
+    {
+      "id": "m2pokemon:minecraft/ice_spikes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_plains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cold_shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/gravel_desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/rocky_shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_badlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yellowstone",
+      "required": false
+    }
+  ]
+}

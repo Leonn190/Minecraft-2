@@ -1,0 +1,21 @@
+MINECRAFT 2 v0.3.1
+pokemon: 1713 referencias de biomas isoladas, 148 biomas distintos.
+Arcana: 92 faixas climaticas no estilo Overworld (nao sao identicas ao preset vanilla).
+arcana: 92 referencias de biomas isoladas, 20 biomas distintos.
+cobblemon: 0 modificadores de bioma ADD restritos a dimensao exclusiva.
+cobblemon: 67 estruturas restringidas a sua dimensao.
+ars_nouveau: 7 modificadores de bioma ADD restritos a dimensao exclusiva.
+ars_nouveau: 3 estruturas restringidas a sua dimensao.
+ars_elemental: 4 modificadores de bioma ADD restritos a dimensao exclusiva.
+ars_elemental: 1 estruturas restringidas a sua dimensao.
+Cobblemon: spawn bloqueado em 8 dimensoes conhecidas.
+Ars: livro automatico de login desativado.
+ars_nouveau: placed features detectadas (exemplo data/ars_nouveau/worldgen/placed_feature/placed_mixed_archwoods.json)
+ars_elemental: placed features detectadas (exemplo data/ars_elemental/tags/worldgen/placed_feature/common_flashing_archwood.json)
+Cobblemon: 158 tags de biomas atualizadas com biomas privados para preservar spawns naturais.
+Cobblemon: 26 arquivos de spawn com biomas diretos compatibilizados.
+
+AVISOS
+cobblemon: 1 modificadores adicionais exigem auditoria: data/cobblemon/neoforge/biome_modifier/coded.json (cobblemon:inject_coded)
+Biomas isolados dependem de tags Cobblemon corretas; verificar spawns e distribuicao por especie no jogo. O pacote nao altera tags amplas minecraft:/c:, evitando reinjetar worldgen de terceiros.
+Controle client-side das telas M e HUD de mana ainda NAO esta implementado: requer pequeno addon Java especifico, testado junto aos JARs correspondentes. O pacote nao finge bloquear a interface.

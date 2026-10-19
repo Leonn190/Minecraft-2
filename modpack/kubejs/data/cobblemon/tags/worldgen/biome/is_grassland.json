@@ -1,0 +1,79 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_plains",
+    "#cobblemon:is_savanna",
+    {
+      "id": "m2pokemon:minecraft/meadow",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/plains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpine_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/arid_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ashen_savanna",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/brushland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/fractured_savanna",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/hot_shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/red_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/savanna_badlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/savanna_slopes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/steppe",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/valley_clearing",
+      "required": false
+    }
+  ]
+}

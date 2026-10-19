@@ -1,0 +1,1810 @@
+{
+  "version": "0.3.1",
+  "created": "2026-10-19T01:13:45.483776",
+  "files": {
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/deep_frozen_ocean.json": {
+      "sha256": "abc5abd52ecb60fd156fc0e73e4027c6b2a05dea2553ce5cc320166115e41477",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/deep_cold_ocean.json": {
+      "sha256": "db84667f34644c6dcf37ef40b5cac96cd0110245ae2659387c9a46277c34d08f",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/deep_ocean.json": {
+      "sha256": "a3e27db6fa9b936692d1b15803ab6355021717043128ef007429ef475209b966",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/deep_lukewarm_ocean.json": {
+      "sha256": "d1130631af4a30506d48870177f01b4bb79f8d2e83ff7e890da4e45b12c69d97",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/deep_warm_ocean.json": {
+      "sha256": "fa47e19804a3edab0c183442fd8cffe3bf853779bc54ad4e4c6f5060360dda5b",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/mirage_isles.json": {
+      "sha256": "0dcaf78e53951049f8fef29c092c6d8bc22443d1e4676a2be502bebd19522b19",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/warped_mesa.json": {
+      "sha256": "210d1f9b078cc33addb00e22db965dc37df35304532fafcbf31e91b437e68507",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/mushroom_fields.json": {
+      "sha256": "8ef3afa25bd6c7dd2743993316e8a3805f8faf965d28a09a1913a6fce3b6edda",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/alpha_islands_winter.json": {
+      "sha256": "ba5c71aa962df6e02c1186ec1a3eaac37b3016eb2542175b2173e5dc7f77ccc1",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/alpha_islands.json": {
+      "sha256": "d3f30daa5f0c5323c43a4c1e1b445b7ba106c91947f963c0fedc024798ad1ebc",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/warm_ocean.json": {
+      "sha256": "5a4aa5071d097cba5a40580d1827de31779eb082b73383a0ce2b74319329b186",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/frozen_ocean.json": {
+      "sha256": "3af194aff27048830ec562b51b7fac159b698e3684954ec738f789123c88694c",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/cold_ocean.json": {
+      "sha256": "b3feffb0f1ab6eefe0c85ac1872c056468a055c231723994dc5865072bb4a89f",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/ocean.json": {
+      "sha256": "826a0371c78f0546c2d4fe33cf6790bfed15bb9e47cffbadc6f3790ad6c1f2ef",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/lukewarm_ocean.json": {
+      "sha256": "eca46970f5bd082a2cb711eb132a0493ba6e00a2eae63259915680c1fcd43fd1",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/frozen_cliffs.json": {
+      "sha256": "873013ed871be85e7d7d1a8aa4765da3dac273e495a7263aeb43d531f67b9c22",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/white_cliffs.json": {
+      "sha256": "f1cd1e382a92781dc582c91314407077cbb187dc52af53a10db244177e114a9a",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/stony_shore.json": {
+      "sha256": "5ae11560cc47f4ab2bbf568f5e5e09579286430a2bca51bae70383c54ccf0fd2",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/basalt_cliffs.json": {
+      "sha256": "3a7906862d0441b3c90ac2664fc20aa8bef028fd6b233938104c41caec444f23",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/granite_cliffs.json": {
+      "sha256": "11f4a05034019765e221938afade01e202ee9bfc4f0588532f4c5cb4eab021f0",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/badlands.json": {
+      "sha256": "8e20d85c0548134d604f5f89efd25c2b66835e8d4f9f6caad6e3f04455ffd39a",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/ice_spikes.json": {
+      "sha256": "59a0c8e81e978545b958113f69929b48e783b3253ed11d99736ad27fa52339d9",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/snowy_plains.json": {
+      "sha256": "999f284fb824c17efde0832f964c23811cfb3b2ea55aff5b725029b7dfcad171",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/snowy_taiga.json": {
+      "sha256": "9466330f75f2c099205f1873ea2b993e97b6f96f874dbc4cb5ffbea17d1e1490",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/ice_marsh.json": {
+      "sha256": "47a61fe8a9823e3710e8c7ac0e36aeac1b8865afe610f2605b04d539439165d1",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cold_shrubland.json": {
+      "sha256": "ba0c42a5b540f261514d0073974058bc71ca2b1a037aa4bb2cad13abe80ea19a",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/plains.json": {
+      "sha256": "a32537be61d0e79362e1f8def4018401099e3addd949c30d6b905fb4ca86551b",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/forest.json": {
+      "sha256": "3215a728cfe519abd9c2adf9013a101e6293b2442ced928bb34dfef2a4a05652",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/taiga.json": {
+      "sha256": "bc64b72a0e58d83f790a4057aedd02d2575c376648ad0a97f1784e7b26226195",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/old_growth_spruce_taiga.json": {
+      "sha256": "6107c3b4ded16b140354cb191fbfed7b3971eb7f3d3c8e1ab6d77eec253d4271",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/moonlight_grove.json": {
+      "sha256": "12af016fb74b4c9e524fb694fadca49e295d8ad7f6813d5a0074ded05a6f12fd",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/shrubland.json": {
+      "sha256": "f00e71a385e488e5e03cec439d0f528b55f2cce824e980c0df5c0872d63ab8dc",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/flower_forest.json": {
+      "sha256": "26f27eeb3f306ac68cbf25faf5dfde4a35bd92288709c00cbba5f7219af72fd1",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/birch_forest.json": {
+      "sha256": "64d44227a70636d94095acc223bd8a319c13d55567bdf3f91be520d80977cde4",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/dark_forest.json": {
+      "sha256": "8d3f328567d5ad8fe2ce01a529e19ef183eb5a0a869932a9f19a15910497c60f",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/sakura_grove.json": {
+      "sha256": "200d1b36d006c07ed7774078afed5ac7730b6713dde26a6d1ba0b546aa1037ba",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/hot_shrubland.json": {
+      "sha256": "008ba9357c959fb0b8c5a3b19bf2e38595e4a66dfb4a9ea0ab4271e058540ca4",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/savanna.json": {
+      "sha256": "52bd93ea27600bc02a75a179f200682120eef2aaba3717686b7993a050596fa5",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/brushland.json": {
+      "sha256": "2a36a515d436393736922a20ed99d8af465646705183d5dbe4f7b4157b0c6246",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/tropical_jungle.json": {
+      "sha256": "615474ec960e357fda8d5f58696f6b72fa19df72259c1d72c6d1ef24ec876a7d",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/desert.json": {
+      "sha256": "dcf1073bd1f657eae78455eb54b5828bda05e66e2269da20632e4052bbedc27f",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/snowy_beach.json": {
+      "sha256": "d3585fe4c83a18facdc449d709e6a7340b4ce9fd0f476cfc3ce7d5edd6b72091",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/beach.json": {
+      "sha256": "fe0117a7a78b6f020254e802f0e394fe009db1d4dc49eb2f685c69ebae34ef8b",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/snowy_badlands.json": {
+      "sha256": "39eca13f750bc0f8d33dc3bbb4fcc58a8cf5768efb40039c3a39753353d729a5",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/snowy_slopes.json": {
+      "sha256": "e63dd4e06c781c5811614e1590cf13c507ff25662d4b238f2c4ba0e8a588a24d",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/grove.json": {
+      "sha256": "d63032e7d7f417ac021073fa3cf71f400046caa7940bbeb0fe1e55eae9d85357",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/wintry_forest.json": {
+      "sha256": "4c81f2ca57a67e529e0429a1ae554c7146b5143c5c2daf1a2a3c145130fae953",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/caldera.json": {
+      "sha256": "3bb45371a244f15d7733cfc3d1d27b15cb6243487931ecca994f17e62fe4725f",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/birch_taiga.json": {
+      "sha256": "43ea9028e962c547ced91a941ebcf344768c375350266d91e0b9279a89c9ffdd",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/volcanic_crater.json": {
+      "sha256": "1cea27ab358444a0a97b19d11e266cea5227a2c4abb9719b30e3fe026e202395",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/painted_mountains.json": {
+      "sha256": "8c9c9ba7a8300df6d846f464354a525f33d2d255fa1468b030bf506b91221455",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/wooded_badlands.json": {
+      "sha256": "25d9cf36ec33861db4a3cc5f647459675230d8ed23c23b8df1243f46ccb4d214",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/bryce_canyon.json": {
+      "sha256": "3cd1ae7d95ab0f38f116308092e5ac3ea8757199170f88180d934d8486de12dc",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/siberian_taiga.json": {
+      "sha256": "fd8576558fd3ca13ffc5563d39e94ea4d3677d32568b5d614f35490b0dd0c5fd",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/temperate_highlands.json": {
+      "sha256": "3ab6a6ef7356a97f9709b8d253c49e839de3f05b01a71794ee7989378d59084a",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/alpine_highlands.json": {
+      "sha256": "5c0544c56ab7cb9c3d7d1464cac384e59809f4c22b7c89dc82c1f8e4e31fb98d",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/old_growth_birch_forest.json": {
+      "sha256": "2614ebcce0b7354cb1e26bdfafc367ed29b78134ba24a9aec970751f818197a0",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/jungle.json": {
+      "sha256": "f0ac6b73930118159d0917b72329de2bcde4593db5172bafcaee234bc7611104",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/amethyst_rainforest.json": {
+      "sha256": "8ead9cf01f4c57fec635e2d299af3a4e647d97fd1b0b8cccca80fcf2126fbb2c",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/desert_oasis.json": {
+      "sha256": "8b5a1c15d21665ac745f8f733fa671e159d2cc370a1c8a6deddf635572f182be",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/windswept_gravelly_hills.json": {
+      "sha256": "c6e0c2ce51a2e252111affa8322807af82f0c0dc1d8a10cc20798aa5ec07a543",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/windswept_hills.json": {
+      "sha256": "c6e0c2ce51a2e252111affa8322807af82f0c0dc1d8a10cc20798aa5ec07a543",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/windswept_forest.json": {
+      "sha256": "056557fb80dd2d19230752cd36164ee81461be4b5a96c8dfa6a6051a419bcfb2",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/windswept_savanna.json": {
+      "sha256": "751eaa694464e40a8340ff18360cb2295dc3d856f40aa49062b52bd2c8c1d9bc",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/savanna_badlands.json": {
+      "sha256": "2ab496f1af085428303ab9f7d0cae5f269fc8ab75570dac1be66bddb564a4ef9",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/orchid_swamp.json": {
+      "sha256": "c7134f286e2d3901f83b78dd37e4330941756594deaefbebaeee8d82bf7a7d12",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/swamp.json": {
+      "sha256": "bf1011d954d1887578c6fc0ade34997d3b8eb22e49236a69fb28837d326ab2dd",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/mangrove_swamp.json": {
+      "sha256": "24a8ff57e8a496f428d8c4734c1a754ac16c87366cad20a8cdf39a4e1f46ebbb",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/meadow.json": {
+      "sha256": "637ce2c8af95ca8c3a163d9269b647e8b187b69ec32cc5638f131c408eb6e658",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/yellowstone.json": {
+      "sha256": "7bce73c379fb153ccfe87367f8c6e9460e63b52e604bd3fb7b957bcbbf66e6d9",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/savanna_plateau.json": {
+      "sha256": "6e75651b40bb5875a65d67980c9a65c5e94f55833f525afd0e72a9c5839a6155",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/rocky_jungle.json": {
+      "sha256": "221da32f80978cc6692a2c1d20feb8bd2f07ea3827a970a4a6353e86e0b765a3",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/forested_highlands.json": {
+      "sha256": "ac07b3f5c003b62f866ce52e552a80a93627774c4727a48a1cf7916a7b20b403",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/shield.json": {
+      "sha256": "3930eabb7ef969d67c25e9615172bcc6e20e7ea1eaec1d913ddfba5a34abac02",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/sparse_jungle.json": {
+      "sha256": "2fb383753fba980f07972e93b7662800795bf32aacf932a6de57a2e828ab4026",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/wintry_lowlands.json": {
+      "sha256": "4c81f2ca57a67e529e0429a1ae554c7146b5143c5c2daf1a2a3c145130fae953",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/steppe.json": {
+      "sha256": "5d1f7d648ef75976f3c60da020bdebded4adc07e9f2ab89220b1c9a0a3e736ab",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/highlands.json": {
+      "sha256": "51be3eb9a62f62015b07a77de75c3649aea22d3bcb51812acf4ea7d2aa341c22",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/arid_highlands.json": {
+      "sha256": "d0d33d3e9f32030c112df86027f58d998c217f332762e05c10bd55ef8e868c17",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/ancient_sands.json": {
+      "sha256": "80f3dfccd01ad130c0acac8c3ff7713a7388f127d0cca751dfa2d0562c076db4",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/lush_desert.json": {
+      "sha256": "345fc31f7e0b76af5681bc441968570da5cb1951f34a98a3578ea824a2b19ee6",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/rocky_shrubland.json": {
+      "sha256": "655577056d5b64a9c258c420d8439710f246ce292884b5a5c708db4fe10a949d",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/desert_canyon.json": {
+      "sha256": "681d25778ace5ca65c2e7da2fe2a57667ea65a88cb1b156602bad34585b4bd9f",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/glacial_chasm.json": {
+      "sha256": "6705afada78516302fe57c39a64e0b51348dae3f9096aae1efce07ee6db22ba2",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/yosemite_cliffs.json": {
+      "sha256": "a2a0a9c9a8df615047bb26471de16035881a95798859c9c90a0180d39b3099a1",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/moonlight_valley.json": {
+      "sha256": "936f5d856b42165eac0309d7e1ca04b9af545f0baed77e936aaf9bc9c55f633e",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/blooming_plateau.json": {
+      "sha256": "c2f71a7298d50101d58eb878ea78c7a6ba49e81c2ca84d4eeab144d1fb5e245d",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/lush_valley.json": {
+      "sha256": "f37e839cc6a673abbe130de76c0865ca23d2da6aea026cbfef078b34fa6a7670",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/lavender_valley.json": {
+      "sha256": "1b863af0d3f25e58c91b1b28d2c3ad5a2153ea4064f7baefa1133a958834e1b4",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/sakura_valley.json": {
+      "sha256": "bbb5b2be3921b4f2b24a5872148429cb20b36d2cf0193bbbf9d8ac0f065913f8",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/white_mesa.json": {
+      "sha256": "80304d77d68c1e5c7bc4b9219f7246327195a83cd8a8bfce7108cd6093c8c86f",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/amethyst_canyon.json": {
+      "sha256": "b67c392d70b12e04def5cdb6f7b8cf6f013dc4e43d447791d899f00b20958cff",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/sandstone_valley.json": {
+      "sha256": "e2dcac5956f2d6dcf17c54f49252f614ed67ff623866299f508bb7670a7fb5b4",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/windswept_spires.json": {
+      "sha256": "23fe41a2b20f3159bee04cffca909e29345ad81a9adf96a8981906b4e8195185",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/stony_spires.json": {
+      "sha256": "10c606e014154f5b43ec05789b91582a01536fc5cb8adc7271e019c91edc5327",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/fractured_savanna.json": {
+      "sha256": "23b4df4516fc855718e98fa8a3f9c322e1461e375d81c64eea1f84c07e1bd489",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/jungle_mountains.json": {
+      "sha256": "221da32f80978cc6692a2c1d20feb8bd2f07ea3827a970a4a6353e86e0b765a3",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/desert_spires.json": {
+      "sha256": "3f4f0f6beb61007c86662d1fa5e0757abe2efd16867c072f759a7d926ebd6130",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cloud_forest.json": {
+      "sha256": "d452a93161091ab202ec52144949f01e5bdeba1414afc677fba82cf9cd903a11",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/haze_mountain.json": {
+      "sha256": "2548acd3b9e3cba49839208fdd5c7dc4cc8ab63725f50fc4da0edb97b33ea131",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/red_oasis.json": {
+      "sha256": "34225765dab31f01009b6ed0184c83a04f1c49932affde1dd7a751bf27e68165",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/scarlet_mountains.json": {
+      "sha256": "4442556f76afd19ae253d02f32edc315ed247955584009089ca64a14ff584079",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/jagged_peaks.json": {
+      "sha256": "c01d2d1f893f3d397829b846934182d026576d065ddae96fa404bf82b210c842",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/rocky_mountains.json": {
+      "sha256": "c5885c87f4e1de440631e4c889b14ff6c95da59c2acbcfd424110a20a9eda684",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/volcanic_peaks.json": {
+      "sha256": "2a67945729d4f55266c1fe402513d35a89666b6a93c97b42e5cf62cf6b036a8f",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/alpine_grove.json": {
+      "sha256": "96f4494655b85e737c77c9829d6bbf14552660df5177f9dc3e62cb8775b49a6b",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/ashen_savanna.json": {
+      "sha256": "4abd08c73c0cffa4ac336f1ae51f08b8b96e45adc2292d4addd017f1bf699e72",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/snowy_maple_forest.json": {
+      "sha256": "2dac1c9ffa732a218c4ac21fccdb0a989f65b9e4efc5a7009b1dfbe85f20ade5",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/snowy_shield.json": {
+      "sha256": "8ae0547b8d2f826f07e9e4c8d2ba0467abce7f2a16343588bb363063618ad04b",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/gravel_beach.json": {
+      "sha256": "84fe067756fdb06f737e33b13a19eaaea8fa798213829b08fd998e0d9c951295",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/yosemite_lowlands.json": {
+      "sha256": "fa47428f42715c0758f568bac0afeb5a297773318389eb8d29aa2dbad8c59790",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/blooming_valley.json": {
+      "sha256": "67c94f5b9da73304e770902aa92143ddb2e1ac75e9674f5a0803888dbb84f73a",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/frozen_river.json": {
+      "sha256": "35bde416f0990b4acdfbb3196adf874e716c5f8421a143271176a0f37bb94883",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/river.json": {
+      "sha256": "b3a0652c4c9621494acbd403d0d7f4592a1ca44a14c96431df835b3a87220f14",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/warm_river.json": {
+      "sha256": "0356ea0ad2a775219d2e24dcdbe5e95f1167ec57d19c27698aeb4bfb6616d86a",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/eroded_badlands.json": {
+      "sha256": "8e20d85c0548134d604f5f89efd25c2b66835e8d4f9f6caad6e3f04455ffd39a",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/gravel_desert.json": {
+      "sha256": "e46bb8268e769857e1f4532c268008139d1a7c5f8b2e54ddfb95a0e735d8e7a8",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/shield_clearing.json": {
+      "sha256": "5ddf6cd6583a55c51c3d7a151aafa0f90623050fdd47c880ace3d73591fcc9d4",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/valley_clearing.json": {
+      "sha256": "a0331eae7157b9fde6ba832537e7be51c1f98c1aa084b6a8d4bba92c5526198b",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/sunflower_plains.json": {
+      "sha256": "9a66ae8a932ae5f9e23d7382ce82b5553ec74efcf906c64762f889f60303fc17",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/bamboo_jungle.json": {
+      "sha256": "77c2c6b4209a4032b3780260104ec00ef8677776dbb953342673f0017d849d54",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/old_growth_pine_taiga.json": {
+      "sha256": "00bb1a310a8bd88b2ea4738255beaad55c56e58e6dbadd95e9f32c5d9eaa45da",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/lavender_forest.json": {
+      "sha256": "f517677bf628c12b04f6842b0abfa71e559360ec9dfd5f3f840c9a2394bbdd52",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/snowy_cherry_grove.json": {
+      "sha256": "09d5fb5158a2ac8b35bd37b43a888af87dfad318e9eb34404b206f1dd013fb3b",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/cherry_grove.json": {
+      "sha256": "e859561ea0068165235c7728f6f199aa484bfdd080480e4b6bfcc87f986f9f8c",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/siberian_grove.json": {
+      "sha256": "a37fe6702dc837a1eebeb19d06daa88a2704abc60858f33cb6b69fdcd58b444a",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/savanna_slopes.json": {
+      "sha256": "dbf15f4893ca109bc157914915c5515a42f8d65bcb15ccaa8fb97efe0ea8f5ea",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/skylands_winter.json": {
+      "sha256": "9d90c039ee5024b179912709d0dbc169f41fa0ade1ffa0277d8edb4b20a493cd",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/skylands_autumn.json": {
+      "sha256": "288e6a1fa7c31bff4b05b7004213b6d5f81cecfc89c542fa029565a99d12a6d6",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/skylands_spring.json": {
+      "sha256": "ecdb7df75f3fd43985129837ccce7607400ac5a964565f534c382ba98ea8fa37",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/skylands_summer.json": {
+      "sha256": "8c1cd8857488c03db81600bbc5a80a281405d9deae189df3e063591dbe7dfde5",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/frozen_peaks.json": {
+      "sha256": "a3cf56e4401984febb495613173b8676101e60000e78172566a12e67ed111257",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/emerald_peaks.json": {
+      "sha256": "ca29e6cb3f29ec2c7c2ae6dbb6febfaecb36b2ffea9d978f8001361f58d3db8e",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/stony_peaks.json": {
+      "sha256": "be15071f6e4e86f8f4a08fc9bdabde4af7fe719b7f49f684d4cd5d3abc705c9e",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/deep_caves.json": {
+      "sha256": "f44fefc4119b37bc9fd67f4ea6e6fa512da74baed116b5b230642de749778c50",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/dripstone_caves.json": {
+      "sha256": "4dcea24f04797216e4fd32028ae393bf07f7a02512f77aec503ea18637d02618",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/deep_dark.json": {
+      "sha256": "b822fa467a7840c5bd6af22c84b6149cf3f1e0030b25f8c82d342a98b4efee01",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/minecraft/lush_caves.json": {
+      "sha256": "d707866468482f36d37acd4f979e1cc1bc8779e14e97590434d0ab331c7d6985",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/underground_jungle.json": {
+      "sha256": "71d52c5272432679bea9aed6c0515d74ddaec4fcdb7a3d28907b47c6b3b708e6",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/thermal_caves.json": {
+      "sha256": "04b9c3d5b38fff80dce73b47b311e5f9d07e5f8f99f066cf0500b8726eee74c0",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/infested_caves.json": {
+      "sha256": "eeb5667e1fe169133110bec576cf3b446a10688b245197fff8056cc94c9bda38",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/fungal_caves.json": {
+      "sha256": "516cec4870e9d5d9ce254079f26704e2a93265042b1dc9d9cab7b361b695f49e",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/granite_caves.json": {
+      "sha256": "09c57fcf7c38bbd14b6cfc1b865c0844db083d2bc602ef51512c836c1d5ed483",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/andesite_caves.json": {
+      "sha256": "2ec0997071f6455afd31f06de5420452161ab08c1a7bbef30e3c34836e6a5796",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/diorite_caves.json": {
+      "sha256": "44d719ffc358a3adc0b6a3efe90cdfb891a4113fd4c602be9bfc5c8bafed5015",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/tuff_caves.json": {
+      "sha256": "b8a662117d406ecff464e3a7381b9236b2bf87da2095f6297ce7687c8623bf9f",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/frostfire_caves.json": {
+      "sha256": "d830012ae6aa0589c4578ef24ff6a1d166c4b359a0aa14b3045f9558d9d402cf",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/worldgen/biome/terralith/cave/mantle_caves.json": {
+      "sha256": "f4ec2dd6b46cedf24144a16f8431fd2e0bdb168365587d4de4a69bf404082da8",
+      "previous": false
+    },
+    "kubejs/data/m2pokemon/dimension/world.json": {
+      "sha256": "a0f7d6018a2a6eb6a6e6a56124c3511e132cc91ed637a64fcdcefb5a580f51d6",
+      "previous": true
+    },
+    "kubejs/data/m2pokemon/tags/worldgen/biome/dimension_biomes.json": {
+      "sha256": "30fabbf32d9d530efb2a30dbb5ad2f42bffaa156d28d716ed8abedda3ba83f96",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/frozen_ocean.json": {
+      "sha256": "3af194aff27048830ec562b51b7fac159b698e3684954ec738f789123c88694c",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/snowy_beach.json": {
+      "sha256": "d3585fe4c83a18facdc449d709e6a7340b4ce9fd0f476cfc3ce7d5edd6b72091",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/snowy_plains.json": {
+      "sha256": "999f284fb824c17efde0832f964c23811cfb3b2ea55aff5b725029b7dfcad171",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/snowy_taiga.json": {
+      "sha256": "9466330f75f2c099205f1873ea2b993e97b6f96f874dbc4cb5ffbea17d1e1490",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/cold_ocean.json": {
+      "sha256": "b3feffb0f1ab6eefe0c85ac1872c056468a055c231723994dc5865072bb4a89f",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/stony_shore.json": {
+      "sha256": "5ae11560cc47f4ab2bbf568f5e5e09579286430a2bca51bae70383c54ccf0fd2",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/plains.json": {
+      "sha256": "a32537be61d0e79362e1f8def4018401099e3addd949c30d6b905fb4ca86551b",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/beach.json": {
+      "sha256": "fe0117a7a78b6f020254e802f0e394fe009db1d4dc49eb2f685c69ebae34ef8b",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/taiga.json": {
+      "sha256": "bc64b72a0e58d83f790a4057aedd02d2575c376648ad0a97f1784e7b26226195",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/old_growth_spruce_taiga.json": {
+      "sha256": "6107c3b4ded16b140354cb191fbfed7b3971eb7f3d3c8e1ab6d77eec253d4271",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/ocean.json": {
+      "sha256": "826a0371c78f0546c2d4fe33cf6790bfed15bb9e47cffbadc6f3790ad6c1f2ef",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/forest.json": {
+      "sha256": "3215a728cfe519abd9c2adf9013a101e6293b2442ced928bb34dfef2a4a05652",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/dark_forest.json": {
+      "sha256": "8d3f328567d5ad8fe2ce01a529e19ef183eb5a0a869932a9f19a15910497c60f",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/ars_nouveau/archwood_forest.json": {
+      "sha256": "a9991d8374a5941fe007914967212a58c490ee5a349767aada4bfaedd9815459",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/lukewarm_ocean.json": {
+      "sha256": "eca46970f5bd082a2cb711eb132a0493ba6e00a2eae63259915680c1fcd43fd1",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/savanna.json": {
+      "sha256": "52bd93ea27600bc02a75a179f200682120eef2aaba3717686b7993a050596fa5",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/birch_forest.json": {
+      "sha256": "64d44227a70636d94095acc223bd8a319c13d55567bdf3f91be520d80977cde4",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/warm_ocean.json": {
+      "sha256": "5a4aa5071d097cba5a40580d1827de31779eb082b73383a0ce2b74319329b186",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/desert.json": {
+      "sha256": "dcf1073bd1f657eae78455eb54b5828bda05e66e2269da20632e4052bbedc27f",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/worldgen/biome/minecraft/jungle.json": {
+      "sha256": "f0ac6b73930118159d0917b72329de2bcde4593db5172bafcaee234bc7611104",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/dimension/world.json": {
+      "sha256": "2365893dbd6c28b6c7d5fc9e0a16f595589c5f0aeb043a0b17d261b2de58b130",
+      "previous": false
+    },
+    "kubejs/data/m2arcana/tags/worldgen/biome/dimension_biomes.json": {
+      "sha256": "483874236bd86e8fb21bca183e974b1ef2bf2efafad22a10d6d7824353169176",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/worldgen/structure/fishing_boat/beach.json": {
+      "sha256": "7dee465fab1d530bbfce56f2d6e5297d6743ca806266dc47ba612ad622d85069",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/fishing_boat/deep_ocean.json": {
+      "sha256": "fe4a402cc8eff9cbacb7bfd5570e5e8bb3bc5fa677ccdf84ddbbe2c287d83272",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/fishing_boat/warm_ocean.json": {
+      "sha256": "8a5351ecd25d3366d3f770b93f8012765ee3095e06f859f56f4d480d1da3fb5c",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/badlands_shaded_rock.json": {
+      "sha256": "1c96a51ebaa2614c55ea7cb4c12e1a45038aa248118c665e9ff3d1d8bd428586",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/berry_patch.json": {
+      "sha256": "3cd809cc94f7b50223ec39c163ff42b3c19bcfee58f251f6e6fa182057ab8639",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/birch_wildfire_scar.json": {
+      "sha256": "02101fcb579af579cc355f3f85ba0b386a945ef0de838d0b442f1a992ad52393",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/bug_mound.json": {
+      "sha256": "4489da91c2ef68c40c876f00f0cf2e7d823ef1afab0755a200891579033df65c",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/carved_ice_spikes.json": {
+      "sha256": "d7e8d0f5eb04bf44b153f96e79c6641b81980ec92213932077cc780c41547ea4",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/deep_sea_spire.json": {
+      "sha256": "239c9e4547aae2e4c1076bdec23718c59e6fb1b85514f98e9619e0a4b917d32e",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/desert_oasis.json": {
+      "sha256": "80980924ec7a1969027ff821853b55659b258d022efb01f503077768fbea4b78",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/desert_shaded_rock.json": {
+      "sha256": "3dde9d10eba7025494b264b4f378ab7eaf5d1af5b76a7ce209bc3b0fc52c4d1f",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/drifting_icebergs.json": {
+      "sha256": "def08b292923eb9688c0c1f1b4dd3f0483749e001f04d0f862d63d951e5c183b",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/fae_mounds.json": {
+      "sha256": "a9d84ebe5fc5243c139ea03fc3408b17e8ef14a792b442d406a15937b389759a",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/flowerbed_clearing.json": {
+      "sha256": "fb82f15c925b0e304e2e22aae194377e3c01f6a2fa61e3119bd2d15c62ef2fe2",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/freshwater_pond.json": {
+      "sha256": "ee17a4ef856dc9c6d60309aa436e33ee818b1c4bc14ca228eb6328fc997e3b2a",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/fungal_dwelling.json": {
+      "sha256": "a6277fdef48aa42bd85c8014b23ca8cd9e1f97db8ddc2573961dd32eae3d9947",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/lush_canopy.json": {
+      "sha256": "ece7542b0790cf3ce0a60f4a2d6a1a454a31a5f85aba8fda1ef3075db679332a",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/lush_cenote.json": {
+      "sha256": "5c539ab5e58ce8856f3ea51e5b1e25971245385df194fb013713ac03b9dd9487",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/lush_peat_bog.json": {
+      "sha256": "7aa1ed24ba6d439585578f48ddbc059d827b1f44e5cbe53853505518f5ee34e9",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/meteorite_impact.json": {
+      "sha256": "f4b4f98f0be4c9a990d86184a4795b64ed8d960c835ad59a4a56da40c098c4b7",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/natural_lightningrod.json": {
+      "sha256": "4e8ab747d193e6d88d082dd4c6d0fab5adc0957d29a0a229823bb5c17c20cf96",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/oak_wildfire_scar.json": {
+      "sha256": "3ea7350fa9ca4c148c515654210a4cee8ea5e51a0f3f830a69c26fb82df62180",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/parched_peat_bog.json": {
+      "sha256": "57c977c285e65bf49a85860fbe124dce7ec04dfc3f83824398d88cbf6fca4495",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/pinkflowerbed_clearing.json": {
+      "sha256": "646b8008a19563fcaca17901b2466f19f6ddd6e4e8583a1cfefda373593c1d15",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/reclaimed_deserted_monument.json": {
+      "sha256": "d223f08ea47c446597fac4314b3ac7aafdd913395cc0e75c60bbcfe830bd9c65",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/reclaimed_lush_monument.json": {
+      "sha256": "5b806671eceec1976cc1d16bf2cb0ac785fece648eaa464148f1108777195091",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/sandpit_clearing.json": {
+      "sha256": "fa447e0941630df4fb2b291efb4f5f4c9c5d9a1771ef718ba32c9f9ea0c18cf0",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/snowy_burrow.json": {
+      "sha256": "3af22b9c01c25b3acfb94e457aac5eb447f7decd53568b49c09b742ccf7ea48b",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/snowy_grotto.json": {
+      "sha256": "c3aafd017903757de317fddcb426ec3331bb38fc95d47791070676cb20801695",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/snowy_thermal_vents.json": {
+      "sha256": "e300ff6f003302365c1a798e437432dd0734d78f4e5ea686946bf99bc9e2a14b",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/spruce_wildfire_scar.json": {
+      "sha256": "94c0789d4a51fbae5b8044e85ecbaeac1e46c4cdd0990cb65d67926a585cbe8e",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/sunflowerbed_clearing.json": {
+      "sha256": "1148a40a7d7af0be7e9f8fe294d72770bca92aa21d3a4b326606a3590761ca6b",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/sunscorched_clearing.json": {
+      "sha256": "e9a56e378f3118113d6b5ea80a81d4784d4bb3b43a5e7caa30ea8e15bd6b12c7",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/thermal_crevices.json": {
+      "sha256": "d1d2dda97383b2e28fd2aaf3795f8fd4a8901bc17664aff8ece0c41c9b702633",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/habitats/zen_garden.json": {
+      "sha256": "a76a8d2a0f77d6ebf7b536f03b1606843c676802247001bf1c8829c72d1179a0",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/ancient_dais_ruins.json": {
+      "sha256": "cb8d27ab3b2697fd2e218c5994f05dfbe8b32c16395d8e8d83d12e412b9378cb",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/crumbling_arch_ruins.json": {
+      "sha256": "be127326146e27c58bc14859d6886c2612b172f2765720fdeadb79b0988aaf49",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/decaying_crypt_ruins.json": {
+      "sha256": "ee2d1abf003667d943e73a156b23f23bc05fe185475383d23224bc7803f07d77",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/deserted_gimmi_tower.json": {
+      "sha256": "fe174cb6c5a452febea1937c1e5fcdddfe990d5dfbade68fae47904bfa1f26b9",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/deserted_house_ruins.json": {
+      "sha256": "27f480b39243e911e671fd0bcd60055747833aea0a7d611792c60705943f65e6",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/deserted_monument_ruins.json": {
+      "sha256": "f946eadf1ad1fbc1aa8436a38884bf8233428aea56dd27dbba879bc2c7c4af5e",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/deserted_tower_ruins.json": {
+      "sha256": "653ca9e4b1f85e6481a17f65b5438e8979e5e85c2f26c40857e24141378a6abd",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/deserted_town_center_ruins.json": {
+      "sha256": "b252df316f2584c8447db07a38f66442edc960fe871b227d773d74fcfd46eddc",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/fallen_statue_ruins.json": {
+      "sha256": "8e34389282e9e727e21f4da2b48b92388f64f4e9eff43e03a10cb2843ac9bdb9",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/frozen_altar_ruins.json": {
+      "sha256": "40739abc86d9c46dc46f6ff92d7443eee12c9e1fc9cbc84638e7098fb3537ebb",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/frozen_gimmi_tower.json": {
+      "sha256": "dec6659f7ef6236b59b51c215760397dd3cd0dceb520b3f908a70d5943fcf1e8",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/hidden_bunker_ruins.json": {
+      "sha256": "e0804c0bd0ae2b9540dc390b06cd9fb41bd3002c1a3a2158e27033a9ff2acb07",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/luna_henge_ruins.json": {
+      "sha256": "f81b544464b96f300730392ef2b2533e33b6c3b639d9cd99e8df3c91ea8f774b",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/lush_gimmi_tower.json": {
+      "sha256": "eebbcfdebd3197bd7b03b432d578ac325a637399a80c1935a5f8c1c22f7e17d0",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/lush_monument_ruins.json": {
+      "sha256": "fcf232ee1ef443fcefa6a8d5fa0b901575c5d03fe6b5364e90022975d3d5e92a",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/meteor_battleground_ruins.json": {
+      "sha256": "c7dce8d75021d64560e9c11c4970988578196251363e13608c1e40cd109cda64",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/mossy_oubliette_ruins.json": {
+      "sha256": "c1997abe096527c9383fea366eedc5949de56995ab4ed791a278dd4984b3d75f",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/old_garden_ruins.json": {
+      "sha256": "b35ce74124d1e7527fe6cc66da6114a4a50828afd0c9cd4fb37818402028cc93",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/overgrown_trial_ruins.json": {
+      "sha256": "fab0e271b93496719d7ebd63032a36f8bef129891bb5bc70318f16b48b785e4c",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/rooted_arch_ruins.json": {
+      "sha256": "09c3310641db30a862895aafe455b30f175730eec33b19c390381a27aeb203d4",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/rooted_gimmi_tower.json": {
+      "sha256": "8df501118d19f196033fa08fd4b96e8eb506296cd412cc2dd7e66ab6aa1c9714",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/sol_henge_ruins.json": {
+      "sha256": "3ee1bc6ba80c66e20e23321ec4277a1d2967941a0b7f970ba09d2b608cfbb0da",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/stonjourner_henge_ruins.json": {
+      "sha256": "749b38f7a913eb2276c38332a384e8e932e2bc3364c6ad28928d32e09b984760",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/submerged_forge_ruins.json": {
+      "sha256": "95cae0d5124515eba7804e71b7d9070c4f14920374367ad18c442cb9bb641377",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/sunscorched_gimmi_tower.json": {
+      "sha256": "83904260aad0ce07230c35c8451521a80be6a9a19c693395cc8cbe008d709a0f",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/sunscorched_shaded_ruins.json": {
+      "sha256": "7575c7d3533a44c5aac48df92d1b72f184c9b987d1f592274f7fbb1921d32879",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/temperate_gimmi_tower.json": {
+      "sha256": "96a490303e5c01f70b0dcb38681a017e96723cca9faf38845146000c1d20943c",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/toppled_pillars_ruins.json": {
+      "sha256": "97708cd7eafd988c051f83a1124838e37699870ba374be0b1959cba5eb1b6167",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/ruins/unstable_cave_ruins.json": {
+      "sha256": "cd4047454d60909ff893bbdfa184b2ba866181c6fea00a69fb3ddfbb97abfbb9",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/shipwreck_coves/lush_shipwreck_cove.json": {
+      "sha256": "ef17ee5af3e3473e8a42731ee183cb650134998fac86f1e82bd35dc17df4affa",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/shipwreck_coves/magma_shipwreck_cove.json": {
+      "sha256": "9797ab439645c2ddb7be9dafa6da0a2c1ed34e1be4e99b80092e3887948da30a",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/worldgen/structure/shipwreck_coves/submerged_shipwreck_cove.json": {
+      "sha256": "36200f5e44db3c8d20e2bf4e85b53f6a17674c628e65f33ecdf144fcafd05ab8",
+      "previous": true
+    },
+    "kubejs/data/ars_nouveau/neoforge/biome_modifier/drygmy_spawn.json": {
+      "sha256": "a13ab817d6db8226602bd8a31f6b28474ad6717669c0c335381d4be93a0e296a",
+      "previous": false
+    },
+    "kubejs/data/ars_nouveau/neoforge/biome_modifier/whirlisprig_spawn.json": {
+      "sha256": "f0b6373c9b6beccd0a2fe00facea345b03ee996cbb7414a36faaf032cbedd082",
+      "previous": false
+    },
+    "kubejs/data/ars_nouveau/neoforge/biome_modifier/gift_starbuncle_spawn.json": {
+      "sha256": "8085c42694ce95d0c69d6ced7d72f7a0e65afaadc1fcc7a24f3f1f5645a00a44",
+      "previous": false
+    },
+    "kubejs/data/ars_nouveau/neoforge/biome_modifier/rare_archwood_mix.json": {
+      "sha256": "b94f3a9e99370db1fa263829f5fd90e524a53cc0a782bd4033b56ef86b1a7cff",
+      "previous": false
+    },
+    "kubejs/data/ars_nouveau/neoforge/biome_modifier/common_source_berry.json": {
+      "sha256": "21fc06d09b7561906eea50ef6b10443aa64ae8ef10a9dc2529525a8369f75ec3",
+      "previous": false
+    },
+    "kubejs/data/ars_nouveau/neoforge/biome_modifier/starbuncle_spawn.json": {
+      "sha256": "cb087a9074e66bbc7aa78f5e12153aed43c3eba1cb1a4a7152dcc6d756859e8f",
+      "previous": false
+    },
+    "kubejs/data/ars_nouveau/neoforge/biome_modifier/alakarkinos_spawn.json": {
+      "sha256": "b589702ef10ded950ca31e0197b0dd71c1ed930dc547bfeecee8b42bfe788eb6",
+      "previous": false
+    },
+    "kubejs/data/ars_nouveau/worldgen/structure/hunter_wilden_den.json": {
+      "sha256": "d8c205682585cbdcacc638b8742dfc402b6d056c6f50ec0e3f71eb104dfcb015",
+      "previous": false
+    },
+    "kubejs/data/ars_nouveau/worldgen/structure/stalker_wilden_den.json": {
+      "sha256": "ad5e571982058f542d35185f0a6466f96c0c1e880ed3b76c39d36b21e30324d4",
+      "previous": false
+    },
+    "kubejs/data/ars_nouveau/worldgen/structure/guardian_wilden_den.json": {
+      "sha256": "41b8b8056783c4b5112ac30f10f2633e8aa7ed257eea77e975d2ffba355b80b8",
+      "previous": false
+    },
+    "kubejs/data/ars_elemental/neoforge/biome_modifier/common_flashing_archwood.json": {
+      "sha256": "5995c165eef409475baa406589ef8e9607ec25375b1d95940fc40f533ada9eab",
+      "previous": false
+    },
+    "kubejs/data/ars_elemental/neoforge/biome_modifier/flashing_archwood.json": {
+      "sha256": "274481b5ba8feb66e90bf804294057b1b7ae6d4bd36f2af7ecdd4250da2f330b",
+      "previous": false
+    },
+    "kubejs/data/ars_elemental/neoforge/biome_modifier/flashjack_spawns.json": {
+      "sha256": "5591ad136801041b0cf7858fbf2ff7de41581f065d64e9b8f84da59978d4879d",
+      "previous": false
+    },
+    "kubejs/data/ars_elemental/neoforge/biome_modifier/siren_spawns.json": {
+      "sha256": "4cdd6c527ccde4ceb7b86f4ce7ef6cdaf5f6ec8f0128312f160b60690d5429f7",
+      "previous": false
+    },
+    "kubejs/data/ars_elemental/worldgen/structure/starbuncle_shrine.json": {
+      "sha256": "b747ac93aef4f033f62fff9b2fb4ab78eeb99c354d65f0d0a47885aca26f6902",
+      "previous": false
+    },
+    "config/cobblemon/main.json": {
+      "sha256": "601ca05f0fb2d6bcdb988ae9cf50afe0d8034c77ea33806d02cb996ffb68d728",
+      "previous": true
+    },
+    "config/cobblemon/starters.json": {
+      "sha256": "51d6545d9188dc20252bd2f2a1fc50970280bfa8b946e92d8b821885a8412aab",
+      "previous": true
+    },
+    "config/ars_nouveau-common.toml": {
+      "sha256": "b1a7e267eac38e5dab7a225798f854333eb45a405e1caee6e895af1cc51b006f",
+      "previous": true
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/bergmite_hisuibiome.json": {
+      "sha256": "fd3f64fa883d2cc3c4f820ede4fa68bc5dc5df928b71d224ae0d6cb5d25c0af2",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/bergmite_kalosbiome.json": {
+      "sha256": "2ea83612632360ff071ffecb3d283868b0d78cf8c6a92f74695e260d56992de8",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/cubone_alolabiome.json": {
+      "sha256": "6cb806d6d29e61ca77eeacecf9e5f6738adc69497e6d81652f39dd562fc360fb",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/cubone_kantobiome.json": {
+      "sha256": "0c5fc31fca02a2363036a877e12c4fbfc4acc7afc040b14274ccbdc6b7b759ae",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/dartrix_alolabiome.json": {
+      "sha256": "c215c81126184a86b4f42fcefedccf67701bc58196f3dd1c8cd80d528b97cd0e",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/dartrix_hisuibiome.json": {
+      "sha256": "86189625a5806fec2ca5d841735df488999dd8be290780bd56508c4ecc11afff",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/dewott_hisuibiome.json": {
+      "sha256": "3df33c412546d3c889b5c0da4092fc1dba18b0a6cb1d3d9f53bf2f939ea71238",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/dewott_unovabiome.json": {
+      "sha256": "29f62cc3921ac86cb6df811adc0cf31fe03282f70fe83e9f0c6f45bf954d9ded",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/exeggcute_kantobiome.json": {
+      "sha256": "6fe69f9e22bea99348272a3c301a204d5113b601b00bc887d502b04642f06553",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/goomy_hisuibiome.json": {
+      "sha256": "962f0a11f2008393f24d4446545a4030d83eef949d0f85327c3efead0a7a34ea",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/goomy_kalosbiome.json": {
+      "sha256": "0ff635ba44f44f7eb7983f412b709e8ef4700a454127c98aa4bb4d67e144557b",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/koffing_galarbiome.json": {
+      "sha256": "7321975f2e60e1e1d422c471d05c55e9d71c6065fc376d419d2520e65d5db7d9",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/koffing_kantobiome.json": {
+      "sha256": "fbfbbc67dbef83aa5e536557600fdb054112424c495ea8e842acfebe389b43fc",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/mimejr_galarbiome.json": {
+      "sha256": "2a3833da7a5e5a74f4f064d48355f1fc33fcbc310ff851979d5c01c76d57a788",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/mimejr_sinnohbiome.json": {
+      "sha256": "d2ab981e6276b3fe99c733e3b3eabf6910c94585582fe7bc619e54a30a6173b1",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/petilil_hisuibiome.json": {
+      "sha256": "6650e4119bfa1afb5794b16dd3b6de93a1d1b574708aeea4f219d6e4414f2455",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/petilil_unovabiome.json": {
+      "sha256": "83f46e8ef02b84d7fb4752a8c741ac32b9aa9fa6a8e8025f4c4a72ac299b134d",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/pikachu_kantobiome.json": {
+      "sha256": "0f5f9fc025178eb1ce2c1e5fc7f7b395dc320018e5432ad68b00c15528c45f38",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/quilava_hisuibiome.json": {
+      "sha256": "674eb102f14733d535e3c5be429a05557ae2a16f7c3ae8e403fd388cb1d69f0e",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/quilava_johtobiome.json": {
+      "sha256": "5c62292f0b0b7b5a044299077bb320d6a523131d037b0cc4d657e704db792f07",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/rufflet_hisuibiome.json": {
+      "sha256": "6650e4119bfa1afb5794b16dd3b6de93a1d1b574708aeea4f219d6e4414f2455",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/regional/rufflet_unovabiome.json": {
+      "sha256": "216fda8a5c6a2eec1cb076f390c264352dd1e53872ec90d1e96411c14184dd13",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/archipelago.json": {
+      "sha256": "bb78d7000fd7223be721a2c1ded4bb6aa91b1d8099deacb10f691f6bf4a9b789",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/archipelago_anti.json": {
+      "sha256": "49e31f935cddf7c1e98523304d5eb04e7b03efb151a0fa45a8ee0fee91e36941",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/continental.json": {
+      "sha256": "d2ab981e6276b3fe99c733e3b3eabf6910c94585582fe7bc619e54a30a6173b1",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/continental_anti.json": {
+      "sha256": "c96a9b6fdc491906b2bf8d12934ddc59f6ef4f446ad60e36a66f6828872e6207",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/elegant.json": {
+      "sha256": "6bd9ec4832f782dacb3001b54d7796283548c86de9051c9f904f20b482321440",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/elegant_anti.json": {
+      "sha256": "6650e4119bfa1afb5794b16dd3b6de93a1d1b574708aeea4f219d6e4414f2455",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/fancy.json": {
+      "sha256": "ef59bbd2da50345e3166564b50a637896cfa42c7799dc38b5d009cfab038e7b6",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/forsaken.json": {
+      "sha256": "e699c204f9f38af59631fa26cce19bb16450395d07253a0cee25ec569f8edeac",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/garden.json": {
+      "sha256": "0f5f9fc025178eb1ce2c1e5fc7f7b395dc320018e5432ad68b00c15528c45f38",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/garden_anti.json": {
+      "sha256": "c3a7ef2700e7ecfd6287820c358eda9085922fb3ec0dd1dcc14efd15b0e26525",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/high_plains.json": {
+      "sha256": "9333e33aea7e965a2a7a2a0e89b6dd56d072bd93b00040e3da61376b90a8f5f4",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/icy_snow.json": {
+      "sha256": "2f9184a955487fb05b2a56d592b8d16c1646524437ce4a4d5575f46d5503b2cf",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/icy_snow_anti.json": {
+      "sha256": "6650e4119bfa1afb5794b16dd3b6de93a1d1b574708aeea4f219d6e4414f2455",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/jungle.json": {
+      "sha256": "f8781b42a81a53aa7ea88a281e4ad62c2837a7471baa977ac58df15880377765",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/jungle_anti.json": {
+      "sha256": "6650e4119bfa1afb5794b16dd3b6de93a1d1b574708aeea4f219d6e4414f2455",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/marine.json": {
+      "sha256": "ac5f6b69c3672c67c2ed017b12f5d900cbcbd895aa1db5faf28fd7d8201c8a16",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/marine_anti.json": {
+      "sha256": "46e447b858957888d52c59349de2310da0eec1e1d0ca79ce05edf5a2c0d265c0",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/meadow.json": {
+      "sha256": "1bdd7952efcad212d1bcb7670a2ad07ac5d4b0abe294cb185c3fe78f0d6c161e",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/meadow_anti.json": {
+      "sha256": "d42b66a236b41b7ba0424657ba6760ab656b6800a2454b347735c160b5014143",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/monsoon.json": {
+      "sha256": "3e55861e7c9fd642d501ba60bd49aa9b9c2d999b6eb00321cc05cb0eb2331ebd",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/monsoon_anti.json": {
+      "sha256": "f6da2e554872e9e67a695eb9087fcaec47b6823c44d7aa529d545bf9470e6d75",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/ocean.json": {
+      "sha256": "9bab956e3cfbf3e93eec1c26c56bfe405cb9b863b78dc3b00a4e5a3ac893f958",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/ocean_anti.json": {
+      "sha256": "cc6ad3ce86829c42c55e8d3048d20bc7b718872fd5735c4dd6abb6a32b4845e5",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/polar.json": {
+      "sha256": "2ea83612632360ff071ffecb3d283868b0d78cf8c6a92f74695e260d56992de8",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/river.json": {
+      "sha256": "292c5f9092db08ea7b54d04d8a8b7495b6e27034aba8142b9f2a90565a01a114",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/river_anti.json": {
+      "sha256": "8bfa5bcca845e4d53dad4465a836ef63dff41fd5b549343ef27d80b3e38c9c1a",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/sandstorm.json": {
+      "sha256": "e2095ed6ce560adc2f2c6e32c4f74c2193d81aa296664db9260cc11b735c100e",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/sandstorm_anti.json": {
+      "sha256": "9333e33aea7e965a2a7a2a0e89b6dd56d072bd93b00040e3da61376b90a8f5f4",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/savanna.json": {
+      "sha256": "3bc7eebafee0322b5b631b403979c130ce92be687b0ac64deb74a7d91de3790e",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/savanna_anti.json": {
+      "sha256": "1048f9bfddc1e65ed70bb97bfd913437f929b06dfa48a71725c5f9a1424ddb92",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/sun.json": {
+      "sha256": "b04f22f0bee1a9f3b18b78c3d5f8592b32dda18e50f770af3241b2ac68da9301",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/tundra.json": {
+      "sha256": "9d0904e6bac60beea3db05d9c452e89a9e9346bd9e33d3bad934cc7ccdcc3a68",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/evolution/vivillon/tundra_anti.json": {
+      "sha256": "6650e4119bfa1afb5794b16dd3b6de93a1d1b574708aeea4f219d6e4414f2455",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/form_change/bagworm_cloak/plant_cloak.json": {
+      "sha256": "3c73bc3695578ef9b8f86ae8fa712c6557387d2db0ff3505bc84d37e98c7848c",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/form_change/bagworm_cloak/sandy_cloak.json": {
+      "sha256": "a4e482521a24c8d2366ea12ad35e39894e23eb837a95fc4315e1794226a9db45",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/form_change/bagworm_cloak/trash_cloak.json": {
+      "sha256": "721a12a0ee31a708705a65b9f49c950c2938103f02fc3d393308f09eecf279a2",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/acacia_log.json": {
+      "sha256": "4812e0558fe0979780577762ed2636232779a5e44e3007bc765c4b072e89a6fa",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/apricorn_log.json": {
+      "sha256": "e0ed57fb23c40a530dad2af323ca256a2af4300cd1caf994426c919c3cabc9ac",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/birch_log.json": {
+      "sha256": "4bdb6399f9f744dd0968e5b5250801bc9dcab669b3921ecec00171e59db2a218",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/cherry_log.json": {
+      "sha256": "ef59bbd2da50345e3166564b50a637896cfa42c7799dc38b5d009cfab038e7b6",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/dark_oak_log.json": {
+      "sha256": "7384eb31039dbf637c43d5355f791dd371b25e676032bae36c60b073832a69b2",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/flowering_azalea_leaves.json": {
+      "sha256": "2b3631bcfaa30405be5e6bf5f688813816f54b9a8922bf72fa2b74b33021261c",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/gravel.json": {
+      "sha256": "c8d46fbea7b3b780c7b783efee6fa941ebf7d1cf5020dd7c21d920de34599ccf",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/jungle_log.json": {
+      "sha256": "dc1d15fb4f752bf20e2f4a5b2bd412aca77633a812a574824b0d869ff7b5522b",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/mangrove_log.json": {
+      "sha256": "2a27989e5afea5411937128b88444418b2efab5fa927463cbea7fb20e4ab706d",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/mud.json": {
+      "sha256": "cb1566aee70dd9fe4bc37f81e0159855c448c2a3eb8453354e536de5b2415d06",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/oak_log.json": {
+      "sha256": "d4da611c524bda2be9b3378feaaaf37c630a581b4fe1a3038adcc08b8b0efb88",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/red_sand.json": {
+      "sha256": "5857efe2a465cdd7fb81e1fe5187694d20c52644a0254110c7f6c86507607009",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/sand.json": {
+      "sha256": "a8953271f24f9fa70190e733ebe047c829efda070452d856d99b920606742e70",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_block/spruce_log.json": {
+      "sha256": "3431c327db6f273a9c1862901d9db5dfcf5f87c3b33960047a7ce52147668fbb",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_density/sparse.json": {
+      "sha256": "355ea9370f4fc722389e42888e2fd65961013fadbdc13762a359279ad08c667c",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_feature/apricorns_dense.json": {
+      "sha256": "d5e0bfb242a3ca16c371d2ea0e80f6aa24304a31d995892f09effe01250e6590",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_feature/apricorns_normal.json": {
+      "sha256": "6fd155801d7b97149d28e449fb8b8fa0c5b102e6eb22938416ea2edb9922ede0",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_feature/apricorns_sparse.json": {
+      "sha256": "d62a9d976524a533fddff343ab1a82d5c1adb4b2453ec1c5256e7950e1cb3468",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_feature/revival_herbs.json": {
+      "sha256": "d1c02bcab079329051035ccee03a885c66553c6085ebf04a8d3ab080dcd9904a",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_feature/saccharine_tree.json": {
+      "sha256": "ffdcc8f4e22b713bc35504e7faef19853f000d6d2e813ca2b294d94f2f09a90e",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_dawn_stone_normal.json": {
+      "sha256": "e75e4621b347ed780ec54389c26ac8d932e6658949e1a7be6ee89490bf1c7a37",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_dawn_stone_rare.json": {
+      "sha256": "2e798f9d50bb88b989aa60f6aafe236aabc3f29507a7577a663d92d78f5c591e",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_dusk_stone_normal.json": {
+      "sha256": "563be282af8da7e4cbb4ba2112a3a29a842eafab564c016fb1fb31d160775e83",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_dusk_stone_rare.json": {
+      "sha256": "0ff635ba44f44f7eb7983f412b709e8ef4700a454127c98aa4bb4d67e144557b",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_fire_stone_normal.json": {
+      "sha256": "220d7ea89ce8c55748426aefdff590f7a13e392322ad7e337097e5dac1a3ccea",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_fire_stone_rare.json": {
+      "sha256": "0c5fc31fca02a2363036a877e12c4fbfc4acc7afc040b14274ccbdc6b7b759ae",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_ice_stone_normal.json": {
+      "sha256": "c14cc15e9ec74d997e26329d48f9f2146ee6dbec1af5b8f948465fda3c4ac2e9",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_ice_stone_rare.json": {
+      "sha256": "4896f70f49e43a17c3bd424d9445acb5303387a680d6a805a0ff93d02ff5d8e3",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_leaf_stone_normal.json": {
+      "sha256": "315adf17599113b3e64e75f888dda7184456ae72432f99002356ef1410abb94c",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_leaf_stone_rare.json": {
+      "sha256": "a25510a39eb5f26a69f1f4329bf26f38119fcb6f27b24a78fab94173ced0a58d",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_moon_stone_dripstone.json": {
+      "sha256": "14ac553491ff98b8e68b4a5e5846e69bb1d7db7b9389f4da89c4b248e2b1cb41",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_moon_stone_normal.json": {
+      "sha256": "8714d0e854b336eacbb0a385f694a8ba57e31ea4764d7225a9327edad012bd04",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_moon_stone_rare.json": {
+      "sha256": "7321975f2e60e1e1d422c471d05c55e9d71c6065fc376d419d2520e65d5db7d9",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_shiny_stone_normal.json": {
+      "sha256": "c04d8993c798edd4ba644d66ea22309d974d9b428d546ee3b9cc2bf780f032b9",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_shiny_stone_rare.json": {
+      "sha256": "5d4586c4fe3f6b9a3e6336d6147e64af44b2f2d96d6510e6b5554722085e7fff",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_sun_stone_normal.json": {
+      "sha256": "874bb57862f33b4b1eecad956c7e81a9576f5e6c784e7b2c5a297cfde4514232",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_sun_stone_rare.json": {
+      "sha256": "dc9769cd3b099e1e5b863bf0a07fac7efdeb229ea0d109ac1cea1f1134756c1c",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_thunder_stone_normal.json": {
+      "sha256": "5cfcba19ce435ca7e5204f9d111e492b96187f559ee2470842eed2221b128946",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_thunder_stone_rare.json": {
+      "sha256": "f95a957428bcbfab42c02ed3d188371e35e875370ef8224ac83154a7c5beda5a",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_water_stone_normal.json": {
+      "sha256": "da028ec4c08b554d1a9f8f1559832f695d2c82a678a071aa7ca28981a3267a3b",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_ore/ore_water_stone_rare.json": {
+      "sha256": "eecb86384e3620640a7232944e8f226c6f1450bce8c191ea1c5c0c6aa881fb51",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_season/autumn.json": {
+      "sha256": "906189bf31c76344df9dd1a09de5b8a4d1e7426542b11e40eda2ea19619d5c4d",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_season/spring.json": {
+      "sha256": "e2a85e42d6963177a22d515125b65e564fc80b6202af4346ebf2cb0e135185fd",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_season/summer.json": {
+      "sha256": "a78d9fb5bb5caa0f8e5fa081a9150218364b3a306eb93183064549f310adabf0",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/has_season/winter.json": {
+      "sha256": "6fd83701ad626d34b5f20d0dc00103637121bd7858c0fe12b6b464bcf539cdcd",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_arid.json": {
+      "sha256": "230909184f23105967e68cbe8ea020fd2485f543c7f96fbe4c30d46efa382ae2",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_badlands.json": {
+      "sha256": "00ed60e536b19950f5efdae623659c417cd56d75cc35f42007bd49c941f92530",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_bamboo.json": {
+      "sha256": "55fa4f155fd1ed75ea7ebd8b2526b9ebb119f973481e3bf91d31ac34f319623a",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_beach.json": {
+      "sha256": "d89d41769a654d2bbb79dab17f73520012d2fef0d2afe9168ce34468f776ca99",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_cave.json": {
+      "sha256": "b846da1eefa10b38bad20135dd642330f9ce4a311603a416666d4281d418174d",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_cherry_blossom.json": {
+      "sha256": "a78790e9517136cb22b778d6284d34081d92411911efc526e81a491781361f10",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_coast.json": {
+      "sha256": "c026905d1973cf2a9d82e047a5c0f3df1983b6cb3d2afa1a6222089ea6130e23",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_cold.json": {
+      "sha256": "cbb5b7fcdda4b90301af6edc9479c9bd38b1f4660656f9f41d8433aae73ccb4a",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_cold_and_temperate_ocean.json": {
+      "sha256": "99087ac4c8d95c32f4834a7e0333bd13494017694b367a394e2576a11cd6bed9",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_cold_ocean.json": {
+      "sha256": "aae537da3accf58fea11d230c31a0e1c630217fafc80e51999aa2a920c3c2572",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_deep_dark.json": {
+      "sha256": "a9f7312ca3525d472f391377763db1bc8c57191fccad9c9f2be558b7a5763317",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_desert.json": {
+      "sha256": "5d2df7368f6a63d74999b1e91a201b7cf97732fdea83d845b32a6f113d909db8",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_dripstone.json": {
+      "sha256": "9b2607572141ca7d869ef4f4976b2a8678e8a11cf80da05a80513c51487132d1",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_floral.json": {
+      "sha256": "d64ad3b0106b039cb23aa8dabcd6442412268bf87c39d98cc524428f58954053",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_forest.json": {
+      "sha256": "ddfc0672f6ea40f2d9004948fe44d2c19ce6faddec976b5eac115c011ac4ee6c",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_freezing.json": {
+      "sha256": "1b6e646e0707f27965c3f090c2c92618c2446cbfa3a381061d8d59e773d53bb6",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_freshwater.json": {
+      "sha256": "2797641108b88586215133fbcfd70efbf0ec6bc90f834be7f65888b9111b3d33",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_frozen_ocean.json": {
+      "sha256": "3879cc6bfecf880bdcdc701ed3e477e288d1c93b30a080a51e7e9a54b11803a9",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_glacial.json": {
+      "sha256": "94dbb830b1220b96273495ccf3f030cb938576aeb939237bc9e8d65946680aca",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_grassland.json": {
+      "sha256": "1e15977b039fa20af2dfb150052a1102a5a3cf1487f9c92d9829213861a5bbad",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_highlands.json": {
+      "sha256": "cbd598c7685051ba5fd5806a5453873c2f41878d2e659dfcfee877ed691fe6e0",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_hills.json": {
+      "sha256": "aaf3fd26cdef3f1c55dfae9e1bd80bc5f854e00d896c31f36be7dea5571bf62b",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_island.json": {
+      "sha256": "4f5754150e01c7bcab49f38a5d0c9d43d2f94d19f14f658cf3f6442f078e520b",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_jungle.json": {
+      "sha256": "d08655db9f0dc73496eefed87c19838d49272493bed59f1fb1526f3451b959b5",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_lukewarm_and_temperate_ocean.json": {
+      "sha256": "0f7bd25112221193e9bdf07f5a3cc63fccaddd4e4f394f130f4b343a8f3c5d39",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_lukewarm_ocean.json": {
+      "sha256": "f919a0064e8c528d3a71b4616996c04b74e801e06ef9a65a39033d90e6dd67ef",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_lush.json": {
+      "sha256": "24796fb8e494b631889b49d090cbe900e09c8f24737fae371c28fbda9b2d6ab7",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_magical.json": {
+      "sha256": "c64fc08ee70f7eb5b77f2d78ebaf78ae6e0f85e9f31f528b4230391ae9fb81b6",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_mirage_island.json": {
+      "sha256": "1e698a27a983e8c80f637a4f9e2cae02dc76fa51f70c4e882f2f3bb4e63dbf5d",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_mountain.json": {
+      "sha256": "55ab45367512a8650a7ef03b425f3a4a0fa979c76986825e956ace2f8c2492e6",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_mushroom.json": {
+      "sha256": "15a33a8727719fe6934f885794fb398022ea039a452930165602e5a0b1b7596c",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_ocean.json": {
+      "sha256": "f04ada73e2fa41a249d48500ee774f4c03541c9f6782b50e65788bc031870255",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_overworld.json": {
+      "sha256": "09f5193e46cd4a984a91f81351f6a4577c679a084a450db8bd1d9294639aa9ea",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_peak.json": {
+      "sha256": "d1efa80b650d0f56a450dcbf05508a8665a09623eb04e169ffc3b9bbed33e105",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_plains.json": {
+      "sha256": "105968c89b256619ad34c42a56b5f8fbe3d94ccb67bff4e3c1b2952a25b978c8",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_plateau.json": {
+      "sha256": "fa551bd40b5e92061ec88ecf95b67a3ffc05aa067baec4a9731071de50ed2cf4",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_river.json": {
+      "sha256": "8aca82db3a62f5f55914f0ce4da9c1f957d1e7786ac4bcd4006d5b515e801b2d",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_sandy.json": {
+      "sha256": "7a92eb50e180ab4c8f0f0f1b56e98f24feffab1696c7136ec24e684d8d103312",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_savanna.json": {
+      "sha256": "4bd8740ffc79b6ac01b009106f70aef27e18e9ec5b3014fa47049f5a76250c92",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_shrubland.json": {
+      "sha256": "d5d7d7292c52b13a946bfadae1b9e71556761015f8c50ab26ba4859c5fb490fc",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_sky.json": {
+      "sha256": "70bec1edf622659bf3732ff0de3c983f8f1aa59dbd9ace4a11a669eb6d994fc4",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_snowy.json": {
+      "sha256": "9065fe7044c49d5b16a07371f594ebed0d6ad39e7305c67096f7af4181c22777",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_snowy_forest.json": {
+      "sha256": "0e8c2c37b50f40f3bb96b3f0c40f03377d07f6246c0605826ce00807e9130316",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_snowy_plains.json": {
+      "sha256": "7595418416ae1fddd7c854208e50a4a1b686dde0083b07a414b9f8a5942afa21",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_snowy_taiga.json": {
+      "sha256": "f0b89a362cd90db0628777594a981c891d112483b72cd477dc68100d3762ec85",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_spooky.json": {
+      "sha256": "63af601901e6905912f433cca01fa4963c63ad872de27756c0084a084eb1c0d7",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_stony_beach.json": {
+      "sha256": "73eb7948688372e5bdd2a40893df44b1617b333e0413e4944646a1e4ada4c0ab",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_swamp.json": {
+      "sha256": "7d5ab6265d8594a15b2265d1d669ac2764f8c8a68826eec7ee2a49b201c7507c",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_taiga.json": {
+      "sha256": "0a59e22f893bbf047a5492295107e9a349c6ed50099eb4841cb38f7ac294c456",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_temperate.json": {
+      "sha256": "36239a32db85671d5c7d3497b2d5c76cb30d4ac2fb21aee061e7c0685836c221",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_temperate_ocean.json": {
+      "sha256": "38253f22ecf12758a0fa44104cbbdab83161ce9c49bb04bf8df0c91f4f57592f",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_thermal.json": {
+      "sha256": "02fd0737cd957d7dda77582e68ff8943da62afb047888139f182dc1ad3237c27",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_tundra.json": {
+      "sha256": "71c519128683f89ffce0f1543cf339fc01b310fca0816679b34ed7ad4c96793d",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_volcanic.json": {
+      "sha256": "597c75c1dfe3a65a4912ceada6c2a7b897081687ee086e22cfae91f2c4313dbc",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/tags/worldgen/biome/is_warm_ocean.json": {
+      "sha256": "05606d7a219cb876b9566c4e7d0485f654f96c1c55c1eee79cea32a83a6a4eaf",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0079_slowpoke.json": {
+      "sha256": "49490c66c71c5b0340387c461b568f852d82b33feaad3b018f165651a9e26ab9",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0080_slowbro.json": {
+      "sha256": "ea55573e3c9648aec414c4986dfd27f775412f8e5704571ecfa35bc292cb4786",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0191_sunkern.json": {
+      "sha256": "1ee79f864e6650701551cd71a34bf17abc5f826d47b1ee92b9b75765b9022128",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0192_sunflora.json": {
+      "sha256": "e39767dbb279f29fb96554cfe2c4b284f4c0b22783797df2e3743036b34fc259",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0199_slowking.json": {
+      "sha256": "69c00903dc97a187c5b79219c00bae984722d3e2bbc1066638d10cdadce5c57d",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0241_miltank.json": {
+      "sha256": "c9a07ffc54091776d6eb858272699562be5de43f20c545c2844d612ccf64da40",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0393_piplup.json": {
+      "sha256": "c078438f5bf1673e4b645bda8396f0c9a975a85311af6f371828d5152b80a135",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0394_prinplup.json": {
+      "sha256": "17a377030f0f74a49bc7c74ad27162a4ae1d5b8243f250888549e62ad85f1071",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0395_empoleon.json": {
+      "sha256": "856cd4de604a71ecab6c4a83462c12a618e31404df03884e65d67cb3ea36ea00",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0501_oshawott.json": {
+      "sha256": "fe291a54b2f8765c239a83382e6ac85cbd26dd2fbd976dc25f962c7d14e5c7b5",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0502_dewott.json": {
+      "sha256": "37c7fa02493f8554449a59dce657e2f289e05971b966d5f1c4d728a16dfe90fd",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0503_samurott.json": {
+      "sha256": "501b6aeedde3434337ea149452becb537b57eb61490583e315d82bff1c92e44a",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0666_vivillon.json": {
+      "sha256": "49f3ef50287aa2b6064ec25e4388ac3a8e1e428f33532dc45a0f2851d7ad3cf9",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0915_lechonk.json": {
+      "sha256": "3344d282210640160c84562002f4bc521bc04daf21735c2e229cd8f23e01ba58",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/0916_oinkologne.json": {
+      "sha256": "00c283b688d6f57069f374640fe1045dbd7b23997c5573e69b80cf17e4883015",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0079_slowbro_0199_slowking_alpha.json": {
+      "sha256": "0b7dcfb2cea195f734669987c18fc7916740657ad3a17e833e5a3a17df7be6f1",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0191_sunkern_herd.json": {
+      "sha256": "de2681a76493a88413d1abccd840fd3b5e4911e6d512210d2e8ce631cad9a7af",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0192_sunflora_alpha.json": {
+      "sha256": "2c05a019e5e6b076d33b1492c04d22f316ac134060e42fe50f7b1e571e438fd9",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0241_miltank_alpha.json": {
+      "sha256": "34c322f7b1bd626cb7bb28bc381011cead248fe0d847894253e4464d570ebb3b",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0241_miltank_herd.json": {
+      "sha256": "601e14bbf835a9bb8ea9f8a04f249e1089dc2a08c3cd2c77e4903c8d7a414ff5",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0501_oshawott_herd.json": {
+      "sha256": "ddce446dcad8c75aa79c240b9f0d8e6a97b5331f274edc90ad3075bea7a83c06",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0503_samurott_alpha.json": {
+      "sha256": "ec64909ea240f6b24e129412ea28a4a56de884082a3c205371181d78c02b2f85",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0666_vivillon_alpha.json": {
+      "sha256": "2b5d6b20476a067c96b88e94e1a0989a11b6a507517d89731380124338b4f983",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0666_vivillon_herd.json": {
+      "sha256": "8eaa2da3f710a73708a1885a27b1361f95b0d00d65692a3673037771b8520cf6",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0915_lechonk_herd.json": {
+      "sha256": "970b002c53b0c32d3eca124c537b66ca80704c3c2630d28c673ba4b5ef160d02",
+      "previous": false
+    },
+    "kubejs/data/cobblemon/spawn_pool_world/herds/0916_oinkologne_alpha.json": {
+      "sha256": "53ce5ef32b7e2bc05ef57248b6bae09e9870b39e41a7a8fcd08982df49b55e55",
+      "previous": false
+    },
+    "kubejs/data/minecraft/tags/function/load.json": {
+      "sha256": "58577596d8332d6e5458f84be6c19dd759d4a2cde0d70e8731513309bb4d535b",
+      "previous": true
+    },
+    "kubejs/data/minecraft/tags/function/tick.json": {
+      "sha256": "526c4d783433e751524e42ddd8c200f8c7197e613cf40ebe824e9ee300f29f59",
+      "previous": true
+    },
+    "kubejs/data/m2progress/function/load.mcfunction": {
+      "sha256": "bcc392e83cd9090134a08668c0f570e29e6f9fbafa9d40928bf084dcdb495e69",
+      "previous": false
+    },
+    "kubejs/data/m2progress/function/tick.mcfunction": {
+      "sha256": "6c25ccfb17e28e227b5f86d1bdc45e068c79e94d1376510ea9beff3ed547db2e",
+      "previous": false
+    },
+    "kubejs/data/m2progress/function/unlock_pokemon.mcfunction": {
+      "sha256": "ef63d4ec390f1d52c2b99c39d34a9dd805447f3f32479164d767b14d4045ee81",
+      "previous": false
+    },
+    "kubejs/data/m2progress/function/unlock_arcana.mcfunction": {
+      "sha256": "7114a9b0ebd28804758216ed85ce260639ac7cf64825498a6b822633296dbfce",
+      "previous": false
+    },
+    "kubejs/data/m2progress/function/enter_arcana.mcfunction": {
+      "sha256": "53b02854c94e43fae65bab451ce901b68285f5f8e2a20d3e7c94be24ddbabe7b",
+      "previous": false
+    },
+    "kubejs/data/m2progress/function/leave_arcana.mcfunction": {
+      "sha256": "75b49b5061aabbf9b70cb27b1ffa24467c1cec50dfda55ebf6f19124e0ee2604",
+      "previous": false
+    },
+    "M2_DIMENSOES_INSTALADAS.txt": {
+      "sha256": "8c84ce642230d9e25bd9725d42abe42886de5c4ca82a0d23dd3436422c21adaa",
+      "previous": false
+    },
+    "M2_DIMENSOES_RELATORIO.txt": {
+      "sha256": "691f1ed5d979df3778b4bf745ed98765184f859d267104e33c73e908281cdb23",
+      "previous": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_deep_dark",
+    {
+      "id": "m2pokemon:minecraft/deep_dark",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/deep_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/frostfire_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/mantle_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/tuff_caves",
+      "required": false
+    }
+  ]
+}

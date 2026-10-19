@@ -1,0 +1,122 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+    {
+      "id": "#c:is_desert",
+      "required": false
+    },
+    {
+      "id": "#clifftree:is_desert",
+      "required": false
+    },
+    {
+      "id": "#wythers:is_desert",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:lush_desert",
+      "required": false
+    },
+    {
+      "id": "clifftree:desert_cliff",
+      "required": false
+    },
+    {
+      "id": "darkerdepths:sandy_catacombs",
+      "required": false
+    },
+    {
+      "id": "terralith:ancient_sands",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:cave/desert_caves",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_oasis",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_spires",
+      "required": false
+    },
+    {
+      "id": "terralith:lush_desert",
+      "required": false
+    },
+    {
+      "id": "terralith:red_oasis",
+      "required": false
+    },
+    {
+      "id": "terralith:sandstone_valley",
+      "required": false
+    },
+    {
+      "id": "wythers:badlands_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:desert_island",
+      "required": false
+    },
+    {
+      "id": "wythers:kwongan_heath",
+      "required": false
+    },
+    {
+      "id": "wythers:outback_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:red_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:sandy_jungle",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ancient_sands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_canyon",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_spires",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/gravel_desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lush_desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/red_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sandstone_valley",
+      "required": false
+    }
+  ]
+}

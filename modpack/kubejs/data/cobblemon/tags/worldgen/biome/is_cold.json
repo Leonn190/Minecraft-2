@@ -1,0 +1,246 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_cold_ocean",
+    "#cobblemon:is_freezing",
+    "#cobblemon:is_peak",
+    "#cobblemon:is_taiga",
+    "#cobblemon:is_tundra",
+    {
+      "id": "#c:is_cold",
+      "required": false
+    },
+    {
+      "id": "#c:is_cold/overworld",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:aspen_forest",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:bog",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cold_desert",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_forest",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hot_springs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:maple_woods",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:old_growth_dead_forest",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pumpkin_patch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:seasonal_forest",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:seasonal_orchard",
+      "required": false
+    },
+    {
+      "id": "clifftree:cold_caves",
+      "required": false
+    },
+    {
+      "id": "clifftree:cold_river",
+      "required": false
+    },
+    {
+      "id": "wythers:berry_bog",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/cold_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_cold_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_frozen_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/frozen_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/frozen_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/frozen_river",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/ice_spikes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/jagged_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_beach",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_plains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_slopes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_taiga",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/stony_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpha_islands_winter",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpine_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/bryce_canyon",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/frostfire_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cloud_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cold_shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/emerald_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/frozen_cliffs",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/glacial_chasm",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/gravel_desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/haze_mountain",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ice_marsh",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/moonlight_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/moonlight_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/rocky_mountains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/rocky_shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/scarlet_mountains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/shield",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/siberian_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/siberian_taiga",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/skylands_winter",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_badlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_cherry_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_maple_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_shield",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/windswept_spires",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/wintry_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/wintry_lowlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yellowstone",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yosemite_lowlands",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_highlands",
+    "#cobblemon:is_hills",
+    {
+      "id": "m2pokemon:minecraft/meadow",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpine_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/arid_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/forested_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lavender_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lush_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/moonlight_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sakura_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/savanna_slopes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/temperate_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yosemite_lowlands",
+      "required": false
+    }
+  ]
+}

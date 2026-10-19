@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_dripstone",
+    {
+      "id": "m2pokemon:minecraft/dripstone_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/fractured_savanna",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/stony_spires",
+      "required": false
+    }
+  ]
+}

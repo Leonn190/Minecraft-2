@@ -1,0 +1,13 @@
+Minecraft 2 Pokemon dimension
+Dimension: m2pokemon:world
+Entre: /trigger m2p_enter set 1
+Volte: /trigger m2p_leave set 1
+NOVO MUNDO recomendado. Veja o README do pacote original.
+
+Fonte do terreno Pokemon: data/minecraft/dimension/overworld.json
+Biomas Terralith no JAR: 95; citados pelo gerador: 84
+Arquivos vanilla de worldgen Terralith isolados/restaurados: 64
+Definicoes do Terralith com referencias realocadas: 12
+Modificadores de features Cobblemon restritos a biomas Terralith: 0
+Estruturas Cobblemon com bioma exclusivo: 67
+Dimensoes bloqueadas para spawn natural Cobblemon: 7

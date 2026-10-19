@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_beach",
+    "#cobblemon:is_lukewarm_ocean",
+    "#cobblemon:is_temperate_ocean",
+    "#cobblemon:is_tropical_island",
+    "#cobblemon:is_warm_ocean",
+    {
+      "id": "m2pokemon:minecraft/deep_lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/warm_ocean",
+      "required": false
+    }
+  ]
+}

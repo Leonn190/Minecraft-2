@@ -1,0 +1,114 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_badlands",
+    "#cobblemon:is_floral",
+    "#cobblemon:is_desert",
+    "#cobblemon:is_mushroom",
+    "#cobblemon:is_tropical_island",
+    {
+      "id": "m2pokemon:minecraft/cherry_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/dark_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/flower_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/meadow",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/mushroom_fields",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ancient_sands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ashen_savanna",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/fungal_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cloud_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_canyon",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_spires",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lavender_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lavender_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lush_desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/mirage_isles",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/red_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sakura_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sakura_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sandstone_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/warped_mesa",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/white_mesa",
+      "required": false
+    }
+  ]
+}

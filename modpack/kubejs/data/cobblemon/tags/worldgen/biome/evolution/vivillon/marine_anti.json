@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_warm_ocean",
+    "#cobblemon:is_frozen_ocean",
+    {
+      "id": "m2pokemon:minecraft/deep_frozen_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/frozen_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/warm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/frozen_cliffs",
+      "required": false
+    }
+  ]
+}

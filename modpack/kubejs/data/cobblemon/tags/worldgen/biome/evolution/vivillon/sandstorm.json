@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_desert",
+    {
+      "id": "m2pokemon:minecraft/desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ancient_sands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_canyon",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_spires",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lush_desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/red_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sandstone_valley",
+      "required": false
+    }
+  ]
+}

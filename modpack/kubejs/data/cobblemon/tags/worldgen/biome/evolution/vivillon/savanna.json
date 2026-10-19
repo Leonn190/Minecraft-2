@@ -1,0 +1,46 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_savanna",
+    {
+      "id": "m2pokemon:terralith/arid_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ashen_savanna",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/brushland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/desert_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/fractured_savanna",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/hot_shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/red_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/savanna_badlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/savanna_slopes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/shrubland",
+      "required": false
+    }
+  ]
+}

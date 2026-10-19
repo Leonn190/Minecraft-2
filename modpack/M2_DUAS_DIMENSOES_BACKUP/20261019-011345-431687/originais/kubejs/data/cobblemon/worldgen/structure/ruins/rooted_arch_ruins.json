@@ -1,0 +1,20 @@
+{
+  "biomes": "#m2pokemon:terralith_biomes",
+  "max_distance_from_center": 100,
+  "size": 7,
+  "spawn_overrides": {},
+  "start_height": {
+    "max_inclusive": {
+      "absolute": 10
+    },
+    "min_inclusive": {
+      "absolute": -37
+    },
+    "type": "minecraft:uniform"
+  },
+  "start_pool": "minecraft:empty",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "type": "minecraft:jigsaw",
+  "use_expansion_hack": false
+}

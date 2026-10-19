@@ -1,0 +1,70 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_badlands",
+    {
+      "id": "#c:is_badlands",
+      "required": false
+    },
+    {
+      "id": "#clifftree:dry_badlands",
+      "required": false
+    },
+    {
+      "id": "terralith:ashen_savanna",
+      "required": false
+    },
+    {
+      "id": "terralith:red_oasis",
+      "required": false
+    },
+    {
+      "id": "terralith:warped_mesa",
+      "required": false
+    },
+    {
+      "id": "terralith:white_mesa",
+      "required": false
+    },
+    {
+      "id": "wythers:danakil_desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/badlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/eroded_badlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/wooded_badlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ashen_savanna",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/red_oasis",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/savanna_badlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_badlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/warped_mesa",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/white_mesa",
+      "required": false
+    }
+  ]
+}

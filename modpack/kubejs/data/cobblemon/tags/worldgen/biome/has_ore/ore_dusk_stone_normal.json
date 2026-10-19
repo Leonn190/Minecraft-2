@@ -1,0 +1,88 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_spooky",
+    "#cobblemon:is_snowy_taiga",
+    "#cobblemon:is_taiga",
+    {
+      "id": "m2pokemon:minecraft/dark_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_taiga",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpine_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/bryce_canyon",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cloud_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cold_shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/haze_mountain",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ice_marsh",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/moonlight_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/moonlight_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/shield",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/siberian_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/siberian_taiga",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_maple_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_shield",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/wintry_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/wintry_lowlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yellowstone",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yosemite_lowlands",
+      "required": false
+    }
+  ]
+}

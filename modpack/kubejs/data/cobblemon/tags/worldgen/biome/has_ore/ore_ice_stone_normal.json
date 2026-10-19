@@ -1,0 +1,97 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_glacial",
+    "#cobblemon:is_snowy_forest",
+    "#cobblemon:is_snowy_taiga",
+    "#cobblemon:is_tundra",
+    {
+      "id": "m2pokemon:minecraft/frozen_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/ice_spikes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_plains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_taiga",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpha_islands_winter",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpine_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/frostfire_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cold_shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/frozen_cliffs",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/glacial_chasm",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/gravel_desert",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ice_marsh",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/rocky_shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/siberian_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_badlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_cherry_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_maple_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/snowy_shield",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/wintry_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/wintry_lowlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/yellowstone",
+      "required": false
+    }
+  ]
+}

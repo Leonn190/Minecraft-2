@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:lukewarm_ocean",
+    {
+      "id": "wythers:tropical_beach",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_island",
+      "required": false
+    },
+    {
+      "id": "wythers:warm_stony_shore",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/lukewarm_ocean",
+      "required": false
+    }
+  ]
+}

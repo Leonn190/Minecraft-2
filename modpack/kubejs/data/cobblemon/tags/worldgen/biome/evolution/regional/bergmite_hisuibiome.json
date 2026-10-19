@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_glacial",
+    {
+      "id": "m2pokemon:minecraft/frozen_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/ice_spikes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/frostfire_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/frozen_cliffs",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/glacial_chasm",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:snowy_slopes",
+    "minecraft:stony_peaks",
+    {
+      "id": "#c:is_mountain/peak",
+      "required": false
+    },
+    {
+      "id": "terralith:emerald_peaks",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_mountains",
+      "required": false
+    },
+    {
+      "id": "terralith:scarlet_mountains",
+      "required": false
+    },
+    {
+      "id": "terralith:windswept_spires",
+      "required": false
+    },
+    {
+      "id": "wythers:andesite_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:aspen_crags",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/frozen_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/jagged_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_slopes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/stony_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/emerald_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/rocky_mountains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/scarlet_mountains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/windswept_spires",
+      "required": false
+    }
+  ]
+}

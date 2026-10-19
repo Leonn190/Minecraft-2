@@ -1,0 +1,12 @@
+{
+  "kubejs/data/m2pokemon/worldgen/multi_noise_biome_source_parameter_list/overworld.json": {
+    "original": "7af2a9dcd89c92fe7565d18e9836006aa825c4ffa2f37bfaffcc418e561f3b56",
+    "corrigido": "69e99f7ca61801def51318655062a630e4ad058f106747b478209b5993ca453e",
+    "quantidade": 1
+  },
+  "kubejs/data/m2pokemon/worldgen/noise_settings/overworld.json": {
+    "original": "f390d1fbf0970375e810ff81ee8e95f99f215316184a0dbcf39b886156624b42",
+    "corrigido": "dd385388208be4089f943a05e24a3b32d254267421ffd9953ab7423fa9fca9f7",
+    "quantidade": 1
+  }
+}

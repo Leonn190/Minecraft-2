@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_dripstone",
+    "#cobblemon:is_lush",
+    {
+      "id": "m2pokemon:minecraft/dripstone_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/lush_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/fungal_caves",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cave/underground_jungle",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/fractured_savanna",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/stony_spires",
+      "required": false
+    }
+  ]
+}

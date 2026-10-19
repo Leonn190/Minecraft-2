@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:noise",
+  "noise": "m2pokemon:aquifer_lava",
+  "xz_scale": 1,
+  "y_scale": 1
+}

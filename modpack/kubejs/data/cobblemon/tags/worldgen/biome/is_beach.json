@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_beach",
+    {
+      "id": "biomesoplenty:dune_beach",
+      "required": false
+    },
+    {
+      "id": "wythers:guelta",
+      "required": false
+    },
+    {
+      "id": "wythers:sand_dunes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/beach",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_beach",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/stony_shore",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/gravel_beach",
+      "required": false
+    }
+  ]
+}

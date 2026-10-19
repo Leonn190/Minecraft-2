@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_coast",
+    "#cobblemon:is_warm_ocean",
+    {
+      "id": "m2pokemon:minecraft/stony_shore",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/warm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/basalt_cliffs",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/granite_cliffs",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/white_cliffs",
+      "required": false
+    }
+  ]
+}

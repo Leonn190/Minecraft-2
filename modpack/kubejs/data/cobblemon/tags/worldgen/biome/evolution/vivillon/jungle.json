@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_jungle",
+    {
+      "id": "m2pokemon:terralith/cave/underground_jungle",
+      "required": false
+    }
+  ]
+}

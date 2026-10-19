@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_river",
+    {
+      "id": "#c:is_river",
+      "required": false
+    },
+    {
+      "id": "terralith:warm_river",
+      "required": false
+    },
+    {
+      "id": "wythers:guelta",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_forest_river",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/frozen_river",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/river",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/warm_river",
+      "required": false
+    }
+  ]
+}

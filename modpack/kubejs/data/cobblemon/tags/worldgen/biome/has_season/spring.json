@@ -1,0 +1,141 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_floral",
+    "#cobblemon:is_lukewarm_ocean",
+    "#cobblemon:is_magical",
+    "#cobblemon:is_plains",
+    {
+      "id": "#aether:is_aether",
+      "required": false
+    },
+    {
+      "id": "terralith:skylands_spring",
+      "required": false
+    },
+    {
+      "id": "the_bumblezone:floral_meadow",
+      "required": false
+    },
+    {
+      "id": "wythers:spring_flower_fields",
+      "required": false
+    },
+    {
+      "id": "wythers:spring_flower_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/cherry_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/dark_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/flower_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/meadow",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/plains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpine_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/amethyst_canyon",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/amethyst_rainforest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/arid_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/brushland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/cloud_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lavender_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lavender_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/mirage_isles",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/moonlight_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/moonlight_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sakura_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sakura_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/skylands_spring",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/steppe",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/valley_clearing",
+      "required": false
+    }
+  ]
+}

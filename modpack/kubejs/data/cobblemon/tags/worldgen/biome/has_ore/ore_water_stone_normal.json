@@ -1,0 +1,67 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_ocean",
+    "#cobblemon:is_freshwater",
+    {
+      "id": "m2pokemon:minecraft/cold_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_cold_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_frozen_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/frozen_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/mangrove_swamp",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/swamp",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/warm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/frozen_cliffs",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/ice_marsh",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/orchid_swamp",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/warm_river",
+      "required": false
+    }
+  ]
+}

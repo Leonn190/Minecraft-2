@@ -1,0 +1,4 @@
+/give @p macabre:sacrificial_dirk 1
+/trigger m2p_enter set 1
+/trigger m2p_leave set 1
+/trigger m2a_enter set 1

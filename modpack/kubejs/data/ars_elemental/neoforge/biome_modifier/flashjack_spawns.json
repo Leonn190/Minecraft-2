@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#m2arcana:dimension_biomes",
+  "spawners": {
+    "type": "ars_elemental:flashjack_entity",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 7
+  }
+}

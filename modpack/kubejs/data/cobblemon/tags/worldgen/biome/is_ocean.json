@@ -1,0 +1,64 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_ocean",
+    "#cobblemon:is_cold_ocean",
+    "#cobblemon:is_deep_ocean",
+    "#cobblemon:is_frozen_ocean",
+    "#cobblemon:is_lukewarm_ocean",
+    "#cobblemon:is_temperate_ocean",
+    "#cobblemon:is_warm_ocean",
+    {
+      "id": "#c:is_ocean",
+      "required": false
+    },
+    {
+      "id": "clifftree:stone_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/cold_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_cold_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_frozen_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/deep_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/frozen_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/warm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/deep_warm_ocean",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/frozen_cliffs",
+      "required": false
+    }
+  ]
+}

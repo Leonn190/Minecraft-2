@@ -1,0 +1,59 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_island",
+    "#cobblemon:is_peak",
+    {
+      "id": "m2pokemon:minecraft/frozen_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/jagged_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/mushroom_fields",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/snowy_slopes",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/stony_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpha_islands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpha_islands_winter",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/emerald_peaks",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/mirage_isles",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/rocky_mountains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/scarlet_mountains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/warped_mesa",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/windswept_spires",
+      "required": false
+    }
+  ]
+}

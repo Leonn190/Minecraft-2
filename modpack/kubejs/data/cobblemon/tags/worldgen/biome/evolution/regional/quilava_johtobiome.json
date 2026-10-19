@@ -1,0 +1,94 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_temperate",
+    {
+      "id": "m2pokemon:minecraft/cherry_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/meadow",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/plains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:minecraft/sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpha_islands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpha_islands_winter",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/alpine_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/arid_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/blooming_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/brushland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/forested_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lavender_forest",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/lavender_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/mirage_isles",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sakura_grove",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/sakura_valley",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/shrubland",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/steppe",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/temperate_highlands",
+      "required": false
+    },
+    {
+      "id": "m2pokemon:terralith/valley_clearing",
+      "required": false
+    }
+  ]
+}
