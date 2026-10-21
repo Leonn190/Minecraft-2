@@ -1,43 +1,88 @@
 ---
 import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+import favicon from '../assets/favicon.svg?url';
 
 interface Props {
   title: string;
   description?: string;
+  theme?: string;
 }
-const { title, description = 'Minecraft 2 — aventura, engenharia, magia e exploração.' } = Astro.props;
+const { title, description = 'Minecraft 2 — um modpack de exploração, magia e engenharia. Descubra mundos, prepare-se para jogar e consulte a wiki.', theme = 'default' } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const links = [
   { href: `${base}/`, label: 'Início' },
-  { href: `${base}/progressao/`, label: 'Progressão' },
-  { href: `${base}/mods/`, label: 'Mods' },
-  { href: `${base}/instalacao/`, label: 'Instalação' },
+  { href: `${base}/download/`, label: 'Download' },
+  { href: `${base}/como-jogar/`, label: 'Como jogar' },
+  { href: `${base}/wiki/`, label: 'Wiki' },
 ];
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const current = (href: string) => path === href.replace(/\/$/, '') || (href.endsWith('/wiki/') && path.startsWith(`${base}/wiki/`));
 ---
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme={theme}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#0c1413" />
-    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <meta name="theme-color" content="#080d12" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`${title} | Minecraft 2`} />
+    <meta property="og:description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={favicon} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <title>{title} | Minecraft 2</title>
   </head>
   <body>
-    <div class="ambient ambient--one" aria-hidden="true"></div>
-    <div class="ambient ambient--two" aria-hidden="true"></div>
-    <header class="topbar shell">
-      <a class="brand" href={`${base}/`} aria-label="Minecraft 2 — início"><span class="brand__glyph">M²</span><span> MINECRAFT <b>2</b></span></a>
-      <nav aria-label="Navegação principal">
-        {links.map((link) => <a href={link.href} aria-current={Astro.url.pathname === new URL(link.href, Astro.url).pathname ? 'page' : undefined}>{link.label}</a>)}
-      </nav>
+    <a class="skip-link" href="#conteudo">Pular para conteúdo</a>
+    <header class="site-header" id="topo">
+      <div class="container nav-container">
+        <a class="brand" href={`${base}/`} aria-label="Minecraft 2 — início">
+          <span class="brand-mark" aria-hidden="true"><span>M</span><i>2</i></span>
+          <span class="brand-wordmark">MINECRAFT <b>2</b><small>THE NEXT WORLD</small></span>
+        </a>
+        <nav class="main-nav" id="primary-nav" aria-label="Menu principal">
+          {links.map((link) => <a href={link.href} class:list={['nav-link', { 'is-current': current(link.href) }]} aria-current={current(link.href) ? 'page' : undefined}>{link.label}</a>)}
+        </nav>
+        <a class="nav-action" href={`${base}/download/`}>Jogar agora <Icon name="arrowUpRight" size={16} /></a>
+        <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="primary-nav" aria-expanded="false"><Icon name="menu" size={24}/></button>
+      </div>
     </header>
-    <main class="shell"><slot /></main>
-    <footer class="footer shell">
-      <div><strong>MINECRAFT 2</strong><small>Uma nova jornada em construção.</small></div>
-      <div>Projeto comunitário independente. Não afiliado à Mojang ou Microsoft.</div>
-      <a href="https://github.com/Leonn190/Minecraft-2" target="_blank" rel="noreferrer">Repositório ↗</a>
+    <main id="conteudo"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-identity">
+          <a class="brand" href={`${base}/`} aria-label="Minecraft 2 — início">
+            <span class="brand-mark" aria-hidden="true"><span>M</span><i>2</i></span>
+            <span class="brand-wordmark">MINECRAFT <b>2</b><small>THE NEXT WORLD</small></span>
+          </a>
+          <p>Um universo para explorar, construir e descobrir.<br />Projeto independente em desenvolvimento.</p>
+        </div>
+        <div class="footer-menu"><strong>Explorar</strong>{links.map(link => <a href={link.href}>{link.label}</a>)}</div>
+        <div class="footer-menu"><strong>Projeto</strong><a href="https://github.com/Leonn190/Minecraft-2" target="_blank" rel="noopener noreferrer">Código no GitHub <Icon name="arrowUpRight" size={13}/></a><span>Créditos aos criadores dos mods e aos colaboradores.</span></div>
+      </div>
+      <div class="container footer-bottom"><span>© {new Date().getFullYear()} Minecraft 2 • Projeto feito por fãs</span><span>Não afiliado à Mojang Studios ou à Microsoft. Minecraft é uma marca de seus respectivos proprietários.</span></div>
     </footer>
+    <script>
+      const toggle = document.querySelector<HTMLButtonElement>('#menu-toggle');
+      const nav = document.querySelector<HTMLElement>('#primary-nav');
+      if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+          const opened = toggle.getAttribute('aria-expanded') === 'true';
+          toggle.setAttribute('aria-expanded', String(!opened));
+          toggle.setAttribute('aria-label', opened ? 'Abrir menu' : 'Fechar menu');
+          nav.classList.toggle('is-open', !opened);
+        });
+        nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+          nav.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.setAttribute('aria-label', 'Abrir menu');
+        }));
+        document.addEventListener('keydown', event => { if (event.key === 'Escape') { nav.classList.remove('is-open'); toggle.setAttribute('aria-expanded', 'false'); }});
+      }
+    </script>
   </body>
 </html>

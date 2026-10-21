@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import { articles, getRelated, categoryLabel, type WikiArticle } from '../../data/wiki';
+import { getArtwork } from '../../data/artwork';
+export function getStaticPaths() { return articles.map(article => ({ params: { slug: article.slug }, props: { article } })); }
+interface Props { article: WikiArticle }
+const { article } = Astro.props;
+const related = getRelated(article);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title={article.title} description={`${article.title} — ${article.summary} Conheça informações e guias na wiki do Minecraft 2.`} theme="wiki">
+  <article class="wiki-detail" style={`--page-accent:${article.accent}`}>
+    <section class="wiki-detail-hero"><img src={getArtwork(article.artwork)} alt="" class="wiki-detail-cover"/><div class="wiki-detail-shade"></div><div class="container wiki-detail-hero-inner"><nav class="breadcrumbs" aria-label="Localização"><a href={`${base}/`}>Início</a><span>/</span><a href={`${base}/wiki/`}>Wiki</a><span>/</span><span>{article.title}</span></nav><div class="wiki-detail-copy"><span class="eyebrow"><span class="eyebrow-line"></span> {article.eyebrow}</span><h1>{article.title}</h1><p>{article.summary}</p><div class="wiki-hero-meta"><span>{categoryLabel(article.category)}</span><span class="meta-dot"></span><span>{article.status}</span></div></div></div></section>
+    <div class="container wiki-article-layout">
+      <div class="wiki-article-main"><div class="article-status"><Icon name="info" size={20}/><div><strong>Estado desta página: {article.status}</strong><p>O Minecraft 2 ainda está em desenvolvimento. O que estiver descrito como proposta ou planejamento pode não existir na versão jogável.</p></div></div>
+        <p class="article-intro">{article.introduction}</p>
+        <div class="wiki-facts">{article.facts.map(f => <div><span>{f.label}</span><strong>{f.value}</strong></div>)}</div>
+        {article.sections.map((section,index) => <section class="wiki-article-section" id={section.id}><span class="article-section-index">{String(index+1).padStart(2,'0')} / GUIA</span><h2>{section.title}</h2>{section.paragraphs.map(p => <p>{p}</p>)}{section.bullets && <ul>{section.bullets.map(b => <li>{b}</li>)}</ul>}{section.note && <div class="article-callout"><Icon name="info" size={19}/><span>{section.note}</span></div>}</section>)}
+        <a class="back-wiki-link" href={`${base}/wiki/`}><Icon name="arrowLeft" size={18}/> Voltar para a wiki</a>
+      </div>
+      <aside class="wiki-article-aside"><div class="article-toc"><span class="kicker">NESTA PÁGINA</span>{article.sections.map(section => <a href={`#${section.id}`}>{section.title}</a>)}</div><div class="article-toc-cta"><Icon name="book" size={22}/><strong>Quer explorar mais?</strong><p>Encontre outros mundos, sistemas e guias na enciclopédia.</p><a href={`${base}/wiki/`} class="text-link">Abrir a wiki <Icon name="arrowUpRight" size={17}/></a></div></aside>
+    </div>
+    {related.length > 0 && <section class="container wiki-related"><div class="section-heading"><div><span class="kicker">CONTINUE DESCOBRINDO</span><h2>Você também pode <em>explorar.</em></h2></div></div><div class="related-grid">{related.map(r => <a href={`${base}/wiki/${r.slug}/`} class="related-card" style={`--realm-accent:${r.accent}`}><img src={getArtwork(r.artwork)} alt="" loading="lazy"/><span class="related-overlay"></span><span class="related-title">{r.title}<Icon name="arrowUpRight" size={18}/></span></a>)}</div></section>}
+  </article>
+</Base>

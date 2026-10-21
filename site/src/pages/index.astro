@@ -1,28 +1,70 @@
 ---
 import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { getArtwork } from '../data/artwork';
+import { articles } from '../data/wiki';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const realms = ['dimensao-pokemon', 'arcanus', 'undergarden'].map(slug => articles.find(a => a.slug === slug)!);
+const experiences = [
+  {icon:'compass', number:'01', name:'Explore sem fronteiras',description:'Novas terras, caminhos inesperados e dimensões que mudam completamente a aventura.'},
+  {icon:'bolt', number:'02', name:'Construa o impossível',description:'Máquinas, engenharia e sistemas que dão uma nova vida à sua base.'},
+  {icon:'sparkles',number:'03',name:'Descubra outros poderes',description:'Magia, criaturas e equipamentos que exigem mais do que seguir uma receita.'},
+];
 ---
-<Base title="O começo de uma nova aventura">
-  <section class="hero">
-    <div class="hero__content">
-      <span class="eyebrow"><span class="signal"></span> UM NOVO MUNDO ESTÁ TOMANDO FORMA</span>
-      <h1>Seu próximo<br /><em>grande mundo.</em></h1>
-      <p>Sobrevivência reinventada. Engenharia, magia, dimensões e descobertas reunidas em uma jornada com progressão própria.</p>
-      <div class="actions">
-        <a class="button button--primary" href={`${base}/progressao/`}>Explorar progressão <span>↗</span></a>
-        <a class="button button--ghost" href={`${base}/instalacao/`}>Como instalar →</a>
+<Base title="Um novo mundo começa aqui" description="Minecraft 2: um modpack ambicioso com novas dimensões, engenharia, magia e exploração. Conheça a aventura, a wiki e como jogar.">
+  <section class="home-hero" aria-labelledby="hero-title">
+    <img class="home-hero-image" src={getArtwork('hero')} alt="" fetchpriority="high" />
+    <div class="home-hero-light"></div>
+    <div class="container hero-body">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-line"></span> UM MUNDO ALÉM DO QUE VOCÊ CONHECE</span>
+        <h1 id="hero-title">Sua próxima<br />aventura começa <em>além.</em></h1>
+        <p>Um universo de dimensões misteriosas, engenharia, magia e descobertas. Tudo conectado em uma nova experiência de Minecraft.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href={`${base}/download/`}>Baixar Minecraft 2 <Icon name="download" size={17} /></a>
+          <a class="btn btn-outline" href={`${base}/wiki/`}>Explorar a wiki <Icon name="arrowUpRight" size={18} /></a>
+        </div>
+        <div class="hero-footnote"><span class="online-dot" aria-hidden="true"></span> Projeto em desenvolvimento <span class="footnote-separator"></span> Java 1.21.1 <span class="footnote-separator"></span> NeoForge</div>
       </div>
-      <div class="hero__info"><span><b>1.21.1</b> MINECRAFT JAVA</span><span><b>NEOFORGE</b> MOD LOADER</span><span><b>EM CONSTRUÇÃO</b> STATUS</span></div>
     </div>
-    <div class="hero__art" aria-hidden="true"><div class="moon"></div><div class="mountain mountain--back"></div><div class="mountain mountain--front"></div><div class="art__label"><span>01 / 04</span> EXPLORE O DESCONHECIDO</div></div>
+    <div class="hero-vertical-label" aria-hidden="true">DISCOVER THE NEXT WORLD — MINECRAFT 2</div>
+    <div class="hero-side-index" aria-hidden="true"><span>01</span><div></div><span>04</span></div>
+    <div class="hero-bottom-fade"></div>
   </section>
-  <section class="section">
-    <div class="section-heading"><div><span class="kicker">UM MUNDO PARA DESCOBRIR</span><h2>Escolha seu caminho.</h2></div><p>O objetivo é conectar os maiores sistemas do modpack em uma aventura coerente — sem perder a liberdade de exploração.</p></div>
-    <div class="feature-grid">
-      <article class="feature"><span class="feature__number">01 /</span><div class="feature__symbol">⚙</div><h3>Construa o impossível</h3><p>Engenharia, mecanismos e automação com espaço para criatividade.</p><a href={`${base}/mods/`}>Conheça os mods →</a></article>
-      <article class="feature"><span class="feature__number">02 /</span><div class="feature__symbol">✦</div><h3>Domine o arcano</h3><p>Descubra a progressão mágica planejada e os novos objetivos.</p><a href={`${base}/progressao/`}>Ver a jornada →</a></article>
-      <article class="feature"><span class="feature__number">03 /</span><div class="feature__symbol">◈</div><h3>Atravesse fronteiras</h3><p>Dimensões, ameaças e recompensas além do mundo habitual.</p><a href={`${base}/progressao/`}>Explorar etapas →</a></article>
+
+  <section class="overview-strip container" aria-label="Sobre o Minecraft 2">
+    <div class="overview-lead"><span class="kicker">UM NOVO CAPÍTULO</span><strong>Não é apenas mais um modpack.</strong></div>
+    <p>Uma proposta de aventura com mundos que têm identidade, regras e segredos próprios — não apenas uma lista gigante de mods.</p>
+    <a href={`${base}/como-jogar/`} class="text-link">Entenda como jogar <Icon name="arrowUpRight" size={17}/></a>
+  </section>
+
+  <section class="section-spacing container" aria-labelledby="realms-heading">
+    <div class="section-heading">
+      <div><span class="kicker">EXISTEM OUTROS LUGARES</span><h2 id="realms-heading">Cada mundo esconde <em>uma nova história.</em></h2></div>
+      <p>O que você conhece é só o começo. Explore algumas das regiões planejadas para o universo de Minecraft 2.</p>
+    </div>
+    <div class="realms-grid">
+      {realms.map((realm, index) => <a class="realm-card" href={`${base}/wiki/${realm.slug}/`} style={`--realm-accent:${realm.accent}`}>
+        <img src={getArtwork(realm.artwork)} alt="" loading="lazy" />
+        <div class="realm-card-overlay"></div>
+        <div class="realm-card-top"><span>0{index + 1} / DIMENSÃO</span><Icon name="arrowUpRight" size={19}/></div>
+        <div class="realm-card-info"><span class="realm-card-sub">{realm.eyebrow.split('/ ')[1]}</span><h3>{realm.title}</h3><p>{realm.summary}</p><span class="realm-card-discover">Descobrir dimensão <Icon name="arrowRight" size={16}/></span></div>
+      </a>)}
+    </div>
+    <div class="section-subline"><span>Essas regiões fazem parte do planejamento do projeto; alguns sistemas ainda dependem de testes.</span><a class="text-link" href={`${base}/wiki/`}>Todas as dimensões <Icon name="arrowRight" size={17}/></a></div>
+  </section>
+
+  <section class="experience-section">
+    <div class="container">
+      <div class="section-heading center-title"><span class="kicker">MUITO ALÉM DA SOBREVIVÊNCIA</span><h2>Um mundo. <em>Infinitas possibilidades.</em></h2><p>Caminhos diferentes para jogar, construir e descobrir.</p></div>
+      <div class="experience-grid">{experiences.map(e => <article class="experience-card"><span class="experience-number">{e.number} / EXPERIÊNCIA</span><span class="experience-icon"><Icon name={e.icon} size={31} strokeWidth={1.35}/></span><h3>{e.name}</h3><p>{e.description}</p></article>)}</div>
     </div>
   </section>
-  <section class="notice"><span class="notice__tag">DEV LOG / 001</span><div><h2>Estamos construindo a fundação.</h2><p>O Minecraft 2 ainda está em planejamento. Os conteúdos da wiki são propostas iniciais, e a distribuição do modpack será anunciada após testes.</p></div><a href="https://github.com/Leonn190/Minecraft-2" target="_blank" rel="noreferrer">Acompanhar no GitHub ↗</a></section>
+
+  <section class="container discovery-section">
+    <div class="discovery-image"><img src={getArtwork('portals')} alt="Ilustração conceitual de um portal para outros mundos" loading="lazy"/><span>ALÉM DO PORTAL / 001</span></div>
+    <div class="discovery-copy"><span class="kicker">A SUA JORNADA É ÚNICA</span><h2>Portais são apenas <em>o começo.</em></h2><p>Viajar entre dimensões é mais do que mudar de paisagem: cada lugar pode trazer recursos, ameaças e regras que mudam a maneira de jogar.</p><p>Na wiki, você encontra guias para entender esse universo sem precisar descobrir tudo sozinho.</p><a class="btn btn-outline" href={`${base}/wiki/portais-personalizados/`}>Conhecer os portais <Icon name="arrowUpRight" size={17}/></a></div>
+  </section>
+
+  <section class="container final-cta" aria-labelledby="final-title"><div class="final-cta-shine"></div><span class="kicker">A AVENTURA TE ESPERA</span><h2 id="final-title">Pronto para descobrir<br /><em>o próximo mundo?</em></h2><p>Confira a distribuição oficial, os requisitos e o guia de instalação do Minecraft 2.</p><a class="btn btn-primary" href={`${base}/download/`}>Começar a jornada <Icon name="arrowRight" size={19}/></a></section>
 </Base>
