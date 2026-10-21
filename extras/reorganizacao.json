@@ -1,0 +1,217 @@
+{
+  "moves": [
+    {
+      "from": "integration",
+      "to": "modpack/integration",
+      "sha256_before": {
+        "README.md": "893dcced90dd914ba3e6356f39710c573bc69ffac78119ab81985ed23d8cc5c8",
+        "build/javac.args": "f659adfdffc4ce42b5ec848d7f04ab03c3ad4613831e8e3a3e5226d8f555ff8e",
+        "build/m2-worldgen-1.0.0.jar": "619e133327b4721864e17a6601c75b92cc26369fc058b977c413e3687f765f99",
+        "build/m2-worldgen-tests-1.0.0.jar": "8efd150131c6d132809de373750fddf9fe72b3ced7516ca42de63ea9568897c6",
+        "build/classes/br/com/minecraft2/WorldgenIntegration.class": "dbf2499bbba49b92ee6e2a12613e7a3b3b3d016a411bf0e236c0a73714484c19",
+        "build/classes/br/com/minecraft2/mixin/BeachedWhaleSpawnerMixin.class": "9b2436a5935ffe945e75599c638600d381e5433507f1c6960942339e9a65d075",
+        "build/classes/br/com/minecraft2/mixin/CobblemonBiomeModifierMixin.class": "4828677047fe8c223ce46fedc8c1c21e7eba982e23b484736ba459fba9a8cd99",
+        "build/classes/br/com/minecraft2/mixin/SpawnPlacementsMixin.class": "5861357d06c2a052f921d2ee7c2386f821d2f5dab2473069f36d583bedbc9d62",
+        "build/classes-main/br/com/minecraft2/IsolatedClimateBiomeSource.class": "83d5a2d783a396ac5cef32111111c77a20b99f1eb0df2a4a097d9403f3787dd5",
+        "build/classes-main/br/com/minecraft2/WorldgenIntegration.class": "651f0f118f507883d5e790cfc69c428660bf6c6d35e139728a90759193511175",
+        "build/classes-main/br/com/minecraft2/mixin/BeachedWhaleSpawnerMixin.class": "9b2436a5935ffe945e75599c638600d381e5433507f1c6960942339e9a65d075",
+        "build/classes-main/br/com/minecraft2/mixin/CobblemonBiomeModifierMixin.class": "4828677047fe8c223ce46fedc8c1c21e7eba982e23b484736ba459fba9a8cd99",
+        "build/classes-main/br/com/minecraft2/mixin/SpawnPlacementsMixin.class": "5861357d06c2a052f921d2ee7c2386f821d2f5dab2473069f36d583bedbc9d62",
+        "build/classes-main/br/com/minecraft2/portal/DimensionPortalFrame.class": "e3c5f8de1818753cf0bb60c6390a7d2f341ee3322907698447f11198d4e98f42",
+        "build/classes-main/br/com/minecraft2/portal/PortalIntegration.class": "3cc16ef560c28321773f696e472ad72fd46224304968f0220c18fd325e2c0640",
+        "build/classes-test/br/com/minecraft2/test/PortalSmokeTest.class": "9d525655283822f2ddacabf7316472841954caf4f4f40f29527f58f79724484a",
+        "build/classes-test/br/com/minecraft2/test/WorldgenSmokeTest.class": "a1d74211f7a7b1a78765ce4b9071c9d997ce832cd50fecc09660fe7c74a58831",
+        "src/main/java/br/com/minecraft2/IsolatedClimateBiomeSource.java": "e957a63245d1bd323152b29250cd71ecffb1adeb9065992661092ad3cfcfd094",
+        "src/main/java/br/com/minecraft2/WorldgenIntegration.java": "8c8403941ff3ef87ef27ef21dd8cd5e9de05d7383154740d057e319c01d6948a",
+        "src/main/java/br/com/minecraft2/mixin/BeachedWhaleSpawnerMixin.java": "fb7ab327c4741d98cda8394a2dde24e610b546eae628272e33ef4f59cc271caa",
+        "src/main/java/br/com/minecraft2/mixin/CobblemonBiomeModifierMixin.java": "98a0f9ae437a322d5fc7fd922b4dcf8921e2d8adbf751014bdafa7c0e7882dca",
+        "src/main/java/br/com/minecraft2/mixin/SpawnPlacementsMixin.java": "c6c69e88203e69ab985163dd52c4aebfd36222e527ab76877ca73447c958f8a6",
+        "src/main/java/br/com/minecraft2/portal/DimensionPortalFrame.java": "a0f649eb08bcc6590f07cadc620ca570dca0f18a25aee8fcd09c9fd397fe16db",
+        "src/main/java/br/com/minecraft2/portal/PortalIntegration.java": "3daec9578f23c73c1c8f4060263f2da2f9b2ce4ddeedf1346e3da94038d39b30",
+        "src/main/resources/m2_worldgen.mixins.json": "2c5b25e75d300fcb921346c30e95d5f91f9bc8242f032a1f7c2dea3d8a84f0aa",
+        "src/main/resources/META-INF/neoforge.mods.toml": "6ff6c97514116077d75401afbfd8d91aa6ef2c5aecdc50cc69bb8450df65cb21",
+        "src/test/java/br/com/minecraft2/test/PortalSmokeTest.java": "31ba7b3392221869b317cdb03c72d43007437a7e7c057f87feca0cd712fb6fd6",
+        "src/test/java/br/com/minecraft2/test/WorldgenSmokeTest.java": "9229319cfa8f89f5c9965b8d9fd92d98d304852669f50e41e4c84fbb44c3463a",
+        "src/test/resources/META-INF/neoforge.mods.toml": "fbd949faf3e7bfd6f5c10f5cbe7c7caa210aa56005bb052abe7f04fad6b90809",
+        "third-party/strato-LICENSE.txt": "9e824135bb1edd56cc039b7f71429465447c5b1cd6df4173ea949b54fcc0cdda"
+      }
+    },
+    {
+      "from": "tools/audit_mods.py",
+      "to": "modpack/development/audit_mods.py",
+      "sha256_before": "e2d101f4c38ccfb0a795daa23c191df16330d8f7afafc4ed69629d36a1c8308d"
+    },
+    {
+      "from": "tools/build_integration.py",
+      "to": "modpack/development/build_integration.py",
+      "sha256_before": "9f4c277148e1f82042a53de24a9500a8bfc17a918dc02898fe44d8d2f058cb24"
+    },
+    {
+      "from": "tools/build_strato.py",
+      "to": "modpack/development/build_strato.py",
+      "sha256_before": "378737601d1bd4af4a1e38d89bb0c7d66dab728ed3aac6ae0f7cfe61213398f8"
+    },
+    {
+      "from": "tools/CheckModVersions.java",
+      "to": "modpack/development/CheckModVersions.java",
+      "sha256_before": "55e1272356f9d0cfce5e47d88fa33c7e42083a79fba5df1c709c20294045f52b"
+    },
+    {
+      "from": "tools/generate_worldgen.py",
+      "to": "modpack/development/generate_worldgen.py",
+      "sha256_before": "542cc4933dbdfb0d0a39510f6b019a98d2f53412761686b715ed5f146e31db8e"
+    },
+    {
+      "from": "tools/prepare_strato.py",
+      "to": "modpack/development/prepare_strato.py",
+      "sha256_before": "f0e51a87c2096665c82c24c5184a8b328bac0ea250ec79622b3514284bce1da2"
+    },
+    {
+      "from": "tools/record_worldgen_validation.py",
+      "to": "extras/record_worldgen_validation.py",
+      "sha256_before": "3f20b8e7d2acdcbb006f33cdb07d36f37b35df7e78bb506f8df3dee698ce11b4"
+    },
+    {
+      "from": "tools/stage_worldgen_profile.py",
+      "to": "modpack/development/stage_worldgen_profile.py",
+      "sha256_before": "7280313a67d342321f982efdf75e98b8ac9d679e3436674d4a9d8e9fbefc296b"
+    },
+    {
+      "from": "docs/MODS.md",
+      "to": "extras/MODS.md",
+      "sha256_before": "db1d6b8952d75f2c7134e6d506de127d46a7b4eff026293f7549fcb923fc1ada"
+    },
+    {
+      "from": "docs/PORTAIS_DIMENSIONAIS.md",
+      "to": "extras/PORTAIS_DIMENSIONAIS.md",
+      "sha256_before": "e3b18b5cdb88e7cbc23f7f3527cb80d25393b81d9022dc303df1cd8883aab21c"
+    },
+    {
+      "from": "docs/PROGRESSAO.md",
+      "to": "extras/PROGRESSAO.md",
+      "sha256_before": "4074c6b35ccb09257da7731207dc23b111bd71465f528b0541bd9c69cb6ac5d2"
+    },
+    {
+      "from": "docs/ROADMAP.md",
+      "to": "extras/ROADMAP.md",
+      "sha256_before": "e6b929069116011868d6ec6a7709ca4f65bba99372724eb85e72b9ffe91b6d8c"
+    },
+    {
+      "from": "docs/VALIDACAO_WORLDGEN.md",
+      "to": "extras/VALIDACAO_WORLDGEN.md",
+      "sha256_before": "d237d837c03dfa1f9d1e5a18f69f189c6d991491a01ec893726ab91039e9140f"
+    },
+    {
+      "from": "docs/VISAO.md",
+      "to": "extras/VISAO.md",
+      "sha256_before": "83e78394a3d7dcce812fc868ee51a9c341e4e95ce498c0327cdf14d2147d1000"
+    },
+    {
+      "from": "docs/worldgen-runtime-validation.json",
+      "to": "extras/worldgen-runtime-validation.json",
+      "sha256_before": "1b55c0888ff1c0bf4ee3f1d13cec1799e1ee31656afa1831e6a72bed49b0e21e"
+    },
+    {
+      "from": "CHANGELOG.md",
+      "to": "extras/CHANGELOG.md",
+      "sha256_before": "1f7ab7227f85f9254fce3727371111b22bfe86866b4108ce147485f36156b4b6"
+    },
+    {
+      "from": "modpack/M2POKEMON_BACKUPS",
+      "to": "extras/M2POKEMON_BACKUPS.zip",
+      "files": 5,
+      "archive_sha256": "6618d63ec807ef83b58e302c682333d52a5b20c9c861288a107e20057d72b667"
+    },
+    {
+      "from": "modpack/M2POKEMON_REPAROS",
+      "to": "extras/M2POKEMON_REPAROS.zip",
+      "files": 3,
+      "archive_sha256": "40558fd05e34a3b7f4cfa6bf4d7ca748c40984bb38cfe3496892be47d61151c8"
+    },
+    {
+      "from": "modpack/M2_DUAS_DIMENSOES_BACKUP",
+      "to": "extras/M2_DUAS_DIMENSOES_BACKUP.zip",
+      "files": 74,
+      "archive_sha256": "9f6012fb339a13724ac112a8037f516f6942ef4214cc34eed49ccb53e48d0a15"
+    },
+    {
+      "from": "modpack/M2_DIMENSOES_INSTALADAS.txt",
+      "to": "extras/M2_DIMENSOES_INSTALADAS.txt",
+      "sha256_before": "4199a5041b25d9414edfc9ea4df7d56d87de905c00410e9ba00d087c042d06c3"
+    },
+    {
+      "from": "modpack/M2_DIMENSOES_RELATORIO.txt",
+      "to": "extras/M2_DIMENSOES_RELATORIO.txt",
+      "sha256_before": "c54355b6135cc0d8b7b2a08fcf8d71887ec899b2a1eedbe870440523b7a071b0"
+    },
+    {
+      "from": "modpack/M2POKEMON_INSTALADO.txt",
+      "to": "extras/M2POKEMON_INSTALADO.txt",
+      "sha256_before": "32600b06d8fbf3c4a84243e56d3062df2b57a54981f537713f64f40f02d438c7"
+    },
+    {
+      "from": "modpack/options.txt",
+      "to": "extras/options.txt",
+      "sha256_before": "8ce538a11c74bcb2be654509708448e1e7c0c6abbc34f903d8f5117682111044"
+    },
+    {
+      "from": "modpack/ponders_watched.json",
+      "to": "extras/ponders_watched.json",
+      "sha256_before": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "from": "modpack/user-prefs.json",
+      "to": "extras/user-prefs.json",
+      "sha256_before": "9ce366ebf47823e68b29c76660c1030bea7f4b6a157398052ad9157769203cd6"
+    },
+    {
+      "from": "modpack/imgui.ini",
+      "to": "extras/imgui.ini",
+      "sha256_before": "fbbdc55d0e8bd6dfbebb5c652846bd875e8c01922689bfaef24048f8384148e6"
+    },
+    {
+      "from": "modpack/command_history.txt",
+      "to": "extras/command_history.txt",
+      "sha256_before": "ed8600335bcf742cba71854af5513397f0684bf15de7daca4ae4b33abd919653"
+    },
+    {
+      "from": "modpack/usercache.json",
+      "to": "extras/usercache.json",
+      "sha256_before": "ac728275fc1437a190e9ad8291646eb1bc4589ae003e1946caa2f7b44d749b6e"
+    },
+    {
+      "from": "modpack/usernamecache.json",
+      "to": "extras/usernamecache.json",
+      "sha256_before": "fd83f5ac1f5da94b6008fb5af51a93b1494202b41efc115ee2d11c7b8ee6960a"
+    },
+    {
+      "from": "modpack/minecraftinstance.json",
+      "to": "extras/minecraftinstance.json",
+      "sha256_before": "c00add19cbd93648ade975c2ab73e9b032bc1b052cb30a4d45a8130b2804b299"
+    },
+    {
+      "from": "modpack/fancymenu_data",
+      "to": "extras/fancymenu_data.zip",
+      "local_only": true
+    },
+    {
+      "from": "modpack/local",
+      "to": "extras/local.zip",
+      "local_only": true
+    },
+    {
+      "from": "modpack/impossible_data",
+      "to": "extras/impossible_data.zip",
+      "local_only": true
+    },
+    {
+      "from": "modpack/config/sodium-fingerprint.json",
+      "to": "extras/sodium-fingerprint.json",
+      "local_only": true
+    }
+  ],
+  "note": "Hashes anteriores e arquivos de origem preservados; arquivos privados/gerados e ZIPs permanecem locais e ignorados.",
+  "local_preserved_runtime": [
+    "modpack/showdown/ (860 arquivos extraídos do Cobblemon, preservados localmente e retirados somente do índice)"
+  ]
+}

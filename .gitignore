@@ -56,3 +56,20 @@ Thumbs.db
 *.pid
 *.tmp
 *.log
+
+# Preferências e registros pessoais preservados somente na máquina
+/extras/options.txt
+/extras/user-prefs.json
+/extras/ponders_watched.json
+/extras/imgui.ini
+/extras/command_history.txt
+/extras/minecraftinstance.json
+**/*.class
+# Backups próprios verificados, sem JARs de terceiros
+!/extras/M2POKEMON_BACKUPS.zip
+!/extras/M2POKEMON_REPAROS.zip
+!/extras/M2_DUAS_DIMENSOES_BACKUP.zip
+
+# Motor Showdown extraído/atualizado pelo Cobblemon no primeiro início
+/modpack/showdown/
+/extras/sodium-fingerprint.json

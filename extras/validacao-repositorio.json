@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "counts": {
+    "json": 973,
+    "toml": 220,
+    "javascript": 4,
+    "python": 8,
+    "markdown_links": 33,
+    "preserved_gameplay_files": 1210,
+    "moved_files": 35
+  },
+  "errors": [],
+  "preserved_legacy_formats": [
+    "modpack/config/lithostitched.json: formato legado preservado; Expecting property name enclosed in double quotes: line 2 column 3 (char 4)"
+  ],
+  "scope": "Validação estática; não aprova os testes de cliente ou compatibilidade dos 122 JARs."
+}

@@ -1,5 +1,5 @@
-# Minecraft 2 — Worldgen Router 1.0.0
-# Somente geração natural. Sem política global de namespaces ou inventário.
+# Minecraft 2 â€” Worldgen Router 1.0.0
+# Somente geraÃ§Ã£o natural. Sem polÃ­tica global de namespaces ou inventÃ¡rio.
 
 [world_sets.base]
 overworld = "minecraft:overworld"
@@ -10,16 +10,16 @@ end = "minecraft:the_end"
 route_nether = false
 exact_return = false
 [world_sets.base.rules.structure]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.base.rules.feature]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.base.rules.carver]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.base.rules.entity]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["natural_spawn"]
 [world_sets.base.rules.item]
 enabled = false
@@ -79,16 +79,16 @@ default = "allow"
 route_nether = false
 exact_return = false
 [world_sets.undergarden.rules.structure]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.undergarden.rules.feature]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.undergarden.rules.carver]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.undergarden.rules.entity]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["natural_spawn"]
 [world_sets.undergarden.rules.item]
 enabled = false
@@ -102,16 +102,16 @@ default = "allow"
 route_nether = false
 exact_return = false
 [world_sets.limbo.rules.structure]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.limbo.rules.feature]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.limbo.rules.carver]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.limbo.rules.entity]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["natural_spawn"]
 [world_sets.limbo.rules.item]
 enabled = false
@@ -125,16 +125,16 @@ default = "allow"
 route_nether = false
 exact_return = false
 [world_sets.pit.rules.structure]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.pit.rules.feature]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.pit.rules.carver]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.pit.rules.entity]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["natural_spawn"]
 [world_sets.pit.rules.item]
 enabled = false
@@ -148,16 +148,16 @@ default = "allow"
 route_nether = false
 exact_return = false
 [world_sets.distortion.rules.structure]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.distortion.rules.feature]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.distortion.rules.carver]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["generation"]
 [world_sets.distortion.rules.entity]
-deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato", "the_flesh_that_hates"]
 apply_to = ["natural_spawn"]
 [world_sets.distortion.rules.item]
 enabled = false

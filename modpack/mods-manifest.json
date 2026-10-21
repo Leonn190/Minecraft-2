@@ -6,7 +6,7 @@
   },
   "archive": {
     "path": "modpack/mods.zip",
-    "sha256": "e8dade5a82881da70cd14fc559ed5f815beac1cbe38c3684d816da8f436d7c2a"
+    "sha256": "fb09b5b781c9605313db7740882c85ccda70f247e5babca19a62f4d4c4b144ac"
   },
   "entries": [
     {
@@ -90,6 +90,76 @@
       },
       "dimensions": [],
       "children": []
+    },
+    {
+      "file": "mods/BOMD-NeoForge-1.21-1.3.3.jar",
+      "sha256": "93da8753a00229e41c5ed399e6cf849737e7bd9b4109d5d8e4ad3a20136deb82",
+      "bytes": 1952017,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "GNU LGPL 3.0",
+      "mods": [
+        {
+          "modId": "bosses_of_mass_destruction",
+          "version": "1.3.3",
+          "displayName": "Bosses of Mass Destruction",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge"
+        }
+      ],
+      "dependencies": {
+        "bosses_of_mass_destruction": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21,1.22)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cerbons_api",
+            "type": "required",
+            "versionRange": "[1.2.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cloth_config",
+            "type": "required",
+            "versionRange": "[15.0.140,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "geckolib",
+            "type": "required",
+            "versionRange": "[4.5.8,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "source": "https://github.com/CERBON-MODS/Bosses-of-Mass-Destruction-FORGE/issues",
+      "dimensions": [],
+      "children": [
+        {
+          "file": "mods/BOMD-NeoForge-1.21-1.3.3.jar!/META-INF/jars/mixinextras-neoforge-0.4.1.jar",
+          "sha256": "ab762113342bd73d65c5678d52f687a74d2f9cc7909bddcd3c807efbd9f56e86",
+          "bytes": 207768,
+          "nested": true,
+          "mods": [],
+          "dependencies": {},
+          "dimensions": [],
+          "children": []
+        }
+      ]
     },
     {
       "file": "mods/BetterEnd-21.0.38.jar",
@@ -249,6 +319,44 @@
         ]
       },
       "source": "https://github.com/Reijin2312/BetterNether-New-Dawn/issues",
+      "dimensions": [],
+      "children": []
+    },
+    {
+      "file": "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+      "sha256": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
+      "bytes": 250545,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "GNU LGPL 3.0",
+      "mods": [
+        {
+          "modId": "cerbons_api",
+          "version": "1.3.0",
+          "displayName": "Cerbons API",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/cerbons-api"
+        }
+      ],
+      "dependencies": {
+        "cerbons_api": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21,1.22)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "source": "https://github.com/CERBON-MODS/CERBONs-API/issues",
       "dimensions": [],
       "children": []
     },
@@ -2193,6 +2301,43 @@
       }
     },
     {
+      "file": "mods/architectury-13.0.11-neoforge.jar",
+      "sha256": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+      "bytes": 584734,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "GNU LGPLv3",
+      "mods": [
+        {
+          "modId": "architectury",
+          "version": "13.0.11",
+          "displayName": "Architectury"
+        }
+      ],
+      "dependencies": {
+        "architectury": [
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.0.110-beta,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "source": "https://github.com/shedaniel/architectury/issues",
+      "dimensions": [],
+      "children": []
+    },
+    {
       "file": "mods/ars_additions-1.21.1-21.3.0.jar",
       "sha256": "e634a3f0c39cd38007608cce1974a7c9bbad7d8202bfb6c75f17c2901f362c9b",
       "bytes": 1458261,
@@ -2850,6 +2995,50 @@
       }
     },
     {
+      "file": "mods/block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "sha256": "9e230bd509e7aeb3af4c08125db0340734c0179d83483649a16e45c0ea085e8c",
+      "bytes": 23943105,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "All Rights Reserved",
+      "mods": [
+        {
+          "modId": "block_factorys_bosses",
+          "version": "2.1.2",
+          "displayName": "Bosses'Rise",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/bossesrise"
+        }
+      ],
+      "dependencies": {
+        "block_factorys_bosses": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.209,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "geckolib",
+            "type": "required",
+            "versionRange": "[4.8.2,5)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "dimensions": [],
+      "children": []
+    },
+    {
       "file": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
       "sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
       "bytes": 328813,
@@ -3075,6 +3264,56 @@
         "curseforge_project_id": 348521,
         "curseforge_file_id": 5729127
       }
+    },
+    {
+      "file": "mods/cpn-neoforge-1.8.2+1.2.1.jar",
+      "sha256": "fdd2a02afea5a0cb58ac6c0aa12dac4adfb6464560b08e7bc5354e4e8bac103d",
+      "bytes": 63984,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "LGPLv3",
+      "mods": [
+        {
+          "modId": "cobblemonpokedexnetwork",
+          "version": "1.8.2+1.2.1",
+          "displayName": "Cobblemon Pokedex Network"
+        }
+      ],
+      "dependencies": {
+        "cobblemonpokedexnetwork": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.214,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "architectury",
+            "type": "required",
+            "versionRange": "[13.0.8,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cobblemon",
+            "type": "required",
+            "versionRange": "[1.8.2,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "dimensions": [],
+      "children": []
     },
     {
       "file": "mods/create-1.21.1-6.0.10.jar",
@@ -3747,6 +3986,68 @@
       }
     },
     {
+      "file": "mods/cristellib-neoforge-1.21.1-3.1.7.jar",
+      "sha256": "11e05dbc97bd3fe1790bd6361747240e314c1dbf40b590ea20cc691dc8396c38",
+      "bytes": 583525,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "CC BY-NC-ND 4.0",
+      "mods": [
+        {
+          "modId": "cristellib",
+          "version": "3.1.7",
+          "displayName": "Cristel Lib",
+          "displayURL": "https://modrinth.com/mod/cristel-lib"
+        }
+      ],
+      "dependencies": {
+        "cristellib": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "t_and_t",
+            "type": "incompatible",
+            "versionRange": "(,1.13.3]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "expanded_ecosphere",
+            "type": "incompatible",
+            "versionRange": "[0,3.4.3]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "dimensions": [],
+      "children": [
+        {
+          "file": "mods/cristellib-neoforge-1.21.1-3.1.7.jar!/META-INF/jars/jankson-1.2.3.jar",
+          "sha256": "16bae7b779763248f5ca596e3f7f44793a635b551359233e982ee8a4072f1670",
+          "bytes": 76959,
+          "nested": true,
+          "mods": [],
+          "dependencies": {},
+          "dimensions": [],
+          "children": []
+        }
+      ]
+    },
+    {
       "file": "mods/curios-neoforge-9.5.1+1.21.1.jar",
       "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
       "bytes": 410690,
@@ -3790,6 +4091,198 @@
         "curseforge_project_id": 309927,
         "curseforge_file_id": 6529130
       }
+    },
+    {
+      "file": "mods/echoes-0.6-NEOFORGE-1.21.1.jar",
+      "sha256": "b95b40383474357cba807baa0764455e40486d0254006a91d577d8ce5c9f8fd0",
+      "bytes": 1898078,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "MIT",
+      "mods": [
+        {
+          "modId": "echoes",
+          "version": "0.6-NEOFORGE-1.21.1",
+          "displayName": "Timeless Echoes",
+          "displayURL": "https://www.curseforge.com/minecraft/mc-mods/timeless-echoes"
+        }
+      ],
+      "dependencies": {
+        "echoes": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.233,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1, 1.21.2)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "source": "https://discord.gg/WsuFsGSegD",
+      "dimensions": [
+        "echoes:timeless"
+      ],
+      "children": [
+        {
+          "file": "mods/echoes-0.6-NEOFORGE-1.21.1.jar!/META-INF/jarjar/wdUtils-2.2-NEOFORGE-1.21.1.jar",
+          "sha256": "a6d7e0e44c60be8f08e902651e6191aedbb33f1a2939017b6be7055635907b56",
+          "bytes": 87103,
+          "metadata": "META-INF/neoforge.mods.toml",
+          "nested": true,
+          "loader": "javafml",
+          "license": "MIT",
+          "mods": [
+            {
+              "modId": "wdutils",
+              "version": "2.2-NEOFORGE-1.21.1",
+              "displayName": "wd's Utils",
+              "displayURL": "http://curseforge.com/minecraft/mc-mods/wds-utils"
+            }
+          ],
+          "dependencies": {
+            "wdutils": [
+              {
+                "modId": "neoforge",
+                "type": "required",
+                "versionRange": "[21.1.233,)",
+                "ordering": "AFTER",
+                "side": "BOTH"
+              },
+              {
+                "modId": "minecraft",
+                "type": "required",
+                "versionRange": "[1.21.1, 1.21.2)",
+                "ordering": "AFTER",
+                "side": "BOTH"
+              }
+            ]
+          },
+          "source": "https://discord.gg/WsuFsGSegD",
+          "dimensions": [],
+          "children": []
+        },
+        {
+          "file": "mods/echoes-0.6-NEOFORGE-1.21.1.jar!/META-INF/jarjar/fancytabsections-6.2-NEOFORGE-1.21.1.jar",
+          "sha256": "618521fce94491ab1d6e567c4ddf27e30350fd1bd7804aa5a4ad01aa35726ee0",
+          "bytes": 127855,
+          "metadata": "META-INF/neoforge.mods.toml",
+          "nested": true,
+          "loader": "javafml",
+          "license": "MIT",
+          "mods": [
+            {
+              "modId": "fancytabsections",
+              "version": "6.2-NEOFORGE-1.21.1",
+              "displayName": "Fancy Tab Sections",
+              "displayURL": "http://curseforge.com/minecraft/mc-mods/fancy-tab-sections"
+            }
+          ],
+          "dependencies": {
+            "fancytabsections": [
+              {
+                "modId": "neoforge",
+                "type": "required",
+                "versionRange": "[21.1.233,)",
+                "ordering": "AFTER",
+                "side": "BOTH"
+              },
+              {
+                "modId": "minecraft",
+                "type": "required",
+                "versionRange": "[1.21.1, 1.21.2)",
+                "ordering": "AFTER",
+                "side": "BOTH"
+              }
+            ]
+          },
+          "source": "https://github.com/MC-Expanded/Fancy-Tabs-Neo/issues",
+          "dimensions": [],
+          "children": [
+            {
+              "file": "mods/echoes-0.6-NEOFORGE-1.21.1.jar!/META-INF/jarjar/fancytabsections-6.2-NEOFORGE-1.21.1.jar!/META-INF/jarjar/wdUtils-1.7-NEOFORGE-1.21.1.jar",
+              "sha256": "a884028ef18b1e62654aa62339edc9f28d7eb6c85c5e6c02bb526b4bb90caa88",
+              "bytes": 43017,
+              "metadata": "META-INF/neoforge.mods.toml",
+              "nested": true,
+              "loader": "javafml",
+              "license": "MIT",
+              "mods": [
+                {
+                  "modId": "wdutils",
+                  "version": "1.7-NEOFORGE-1.21.1",
+                  "displayName": "wd's Utils",
+                  "displayURL": "http://curseforge.com/minecraft/mc-mods/wds-utils"
+                }
+              ],
+              "dependencies": {
+                "wdutils": [
+                  {
+                    "modId": "neoforge",
+                    "type": "required",
+                    "versionRange": "[21.1.233,)",
+                    "ordering": "AFTER",
+                    "side": "BOTH"
+                  },
+                  {
+                    "modId": "minecraft",
+                    "type": "required",
+                    "versionRange": "[1.21.1, 1.21.2)",
+                    "ordering": "AFTER",
+                    "side": "BOTH"
+                  }
+                ]
+              },
+              "source": "https://discord.gg/WsuFsGSegD",
+              "dimensions": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "file": "mods/echoes-0.6-NEOFORGE-1.21.1.jar!/META-INF/jarjar/libtooltips-2.3.1-NEOFORGE-1.21.1.jar",
+          "sha256": "7df716115c9a2af0d373056acaaf31ff5b0e6d3c8c0ead1aee4e857e7af3ec4f",
+          "bytes": 18126,
+          "metadata": "META-INF/neoforge.mods.toml",
+          "nested": true,
+          "loader": "javafml",
+          "license": "MIT",
+          "mods": [
+            {
+              "modId": "libtooltips",
+              "version": "2.3.1-NEOFORGE-1.21.1",
+              "displayName": "wd's Tooltips Library"
+            }
+          ],
+          "dependencies": {
+            "libtooltips": [
+              {
+                "modId": "neoforge",
+                "type": "required",
+                "versionRange": "[21.1.209,)",
+                "ordering": "NONE",
+                "side": "BOTH"
+              },
+              {
+                "modId": "minecraft",
+                "type": "required",
+                "versionRange": "[1.21.1]",
+                "ordering": "NONE",
+                "side": "BOTH"
+              }
+            ]
+          },
+          "dimensions": [],
+          "children": []
+        }
+      ]
     },
     {
       "file": "mods/entityculling-neoforge-1.11.3-mc1.21.1.jar",
@@ -3914,9 +4407,9 @@
       }
     },
     {
-      "file": "mods/exotic_worlds-1.0.0+mc1.21.1.jar",
-      "sha256": "a663312c369b8befb823dcdc1093fe78cdb204121c6d9937d03d0beb8d39a8fa",
-      "bytes": 3993395,
+      "file": "mods/exotic_worlds-1.1.4+mc1.21.1.jar",
+      "sha256": "4f58182c7c7309e161577d54623b98f9194bdaa1ebfceb2fbe06d482722b39cd",
+      "bytes": 4556503,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "lowcodefml",
@@ -3924,7 +4417,7 @@
       "mods": [
         {
           "modId": "exotic_worlds_bundle",
-          "version": "1.0.0",
+          "version": "1.1.4",
           "displayName": "Exotic Worlds (NeoForge and Fabric)"
         }
       ],
@@ -3932,9 +4425,9 @@
       "dimensions": [],
       "children": [
         {
-          "file": "mods/exotic_worlds-1.0.0+mc1.21.1.jar!/META-INF/jarjar/exotic_worlds-neoforge-1.0.0+mc1.21.1.jar",
-          "sha256": "91b90b636f87d854be897793dc5daa9ad69083770bca86c3d1e3aab977e63138",
-          "bytes": 2190594,
+          "file": "mods/exotic_worlds-1.1.4+mc1.21.1.jar!/META-INF/jarjar/exotic_worlds-neoforge-1.1.4+mc1.21.1.jar",
+          "sha256": "d1f254b279ddb92d1a1aa9b6a75b576a0439ee4a7508d4a4e75f194906d629db",
+          "bytes": 2509912,
           "metadata": "META-INF/neoforge.mods.toml",
           "nested": true,
           "loader": "javafml",
@@ -3942,7 +4435,7 @@
           "mods": [
             {
               "modId": "exotic_worlds",
-              "version": "1.0.0",
+              "version": "1.1.4",
               "displayName": "Exotic Worlds"
             }
           ],
@@ -3995,7 +4488,17 @@
           "dimensions": [],
           "children": [
             {
-              "file": "mods/exotic_worlds-1.0.0+mc1.21.1.jar!/META-INF/jarjar/exotic_worlds-neoforge-1.0.0+mc1.21.1.jar!/META-INF/jarjar/mixinsquared-neoforge-0.3.7-beta.3.jar",
+              "file": "mods/exotic_worlds-1.1.4+mc1.21.1.jar!/META-INF/jarjar/exotic_worlds-neoforge-1.1.4+mc1.21.1.jar!/META-INF/jarjar/com.exoticworlds.exotic_worlds-xaero-frames-1.1.4.jar",
+              "sha256": "9cfbeab63bb8fa222bd37a36e8aa1a6e0d5dd941b79e10f722641012171d7ce3",
+              "bytes": 8418,
+              "nested": true,
+              "mods": [],
+              "dependencies": {},
+              "dimensions": [],
+              "children": []
+            },
+            {
+              "file": "mods/exotic_worlds-1.1.4+mc1.21.1.jar!/META-INF/jarjar/exotic_worlds-neoforge-1.1.4+mc1.21.1.jar!/META-INF/jarjar/mixinsquared-neoforge-0.3.7-beta.3.jar",
               "sha256": "89901fd5be42dcb2fc90ff4f8b06f4132976eb91de990b7824cf8a5ac0b25289",
               "bytes": 110952,
               "nested": true,
@@ -4004,7 +4507,7 @@
               "dimensions": [],
               "children": [
                 {
-                  "file": "mods/exotic_worlds-1.0.0+mc1.21.1.jar!/META-INF/jarjar/exotic_worlds-neoforge-1.0.0+mc1.21.1.jar!/META-INF/jarjar/mixinsquared-neoforge-0.3.7-beta.3.jar!/META-INF/jars/MixinSquared-0.3.7-beta.3.jar",
+                  "file": "mods/exotic_worlds-1.1.4+mc1.21.1.jar!/META-INF/jarjar/exotic_worlds-neoforge-1.1.4+mc1.21.1.jar!/META-INF/jarjar/mixinsquared-neoforge-0.3.7-beta.3.jar!/META-INF/jars/MixinSquared-0.3.7-beta.3.jar",
                   "sha256": "eae4bd0dc60417ff9c3b927cafe94a8ebfce3a81c91921c65996887cf815feac",
                   "bytes": 120094,
                   "nested": true,
@@ -4679,6 +5182,50 @@
         ]
       },
       "source": "https://github.com/Flix100000/History-Stages/issues",
+      "dimensions": [],
+      "children": []
+    },
+    {
+      "file": "mods/incontrol-1.21-10.3.0.jar",
+      "sha256": "3776c11310008edaffdda0320c1a8436555ff59de36a6e3959452cbdefa98111",
+      "bytes": 356782,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "MIT License https://github.com/McJtyMods/InControl/blob/1.21_neo/LICENSE",
+      "mods": [
+        {
+          "modId": "incontrol",
+          "version": "1.21-10.3.0",
+          "displayName": "InControl"
+        }
+      ],
+      "dependencies": {
+        "incontrol": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "lostcities",
+            "type": "optional",
+            "versionRange": "[1.21-8.2.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "kubejs",
+            "type": "optional",
+            "versionRange": "[2101,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "source": "http://github.com/McJtyMods/InControl/issues",
       "dimensions": [],
       "children": []
     },
@@ -6115,9 +6662,9 @@
       }
     },
     {
-      "file": "mods/puzzleslib-v21.1.64-mc1.21.1+neoforge.jar",
-      "sha256": "8f0694456687614dea3861515ce04e2a0d0bf9d87aa48ea2edc4972b0ba4e88b",
-      "bytes": 1451067,
+      "file": "mods/puzzleslib-v21.1.65-mc1.21.1+neoforge.jar",
+      "sha256": "5317fe131954accbe884b079f75713d6f9024b291085314d6c23b3a697fc2771",
+      "bytes": 1451117,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -6125,7 +6672,7 @@
       "mods": [
         {
           "modId": "puzzleslib",
-          "version": "21.1.64",
+          "version": "21.1.65",
           "displayName": "Puzzles Lib",
           "displayURL": "https://www.curseforge.com/minecraft/mc-mods/puzzles-lib"
         }
@@ -6150,14 +6697,7 @@
       },
       "source": "https://github.com/Fuzss/puzzles-lib/issues",
       "dimensions": [],
-      "children": [],
-      "origin": {
-        "evidence": "minecraftinstance.json local; não é confirmação independente de distribuição",
-        "project_url": "https://www.curseforge.com/minecraft/mc-mods/puzzles-lib",
-        "download_url": "https://edge.forgecdn.net/files/9130/151/puzzleslib-v21.1.64-mc1.21.1%2bneoforge.jar",
-        "curseforge_project_id": 495476,
-        "curseforge_file_id": 9130151
-      }
+      "children": []
     },
     {
       "file": "mods/railways-0.2.1+neoforge-mc1.21.1.jar",
@@ -6622,6 +7162,189 @@
       }
     },
     {
+      "file": "mods/sliceanddice-4.3.4-neoforge.jar",
+      "sha256": "b3982e89611761d7f1cdce90794cd88498a2c9e1447d8a1aba33ed831f3c9201",
+      "bytes": 1356389,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "kotlinforforge",
+      "license": "https://github.com/pssbletrngle/sliceanddice/blob/main/1.21.x/LICENSE.md",
+      "mods": [
+        {
+          "modId": "sliceanddice",
+          "version": "4.3.4",
+          "displayName": "Create Slice & Dice"
+        }
+      ],
+      "dependencies": {
+        "sliceanddice": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "kotlinforforge",
+            "versionRange": "[5.8,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "atmosphere",
+            "versionRange": "[1.0.7,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create",
+            "versionRange": "[6.0.9,7.0.0)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "create_enchantment_industry",
+            "versionRange": "[1.3.0,)",
+            "ordering": "NONE",
+            "side": "BOTH",
+            "type": "optional"
+          }
+        ]
+      },
+      "source": "https://github.com/pssbletrngle/sliceanddice/issues",
+      "dimensions": [],
+      "children": [
+        {
+          "file": "mods/sliceanddice-4.3.4-neoforge.jar!/META-INF/jarjar/atmosphere-1.21.1-neoforge-1.0.18.jar",
+          "sha256": "f0f749805210f3aaef08164364d93b26ed91ab4aeabc0ea2ff364c6f2fe3dfef",
+          "bytes": 817864,
+          "metadata": "META-INF/neoforge.mods.toml",
+          "nested": true,
+          "loader": "javafml",
+          "license": "https://github.com/pssbletrngle/atmosphere/blob/main/1.21.x/LICENSE.md",
+          "mods": [
+            {
+              "modId": "atmosphere",
+              "version": "1.0.18",
+              "displayName": "Atmosphere"
+            }
+          ],
+          "dependencies": {
+            "atmosphere": [
+              {
+                "modId": "neoforge",
+                "type": "required",
+                "versionRange": "[21,)",
+                "ordering": "NONE",
+                "side": "BOTH"
+              },
+              {
+                "modId": "minecraft",
+                "type": "required",
+                "versionRange": "[1.21.1,)",
+                "ordering": "NONE",
+                "side": "BOTH"
+              }
+            ]
+          },
+          "source": "https://github.com/pssbletrngle/atmosphere/issues",
+          "dimensions": [],
+          "children": [
+            {
+              "file": "mods/sliceanddice-4.3.4-neoforge.jar!/META-INF/jarjar/atmosphere-1.21.1-neoforge-1.0.18.jar!/META-INF/jarjar/ponder-neoforge-1.0.87+mc1.21.1.jar",
+              "sha256": "d6b7fdf94359f73dc1fee730eded898d51b3bf0d626710753253becd8e4e6bef",
+              "bytes": 822408,
+              "metadata": "META-INF/neoforge.mods.toml",
+              "nested": true,
+              "loader": "javafml",
+              "license": "MIT",
+              "mods": [
+                {
+                  "modId": "ponder",
+                  "version": "1.0.87+mc1.21.1",
+                  "displayName": "Ponder",
+                  "displayURL": "https://github.com/Creators-of-Create/Ponder"
+                }
+              ],
+              "dependencies": {
+                "ponder": [
+                  {
+                    "modId": "neoforge",
+                    "type": "required",
+                    "versionRange": "[21.1.206,)",
+                    "ordering": "NONE",
+                    "side": "BOTH"
+                  },
+                  {
+                    "modId": "minecraft",
+                    "type": "required",
+                    "versionRange": "[1.21.1]",
+                    "ordering": "NONE",
+                    "side": "BOTH"
+                  },
+                  {
+                    "modId": "flywheel",
+                    "type": "required",
+                    "versionRange": "[1.0.0,2.0)",
+                    "ordering": "AFTER",
+                    "side": "CLIENT"
+                  }
+                ]
+              },
+              "source": "https://github.com/Creators-of-Create/Ponder/issues",
+              "dimensions": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "file": "mods/sliceanddice-4.3.4-neoforge.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+          "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+          "bytes": 35444,
+          "metadata": "META-INF/neoforge.mods.toml",
+          "nested": true,
+          "loader": "javafml",
+          "license": "MIT",
+          "mods": [
+            {
+              "modId": "sablecompanion",
+              "version": "1.6.0",
+              "displayName": "Sable Companion"
+            }
+          ],
+          "dependencies": {
+            "sablecompanion": [
+              {
+                "modId": "neoforge",
+                "type": "required",
+                "versionRange": "[21.1.80,)",
+                "ordering": "NONE",
+                "side": "BOTH"
+              },
+              {
+                "modId": "minecraft",
+                "type": "required",
+                "versionRange": "[1.21.1,)",
+                "ordering": "NONE",
+                "side": "BOTH"
+              }
+            ]
+          },
+          "source": "https://github.com/ryanhcode/sable-companion/issues",
+          "dimensions": [],
+          "children": []
+        }
+      ]
+    },
+    {
       "file": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
       "sha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
       "bytes": 1292934,
@@ -6884,9 +7607,9 @@
       }
     },
     {
-      "file": "mods/sophisticatedbackpacks-1.21.1-3.26.13.2214.jar",
-      "sha256": "dc5d3d9f12e3221a61b5a102e46d42b3c09a1a556d87fc023d876e7787570d63",
-      "bytes": 1253533,
+      "file": "mods/sophisticatedbackpacks-1.21.1-3.26.14.2222.jar",
+      "sha256": "f4aa76a9115c2ed1323a3e91b71561b112c0ace04062503ed297848229e530a5",
+      "bytes": 1257036,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -6894,7 +7617,7 @@
       "mods": [
         {
           "modId": "sophisticatedbackpacks",
-          "version": "3.26.13",
+          "version": "3.26.14",
           "displayName": "Sophisticated Backpacks",
           "displayURL": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks"
         }
@@ -6929,9 +7652,9 @@
       "children": []
     },
     {
-      "file": "mods/sophisticatedcore-1.21.1-1.5.16.2422.jar",
-      "sha256": "67e35ed90ea50298fc779b944a0716ef6f0a2b28b11151eb942331d5a154ba2d",
-      "bytes": 1819621,
+      "file": "mods/sophisticatedcore-1.21.1-1.5.17.2426.jar",
+      "sha256": "0ece314bf2deeeb978cdf6f38dfe691a9d2f4deb7149b4ad9c320c016a227a1b",
+      "bytes": 1819706,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -6939,7 +7662,7 @@
       "mods": [
         {
           "modId": "sophisticatedcore",
-          "version": "1.5.16",
+          "version": "1.5.17",
           "displayName": "Sophisticated Core",
           "displayURL": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core"
         }
@@ -7008,6 +7731,49 @@
         "curseforge_project_id": 361579,
         "curseforge_file_id": 6225208
       }
+    },
+    {
+      "file": "mods/strato-0.4.6.jar",
+      "sha256": "7f3427f29f859375772255c24d570fe54d12b86a4d1afdc6419f2e401cffe7ab",
+      "bytes": 638320,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "MIT",
+      "mods": [
+        {
+          "modId": "strato",
+          "version": "0.4.6",
+          "displayName": "Stratospherical Expansion"
+        }
+      ],
+      "dependencies": {
+        "strato": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1,1.22)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "terrablender",
+            "type": "required",
+            "versionRange": "[4.1.0.8,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "dimensions": [],
+      "children": []
     },
     {
       "file": "mods/supplementaries-1.21.1-4.0.2-neoforge.jar",
@@ -7159,6 +7925,50 @@
       }
     },
     {
+      "file": "mods/t_and_t-fabric-neoforge-1.13.11.jar",
+      "sha256": "270fc0d1c99e54bc15f43d64bdaac60a90cb896efc357af624988e677136440f",
+      "bytes": 3553006,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "CC-BY-NC-ND-4.0",
+      "mods": [
+        {
+          "modId": "t_and_t",
+          "version": "1.13.11",
+          "displayName": "Towns and Towers",
+          "displayURL": "https://modrinth.com/mod/towns-and-towers"
+        }
+      ],
+      "dependencies": {
+        "t_and_t": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.230,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cristellib",
+            "type": "required",
+            "versionRange": "[3.1.7,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "dimensions": [],
+      "children": []
+    },
+    {
       "file": "mods/theimpossiblelibrary-0.4.7.jar",
       "sha256": "d2df15b38eb91e57fcf2ea5fb5ac2617ff333401c4ea690b8f977dbcc7a69d1e",
       "bytes": 8165646,
@@ -7308,9 +8118,9 @@
       ]
     },
     {
-      "file": "mods/worldweaver-21.0.28.jar",
-      "sha256": "f30d9c79e7362fb134e171910bdeb1d5d328c692cfd3081006f7b8a76dc5a59b",
-      "bytes": 2215576,
+      "file": "mods/worldweaver-21.0.29.jar",
+      "sha256": "ad74878bf7e555d52f7dbe7dde21c1594b1b8a8265c5eff6a9aafd210740a8f8",
+      "bytes": 2222966,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -7318,7 +8128,7 @@
       "mods": [
         {
           "modId": "wover",
-          "version": "21.0.28",
+          "version": "21.0.29",
           "displayName": "WorldWeaver",
           "displayURL": "https://github.com/quiqueck/WorldWeaver"
         }
@@ -7609,6 +8419,16 @@
         "version": "2101.1.0-build.1"
       }
     ],
+    "ponder": [
+      {
+        "file": "mods/create-1.21.1-6.0.10.jar!/META-INF/jarjar/ponder-neoforge-1.0.82+mc1.21.1.jar",
+        "version": "1.0.82+mc1.21.1"
+      },
+      {
+        "file": "mods/sliceanddice-4.3.4-neoforge.jar!/META-INF/jarjar/atmosphere-1.21.1-neoforge-1.0.18.jar!/META-INF/jarjar/ponder-neoforge-1.0.87+mc1.21.1.jar",
+        "version": "1.0.87+mc1.21.1"
+      }
+    ],
     "sablecompanion": [
       {
         "file": "mods/createaddition-1.6.0.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
@@ -7619,8 +8439,22 @@
         "version": "1.6.0"
       },
       {
+        "file": "mods/sliceanddice-4.3.4-neoforge.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+        "version": "1.6.0"
+      },
+      {
         "file": "mods/supplementaries-1.21.1-4.0.2-neoforge.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
         "version": "1.6.0"
+      }
+    ],
+    "wdutils": [
+      {
+        "file": "mods/echoes-0.6-NEOFORGE-1.21.1.jar!/META-INF/jarjar/wdUtils-2.2-NEOFORGE-1.21.1.jar",
+        "version": "2.2-NEOFORGE-1.21.1"
+      },
+      {
+        "file": "mods/echoes-0.6-NEOFORGE-1.21.1.jar!/META-INF/jarjar/fancytabsections-6.2-NEOFORGE-1.21.1.jar!/META-INF/jarjar/wdUtils-1.7-NEOFORGE-1.21.1.jar",
+        "version": "1.7-NEOFORGE-1.21.1"
       }
     ],
     "fabric_api_base": [
@@ -7686,12 +8520,6 @@
   },
   "missing_required_ids": [],
   "note": "Metadados declarados; não certifica intervalos de versão, compatibilidade em jogo ou redistribuição.",
-  "active_comparison": {
-    "count": 111,
-    "only_zip": [],
-    "only_active": [],
-    "different_hash": []
-  },
   "declaredRangeConflicts": [
     {
       "file": "mods/DungeonsArise-1.21.1-2.1.68-release.jar",
@@ -7729,5 +8557,82 @@
       "declaredRange": "[1.21, 1.21.1)",
       "observedVersion": "1.21.1"
     }
-  ]
+  ],
+  "previous_audit_comparison": {
+    "archive_sha256": "e8dade5a82881da70cd14fc559ed5f815beac1cbe38c3684d816da8f436d7c2a",
+    "added": [
+      "mods/BOMD-NeoForge-1.21-1.3.3.jar",
+      "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+      "mods/architectury-13.0.11-neoforge.jar",
+      "mods/block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "mods/cpn-neoforge-1.8.2+1.2.1.jar",
+      "mods/cristellib-neoforge-1.21.1-3.1.7.jar",
+      "mods/echoes-0.6-NEOFORGE-1.21.1.jar",
+      "mods/exotic_worlds-1.1.4+mc1.21.1.jar",
+      "mods/incontrol-1.21-10.3.0.jar",
+      "mods/puzzleslib-v21.1.65-mc1.21.1+neoforge.jar",
+      "mods/sliceanddice-4.3.4-neoforge.jar",
+      "mods/sophisticatedbackpacks-1.21.1-3.26.14.2222.jar",
+      "mods/sophisticatedcore-1.21.1-1.5.17.2426.jar",
+      "mods/strato-0.4.6.jar",
+      "mods/t_and_t-fabric-neoforge-1.13.11.jar",
+      "mods/worldweaver-21.0.29.jar"
+    ],
+    "removed": [
+      "mods/exotic_worlds-1.0.0+mc1.21.1.jar",
+      "mods/puzzleslib-v21.1.64-mc1.21.1+neoforge.jar",
+      "mods/sophisticatedbackpacks-1.21.1-3.26.13.2214.jar",
+      "mods/sophisticatedcore-1.21.1-1.5.16.2422.jar",
+      "mods/worldweaver-21.0.28.jar"
+    ],
+    "changed_hash": [],
+    "evidence": "extras/mods-manifest-anterior.json; testes anteriores não validam o ZIP atual"
+  },
+  "preserved_evidence": "Evidências anteriores preservadas somente para o mesmo SHA-256; a auditoria do ZIP foi repetida, a comparação do perfil somente quando --active foi informado.",
+  "duplicate_top_level_ids": {},
+  "duplicate_sha256": {},
+  "launcher_comparison": {
+    "addons": 99,
+    "only_zip": [
+      "Ars Fauna-1.4.1.jar",
+      "BOMD-NeoForge-1.21-1.3.3.jar",
+      "BetterEnd-21.0.38.jar",
+      "BetterNether-21.0.29.jar",
+      "CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+      "DungeonsArise-1.21.1-2.1.68-release.jar",
+      "ProbeJS-8.0.3.jar",
+      "TFTH-1.21.1-1.1b-port-0.2.jar",
+      "architectury-13.0.11-neoforge.jar",
+      "ars_additions-1.21.1-21.3.0.jar",
+      "ars_structurize-1.1.3-neoforge-1.21.1.jar",
+      "bclib-21.0.28.jar",
+      "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "cpn-neoforge-1.8.2+1.2.1.jar",
+      "cristellib-neoforge-1.21.1-3.1.7.jar",
+      "echoes-0.6-NEOFORGE-1.21.1.jar",
+      "exotic_worlds-1.1.4+mc1.21.1.jar",
+      "historystages-6.1.0-1.21.1.jar",
+      "incontrol-1.21-10.3.0.jar",
+      "lootjs-neoforge-1.21.1-3.7.0.jar",
+      "lootr-neoforge-1.21.1-1.11.38.127.jar",
+      "puzzleslib-v21.1.65-mc1.21.1+neoforge.jar",
+      "sliceanddice-4.3.4-neoforge.jar",
+      "sophisticatedbackpacks-1.21.1-3.26.14.2222.jar",
+      "sophisticatedcore-1.21.1-1.5.17.2426.jar",
+      "strato-0.4.6.jar",
+      "t_and_t-fabric-neoforge-1.13.11.jar",
+      "worldgenrouter-1.0.0.jar",
+      "worldweaver-21.0.29.jar",
+      "xaeroworldmap-neoforge-1.21.1-1.47.0.jar"
+    ],
+    "only_launcher": [
+      "BetterEnd-21.0.37.jar",
+      "BetterNether-21.0.28.jar",
+      "ComplementaryReimagined_r5.9.3.zip",
+      "ComplementaryUnbound_r5.9.3.zip",
+      "bclib-21.0.27.jar",
+      "puzzleslib-v21.1.64-mc1.21.1+neoforge.jar",
+      "worldweaver-21.0.27.jar"
+    ]
+  }
 }

@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = C:/Users/euleo/curseforge/minecraft/Instances/M2D/saves/New World
-}
-
