@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "m2arcana:strato/mangrove_swamp",
+    "m2arcana:strato/swamp"
+  ],
+  "spawners": {
+    "type": "ars_fauna:goobuncle",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "m2arcana:minecraft/desert",
+    "m2arcana:minecraft/savanna",
+    "m2arcana:strato/badlands",
+    "m2arcana:strato/desert",
+    "m2arcana:strato/eroded_badlands",
+    "m2arcana:strato/savanna",
+    "m2arcana:strato/savanna_plateau"
+  ],
+  "spawners": {
+    "type": "ars_fauna:pyrobuncle",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -51394,9 +51394,20 @@
           }
         }
       ],
-      "type": "minecraft:multi_noise"
+      "type": "m2_worldgen:isolated_climate"
     },
     "settings": "m2pokemon:overworld",
-    "type": "minecraft:noise"
+    "type": "exotic_worlds:toroidal",
+    "wrapping": {
+      "x": {
+        "min_chunk": -156,
+        "max_chunk": 156
+      },
+      "z": {
+        "min_chunk": -156,
+        "max_chunk": 156
+      }
+    },
+    "climate_compression": false
   }
 }

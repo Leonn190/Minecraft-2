@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "br.com.minecraft2.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["SpawnPlacementsMixin", "CobblemonBiomeModifierMixin", "BeachedWhaleSpawnerMixin"],
+  "injectors": {"defaultRequire": 1}
+}

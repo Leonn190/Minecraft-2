@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "m2arcana:minecraft/dark_forest",
+    "m2arcana:strato/dark_forest"
+  ],
+  "spawners": {
+    "type": "ars_fauna:vexbuncle",
+    "weight": 40,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

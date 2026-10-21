@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "m2arcana:minecraft/desert",
+    "m2arcana:strato/desert"
+  ],
+  "spawners": {
+    "type": "ars_fauna:sandbuncle",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -2,6 +2,8 @@
 
 **Minecraft Java 1.21.1 / NeoForge.** Esta lista é um ponto de planejamento, **não é confirmação** de compatibilidade ou de inclusão no pacote.
 
+O inventário local do ZIP foi auditado em 21/10/2026: consulte [`modpack/mods-list.txt`](../modpack/mods-list.txt), o [manifesto com hashes](../modpack/mods-manifest.json) e o [relatório de validação](VALIDACAO_WORLDGEN.md). A tabela de candidatos abaixo permanece como planejamento.
+
 | Área | Mods candidatos | Status |
 |---|---|---|
 | Engenharia | Create e addons | Avaliar versões e dependências |

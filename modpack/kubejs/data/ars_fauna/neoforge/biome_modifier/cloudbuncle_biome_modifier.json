@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "m2arcana:strato/frozen_peaks",
+    "m2arcana:strato/jagged_peaks",
+    "m2arcana:strato/snowy_slopes",
+    "m2arcana:strato/stony_peaks"
+  ],
+  "spawners": {
+    "type": "ars_fauna:cloudbuncle",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

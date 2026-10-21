@@ -1,0 +1,8 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="m2_worldgen_tests"
+version="1.0.0"
+displayName="Minecraft 2 — testes isolados"
+description='''Executa diagnóstico de geração e encerra o servidor. Somente teste.'''

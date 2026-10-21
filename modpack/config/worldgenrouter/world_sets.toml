@@ -1,0 +1,165 @@
+# Minecraft 2 — Worldgen Router 1.0.0
+# Somente geração natural. Sem política global de namespaces ou inventário.
+
+[world_sets.base]
+overworld = "minecraft:overworld"
+default = "allow"
+nether = "minecraft:the_nether"
+end = "minecraft:the_end"
+[world_sets.base.portal]
+route_nether = false
+exact_return = false
+[world_sets.base.rules.structure]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.base.rules.feature]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.base.rules.carver]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.base.rules.entity]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["natural_spawn"]
+[world_sets.base.rules.item]
+enabled = false
+[world_sets.base.rules.biome]
+enabled = false
+
+[world_sets.pokemon]
+overworld = "m2pokemon:world"
+default = "allow"
+[world_sets.pokemon.portal]
+route_nether = false
+exact_return = false
+[world_sets.pokemon.rules.structure]
+deny_namespaces = ["alexsmobs", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.pokemon.rules.feature]
+deny_namespaces = ["alexsmobs", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.pokemon.rules.carver]
+deny_namespaces = ["alexsmobs", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.pokemon.rules.entity]
+deny_namespaces = ["alexsmobs", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["natural_spawn"]
+[world_sets.pokemon.rules.item]
+enabled = false
+[world_sets.pokemon.rules.biome]
+enabled = false
+
+[world_sets.arcanus]
+overworld = "m2arcana:world"
+default = "allow"
+[world_sets.arcanus.portal]
+route_nether = false
+exact_return = false
+[world_sets.arcanus.rules.structure]
+deny_namespaces = ["alexsmobs", "cobblemon"]
+apply_to = ["generation"]
+[world_sets.arcanus.rules.feature]
+deny_namespaces = ["alexsmobs", "cobblemon"]
+apply_to = ["generation"]
+[world_sets.arcanus.rules.carver]
+deny_namespaces = ["alexsmobs", "cobblemon"]
+apply_to = ["generation"]
+[world_sets.arcanus.rules.entity]
+deny_namespaces = ["alexsmobs", "cobblemon"]
+apply_to = ["natural_spawn"]
+[world_sets.arcanus.rules.item]
+enabled = false
+[world_sets.arcanus.rules.biome]
+enabled = false
+
+[world_sets.undergarden]
+overworld = "undergarden:undergarden"
+default = "allow"
+[world_sets.undergarden.portal]
+route_nether = false
+exact_return = false
+[world_sets.undergarden.rules.structure]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.undergarden.rules.feature]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.undergarden.rules.carver]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.undergarden.rules.entity]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["natural_spawn"]
+[world_sets.undergarden.rules.item]
+enabled = false
+[world_sets.undergarden.rules.biome]
+enabled = false
+
+[world_sets.limbo]
+overworld = "macabre:limbo"
+default = "allow"
+[world_sets.limbo.portal]
+route_nether = false
+exact_return = false
+[world_sets.limbo.rules.structure]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.limbo.rules.feature]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.limbo.rules.carver]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.limbo.rules.entity]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["natural_spawn"]
+[world_sets.limbo.rules.item]
+enabled = false
+[world_sets.limbo.rules.biome]
+enabled = false
+
+[world_sets.pit]
+overworld = "macabre:the_pit"
+default = "allow"
+[world_sets.pit.portal]
+route_nether = false
+exact_return = false
+[world_sets.pit.rules.structure]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.pit.rules.feature]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.pit.rules.carver]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.pit.rules.entity]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["natural_spawn"]
+[world_sets.pit.rules.item]
+enabled = false
+[world_sets.pit.rules.biome]
+enabled = false
+
+[world_sets.distortion]
+overworld = "threateningly_mobs:distortion_dimension"
+default = "allow"
+[world_sets.distortion.portal]
+route_nether = false
+exact_return = false
+[world_sets.distortion.rules.structure]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.distortion.rules.feature]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.distortion.rules.carver]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["generation"]
+[world_sets.distortion.rules.entity]
+deny_namespaces = ["cobblemon", "ars_additions", "ars_fauna", "ars_structurize", "strato"]
+apply_to = ["natural_spawn"]
+[world_sets.distortion.rules.item]
+enabled = false
+[world_sets.distortion.rules.biome]
+enabled = false

@@ -1,0 +1,266 @@
+{
+  "errors": [],
+  "dimensions": [
+    {
+      "id": "minecraft:overworld",
+      "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+      "biomeSourceClass": "net.minecraft.world.level.biome.MultiNoiseBiomeSource",
+      "coordinateScale": 1.0,
+      "biomeNamespaces": {
+        "alexscaves": 6,
+        "ars_elemental": 5,
+        "ars_nouveau": 1,
+        "biomeswevegone": 54,
+        "flying_stuff": 6,
+        "galosphere": 3,
+        "minecraft": 53,
+        "quark": 1,
+        "terrablender": 1
+      },
+      "widthx": 9984,
+      "widthz": 9984,
+      "foldBothAxes": true,
+      "alexNaturalAllowed": true,
+      "arsFaunaNaturalAllowed": false,
+      "manualAlexSpawn": true,
+      "alexsmobs:grizzly_bear/NATURAL": true,
+      "alexsmobs:grizzly_bear/CHUNK_GENERATION": true,
+      "alexsmobs:grizzly_bear/COMMAND": true,
+      "ars_fauna:chefbuncle/NATURAL": false,
+      "ars_fauna:chefbuncle/CHUNK_GENERATION": false,
+      "ars_fauna:chefbuncle/COMMAND": true,
+      "sameChunkAcrossX": true,
+      "sameChunkAcrossZ": true
+    },
+    {
+      "id": "undergarden:undergarden",
+      "generatorClass": "quek.undergarden.world.gen.UGNoiseBasedChunkGenerator",
+      "biomeSourceClass": "net.minecraft.world.level.biome.MultiNoiseBiomeSource",
+      "coordinateScale": 4.0,
+      "biomeNamespaces": {
+        "undergarden": 20
+      },
+      "widthx": 4992,
+      "widthz": 4992,
+      "foldBothAxes": true,
+      "alexNaturalAllowed": true,
+      "arsFaunaNaturalAllowed": false,
+      "manualAlexSpawn": true,
+      "alexsmobs:grizzly_bear/NATURAL": true,
+      "alexsmobs:grizzly_bear/CHUNK_GENERATION": true,
+      "alexsmobs:grizzly_bear/COMMAND": true,
+      "ars_fauna:chefbuncle/NATURAL": false,
+      "ars_fauna:chefbuncle/CHUNK_GENERATION": false,
+      "ars_fauna:chefbuncle/COMMAND": true,
+      "sameChunkAcrossX": true,
+      "sameChunkAcrossZ": true
+    },
+    {
+      "id": "m2arcana:world",
+      "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+      "biomeSourceClass": "br.com.minecraft2.IsolatedClimateBiomeSource",
+      "coordinateScale": 1.0,
+      "biomeNamespaces": {
+        "m2arcana": 51
+      },
+      "widthx": 3008,
+      "widthz": 3008,
+      "foldBothAxes": true,
+      "alexNaturalAllowed": false,
+      "arsFaunaNaturalAllowed": true,
+      "manualAlexSpawn": true,
+      "alexsmobs:grizzly_bear/NATURAL": false,
+      "alexsmobs:grizzly_bear/CHUNK_GENERATION": false,
+      "alexsmobs:grizzly_bear/COMMAND": true,
+      "ars_fauna:chefbuncle/NATURAL": true,
+      "ars_fauna:chefbuncle/CHUNK_GENERATION": true,
+      "ars_fauna:chefbuncle/COMMAND": true,
+      "sameChunkAcrossX": true,
+      "sameChunkAcrossZ": true
+    },
+    {
+      "id": "macabre:the_pit",
+      "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+      "biomeSourceClass": "net.minecraft.world.level.biome.MultiNoiseBiomeSource",
+      "coordinateScale": 1.0,
+      "biomeNamespaces": {
+        "macabre": 15
+      },
+      "widthx": 2016,
+      "widthz": 2016,
+      "foldBothAxes": true,
+      "alexNaturalAllowed": true,
+      "arsFaunaNaturalAllowed": false,
+      "manualAlexSpawn": true,
+      "alexsmobs:grizzly_bear/NATURAL": true,
+      "alexsmobs:grizzly_bear/CHUNK_GENERATION": true,
+      "alexsmobs:grizzly_bear/COMMAND": true,
+      "ars_fauna:chefbuncle/NATURAL": false,
+      "ars_fauna:chefbuncle/CHUNK_GENERATION": false,
+      "ars_fauna:chefbuncle/COMMAND": true,
+      "sameChunkAcrossX": true,
+      "sameChunkAcrossZ": true
+    },
+    {
+      "id": "minecraft:the_nether",
+      "generatorClass": "org.betterx.wover.generator.impl.chunkgenerator.WoverChunkGenerator",
+      "biomeSourceClass": "org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource",
+      "coordinateScale": 2.0,
+      "biomeNamespaces": {
+        "betternether": 23,
+        "minecraft": 5
+      },
+      "widthx": 4992,
+      "widthz": 4992,
+      "foldBothAxes": true,
+      "alexNaturalAllowed": true,
+      "arsFaunaNaturalAllowed": false,
+      "manualAlexSpawn": true,
+      "alexsmobs:grizzly_bear/NATURAL": true,
+      "alexsmobs:grizzly_bear/CHUNK_GENERATION": true,
+      "alexsmobs:grizzly_bear/COMMAND": true,
+      "ars_fauna:chefbuncle/NATURAL": false,
+      "ars_fauna:chefbuncle/CHUNK_GENERATION": false,
+      "ars_fauna:chefbuncle/COMMAND": true,
+      "sameChunkAcrossX": true,
+      "sameChunkAcrossZ": true
+    },
+    {
+      "id": "m2pokemon:world",
+      "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+      "biomeSourceClass": "br.com.minecraft2.IsolatedClimateBiomeSource",
+      "coordinateScale": 1.0,
+      "biomeNamespaces": {
+        "m2pokemon": 148
+      },
+      "widthx": 4992,
+      "widthz": 4992,
+      "foldBothAxes": true,
+      "alexNaturalAllowed": false,
+      "arsFaunaNaturalAllowed": false,
+      "manualAlexSpawn": true,
+      "alexsmobs:grizzly_bear/NATURAL": false,
+      "alexsmobs:grizzly_bear/CHUNK_GENERATION": false,
+      "alexsmobs:grizzly_bear/COMMAND": true,
+      "ars_fauna:chefbuncle/NATURAL": false,
+      "ars_fauna:chefbuncle/CHUNK_GENERATION": false,
+      "ars_fauna:chefbuncle/COMMAND": true,
+      "sameChunkAcrossX": true,
+      "sameChunkAcrossZ": true
+    },
+    {
+      "id": "minecraft:the_end",
+      "generatorClass": "org.betterx.wover.generator.impl.chunkgenerator.WoverChunkGenerator",
+      "biomeSourceClass": "org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource",
+      "coordinateScale": 1.0,
+      "biomeNamespaces": {
+        "betterend": 21,
+        "minecraft": 5
+      },
+      "widthx": 6016,
+      "widthz": 6016,
+      "foldBothAxes": true,
+      "alexNaturalAllowed": true,
+      "arsFaunaNaturalAllowed": false,
+      "manualAlexSpawn": true,
+      "alexsmobs:grizzly_bear/NATURAL": true,
+      "alexsmobs:grizzly_bear/CHUNK_GENERATION": true,
+      "alexsmobs:grizzly_bear/COMMAND": true,
+      "ars_fauna:chefbuncle/NATURAL": false,
+      "ars_fauna:chefbuncle/CHUNK_GENERATION": false,
+      "ars_fauna:chefbuncle/COMMAND": true,
+      "sameChunkAcrossX": true,
+      "sameChunkAcrossZ": true
+    }
+  ],
+  "portals": {
+    "pokemonDestination": "m2pokemon:world",
+    "pokemonTint": 14426925,
+    "arcanusDestination": "m2arcana:world",
+    "arcanusTint": 10173670,
+    "netherSourceX": 4000.5,
+    "netherDestinationX": 1988.5,
+    "frameAndIgnitionCases": 52,
+    "originalUndergardenCatalyst": true,
+    "scope": "Servidor real; FakePlayer para cliques, porco para viagens. Sem cliente ou dois jogadores conectados."
+  },
+  "cobblemonFeatureInjectionByBiomeNamespace": {
+    "m2pokemon": 1558
+  },
+  "passed": true,
+  "execution": {
+    "recorded_utc": "2026-10-21T17:21:04.589540+00:00",
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.263",
+    "java_runtime": "Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS",
+    "world": "m2-portals-validation-v3",
+    "seed": 420211,
+    "client_opened": false,
+    "player_portals_tested": false,
+    "portal_entity_roundtrips_tested": true,
+    "source_log": "boot-portals-v3.txt",
+    "test_jar_sha256": "8efd150131c6d132809de373750fddf9fe72b3ced7516ca42de63ea9568897c6"
+  },
+  "artifacts": [
+    {
+      "file": "m2-worldgen-1.0.0.jar",
+      "version": "1.0.0",
+      "sha256": "619e133327b4721864e17a6601c75b92cc26369fc058b977c413e3687f765f99"
+    },
+    {
+      "file": "strato-0.4.1-m2.1.jar",
+      "version": "0.4.1-m2.1",
+      "sha256": "865451f443b83ea80e9cc5e010ac75468368610c5d75cbe1fe25a539cb4d8fa7"
+    }
+  ],
+  "router_validation": {
+    "valid": true,
+    "indexedResourceCount": 4380,
+    "errors": [],
+    "warnings": []
+  },
+  "periodicity_samples": [
+    {
+      "dimension": "minecraft:overworld",
+      "axis": "X",
+      "width_blocks": 9984,
+      "samples": 9
+    },
+    {
+      "dimension": "m2pokemon:world",
+      "axis": "X",
+      "width_blocks": 4992,
+      "samples": 9
+    },
+    {
+      "dimension": "m2arcana:world",
+      "axis": "X",
+      "width_blocks": 3008,
+      "samples": 9
+    },
+    {
+      "dimension": "minecraft:the_nether",
+      "axis": "X",
+      "width_blocks": 4992,
+      "samples": 9
+    },
+    {
+      "dimension": "undergarden:undergarden",
+      "axis": "X",
+      "width_blocks": 4992,
+      "samples": 9
+    },
+    {
+      "dimension": "macabre:the_pit",
+      "axis": "X",
+      "width_blocks": 2016,
+      "samples": 9
+    },
+    {
+      "dimension": "minecraft:the_end",
+      "axis": "X",
+      "width_blocks": 6016,
+      "samples": 9
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "m2arcana:minecraft/forest",
+    "m2arcana:minecraft/plains",
+    "m2arcana:strato/flower_forest",
+    "m2arcana:strato/forest",
+    "m2arcana:strato/grove",
+    "m2arcana:strato/meadow",
+    "m2arcana:strato/plains",
+    "m2arcana:strato/sunflower_plains"
+  ],
+  "spawners": {
+    "type": "ars_fauna:songbuncle",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "m2arcana:minecraft/snowy_beach",
+    "m2arcana:minecraft/snowy_plains",
+    "m2arcana:minecraft/snowy_taiga",
+    "m2arcana:strato/frozen_peaks",
+    "m2arcana:strato/frozen_river",
+    "m2arcana:strato/ice_spikes",
+    "m2arcana:strato/snowy_beach",
+    "m2arcana:strato/snowy_plains",
+    "m2arcana:strato/snowy_slopes",
+    "m2arcana:strato/snowy_taiga"
+  ],
+  "spawners": {
+    "type": "ars_fauna:frostbuncle",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

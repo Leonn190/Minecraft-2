@@ -49,6 +49,8 @@ A configuração já aponta para `https://leonn190.github.io/Minecraft-2/`. Para
 - [`docs/PROGRESSAO.md`](docs/PROGRESSAO.md) — proposta inicial de capítulos
 - [`docs/MODS.md`](docs/MODS.md) — candidatos e validação
 - [`docs/ROADMAP.md`](docs/ROADMAP.md) — próximos marcos
+- [`docs/VALIDACAO_WORLDGEN.md`](docs/VALIDACAO_WORLDGEN.md) — integração local, reprodução dos testes e pendências de geração
+- [`docs/PORTAIS_DIMENSIONAIS.md`](docs/PORTAIS_DIMENSIONAIS.md) — molduras, Catalyst e validação dos portais BBL
 - [`AGENTS.md`](AGENTS.md) — regras para trabalho assistido por IA
 
 ## Licenças

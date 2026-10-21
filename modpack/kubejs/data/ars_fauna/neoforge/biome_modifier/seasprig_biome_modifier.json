@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "m2arcana:minecraft/lukewarm_ocean",
+    "m2arcana:minecraft/ocean",
+    "m2arcana:minecraft/warm_ocean",
+    "m2arcana:strato/deep_lukewarm_ocean",
+    "m2arcana:strato/deep_ocean",
+    "m2arcana:strato/lukewarm_ocean",
+    "m2arcana:strato/ocean",
+    "m2arcana:strato/river",
+    "m2arcana:strato/warm_ocean"
+  ],
+  "spawners": {
+    "type": "ars_fauna:seasprig",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

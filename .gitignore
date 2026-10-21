@@ -31,5 +31,28 @@ Thumbs.db
 **/run/
 
 # Archives and temporary binaries
+*.jar
+*.zip
+*.dll
+*.exe
+**/.sable/
+**/dynamic-data-pack-cache/
+**/dynamic-resource-pack-cache/
+**/.mixin.out/
+**/downloads/
+**/session.lock
+**/usercache.json
+**/usernamecache.json
+**/hs_err_pid*
+**/replay_pid*
+**/__pycache__/
+**/worldgenrouter/generated/
+**/worldgenrouter/dimension-history.json
+**/worldgenrouter/generated-resource-index.json
+**/worldgenrouter/validation-report.json
+**/kubejs/exported/
+*.hprof
+*.dmp
+*.pid
 *.tmp
 *.log

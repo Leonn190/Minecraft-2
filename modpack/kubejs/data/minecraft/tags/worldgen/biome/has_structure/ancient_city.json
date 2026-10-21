@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:deep_dark",
+    "m2arcana:strato/frozen_peaks",
+    "m2arcana:strato/jagged_peaks",
+    "m2arcana:strato/meadow",
+    "m2arcana:strato/snowy_slopes",
+    "m2arcana:strato/stony_peaks",
+    "m2arcana:strato/windswept_forest",
+    "m2arcana:strato/windswept_hills",
+    "m2arcana:strato/windswept_gravelly_hills"
+  ]
+}

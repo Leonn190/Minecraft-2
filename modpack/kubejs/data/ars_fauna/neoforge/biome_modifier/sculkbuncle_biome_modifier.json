@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [],
+  "spawners": {
+    "type": "ars_fauna:sculkbuncle",
+    "weight": 60,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

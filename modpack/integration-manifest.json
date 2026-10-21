@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.263",
+  "java_compile": "Microsoft OpenJDK 21.0.12.1",
+  "source": {
+    "strato_url": "https://github.com/Kamilhik/Stratospherical-Expansion-NeoForge",
+    "strato_commit": "e5da51aabda9801885a15a446001e159411a63ea",
+    "strato_license": "MIT; licença no JAR local e attribution em docs/VALIDACAO_WORLDGEN.md"
+  },
+  "artifacts": [
+    {
+      "file": "m2-worldgen-1.0.0.jar",
+      "version": "1.0.0",
+      "sha256": "619e133327b4721864e17a6601c75b92cc26369fc058b977c413e3687f765f99"
+    },
+    {
+      "file": "strato-0.4.1-m2.1.jar",
+      "version": "0.4.1-m2.1",
+      "sha256": "865451f443b83ea80e9cc5e010ac75468368610c5d75cbe1fe25a539cb4d8fa7"
+    }
+  ],
+  "note": "Complemento local ao ZIP inventariado; não representa nova lista de mods ativos nem aprovação de distribuição dos demais mods."
+}
