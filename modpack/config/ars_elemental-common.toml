@@ -94,7 +94,8 @@ frame_skip_recipe = false
 	#Set over 0 to enable archwood forests with specific trees
 	# Default: 1
 	# Range: 0 ~ 100
-	extra_biomes = 1
+	# M2-024: desativa injeção TerraBlender global, sem desativar recursos Ars.
+	extra_biomes = 0
 	#Set to false to disable the lightning crashing often on flashing archwood biome(s).
 	always_thunder = true
 	#If enabled, homing will be able to target mobs only if they're glowing

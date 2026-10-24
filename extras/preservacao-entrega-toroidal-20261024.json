@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "preserved_tracked_profile_files": 1239,
+  "intentional_profile_changes": [
+    "modpack/config/ars_elemental-common.toml",
+    "modpack/config/ars_nouveau-common.toml",
+    "modpack/config/worldgenrouter/world_sets.toml",
+    "modpack/kubejs/data/ars_elemental/neoforge/biome_modifier/common_flashing_archwood.json",
+    "modpack/kubejs/data/m2arcana/dimension/world.json"
+  ],
+  "delivered_override_files": 1244,
+  "all_delivered_overrides_match_tested_inputs": true,
+  "shipped_jars": [
+    {
+      "file": "m2-worldgen-1.1.0.jar",
+      "sha256": "538cf46f66f5fb6a3cc85d1f774bed1534ac507df8338990c4023e88b8967109",
+      "bytes": 28741,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "All Rights Reserved",
+      "mods": [
+        {
+          "modId": "m2_worldgen",
+          "version": "1.1.0",
+          "displayName": "Minecraft 2 — integração de geração"
+        }
+      ],
+      "dependencies": {
+        "m2_worldgen": [
+          {
+            "modId": "portals",
+            "type": "required",
+            "versionRange": "[1.2.2]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1.263,21.2)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "exotic_worlds",
+            "type": "required",
+            "versionRange": "[1.1.4]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cobblemon",
+            "type": "optional",
+            "versionRange": "[1.8.2,1.9)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "source": null,
+      "dimensions": [],
+      "children": []
+    },
+    {
+      "file": "strato-0.4.1-m2.1.jar",
+      "sha256": "865451f443b83ea80e9cc5e010ac75468368610c5d75cbe1fe25a539cb4d8fa7",
+      "bytes": 336231,
+      "metadata": "META-INF/neoforge.mods.toml",
+      "nested": false,
+      "loader": "javafml",
+      "license": "MIT",
+      "mods": [
+        {
+          "modId": "strato",
+          "version": "0.4.1-m2.1",
+          "displayName": "Stratospherical Expansion"
+        }
+      ],
+      "dependencies": {
+        "strato": [
+          {
+            "modId": "neoforge",
+            "type": "required",
+            "versionRange": "[21.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "versionRange": "[1.21.1,1.22)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "terrablender",
+            "type": "required",
+            "versionRange": "[4.1.0.8,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "source": null,
+      "dimensions": [],
+      "children": []
+    }
+  ],
+  "site_source_changed": false,
+  "client_started": false
+}

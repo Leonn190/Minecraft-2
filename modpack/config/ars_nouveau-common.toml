@@ -23,7 +23,8 @@
 	#Archwood forest spawn weight
 	# Default: 2
 	# Range: > 0
-	archwoodForest = 2
+	# M2-024: somente região TerraBlender global; clone Arcanus usa clima próprio.
+	archwoodForest = 0
 	#How many inventories can lectern support per bookwyrm
 	# Default: 8
 	# Range: > 1

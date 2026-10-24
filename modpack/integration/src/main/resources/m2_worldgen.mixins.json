@@ -4,6 +4,7 @@
   "package": "br.com.minecraft2.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ArcanusClimateFieldsMixin",
     "SpawnPlacementsMixin",
     "CobblemonBiomeModifierMixin",
     "BeachedWhaleSpawnerMixin",

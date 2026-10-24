@@ -1,0 +1,218 @@
+{
+  "state": "static_only",
+  "passed": true,
+  "errors": [],
+  "archive_sha256": "f9e5866f8b2b553369edaca9c9232e346c0c76dcae77c069c66f692de19f9bbe",
+  "dimensions": {
+    "minecraft:overworld": {
+      "generator": "exotic_worlds:toroidal",
+      "wrapping": {
+        "x": {
+          "min_chunk": -312,
+          "max_chunk": 312
+        },
+        "z": {
+          "min_chunk": -312,
+          "max_chunk": 312
+        }
+      },
+      "climate_compression": false
+    },
+    "minecraft:the_nether": {
+      "generator": "wover:betterx",
+      "wrapping": {
+        "x": {
+          "min_chunk": -156,
+          "max_chunk": 156
+        },
+        "z": {
+          "min_chunk": -156,
+          "max_chunk": 156
+        }
+      },
+      "climate_compression": false
+    },
+    "minecraft:the_end": {
+      "generator": "wover:betterx",
+      "wrapping": {
+        "x": {
+          "min_chunk": -188,
+          "max_chunk": 188
+        },
+        "z": {
+          "min_chunk": -188,
+          "max_chunk": 188
+        }
+      },
+      "climate_compression": false
+    },
+    "m2pokemon:world": {
+      "generator": "exotic_worlds:toroidal",
+      "wrapping": {
+        "x": {
+          "min_chunk": -156,
+          "max_chunk": 156
+        },
+        "z": {
+          "min_chunk": -156,
+          "max_chunk": 156
+        }
+      },
+      "climate_compression": false
+    },
+    "m2arcana:world": {
+      "generator": "exotic_worlds:toroidal",
+      "wrapping": {
+        "x": {
+          "min_chunk": -94,
+          "max_chunk": 94
+        },
+        "z": {
+          "min_chunk": -94,
+          "max_chunk": 94
+        }
+      },
+      "climate_compression": {
+        "mode": "strong"
+      }
+    },
+    "undergarden:undergarden": {
+      "generator": "undergarden:noise",
+      "wrapping": {
+        "x": {
+          "min_chunk": -156,
+          "max_chunk": 156
+        },
+        "z": {
+          "min_chunk": -156,
+          "max_chunk": 156
+        }
+      },
+      "climate_compression": false
+    },
+    "macabre:the_pit": {
+      "generator": "exotic_worlds:toroidal",
+      "wrapping": {
+        "x": {
+          "min_chunk": -63,
+          "max_chunk": 63
+        },
+        "z": {
+          "min_chunk": -63,
+          "max_chunk": 63
+        }
+      },
+      "climate_compression": false
+    }
+  },
+  "arcanus": {
+    "climate_entries": 7590,
+    "palette_size": 51,
+    "entries_per_biome": {
+      "m2arcana:ars_nouveau/archwood_forest": 64,
+      "m2arcana:strato/badlands": 282,
+      "m2arcana:strato/bamboo_jungle": 104,
+      "m2arcana:strato/beach": 330,
+      "m2arcana:strato/birch_forest": 100,
+      "m2arcana:strato/cherry_grove": 60,
+      "m2arcana:strato/cold_ocean": 2,
+      "m2arcana:strato/dark_forest": 212,
+      "m2arcana:strato/deep_cold_ocean": 2,
+      "m2arcana:strato/deep_frozen_ocean": 2,
+      "m2arcana:strato/deep_lukewarm_ocean": 2,
+      "m2arcana:strato/deep_ocean": 2,
+      "m2arcana:strato/desert": 708,
+      "m2arcana:strato/eroded_badlands": 144,
+      "m2arcana:strato/flower_forest": 80,
+      "m2arcana:strato/forest": 524,
+      "m2arcana:strato/frozen_ocean": 2,
+      "m2arcana:strato/frozen_peaks": 120,
+      "m2arcana:strato/frozen_river": 10,
+      "m2arcana:strato/grove": 312,
+      "m2arcana:strato/ice_spikes": 102,
+      "m2arcana:strato/jagged_peaks": 120,
+      "m2arcana:strato/jungle": 248,
+      "m2arcana:strato/lukewarm_ocean": 2,
+      "m2arcana:strato/mangrove_swamp": 14,
+      "m2arcana:strato/meadow": 180,
+      "m2arcana:strato/mushroom_fields": 2,
+      "m2arcana:strato/ocean": 2,
+      "m2arcana:strato/old_growth_birch_forest": 76,
+      "m2arcana:strato/old_growth_pine_taiga": 112,
+      "m2arcana:strato/old_growth_spruce_taiga": 100,
+      "m2arcana:strato/plains": 586,
+      "m2arcana:strato/river": 8,
+      "m2arcana:strato/savanna": 356,
+      "m2arcana:strato/savanna_plateau": 128,
+      "m2arcana:strato/snowy_beach": 110,
+      "m2arcana:strato/snowy_plains": 388,
+      "m2arcana:strato/snowy_slopes": 208,
+      "m2arcana:strato/snowy_taiga": 310,
+      "m2arcana:strato/sparse_jungle": 86,
+      "m2arcana:strato/stony_peaks": 80,
+      "m2arcana:strato/stony_shore": 12,
+      "m2arcana:strato/sunflower_plains": 76,
+      "m2arcana:strato/swamp": 14,
+      "m2arcana:strato/taiga": 352,
+      "m2arcana:strato/warm_ocean": 4,
+      "m2arcana:strato/windswept_forest": 142,
+      "m2arcana:strato/windswept_gravelly_hills": 96,
+      "m2arcana:strato/windswept_hills": 114,
+      "m2arcana:strato/windswept_savanna": 216,
+      "m2arcana:strato/wooded_badlands": 284
+    },
+    "note": "Contagem de entradas não é frequência espacial nem peso probabilístico."
+  },
+  "original_dimension_content_preserved": {
+    "undergarden": true,
+    "macabre": true
+  },
+  "gameplay_resources_checked": 33,
+  "source_sha256": {
+    "modpack/integration/src/main/java/br/com/minecraft2/gameplay/GameplayRules.java": "a65f2a4f3d6724c8d7bbd5a822f558a8fa43a7a61e2f7b9712cf29ed44c29302",
+    "modpack/integration/src/main/java/br/com/minecraft2/IsolatedClimateBiomeSource.java": "f9b832745b120a32e1d7866886a2908397e4d5dde4921f25d2a307eeafd11170",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/ArcanusClimateFieldsMixin.java": "0a9d2d44e02541dcbe90812e33b772d6a5ef86260cc477a1bdeffad02cbbc530",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/BeachedWhaleSpawnerMixin.java": "53524ffe829a55d2f0574a537b86a6996054d43fa1e2f75975cc50355c780b28",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/CobblemonBiomeModifierMixin.java": "a3ca629248d181e52102e943798102c56b7050898686a4c8b2c15adc1309e188",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshBlockTicksMixin.java": "e89a26937c322dea660c96b044a5616384e45bc0e8d915a9815648cc9afc74e3",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshEnvironmentEventsMixin.java": "ed0d30c12f19a6440bf82fdbdb111d482dd314aea17beaa96dd50960204085dd",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshFluidMixin.java": "f5e8c78cd1e290d267bdb16b8d338eb494bcac563a2ecf26c856536981dbc84b",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshIncubatorLevelsMixin.java": "1082b9d896a3173b18361631d53aa4e2364489dd739ced512757bb051e6c2e3a",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshInfectionAttackMixin.java": "d847370d28d5e69e8bffc8ba76ab5acfb1555ebec7fbded3f3bef5d1bccde82f",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshInfectionEffectMixin.java": "855093ef24f64d232298dca181e5fad65696cd3b329e5d5b873f9cfa21981968",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshProgressionEventsMixin.java": "24658de9d9f30c6e97e7f14ab538e5ea7050bff954f34d2872db3d13bf56c200",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshSpreadMixin.java": "549a5311d7bcd386332e7954b01d619e3e5740bd12a57d5e9a6f60aa8d05b41f",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshStageMessagesMixin.java": "ae307ef3d6723ffd3a0f7ef578d2ebca0d3a68e00e7e659708e0e34a03d3bbc8",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshStructuresMixin.java": "fc4ce6c37274ad17d6542fde6bb8e656235f09016672774d272b84643bdd1504",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/FleshTransformationMixin.java": "d1f7b6397ea78908ca68b1d536921697202b15441d884f985a2b8c01ad3fac5e",
+    "modpack/integration/src/main/java/br/com/minecraft2/mixin/SpawnPlacementsMixin.java": "06205d042f60f6941607aa012cc0999c6cdce1738fac930c2a3f5127c2871101",
+    "modpack/integration/src/main/java/br/com/minecraft2/portal/DimensionPortalFrame.java": "362841dc23f683a4beb7d6b108fc64d626196b54d1143be665f5463f1c2530d9",
+    "modpack/integration/src/main/java/br/com/minecraft2/portal/PortalIntegration.java": "d5cb1185323eab7d8de922c0407479b32d220164ae96286bcbba95cb6d84b1e6",
+    "modpack/integration/src/main/java/br/com/minecraft2/WorldgenIntegration.java": "7a7ef870c82f3750601b5b1edfa79df63d9f42c276b17712ed1a013196acbf15",
+    "modpack/integration/src/main/java/br/com/minecraft2/WorldShapeDiagnostics.java": "03ad1ecef11f49e103fb4e91494028a236d0520976d168a445ca4c49f679eee2",
+    "modpack/integration/src/main/resources/m2_worldgen.mixins.json": "0cb59f6744d1e836620b6471c2bb290dab2373eab4e6867174f31cdfe0e59e33",
+    "modpack/integration/src/main/resources/META-INF/neoforge.mods.toml": "a0ec749c95d21da5c5cb5557b7be8ab88abb06569577fb891c647ac62903a357",
+    "modpack/integration/src/test/java/br/com/minecraft2/test/GameplaySmokeTest.java": "db296bce86e3de55eb62c9afdeb5dc2bc687e146a04a37107e936868ca6757ae",
+    "modpack/integration/src/test/java/br/com/minecraft2/test/PortalSmokeTest.java": "26f25bd74b42e373b56fbab8183deb597c2d03b120a4133afe28a6b98ab64e91",
+    "modpack/integration/src/test/java/br/com/minecraft2/test/TopologyAudit.java": "a56b18bd33f657ea6cf8f9793fe58032be9cf9da05e9ec7bd062b30c66e5bbde",
+    "modpack/integration/src/test/java/br/com/minecraft2/test/WorldgenSmokeTest.java": "5b459e5c6431f6a4fae2ac52521e5f6a8db9c201430de92a1a9a694400e01933",
+    "modpack/integration/src/test/resources/META-INF/neoforge.mods.toml": "90c7463240c44a15d4573402b77808a08870e6b9d0ab7f9fc63150c4902819af",
+    "modpack/development/audit_mods.py": "db7e09c8a7199e1ceed79d00eff3dc059480075e517d304b71b4321ceccb4d3e",
+    "modpack/development/audit_worldgen_contract.py": "24db92f34381b9ed5475bab5f6aab823d0ec18f4c32f6444279f59fbdf69ddf1",
+    "modpack/development/build_delivery.py": "b179a0f4f6a27f106380d4802aceef42d4b41b0cadb2dacf55b58a5d92dc08ed",
+    "modpack/development/build_integration.py": "1760b8e5e1f708d6886f2d04ed913e0386d2d78ef5e81136fd32388b622ea5c4",
+    "modpack/development/build_strato.py": "17a8707cab0e2f02008572fe83cd6c5e09797e65a59fe21cac02acab4eb562a0",
+    "modpack/development/build_support.py": "bc84db32c1354afa220b391f5d68c746c0f03d19d5017fb9b434e5f9117578dc",
+    "modpack/development/CheckModVersions.java": "702ef547abfb8f0e25a3e81874d7313586edd4f6aa2bf1dc3a76dfd99f7395a3",
+    "modpack/development/gameplay_data.py": "18008dd17637773a87101356bb2aa78de6d2d99833d51d0f9086dfa2e363409e",
+    "modpack/development/generate_worldgen.py": "67f250a6806a9f71f65622bf0c9a05bef8287432dd3dbd2fb8f6286717464049",
+    "modpack/development/inspect_saved_worldgen.py": "8c694e0a47dc82e6274264bfe1dca82bdb8f18bc42f7dd00dabc048a760af465",
+    "modpack/development/prepare_strato.py": "e53228a7041d6a9a4554b113e8e679c82eab64bfa3bb4fc6c60dcc403e1b9a75",
+    "modpack/development/record_topology_audit.py": "f423d36f49d0ab3393f5b14b2ab18e4fe8f36b35e726eda6f3e226ced94c4895",
+    "modpack/development/run_topology_audit.py": "239b3373705795ca013f271a283570284a39d70e6e331f71a27d649c30c74a56",
+    "modpack/development/stage_worldgen_profile.py": "cc735d0aa212c5c0e9da2d2aa6e6e48d9789c91eb65176d8d63ffd7dddadac12",
+    "modpack/development/validate_repository.py": "676612a57fe8f4fda58a043ecb766a0d129e9868352227a555ac68a61c568c08"
+  },
+  "manual_client": "not_run",
+  "fluids_entities_ticks_structures_maps": "not_approved_by_static_checks"
+}

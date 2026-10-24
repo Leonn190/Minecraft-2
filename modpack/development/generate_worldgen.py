@@ -120,6 +120,7 @@ def main():
     lines = ['# Minecraft 2 — Worldgen Router 1.0.0', '# Somente geração natural. Sem política global de namespaces ou inventário.', '']
     for name, (dimension, deny) in worlds.items():
         if name!='arcanus':deny=[*deny,'strato']
+        if name!='arcanus':deny=[*deny,'ars_nouveau','ars_elemental']
         if name not in {'pokemon','arcanus'}:deny=[*deny,'the_flesh_that_hates']
         header = 'world_sets.'+name
         lines += ['['+header+']', 'overworld = '+json.dumps(dimension), 'default = "allow"']
@@ -165,7 +166,11 @@ def main():
             # evita duplicar milhares de parâmetros climáticos dentro do preset.
             if ns in {'m2pokemon','m2arcana'}:
                 stem['generator']['biome_source']['type']='m2_worldgen:isolated_climate'
-            write(DATA/ns/'dimension'/f'{name}.json',toroidal(stem,width))
+            converted=toroidal(stem,width)
+            # M2-025: modo STRONG oficial ajusta só o clima ao mapa de 3008 blocos.
+            # Mantém as 7590 entradas/51 IDs, sem alterar pesos/faixas ou as outras dimensões.
+            if ns=='m2arcana':converted['generator']['climate_compression']={'mode':'strong'}
+            write(DATA/ns/'dimension'/f'{name}.json',converted)
     # 1:2 is a dimension-type property, not just the ratio between widths.
     with zipfile.ZipFile(args.vanilla) as jar:
         nether_type = json.loads(jar.read('data/minecraft/dimension_type/the_nether.json'))

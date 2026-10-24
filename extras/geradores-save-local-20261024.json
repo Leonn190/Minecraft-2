@@ -1,0 +1,102 @@
+{
+  "state": "read_only_saved_metadata",
+  "level_dat_sha256": "bd03b8b81352886158f8ce475229b840394dd3de36f2eaf18197190db5bf2bde",
+  "data_version": 3955,
+  "dimensions": {
+    "minecraft:the_nether": {
+      "type": "wover:betterx",
+      "settings": "minecraft:nether",
+      "biome_source_type": "wover:nether_biome_source"
+    },
+    "m2pokemon:world": {
+      "type": "exotic_worlds:toroidal",
+      "settings": "m2pokemon:overworld",
+      "wrapping": {
+        "z": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        },
+        "x": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "m2_worldgen:isolated_climate"
+    },
+    "minecraft:overworld": {
+      "type": "minecraft:noise",
+      "settings": "minecraft:overworld",
+      "biome_source_type": "minecraft:multi_noise"
+    },
+    "echoes:timeless": {
+      "type": "minecraft:flat",
+      "biome_source_type": null,
+      "inline_settings_sha256": "ee3be387344c80e83e8924328209b0a8779916e802e90c72004a9828b75afb0b"
+    },
+    "minecraft:the_end": {
+      "type": "wover:betterx",
+      "settings": "minecraft:end",
+      "biome_source_type": "wover:end_biome_source"
+    },
+    "macabre:limbo": {
+      "type": "minecraft:noise",
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "4b7d083fd7d7601a71b6a2b278bdf0a525a369d7bbdec425bd949dfa8fa40efa"
+    },
+    "m2arcana:world": {
+      "type": "exotic_worlds:toroidal",
+      "settings": "m2arcana:strato",
+      "wrapping": {
+        "z": {
+          "max_chunk": 94,
+          "min_chunk": -94
+        },
+        "x": {
+          "max_chunk": 94,
+          "min_chunk": -94
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "m2_worldgen:isolated_climate"
+    },
+    "macabre:the_pit": {
+      "type": "exotic_worlds:toroidal",
+      "wrapping": {
+        "z": {
+          "max_chunk": 63,
+          "min_chunk": -63
+        },
+        "x": {
+          "max_chunk": 63,
+          "min_chunk": -63
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "37ba1bf62ad1ec9ec1bd2ccbb8eab3c7cd9638797109b7ef3680464e5a100b19"
+    },
+    "undergarden:undergarden": {
+      "type": "undergarden:noise",
+      "settings": "undergarden:undergarden",
+      "exotic_worlds:wrapping": {
+        "z": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        },
+        "x": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        }
+      },
+      "exotic_worlds:climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise"
+    },
+    "threateningly_mobs:distortion_dimension": {
+      "type": "minecraft:noise",
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "97e2cb573f06458d445ba358d6e9762778fce61e8ff4fddce068d0fa6beb0678"
+    }
+  },
+  "note": "Nenhum dado pessoal exportado. Geradores salvos não identificam por si só o preset escolhido nem provam runtime; nenhuma alteração no save."
+}

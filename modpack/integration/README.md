@@ -12,13 +12,17 @@ A mesma integração complementa os portais registrados pelo KubeJS com validado
 
 ## Compilação
 
-Instale um servidor NeoForge **21.1.263** em `modpack/.cache/server`, usando o instalador oficial, para obter suas bibliotecas Mojmap. Depois, na raiz do repositório:
+Na raiz do repositório, compile e prepare a entrega dos dois JARs:
 
 ```powershell
-python modpack/development/build_integration.py --jdk 'CAMINHO_DO_JDK_21'
+python modpack/development/build_delivery.py
 ```
 
-Saída local: `modpack/integration/build/m2-worldgen-1.1.0.jar`. Não adicionar ao Git. O compilador usa `--release 21`, sem processadores de anotação, e o JAR usa timestamps fixos. As APIs de BBL, KubeJS, Rhino, Exotic Worlds e Router são lidas diretamente do ZIP local auditado; o script não depende de extração manual.
+O comando detecta um JDK real 21+, seleciona somente bibliotecas de Minecraft 1.21.1 / NeoForge 21.1.263 do CurseForge, confere SHA-1 quando declarado e usa classes Mojmap transformadas antes das vanilla. Dependências ausentes com URL/hash declarados vão somente ao cache do projeto. Não mistura versões da árvore global de bibliotecas. As APIs de BBL, KubeJS, Rhino, Exotic Worlds, Router e TerraBlender são extraídas do ZIP local. Não depende de Gradle ou de uma instalação de servidor adicional.
+
+Obtém o fonte Strato no commit fixado, exige checkout limpo e prepara uma cópia nova com o patch existente. Não executa `--apply` nem regenera worldgen. Compila com `--release 21`, classes novas e timestamps fixos, verifica metadados, licença, bytecode, ausência dos overrides/mixin globais e conflitos. A pasta nova `modpack/integration/build/entrega-*` contém os dois JARs, licença, instruções, SHA-256 e auditorias. Tudo permanece local e ignorado pelo Git.
+
+Opções: `--jdk CAMINHO_JDK`, `--install CAMINHO_CURSEFORGE_INSTALL`, `--source CHECKOUT_LIMPO_NO_COMMIT_FIXADO`. Para compilar apenas a integração, use `python modpack/development/build_integration.py`; a opção anterior `--libraries` continua disponível para bibliotecas de servidor. Para o resultado de 23/10/2026, consulte [a análise de compilação](../../extras/COMPILACAO_INTEGRACOES.md). O ZIP atual contém duplicata Iris além do Strato upstream: a entrega registra o bloqueio de instalação sem alterar o ZIP ou M2D.
 
 ## Testes no servidor isolado
 

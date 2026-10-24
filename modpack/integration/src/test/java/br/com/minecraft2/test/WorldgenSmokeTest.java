@@ -42,6 +42,15 @@ public final class WorldgenSmokeTest {
         report.add("errors",errors); report.add("dimensions",dimensions);
         Map<String,Integer> widths=Map.of("minecraft:overworld",9984,"minecraft:the_nether",4992,"minecraft:the_end",6016,"m2pokemon:world",4992,"m2arcana:world",3008,"undergarden:undergarden",4992,"macabre:the_pit",2016);
         try {
+            if (Boolean.getBoolean("m2.audit.biomesOnly")) {
+                ArcanusAtlas.run(server);
+                return;
+            }
+            if (Boolean.getBoolean("m2.audit.topologyOnly")) {
+                if (Boolean.getBoolean("m2.audit.denseAtlas")) ArcanusAtlas.run(server);
+                TopologyAudit.run(server);
+                return;
+            }
             report.add("gameplay",GameplaySmokeTest.audit(server,errors));
             if (Boolean.getBoolean("m2.audit.gameplayOnly")) {
                 report.addProperty("passed",errors.isEmpty());
@@ -128,10 +137,14 @@ public final class WorldgenSmokeTest {
         } catch (Throwable problem) {
             errors.add(problem.toString());problem.printStackTrace();
         } finally {
+            if (Boolean.getBoolean("m2.audit.topologyOnly") || Boolean.getBoolean("m2.audit.biomesOnly")) {
+                server.halt(false);
+            } else {
             report.addProperty("passed",errors.isEmpty());
             try {Files.writeString(Path.of("m2-worldgen-audit.json"),new GsonBuilder().setPrettyPrinting().create().toJson(report));} catch (Exception e) {e.printStackTrace();}
             System.out.println("[M2 AUDIT] Resultado: "+report);
             server.halt(false);
+            }
         }
     }
 }

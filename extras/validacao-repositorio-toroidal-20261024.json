@@ -1,0 +1,21 @@
+{
+  "passed": false,
+  "counts": {
+    "json": 976,
+    "toml": 220,
+    "javascript": 4,
+    "python": 13,
+    "markdown_links": 37,
+    "preserved_gameplay_files": 0,
+    "moved_files": 0
+  },
+  "errors": [
+    "extras/MODS.md: link inexistente ../modpack/mods-list.txt",
+    "README.md: link inexistente modpack/mods-list.txt",
+    "AssertionError: "
+  ],
+  "preserved_legacy_formats": [
+    "modpack/config/lithostitched.json: formato legado preservado; Expecting property name enclosed in double quotes: line 2 column 3 (char 4)"
+  ],
+  "scope": "Validação estática; não aprova os testes de cliente ou compatibilidade dos 122 JARs."
+}

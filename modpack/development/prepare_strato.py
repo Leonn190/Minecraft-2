@@ -33,13 +33,18 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', required=True, type=Path)
     parser.add_argument('--apply', action='store_true')
+    parser.add_argument('--output', type=Path, help='Cópia de build nova, dentro de modpack/.cache.')
+    parser.add_argument('--staging', type=Path, help='Dados intermediários, dentro de modpack/.cache.')
     parser.add_argument('--vanilla', type=Path, default=ROOT/'modpack/.cache/server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-extra.jar')
     args = parser.parse_args()
     source = args.source.resolve()
     assert subprocess.check_output(['git','-C',str(source),'rev-parse','HEAD'],text=True).strip()==PIN, 'Fonte não corresponde ao commit auditado.'
     assert not subprocess.check_output(['git','-C',str(source),'status','--porcelain'],text=True).strip(), 'Use um checkout upstream limpo.'
-    out = ROOT/'modpack/.cache/strato-m2'
-    staging = ROOT/'modpack/.cache/strato-data'
+    out = (args.output or ROOT/'modpack/.cache/strato-m2').resolve()
+    staging = (args.staging or ROOT/'modpack/.cache/strato-data').resolve()
+    for destination in (out, staging):
+        if not destination.is_relative_to((ROOT/'modpack/.cache').resolve()) or destination == (ROOT/'modpack/.cache').resolve():
+            parser.error('Saídas devem ficar dentro de modpack/.cache, nunca na instância.')
     if not args.apply:
         assert staging.resolve().is_relative_to((ROOT/'modpack/.cache').resolve())
         if staging.exists():shutil.rmtree(staging)

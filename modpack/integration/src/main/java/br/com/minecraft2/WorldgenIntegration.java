@@ -17,6 +17,7 @@ public final class WorldgenIntegration {
     public WorldgenIntegration(IEventBus bus) {
         br.com.minecraft2.gameplay.GameplayRules.register();
         NeoForge.EVENT_BUS.addListener(WorldgenIntegration::finalizeSpawn);
+        NeoForge.EVENT_BUS.addListener(br.com.minecraft2.WorldShapeDiagnostics::started);
         bus.addListener((RegisterEvent event) -> event.register(Registries.BIOME_SOURCE,
             helper -> helper.register(ResourceLocation.parse("m2_worldgen:isolated_climate"),IsolatedClimateBiomeSource.CODEC)));
     }
@@ -28,7 +29,7 @@ public final class WorldgenIntegration {
         if (namespace.equals("alexsmobs")) {
             return world.equals("m2pokemon:world") || world.equals("m2arcana:world");
         }
-        if (namespace.equals("ars_additions") || namespace.equals("ars_structurize") || namespace.equals("ars_fauna")) {
+        if (namespace.equals("ars_nouveau") || namespace.equals("ars_elemental") || namespace.equals("ars_additions") || namespace.equals("ars_structurize") || namespace.equals("ars_fauna")) {
             return !world.equals("m2arcana:world");
         }
         return false;

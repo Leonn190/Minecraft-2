@@ -30,6 +30,13 @@ ordering="NONE"
 side="BOTH"
 
 [[dependencies.m2_worldgen]]
+modId="exotic_worlds"
+type="required"
+versionRange="[1.1.4]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.m2_worldgen]]
 modId="cobblemon"
 type="optional"
 versionRange="[1.8.2,1.9)"

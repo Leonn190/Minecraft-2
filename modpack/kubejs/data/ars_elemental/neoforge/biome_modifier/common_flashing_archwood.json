@@ -1,6 +1,8 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "#m2arcana:dimension_biomes",
+  "biomes": [
+    "m2arcana:ars_nouveau/archwood_forest"
+  ],
   "features": "ars_elemental:common_flashing_archwood",
   "step": "vegetal_decoration"
 }

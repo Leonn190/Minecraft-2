@@ -7608,6 +7608,6 @@
         "max_chunk": 94
       }
     },
-    "climate_compression": false
+    "climate_compression": {"mode": "strong"}
   }
 }
