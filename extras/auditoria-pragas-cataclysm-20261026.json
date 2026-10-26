@@ -1,0 +1,1520 @@
+{
+  "inputs": {
+    "cataclysm_jar": "L_Ender's Cataclysm 1.21.1-3.33.jar",
+    "cataclysm_sha256": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+    "spore_jar": "spore_1.21.1_2.2.0j_neo.jar",
+    "spore_sha256": "0cdb027eb53e6872bdb8de601dc52c176fcb6ddd33a0a2e20a66392937c3d5fe",
+    "unique_structures": [
+      "abandoned_spire",
+      "abandoned_temple",
+      "abandoned_village",
+      "acropolis",
+      "amethyst_nest",
+      "ancient_factory",
+      "burning_arena",
+      "cursed_pyramid",
+      "desert_occupied_village",
+      "desert_site",
+      "desert_temple",
+      "frosted_prison",
+      "ruined_citadel",
+      "soul_black_smith",
+      "sunken_city"
+    ]
+  },
+  "zip_inventory": {
+    "zip_sha256": "f9e5866f8b2b553369edaca9c9232e346c0c76dcae77c069c66f692de19f9bbe",
+    "count": 134,
+    "jars": [
+      {
+        "name": "Amplified_Nether_26.2_v1.2.16.jar",
+        "sha256": "fc49dc7f0b9e4cef665e60a97f29b5589025fb9e19b13222d9767e178093eaed",
+        "mods": [
+          {
+            "id": "amplified_nether",
+            "version": "1.2.16"
+          }
+        ],
+        "declared_license": "Stardust Labs License"
+      },
+      {
+        "name": "Ars Fauna-1.4.1.jar",
+        "sha256": "d6d3f8c9c4411870edbb7ca717eed63d67ad5fed68b398a32b3c93a567f0366a",
+        "mods": [
+          {
+            "id": "ars_fauna",
+            "version": "1.3.1"
+          }
+        ],
+        "declared_license": "GNU General Public License version 3 (GPLv3)"
+      },
+      {
+        "name": "BOMD-NeoForge-1.21-1.3.3.jar",
+        "sha256": "93da8753a00229e41c5ed399e6cf849737e7bd9b4109d5d8e4ad3a20136deb82",
+        "mods": [
+          {
+            "id": "bosses_of_mass_destruction",
+            "version": "1.3.3"
+          }
+        ],
+        "declared_license": "GNU LGPL 3.0"
+      },
+      {
+        "name": "BetterEnd-21.0.38.jar",
+        "sha256": "00c9263280b5aec16703ba22b3a56457436591913133f6b1a5cf11b1f29fc0d5",
+        "mods": [
+          {
+            "id": "betterend",
+            "version": "21.0.38"
+          }
+        ],
+        "declared_license": "MIT (CC BY-NC-SA 4.0 for some Assets)"
+      },
+      {
+        "name": "BetterF3-11.0.3-NeoForge-1.21.1.jar",
+        "sha256": "1a97b6ca5c81b3b18d653f403929908e3b48bb1bdb6e8bd8559f89cf0294dc26",
+        "mods": [
+          {
+            "id": "betterf3",
+            "version": "11.0.3"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "BetterNether-21.0.29.jar",
+        "sha256": "5136fea127f936ec1dc596bc5190e04192ef790c3638c952cea7feb147025943",
+        "mods": [
+          {
+            "id": "betternether",
+            "version": "21.0.29"
+          }
+        ],
+        "declared_license": "MIT (CC BY-NC-SA 4.0 for some Assets)"
+      },
+      {
+        "name": "CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+        "sha256": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
+        "mods": [
+          {
+            "id": "cerbons_api",
+            "version": "1.3.0"
+          }
+        ],
+        "declared_license": "GNU LGPL 3.0"
+      },
+      {
+        "name": "Cobblemon-neoforge-1.8.2+1.21.1.jar",
+        "sha256": "43da1d268d5ee7f7f8a0f8f509efd5d198780dde676d1df2fa63e9cd902ebf11",
+        "mods": [
+          {
+            "id": "cobblemon",
+            "version": "1.8.2+1.21.1"
+          }
+        ],
+        "declared_license": "MPL2.0"
+      },
+      {
+        "name": "Corgilib-NeoForge-1.21.1-5.0.0.10.jar",
+        "sha256": "ae720bcc5bdff1483b0bfc7502ff885b5f27e4aaef920ba23c0f6d012c390f82",
+        "mods": [
+          {
+            "id": "corgilib",
+            "version": "5.0.0.10"
+          }
+        ],
+        "declared_license": "LGPLv3"
+      },
+      {
+        "name": "CreateDragonsPlus-1.11.9.jar",
+        "sha256": "37f05a6775bbe811fe8c2833fa6289a1c704d0b25bdd5f239d343a5c6f62ed8a",
+        "mods": [
+          {
+            "id": "create_dragons_plus",
+            "version": "1.11.9"
+          }
+        ],
+        "declared_license": "LGPL-3.0-or-later"
+      },
+      {
+        "name": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
+        "sha256": "ed83bea2826667fca80a6a8067f89fe7b97eb8b3213bbcb7f0f4e6a6898c0bc9",
+        "mods": [
+          {
+            "id": "creeperoverhaul",
+            "version": "4.0.6"
+          }
+        ],
+        "declared_license": "All rights reserved"
+      },
+      {
+        "name": "DungeonsArise-1.21.1-2.1.68-release.jar",
+        "sha256": "7eee1eca7e3b2c6c1bede055934f391ae2e8349ffe33e106f451176d2cfcf0e4",
+        "mods": [
+          {
+            "id": "dungeons_arise",
+            "version": "2.1.68"
+          }
+        ],
+        "declared_license": "All Rights Reserved"
+      },
+      {
+        "name": "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
+        "sha256": "dcd0e562710a639b4fdd60a7500dc9404c6fbd1007215a088248ce1c57ccc6dc",
+        "mods": [
+          {
+            "id": "easyanvils",
+            "version": "21.1.0"
+          }
+        ],
+        "declared_license": "MPL-2.0"
+      },
+      {
+        "name": "EasyMagic-v21.1.4-1.21.1-NeoForge.jar",
+        "sha256": "e641a83dcd0dd1a66c545069a706349df94f5b64dc5a252944596439009a699f",
+        "mods": [
+          {
+            "id": "easymagic",
+            "version": "21.1.4"
+          }
+        ],
+        "declared_license": "MPL-2.0"
+      },
+      {
+        "name": "FarmersDelight-1.21.1-1.3.4.jar",
+        "sha256": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+        "mods": [
+          {
+            "id": "farmersdelight",
+            "version": "1.3.4"
+          }
+        ],
+        "declared_license": "MIT License"
+      },
+      {
+        "name": "FastSuite-1.21.1-6.0.7.jar",
+        "sha256": "3e274cd01bdc27dff8e2514213f1c45306c86fe38e4271a4209bc1471de6c70d",
+        "mods": [
+          {
+            "id": "fastsuite",
+            "version": "6.0.7"
+          }
+        ],
+        "declared_license": "MIT License"
+      },
+      {
+        "name": "Galosphere-1.21.1-1.5.5-NeoForge.jar",
+        "sha256": "4e6f7084110c78180b327e134ce3f43420abe58b0719e6963b2e9e26a99bab5f",
+        "mods": [
+          {
+            "id": "galosphere",
+            "version": "1.5.5"
+          }
+        ],
+        "declared_license": "All-Rights-Reserved"
+      },
+      {
+        "name": "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+        "sha256": "7d7b1d7b9f71d5303e42b2fa45f222a5ab06e0ef5982abb6da5dd9cc449b3702",
+        "mods": [
+          {
+            "id": "immediatelyfast",
+            "version": "1.6.15+1.21.1"
+          }
+        ],
+        "declared_license": "LGPL-3.0-or-later"
+      },
+      {
+        "name": "Jade-1.21.1-NeoForge-15.10.6.jar",
+        "sha256": "276f1f65a20d04f536989c4f311949d770b52c440c23c2b904a08860f3c93810",
+        "mods": [
+          {
+            "id": "jade",
+            "version": "${file.jarVersion}"
+          }
+        ],
+        "declared_license": "CC-BY-NC-SA-4.0"
+      },
+      {
+        "name": "L_Ender's Cataclysm 1.21.1-3.33.jar",
+        "sha256": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+        "mods": [
+          {
+            "id": "cataclysm",
+            "version": "3.33"
+          }
+        ],
+        "declared_license": "All assets of The Cataclysm are unlicensed and all rights are reserved to them by MCL_Ender. The source code CC BY-NC-ND 4.0 license"
+      },
+      {
+        "name": "MonsterPlus-Neoforge1.21.1-v1.2.0.0.jar",
+        "sha256": "89d24a9581549600a0a77b248bb428e42b8f75441c2673eb0b78849285bbea1c",
+        "mods": [
+          {
+            "id": "monsterplus",
+            "version": "1.1.9.0"
+          }
+        ],
+        "declared_license": "All rights reserved"
+      },
+      {
+        "name": "MoreTotems-neoforge-1.21-2.20.3.jar",
+        "sha256": "27fd3b225653ebb3ebc72a4f5e4378b8c99b64505f0b8ea919daa5d6832d937d",
+        "mods": [
+          {
+            "id": "moretotems",
+            "version": "2.20.3"
+          }
+        ],
+        "declared_license": "C0-1.0"
+      },
+      {
+        "name": "MutantMonsters-v21.1.1-1.21.1-NeoForge.jar",
+        "sha256": "1e20340a6642dcd6e43399292825f8cd84a079e0b917e36cf7341e787b626a4f",
+        "mods": [
+          {
+            "id": "mutantmonsters",
+            "version": "21.1.1"
+          }
+        ],
+        "declared_license": "AGPL-3.0-or-later"
+      },
+      {
+        "name": "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.3.jar",
+        "sha256": "3195f394741510c3b51617f48d0fa9461284b5975e2f976857241f7f07792f11",
+        "mods": [
+          {
+            "id": "biomeswevegone",
+            "version": "2.6.3"
+          }
+        ],
+        "declared_license": "All Rights Reserved"
+      },
+      {
+        "name": "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.5.jar",
+        "sha256": "12b918a09e4786de0045d7f29d336881234a533259c10d1327051df9ba318c4f",
+        "mods": [
+          {
+            "id": "ohthetreesyoullgrow",
+            "version": "5.3.5"
+          }
+        ],
+        "declared_license": "LGPLv3"
+      },
+      {
+        "name": "Paraglider-neoforge-21.1.5.jar",
+        "sha256": "2f084b728383d9de7e9c652c3a92cad086e0b38f131b61f8900d25ba18734e44",
+        "mods": [
+          {
+            "id": "paraglider",
+            "version": "21.1.5"
+          }
+        ],
+        "declared_license": "GNU General Public License version 3 (GPLv3)"
+      },
+      {
+        "name": "Placebo-1.21.1-9.9.4.jar",
+        "sha256": "d8952c019d6e54befe37155bc9876985ec57bf73dd33872115c7a65ac6bceba0",
+        "mods": [
+          {
+            "id": "placebo",
+            "version": "9.9.4"
+          }
+        ],
+        "declared_license": "MIT License"
+      },
+      {
+        "name": "Platform-neoforge-1.21.1-1.4.1.jar",
+        "sha256": "d5ce33619921ea559d8cf1f062f3d69ddfa47870cd7096225da50e62531e73d9",
+        "mods": [
+          {
+            "id": "platform",
+            "version": "1.4.1"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "ProbeJS-8.0.3.jar",
+        "sha256": "afb957ce00611cfc7de4bb33ac1ac8ea1d880c741ac14b9c67876b207b1377e7",
+        "mods": [
+          {
+            "id": "probejs",
+            "version": "8.0.3"
+          }
+        ],
+        "declared_license": "GPLv3"
+      },
+      {
+        "name": "Quark-4.1-487.jar",
+        "sha256": "2a43e4fa6254aaaf755f4ece5230708a2a6d587d8092d4db3aa53626c7bb67ab",
+        "mods": [
+          {
+            "id": "quark",
+            "version": "4.1-487"
+          }
+        ],
+        "declared_license": "https://github.com/VazkiiMods/Quark/blob/master/LICENSE.md"
+      },
+      {
+        "name": "SkyLands-UnofficialPort-NeoForge-1.21.1-v0.9.2.jar",
+        "sha256": "140eeddb871f5f02638d237edb5996896b4957fe98a3941e1406675fefd54964",
+        "mods": [
+          {
+            "id": "flying_stuff",
+            "version": "0.9.2"
+          }
+        ],
+        "declared_license": "MIT License"
+      },
+      {
+        "name": "TFTH-1.21.1-1.1b-port-0.2.jar",
+        "sha256": "8c157d2829767ecf31d0893e4905aaf0cea314683916baa4defd64eb5b975d0a",
+        "mods": [
+          {
+            "id": "the_flesh_that_hates",
+            "version": "1.1b-port-0.2"
+          }
+        ],
+        "declared_license": "CC BY-NC 3.0"
+      },
+      {
+        "name": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+        "sha256": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8",
+        "mods": [
+          {
+            "id": "terrablender",
+            "version": "${file.jarVersion}"
+          }
+        ],
+        "declared_license": "LGPLv3"
+      },
+      {
+        "name": "Terralith_1.21.x_v2.6.2.jar",
+        "sha256": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
+        "mods": [
+          {
+            "id": "terralith",
+            "version": "2.6.2"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "The_Undergarden-1.21.1-0.9.6.jar",
+        "sha256": "49e3db6ce2cf6864e9d45f0633de95bc3ef72cbd5ebffee493fca7198d30ccb0",
+        "mods": [
+          {
+            "id": "undergarden",
+            "version": "0.9.6"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "VisualWorkbench-v21.1.2-1.21.1-NeoForge.jar",
+        "sha256": "f9bea7865d57c0f32075fc1e8b760d048cf77513c8d93fa41c181ad190eb4449",
+        "mods": [
+          {
+            "id": "visualworkbench",
+            "version": "21.1.2"
+          }
+        ],
+        "declared_license": "MPL-2.0"
+      },
+      {
+        "name": "YungsApi-1.21.1-NeoForge-5.1.9.jar",
+        "sha256": "375e0b2f988ab4f5bde182166c0f0b102377adc8f823660c24ade08b0b3cde56",
+        "mods": [
+          {
+            "id": "yungsapi",
+            "version": "1.21.1-NeoForge-5.1.9"
+          }
+        ],
+        "declared_license": "LGPLv3"
+      },
+      {
+        "name": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+        "sha256": "61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04",
+        "mods": [
+          {
+            "id": "betterdungeons",
+            "version": "1.21.1-NeoForge-5.1.4"
+          }
+        ],
+        "declared_license": "LGPLv3"
+      },
+      {
+        "name": "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+        "sha256": "5625930dfb3240820d6e4ecf55fff0c39f70ce782fad117a4d418251184c7be0",
+        "mods": [
+          {
+            "id": "bettermineshafts",
+            "version": "1.21.1-NeoForge-5.1.1"
+          }
+        ],
+        "declared_license": "LGPLv3"
+      },
+      {
+        "name": "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+        "sha256": "a9cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58",
+        "mods": [
+          {
+            "id": "betterstrongholds",
+            "version": "1.21.1-NeoForge-5.1.3"
+          }
+        ],
+        "declared_license": "LGPLv3"
+      },
+      {
+        "name": "Zeta-1.1-40.jar",
+        "sha256": "4f17d1a2b9fd6d18ddb7697aa451db7fb154053b8648f79de279ae0d7e68a2fa",
+        "mods": [
+          {
+            "id": "zeta",
+            "version": "1.1-40"
+          }
+        ],
+        "declared_license": "https://github.com/VazkiiMods/Zeta/blob/master/LICENSE.md"
+      },
+      {
+        "name": "alexscaves-2.0.10.jar",
+        "sha256": "6fad35bf07fcb977aaa32d3fe05bf122150c6a30ed16b057385040207a3b788f",
+        "mods": [
+          {
+            "id": "alexscaves",
+            "version": "2.0.10"
+          }
+        ],
+        "declared_license": "GPL-3.0"
+      },
+      {
+        "name": "alexsmobs-1.22.17.jar",
+        "sha256": "6e502855f79e4c9f2a11d560a9b88a3ab295aa378c44b0f0a0dd95f95d0301a6",
+        "mods": [
+          {
+            "id": "alexsmobs",
+            "version": "1.22.17"
+          }
+        ],
+        "declared_license": "GPL-3.0"
+      },
+      {
+        "name": "alltheleaks-1.1.13+1.21.1-neoforge.jar",
+        "sha256": "c9b76623003dd05dda452d9ed42cb23623b09383fe9ac1efb41c46a3b69ff601",
+        "mods": [
+          {
+            "id": "alltheleaks",
+            "version": "1.1.13+1.21.1-neoforge"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "appleskin-neoforge-mc1.21-3.0.9.jar",
+        "sha256": "38b48dd6231341c9f964ce6e42c57ec866c6cc8f72bec938390a59bafb3922df",
+        "mods": [
+          {
+            "id": "appleskin",
+            "version": "${file.jarVersion}"
+          }
+        ],
+        "declared_license": "The Unlicense"
+      },
+      {
+        "name": "aquamirae-neoforge-1.21.1-7.2.13.jar",
+        "sha256": "665927e1edf73101f2014682659a756d2972f6fbff0f54b3db4fdebba288c8e2",
+        "mods": [
+          {
+            "id": "aquamirae",
+            "version": "7.2.13"
+          }
+        ],
+        "declared_license": "Obscuria Modding License (OML)"
+      },
+      {
+        "name": "architectury-13.0.11-neoforge.jar",
+        "sha256": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+        "mods": [
+          {
+            "id": "architectury",
+            "version": "13.0.11"
+          }
+        ],
+        "declared_license": "GNU LGPLv3"
+      },
+      {
+        "name": "ars_additions-1.21.1-21.3.0.jar",
+        "sha256": "e634a3f0c39cd38007608cce1974a7c9bbad7d8202bfb6c75f17c2901f362c9b",
+        "mods": [
+          {
+            "id": "ars_additions",
+            "version": "1.21.1-21.3.0"
+          }
+        ],
+        "declared_license": "LGPLv3"
+      },
+      {
+        "name": "ars_elemental-1.21.1-0.7.10.4.jar",
+        "sha256": "9ba4393c98228bb1647e3786c71c30c7eb97574b9e65baba14f34c92f7b86eb9",
+        "mods": [
+          {
+            "id": "ars_elemental",
+            "version": "${file.jarVersion}"
+          }
+        ],
+        "declared_license": "GNU Lesser General Public License v3.0"
+      },
+      {
+        "name": "ars_nouveau-1.21.1-5.13.3.jar",
+        "sha256": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
+        "mods": [
+          {
+            "id": "ars_nouveau",
+            "version": "${file.jarVersion}"
+          }
+        ],
+        "declared_license": "GNU GENERAL PUBLIC LICENSE"
+      },
+      {
+        "name": "ars_structurize-1.1.3-neoforge-1.21.1.jar",
+        "sha256": "1b32291ed2f6c9edbb510259d60a40d2a5acce65a2147b6ac61d059880188011",
+        "mods": [
+          {
+            "id": "ars_structurize",
+            "version": "1.0.0"
+          }
+        ],
+        "declared_license": "Not specified"
+      },
+      {
+        "name": "attributefix-neoforge-1.21.1-21.1.3.jar",
+        "sha256": "b2b20f3d44e824071284c14de3f4d3323d420e1c450040b339a5c37d2c382ad4",
+        "mods": [
+          {
+            "id": "attributefix",
+            "version": "21.1.3"
+          }
+        ],
+        "declared_license": "LGPL 2.1"
+      },
+      {
+        "name": "balm-neoforge-1.21.1-21.0.66.jar",
+        "sha256": "6be660e1f6d169553bf44f66d4f78bb9e96a1d66ce108d9608819e3ce6bfba34",
+        "mods": [
+          {
+            "id": "balm",
+            "version": "21.0.66"
+          }
+        ],
+        "declared_license": "All Rights Reserved"
+      },
+      {
+        "name": "bclib-21.0.28.jar",
+        "sha256": "e8d5b8ce29d51eb0845c19fd2172d99237841bd20bc4bc25b7cbf4965a5ad506",
+        "mods": [
+          {
+            "id": "bclib",
+            "version": "21.0.28"
+          }
+        ],
+        "declared_license": "MIT (CC BY-NC-SA 4.0 for some Assets)"
+      },
+      {
+        "name": "better-advanced-tooltips-2101.1.0-build.5.jar",
+        "sha256": "0f76d46f2f18eb67e67c7974170d7b27deb66473396461c8dc50d6949de1449b",
+        "mods": [
+          {
+            "id": "betteradvancedtooltips",
+            "version": "2101.1.0-build.5"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+        "sha256": "9e230bd509e7aeb3af4c08125db0340734c0179d83483649a16e45c0ea085e8c",
+        "mods": [
+          {
+            "id": "block_factorys_bosses",
+            "version": "2.1.2"
+          }
+        ],
+        "declared_license": "All Rights Reserved"
+      },
+      {
+        "name": "bookshelf-neoforge-1.21.1-21.1.81.jar",
+        "sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
+        "mods": [
+          {
+            "id": "bookshelf",
+            "version": "21.1.81"
+          }
+        ],
+        "declared_license": "LGPL 2.1"
+      },
+      {
+        "name": "chat_heads-0.15.7-neoforge-1.21.jar",
+        "sha256": "02e10437ceeed34e14e0efe206204658e4b8aa8ee7df10f2a9e28ac20f1b0391",
+        "mods": [
+          {
+            "id": "chat_heads",
+            "version": "0.15.7"
+          }
+        ],
+        "declared_license": "MPL-2.0"
+      },
+      {
+        "name": "chunksfadein-neoforge-3.0.26-1.21.jar",
+        "sha256": "10ff57ed51a3f5792372e2a84a3a6662f52f676ddccac58f22c544c430d4516b",
+        "mods": [
+          {
+            "id": "chunksfadein",
+            "version": "3.0.26-1.21"
+          }
+        ],
+        "declared_license": "GPLv3"
+      },
+      {
+        "name": "citadel-1.21.1-2.7.6.jar",
+        "sha256": "9e12468c49e5a95b7adbf22b3b4d05bc55565989b89c40b985cd73bdfe63c3c2",
+        "mods": [
+          {
+            "id": "citadel",
+            "version": "2.7.6"
+          }
+        ],
+        "declared_license": "GNU LESSER GENERAL PUBLIC LICENSE"
+      },
+      {
+        "name": "cloth-config-15.0.140-neoforge.jar",
+        "sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
+        "mods": [
+          {
+            "id": "cloth_config",
+            "version": "15.0.140"
+          }
+        ],
+        "declared_license": "GNU LGPLv3"
+      },
+      {
+        "name": "cpn-neoforge-1.8.2+1.2.1.jar",
+        "sha256": "fdd2a02afea5a0cb58ac6c0aa12dac4adfb6464560b08e7bc5354e4e8bac103d",
+        "mods": [
+          {
+            "id": "cobblemonpokedexnetwork",
+            "version": "1.8.2+1.2.1"
+          }
+        ],
+        "declared_license": "LGPLv3"
+      },
+      {
+        "name": "create-1.21.1-6.0.10.jar",
+        "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "mods": [
+          {
+            "id": "create",
+            "version": "6.0.10"
+          }
+        ],
+        "declared_license": "Read attached LICENSE.md"
+      },
+      {
+        "name": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+        "sha256": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+        "mods": [
+          {
+            "id": "aeronautics_bundled",
+            "version": "1.3.2"
+          }
+        ],
+        "declared_license": "Read attached LICENSE.md"
+      },
+      {
+        "name": "create-enchantment-industry-2.4.2.jar",
+        "sha256": "81f192bb53888e01f87a82eaac2f261c93715f2221dbcf5d8a8d414f912f75ef",
+        "mods": [
+          {
+            "id": "create_enchantment_industry",
+            "version": "2.4.2"
+          }
+        ],
+        "declared_license": "LGPL-3.0-or-later"
+      },
+      {
+        "name": "createaddition-1.6.0.jar",
+        "sha256": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+        "mods": [
+          {
+            "id": "createaddition",
+            "version": "1.6.0"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "cristellib-neoforge-1.21.1-3.1.7.jar",
+        "sha256": "11e05dbc97bd3fe1790bd6361747240e314c1dbf40b590ea20cc691dc8396c38",
+        "mods": [
+          {
+            "id": "cristellib",
+            "version": "3.1.7"
+          }
+        ],
+        "declared_license": "CC BY-NC-ND 4.0"
+      },
+      {
+        "name": "curios-neoforge-9.5.1+1.21.1.jar",
+        "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+        "mods": [
+          {
+            "id": "curios",
+            "version": "9.5.1+1.21.1"
+          }
+        ],
+        "declared_license": "LGPL-3.0-or-later"
+      },
+      {
+        "name": "deathcharm-1.0.1-1.21.1.jar",
+        "sha256": "cefd53d768367d00f421df61ceae07daa60fec44206186d61a6f268f787256e4",
+        "mods": [
+          {
+            "id": "deathcharm",
+            "version": "1.0.1"
+          }
+        ],
+        "declared_license": "Apache License 2.0"
+      },
+      {
+        "name": "dungeonnowloading-neoforge-1.21.1-2.11.6.jar",
+        "sha256": "8864f64fa2872e72402f3670aec553888fa000a0c6a1475fce5fcf25f91ec84a",
+        "mods": [
+          {
+            "id": "dungeonnowloading",
+            "version": "2.11.6"
+          }
+        ],
+        "declared_license": "C0-1.0"
+      },
+      {
+        "name": "echoes-0.6-NEOFORGE-1.21.1.jar",
+        "sha256": "b95b40383474357cba807baa0764455e40486d0254006a91d577d8ce5c9f8fd0",
+        "mods": [
+          {
+            "id": "echoes",
+            "version": "0.6-NEOFORGE-1.21.1"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
+        "sha256": "fe6c04dcfdbb8815058ebf1102d64cb4c86060a0a1b7350121e4a976d4a92248",
+        "mods": [
+          {
+            "id": "endermanoverhaul",
+            "version": "2.0.3"
+          }
+        ],
+        "declared_license": "ARR"
+      },
+      {
+        "name": "entity_pin_cushions-neoforge-1.21-1.0.jar",
+        "sha256": "00a80f962030ed24510f7edde345aaf488b09cea11f9424265cbb0c2967005eb",
+        "mods": [
+          {
+            "id": "entity_pin_cushions",
+            "version": "1.0"
+          }
+        ],
+        "declared_license": "GNU LGPL 3.0"
+      },
+      {
+        "name": "entityculling-neoforge-1.11.3-mc1.21.1.jar",
+        "sha256": "fa73ac70a3766568203b730a1573b4b54d88fb48dff4a33d8c4a80be9b8d17d5",
+        "mods": [
+          {
+            "id": "entityculling",
+            "version": "1.11.3"
+          }
+        ],
+        "declared_license": "tr7zw Protective License"
+      },
+      {
+        "name": "exotic_worlds-1.1.4+mc1.21.1.jar",
+        "sha256": "4f58182c7c7309e161577d54623b98f9194bdaa1ebfceb2fbe06d482722b39cd",
+        "mods": [
+          {
+            "id": "exotic_worlds_bundle",
+            "version": "1.1.4"
+          }
+        ],
+        "declared_license": "PolyForm-Shield-1.0.0"
+      },
+      {
+        "name": "fancymenu_neoforge_3.9.14_MC_1.21.1.jar",
+        "sha256": "92f74ef89381ea1f74e1145feab6db4ce4638804b1fb43622302d0a647fc0a66",
+        "mods": [
+          {
+            "id": "fancymenu",
+            "version": "3.9.14"
+          }
+        ],
+        "declared_license": "DSMSLv3.1 (DON'T SNATCH MA STUFF LICENSE v3.1)"
+      },
+      {
+        "name": "ferritecore-7.0.3-neoforge.jar",
+        "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+        "mods": [
+          {
+            "id": "ferritecore",
+            "version": "7.0.3"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "fragmentum-5.4.0+1.21.1-neoforge.jar",
+        "sha256": "fb7e1b28d54fda52c62df2a7c050e772030d7c75663d1679371deb0a860d3c1f",
+        "mods": [
+          {
+            "id": "fragmentum",
+            "version": "5.4.0"
+          }
+        ],
+        "declared_license": "Obscuria Modding License (OML)"
+      },
+      {
+        "name": "geckolib-neoforge-1.21.1-4.9.3.jar",
+        "sha256": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+        "mods": [
+          {
+            "id": "geckolib",
+            "version": "4.9.3"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "gravestone-neoforge-1.21.1-1.0.40.jar",
+        "sha256": "204be9ccb8632a56a87aee9aab4c7874d0f6749f566c07f5dd420d24e24dc8b0",
+        "mods": [
+          {
+            "id": "gravestone",
+            "version": "1.21.1-1.0.40"
+          }
+        ],
+        "declared_license": "All rights reserved"
+      },
+      {
+        "name": "graveyard-2.6.2 NeoForge 1.21.1.jar",
+        "sha256": "69dd4501da1fcc596d8ab7e09f32259ad1beee7e031fd5ab2d9c6cff4a8c8b2b",
+        "mods": [
+          {
+            "id": "graveyard",
+            "version": "2.6.2"
+          }
+        ],
+        "declared_license": "GNU GENERAL PUBLIC LICENSE Version 3"
+      },
+      {
+        "name": "historystages-6.1.0-1.21.1.jar",
+        "sha256": "573d114049d26ee7a54d6f4aec01c36e12ddac09eaa61977d2bbc5c659a62730",
+        "mods": [
+          {
+            "id": "historystages",
+            "version": "6.1.0-1.21.1"
+          }
+        ],
+        "declared_license": "All Rights Reserved"
+      },
+      {
+        "name": "incontrol-1.21-10.3.0.jar",
+        "sha256": "3776c11310008edaffdda0320c1a8436555ff59de36a6e3959452cbdefa98111",
+        "mods": [
+          {
+            "id": "incontrol",
+            "version": "${file.jarVersion}"
+          }
+        ],
+        "declared_license": "MIT License https://github.com/McJtyMods/InControl/blob/1.21_neo/LICENSE"
+      },
+      {
+        "name": "iris-neoforge-1.8.12+mc1.21.1.jar",
+        "sha256": "3e3f94d2d5cdcb8145c4385d521974aa2d8669b2cc212351f70cf06488182e83",
+        "mods": [
+          {
+            "id": "iris",
+            "version": "1.8.12-snapshot+mc1.21.1-local"
+          }
+        ],
+        "declared_license": "LGPL-3.0-only"
+      },
+      {
+        "name": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+        "sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314",
+        "mods": [
+          {
+            "id": "iris",
+            "version": "1.8.14-beta.1+mc1.21.1"
+          }
+        ],
+        "declared_license": "LGPL-3.0-only"
+      },
+      {
+        "name": "irisblockcompat-1.21.1-1.1.0.jar",
+        "sha256": "952b89c2a8833261e8bc8509902d0748ce911ced3ce39a3771d0c54334457abe",
+        "mods": [
+          {
+            "id": "irisblockcompat",
+            "version": "1.1.0"
+          }
+        ],
+        "declared_license": "LGPL-3.0-or-later"
+      },
+      {
+        "name": "ironchest-1.21-neoforge-16.0.7.jar",
+        "sha256": "dae66a38a33c2adac6ca0b7a4fbf4b365ba37a6a1f7a10961028617965c1fcaf",
+        "mods": [
+          {
+            "id": "ironchest",
+            "version": "1.21-neoforge-16.0.7"
+          }
+        ],
+        "declared_license": "GNU General Public License v3.0"
+      },
+      {
+        "name": "jei-1.21.1-neoforge-19.64.0.455.jar",
+        "sha256": "f7a9de3d7ee07eed8d293a1a1a0f6afaac556eb43c103523457bd07ebb551e7b",
+        "mods": [
+          {
+            "id": "jei",
+            "version": "19.64.0.455"
+          }
+        ],
+        "declared_license": "The MIT License (MIT)"
+      },
+      {
+        "name": "konkrete_neoforge_1.9.9_MC_1.21.jar",
+        "sha256": "791c5538751dd3015ef3a2ce92d98719e1a28a48ebbd817b78506771256654cd",
+        "mods": [
+          {
+            "id": "konkrete",
+            "version": "1.9.9"
+          }
+        ],
+        "declared_license": "Apache-2.0"
+      },
+      {
+        "name": "kotlinforforge-5.12.0-all.jar",
+        "sha256": "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46",
+        "mods": [],
+        "declared_license": null
+      },
+      {
+        "name": "kubejs-neoforge-2101.7.2-build.377.jar",
+        "sha256": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601",
+        "mods": [
+          {
+            "id": "kubejs",
+            "version": "2101.7.2-build.377"
+          }
+        ],
+        "declared_license": "GNU LGPLv3"
+      },
+      {
+        "name": "kubejsarsnouveau-1.3.2.jar",
+        "sha256": "5beedb785fc0a5f07ecff20645131d2cbf02d1c946a4ebb0657d9e2cbb8248cf",
+        "mods": [
+          {
+            "id": "kubejsarsnouveau",
+            "version": "1.3.2"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "lionfishapi-3.1.jar",
+        "sha256": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+        "mods": [
+          {
+            "id": "lionfishapi",
+            "version": "3.1"
+          }
+        ],
+        "declared_license": "LGPL"
+      },
+      {
+        "name": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+        "sha256": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757",
+        "mods": [
+          {
+            "id": "lithium",
+            "version": "0.15.4+mc1.21.1"
+          }
+        ],
+        "declared_license": "LGPL-3.0-only"
+      },
+      {
+        "name": "lithostitched-1.8.1-neoforge-21.1.jar",
+        "sha256": "e0da669fa5facc61a09b9b7bae21b322993de1fcd1eb05787adffb7309598cca",
+        "mods": [
+          {
+            "id": "lithostitched",
+            "version": "1.8.1"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "lootjs-neoforge-1.21.1-3.7.0.jar",
+        "sha256": "d168fd80f45e5f23dced8a54fdee87347a4c7fc6ccd9c76d30ae4d067ba9c60a",
+        "mods": [
+          {
+            "id": "lootjs",
+            "version": "1.21.1-3.7.0"
+          }
+        ],
+        "declared_license": "GNU Lesser General Public License v3.0"
+      },
+      {
+        "name": "lootr-neoforge-1.21.1-1.11.38.127.jar",
+        "sha256": "5c74de4709d1c13b25880fdd241a89d5d9f331346d20edc76f80ccd4d99dc66c",
+        "mods": [
+          {
+            "id": "lootr",
+            "version": "1.21.1-1.11.38.127"
+          }
+        ],
+        "declared_license": "https://github.com/noobanidus/Lootr/blob/1.16/LICENSE"
+      },
+      {
+        "name": "macabre-0.9.2-neoforge-1.21.1.jar",
+        "sha256": "9d48f8cdf1800f4cb20b178f92dca07a4cf43f137e31e73c7c29ebacb811af56",
+        "mods": [
+          {
+            "id": "macabre",
+            "version": "0.9.1"
+          }
+        ],
+        "declared_license": "Academic Free License v3.0"
+      },
+      {
+        "name": "melody_neoforge_1.0.10_MC_1.21.jar",
+        "sha256": "6b973a4564703c531fc0eae09db08b07a38091e0a743c687b8d2049457e84871",
+        "mods": [
+          {
+            "id": "melody",
+            "version": "1.0.10"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "mezz_config-1.21.1-neoforge-0.6.8-standalone.jar",
+        "sha256": "182ad8ad757175b49d573512c8fac624ee526e8138e24b36f677b0f6466e20cb",
+        "mods": [],
+        "declared_license": null
+      },
+      {
+        "name": "modernfix-neoforge-5.27.26+mc1.21.1.jar",
+        "sha256": "09f6842c63d14b3f1707f1f4a6f4602052f237f7efa9be135e41d3d97acf2a13",
+        "mods": [
+          {
+            "id": "modernfix",
+            "version": "5.27.26+mc1.21.1"
+          }
+        ],
+        "declared_license": "GNU LGPL 3.0"
+      },
+      {
+        "name": "moonlight-1.21.1-3.7.2-neoforge.jar",
+        "sha256": "4a9f15108607cc70273f8a0b6eb24e1e99af8eef44bc3ae8681767ca7ce21b0f",
+        "mods": [
+          {
+            "id": "moonlight",
+            "version": "1.21.1-3.7.2"
+          }
+        ],
+        "declared_license": "Supplementaries Team License v.1.5"
+      },
+      {
+        "name": "moreculling-neoforge-1.21.1-1.0.10.jar",
+        "sha256": "008068af65deec86382b4fdde61e7f495e54861cc28d5a5b000c32b435213ed3",
+        "mods": [
+          {
+            "id": "moreculling",
+            "version": "1.0.10"
+          }
+        ],
+        "declared_license": "GPL-3.0-only"
+      },
+      {
+        "name": "musictriggers-7.0.4.jar",
+        "sha256": "0f3f9c2aee495b4279e7249ec48e48ac1f3ffa7c0da514dfd69f92227f019905",
+        "mods": [],
+        "declared_license": null
+      },
+      {
+        "name": "netherportalfix-neoforge-1.21.1-21.1.1.jar",
+        "sha256": "c1077de0c7f1ff5289d1852e0674d9c477247d4318c9809b21c60e56a31ae31a",
+        "mods": [
+          {
+            "id": "netherportalfix",
+            "version": "21.1.1"
+          }
+        ],
+        "declared_license": "All Rights Reserved"
+      },
+      {
+        "name": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+        "sha256": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+        "mods": [
+          {
+            "id": "playeranimator",
+            "version": "2.0.4+1.21.1"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "portals-1.21.1-1.2.2.jar",
+        "sha256": "ae77bad48c4a7530473065ec70a2df932e7fb27e1ccc09c6656cf1fd9025d26f",
+        "mods": [
+          {
+            "id": "portals",
+            "version": "1.2.2"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "prickle-neoforge-1.21.1-21.1.11.jar",
+        "sha256": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167",
+        "mods": [
+          {
+            "id": "prickle",
+            "version": "21.1.11"
+          }
+        ],
+        "declared_license": "LGPL 2.1"
+      },
+      {
+        "name": "puzzleslib-v21.1.65-mc1.21.1+neoforge.jar",
+        "sha256": "5317fe131954accbe884b079f75713d6f9024b291085314d6c23b3a697fc2771",
+        "mods": [
+          {
+            "id": "puzzleslib",
+            "version": "21.1.65"
+          }
+        ],
+        "declared_license": "MPL-2.0"
+      },
+      {
+        "name": "railways-0.2.1+neoforge-mc1.21.1.jar",
+        "sha256": "b7636c8b1b0352ed1a130dfe67f8bb574e2fc08803ed1cda4d3ea00505193914",
+        "mods": [
+          {
+            "id": "railways",
+            "version": "0.2.1+neoforge-mc1.21.1"
+          }
+        ],
+        "declared_license": "LGPL-3.0 license"
+      },
+      {
+        "name": "resourcefulconfig-neoforge-1.21-3.0.11.jar",
+        "sha256": "25b4f3502d25c535004acd4a9420272fff01d2f1e2df352239fec93fdab005d4",
+        "mods": [
+          {
+            "id": "resourcefulconfig",
+            "version": "3.0.11"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "resourcefullib-neoforge-1.21-3.0.12.jar",
+        "sha256": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261",
+        "mods": [
+          {
+            "id": "resourcefullib",
+            "version": "3.0.12"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "rhino-2101.2.7-build.85.jar",
+        "sha256": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+        "mods": [
+          {
+            "id": "rhino",
+            "version": "2101.2.7-build.85"
+          }
+        ],
+        "declared_license": "MPL-2.0"
+      },
+      {
+        "name": "rottencreatures-neoforge-1.21.1-1.1.2.jar",
+        "sha256": "6cac5fedf5558d4e973fd52afbf2304b5b3f0b89970d7d97210b9a7b954ae2e0",
+        "mods": [
+          {
+            "id": "rottencreatures",
+            "version": "1.1.2"
+          }
+        ],
+        "declared_license": "ARR"
+      },
+      {
+        "name": "sable-neoforge-1.21.1-2.0.6.jar",
+        "sha256": "9c199157843bf953a47dff625fc5bb41c01a90538d35ad18e6996bbcb8a617c2",
+        "mods": [
+          {
+            "id": "sable",
+            "version": "2.0.6"
+          }
+        ],
+        "declared_license": "PolyForm Shield License 1.0.0"
+      },
+      {
+        "name": "servercore-neoforge-1.5.19+1.21.1.jar",
+        "sha256": "a5706aa0bb3a47c5f1adab44306685736688ec03414f60beb4fcbe05b99f5a82",
+        "mods": [
+          {
+            "id": "servercore",
+            "version": "1.5.19+1.21.1"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "simplerecall-1.0.6-1.21.1.jar",
+        "sha256": "3182907153bca1063505b1c07a4dc42be4407e6a61c0d1f5cbc79e339e5912ee",
+        "mods": [
+          {
+            "id": "simplerecall",
+            "version": "1.0.5"
+          }
+        ],
+        "declared_license": "All Rights Reserved"
+      },
+      {
+        "name": "sliceanddice-4.3.4-neoforge.jar",
+        "sha256": "b3982e89611761d7f1cdce90794cd88498a2c9e1447d8a1aba33ed831f3c9201",
+        "mods": [
+          {
+            "id": "sliceanddice",
+            "version": "4.3.4"
+          }
+        ],
+        "declared_license": "https://github.com/pssbletrngle/sliceanddice/blob/main/1.21.x/LICENSE.md"
+      },
+      {
+        "name": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+        "sha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
+        "mods": [
+          {
+            "id": "sodium",
+            "version": "0.8.13+mc1.21.1"
+          }
+        ],
+        "declared_license": "Polyform-Shield-1.0.0"
+      },
+      {
+        "name": "sophisticatedbackpacks-1.21.1-3.26.14.2222.jar",
+        "sha256": "f4aa76a9115c2ed1323a3e91b71561b112c0ace04062503ed297848229e530a5",
+        "mods": [
+          {
+            "id": "sophisticatedbackpacks",
+            "version": "3.26.14"
+          }
+        ],
+        "declared_license": "All Rights Reserved"
+      },
+      {
+        "name": "sophisticatedcore-1.21.1-1.5.17.2426.jar",
+        "sha256": "0ece314bf2deeeb978cdf6f38dfe691a9d2f4deb7149b4ad9c320c016a227a1b",
+        "mods": [
+          {
+            "id": "sophisticatedcore",
+            "version": "1.5.17"
+          }
+        ],
+        "declared_license": "All Rights Reserved"
+      },
+      {
+        "name": "spark-1.10.124-neoforge.jar",
+        "sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
+        "mods": [
+          {
+            "id": "spark",
+            "version": "1.10.124"
+          }
+        ],
+        "declared_license": "GPLv3"
+      },
+      {
+        "name": "spawn-animations-compats-18.0.jar",
+        "sha256": "02d5b3d73f38a4106e03cc0f550107f08d5886f6ec1903a0bebdcaa3706f4988",
+        "mods": [
+          {
+            "id": "mr_spawn_animationscompats",
+            "version": "18.0"
+          }
+        ],
+        "declared_license": "LicenseRef-Fyoncle-Custom-License"
+      },
+      {
+        "name": "spawnanimations-v1.11.6-mc1.17-26.3.9-mod.jar",
+        "sha256": "229c48cd7a17f1318a2d9e4ac8d0e2470fa198952c0efff145cd318022fc4e8a",
+        "mods": [
+          {
+            "id": "spawnanimations",
+            "version": "1.11.6+mod"
+          }
+        ],
+        "declared_license": "Custom"
+      },
+      {
+        "name": "supplementaries-1.21.1-4.0.2-neoforge.jar",
+        "sha256": "2c2e0c98e0cc21874d8b2130bc773a2a5a6cadd854b9c8163d0e1f32e2ddffb0",
+        "mods": [
+          {
+            "id": "supplementaries",
+            "version": "1.21.1-4.0.2"
+          }
+        ],
+        "declared_license": "Supplementaries Team License v.1.5"
+      },
+      {
+        "name": "t_and_t-fabric-neoforge-1.13.11.jar",
+        "sha256": "270fc0d1c99e54bc15f43d64bdaac60a90cb896efc357af624988e677136440f",
+        "mods": [
+          {
+            "id": "t_and_t",
+            "version": "1.13.11"
+          }
+        ],
+        "declared_license": "CC-BY-NC-ND-4.0"
+      },
+      {
+        "name": "theimpossiblelibrary-0.4.7.jar",
+        "sha256": "d2df15b38eb91e57fcf2ea5fb5ac2617ff333401c4ea690b8f977dbcc7a69d1e",
+        "mods": [],
+        "declared_license": null
+      },
+      {
+        "name": "threateningly__mobs-1.1.1-neoforge--1.21.1.jar",
+        "sha256": "09497e04b0dcf849d96aaad3dc69faddc3b87b2806b5a3e9bead6a42b1eb8ed7",
+        "mods": [
+          {
+            "id": "threateningly_mobs",
+            "version": "1.1.1+neoforge.1.21.1"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "worldgenrouter-1.0.0.jar",
+        "sha256": "ecd6b7c2b06b5ae89eb936d1b8ea5545e47a04f7df61a5318d8ead526113a586",
+        "mods": [
+          {
+            "id": "worldgenrouter",
+            "version": "1.0.0"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "worldweaver-21.0.29.jar",
+        "sha256": "ad74878bf7e555d52f7dbe7dde21c1594b1b8a8265c5eff6a9aafd210740a8f8",
+        "mods": [
+          {
+            "id": "wover",
+            "version": "21.0.29"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "wunderlib-21.0.11.jar",
+        "sha256": "2f39302b8da949195ffc57d07d0668f867c8ba9f2874bb6eef0bdd1e9fed9ba4",
+        "mods": [
+          {
+            "id": "wunderlib",
+            "version": "21.0.11"
+          }
+        ],
+        "declared_license": "MIT"
+      },
+      {
+        "name": "xaeroworldmap-neoforge-1.21.1-1.47.0.jar",
+        "sha256": "6a42b6f01bd96b496e5fcc07d4541bad1a699d9ec8ad58ad40d5dcfe23a7d4c7",
+        "mods": [
+          {
+            "id": "xaeroworldmap",
+            "version": "1.47.0"
+          }
+        ],
+        "declared_license": "All Rights Reserved"
+      },
+      {
+        "name": "xp_veins-1.0.0-neoforge-1.21.1.jar",
+        "sha256": "35c8e004e8f59a8eef7b64d4e3a06dc9d3e8584f441a1e3e4d2e1369aefe5d8e",
+        "mods": [
+          {
+            "id": "xp_veins",
+            "version": "1.0.0"
+          }
+        ],
+        "declared_license": "Academic Free License v3.0"
+      },
+      {
+        "name": "xptome-1.21.1-2.4.jar",
+        "sha256": "9cc3fb2352f7024faacd081f4efe437bdb3e3af09ea4f2c0b2f8ca845de1125e",
+        "mods": [
+          {
+            "id": "xpbook",
+            "version": "${file.jarVersion}"
+          }
+        ],
+        "declared_license": "MIT https://github.com/bl4ckscor3/XP-Tome/blob/1.21/LICENSE"
+      }
+    ],
+    "state": "Inventário somente. Sem aprovação de compatibilidade ou redistribuição. Spore vem do perfil, não deste ZIP."
+  },
+  "generated_files": {
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\abandoned_structures.json": "18ed8fec6edcf811fee95c04bbe39a84106384de7a7a31a7bef91ad9c4ac4ede",
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\acropolis.json": "8f96771bbc972ee95d30aaa6f90549750d074797784f31f680e0c24dbb86b339",
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\amethyst_nest.json": "616762122aed6bd80d44caab9516635ffce1e217e75346700e03ffa8df6967bc",
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\ancient_factory.json": "feb8a7b5d13e430075d88d346f8e23eef04783bcb8f98d9052ed86f733813434",
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\burning_arena.json": "11578981145e0c549632c660f0a885911bd7d4629b9b8bd1b38b7e0eea632498",
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\cursed_pyramid.json": "fe266ec9722bbf257c1f0e561f9d6f13057f0849400ddfcec5ab9f61ad9be122",
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\desert_structures.json": "9d56760a4eaebb519031f9c5d6f53384590d847953378738995f86c07ce5fb27",
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\frosted_prison.json": "2aec427c2ab9f99ef3238e2d4ff5ac69d8a2bc4f330160c1e7c0e723aa1a6a70",
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\ruined_citadel.json": "01c5d5322d2f56246bd8e1f3ce0bcc3f4c9f5695e1bf85ae22264a023fd8be3a",
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\soul_black_smith.json": "b99fb92f3dd7244c443861ec8daebe758cad9ef4541a7d6b4dafd1852f621c15",
+    "modpack\\kubejs\\data\\cataclysm\\worldgen\\structure_set\\sunken_city.json": "d006b850b2255ad5831b96fff7f681008a3bf001b7f372f95cd56ff9e48f84ac",
+    "modpack\\kubejs\\data\\spore\\neoforge\\biome_modifier\\ground_fungal_foliage_modifier.json": "2b1ac25993461c9a6dffb37a133fcabf8bff482a22946e16980ca551be15ff02",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\biomass_tower.json": "ee6dd6df886ac7daaad4ce61a1321b22e2de7de82c665e9d4eff4e6be2f59be3",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\cathedral.json": "d36dcfb6aebee84245b490ab61660a415e23328499496403799d0e772ff3a77a",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\cell.json": "48625f51ac204326383230ca27cbcbe52fdd26e4cc4cf3901ae8edafbbd1bd7c",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\celltower.json": "677fb6f6182e05317dfbfdde6da86b06aace65b07827dd4b79f78b86421d1354",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\church.json": "8e2ec9bab663f7917b9ac4896f30e65721b42de64c5c0b706a06ded3cb2d4121",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\hospital.json": "731b8a9edecf6c0f9b0569aa94d0fc3475dd9321e5b8e5db236a9ffe835bc6e5",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\iceberg_mines.json": "048a61ff33e029c9e304e68cf989360a1917126fbf155f38e69df84384d0c473",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\lab.json": "f384f76c8ecfd659266835755f6798a9daa27c3da79a2ffe8593ffaa045a6cbf",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\lodge.json": "0e25d4cb5c2be9ec7ce627f9def308c338113a34bc1501c4fe0cef800e972180",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\mass_grave.json": "a1894e5c94112ab583edee31df0bb7b6410cbeba36c099ce73f455c32ecaeb96",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\military_camp.json": "ad48c54a6a0304aa48a04e4642e48f9d8c47cba975ba68bf9291e5bfd3258ad7",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\mines.json": "ca04ae8d4b4f5e3209863e89c7fb3c6d47485d7cc5057ee673821e4aa02d71e5",
+    "modpack\\kubejs\\data\\spore\\worldgen\\structure\\prison.json": "5092afeda4e361884f16e2148bb0fb5fb3c0842e013ebc5251298cdd85d1123d",
+    "modpack\\kubejs\\data\\the_flesh_that_hates\\worldgen\\structure\\house1.json": "5decb63a30cc65b0fa54f6380f6bdf31874fddfd1365dacb49abacd628290a0e",
+    "modpack\\kubejs\\data\\the_flesh_that_hates\\worldgen\\structure\\mouth1.json": "b7afc277322b78ad218d27e856ef8f6c869fdbca8c00bc7834899ef69f77fe9a",
+    "modpack\\kubejs\\data\\the_flesh_that_hates\\worldgen\\structure\\pus.json": "8a5012148be161fd92b66fa23bf4fb33bda3506ed1fb8027e1799966a3020cfd",
+    "modpack\\kubejs\\data\\the_flesh_that_hates\\worldgen\\structure\\spawnmouth.json": "5c5d9159aa6a5b388542c0245f3698a1baa410dad046f227464211899987bd8d",
+    "modpack\\kubejs\\data\\the_flesh_that_hates\\worldgen\\structure\\spine1.json": "e127e381ef8b69262783bbfd3e60833df7334d05e3fef6217c96a42257d0f501",
+    "modpack\\kubejs\\data\\the_flesh_that_hates\\worldgen\\structure\\tree.json": "a434b2c659c9259a9c603999ad282b43f2b6a461f94227fea1e769d2361f9e4e"
+  },
+  "runtime_tests": "Não executados; solicitado pelo usuário"
+}

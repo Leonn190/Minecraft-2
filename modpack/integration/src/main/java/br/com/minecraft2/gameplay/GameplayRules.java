@@ -31,7 +31,17 @@ public final class GameplayRules {
     }
 
     public static boolean fleshAllowed(String dimension) {
-        return dimension.equals("m2pokemon:world") || dimension.equals("m2arcana:world");
+        return dimension.equals("m2arcana:world");
+    }
+
+    public static boolean sporeAllowed(Level level) {
+        return level.dimension().location().toString().equals("m2pokemon:world");
+    }
+
+    /** Restrição ambiental; não remove itens de inventários nem conteúdo de saves. */
+    public static boolean plagueForbidden(ResourceLocation id, Level level) {
+        return (flesh(id) && !fleshAllowed(level))
+            || (id.getNamespace().equals("spore") && !sporeAllowed(level));
     }
 
     public static boolean flesh(ResourceLocation id) {
@@ -72,15 +82,14 @@ public final class GameplayRules {
     }
 
     private static void join(EntityJoinLevelEvent event) {
-        if (!event.getLevel().isClientSide && !fleshAllowed(event.getLevel()) && event.getEntity() instanceof Mob
-                && flesh(BuiltInRegistries.ENTITY_TYPE.getKey(event.getEntity().getType()))
+        if (!event.getLevel().isClientSide
+                && plagueForbidden(BuiltInRegistries.ENTITY_TYPE.getKey(event.getEntity().getType()), event.getLevel())
                 && !event.loadedFromDisk()) event.setCanceled(true);
     }
 
     private static void entityTick(EntityTickEvent.Pre event) {
         // Mobs de saves existentes ficam inertes, sem serem apagados ou varridos por tick.
-        if (event.getEntity() instanceof Mob && !event.getEntity().level().isClientSide
-                && flesh(BuiltInRegistries.ENTITY_TYPE.getKey(event.getEntity().getType()))
-                && !fleshAllowed(event.getEntity().level())) event.setCanceled(true);
+        if (!event.getEntity().level().isClientSide
+                && plagueForbidden(BuiltInRegistries.ENTITY_TYPE.getKey(event.getEntity().getType()), event.getEntity().level())) event.setCanceled(true);
     }
 }

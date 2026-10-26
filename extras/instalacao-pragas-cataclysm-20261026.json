@@ -1,0 +1,250 @@
+{
+  "date": "2026-10-26",
+  "profile": "M2D",
+  "files": [
+    {
+      "file": "config/worldgenrouter/world_sets.toml",
+      "sha256": "fd45a679d7da2fcf0eb2f0d0969f8b8424e05e48d0255f0a4f8e784145ebdd7d",
+      "existed_before": true
+    },
+    {
+      "file": "kubejs/server_scripts/cataclysm_unique.js",
+      "sha256": "3b8a7c4a28a604e785e8ed09a5d1a61830ed0cf6ad02844ef22ba2b7e006e167",
+      "existed_before": false
+    },
+    {
+      "file": "mods/m2-worldgen-1.1.0.jar",
+      "sha256": "1812d4222ed04f9e7521d5945568a209ca02bef79decee1fb70290763aedcf53",
+      "existed_before": true
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/abandoned_structures.json",
+      "sha256": "18ed8fec6edcf811fee95c04bbe39a84106384de7a7a31a7bef91ad9c4ac4ede",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/acropolis.json",
+      "sha256": "8f96771bbc972ee95d30aaa6f90549750d074797784f31f680e0c24dbb86b339",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/amethyst_nest.json",
+      "sha256": "616762122aed6bd80d44caab9516635ffce1e217e75346700e03ffa8df6967bc",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/ancient_factory.json",
+      "sha256": "feb8a7b5d13e430075d88d346f8e23eef04783bcb8f98d9052ed86f733813434",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/burning_arena.json",
+      "sha256": "11578981145e0c549632c660f0a885911bd7d4629b9b8bd1b38b7e0eea632498",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/cursed_pyramid.json",
+      "sha256": "fe266ec9722bbf257c1f0e561f9d6f13057f0849400ddfcec5ab9f61ad9be122",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/desert_structures.json",
+      "sha256": "9d56760a4eaebb519031f9c5d6f53384590d847953378738995f86c07ce5fb27",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/frosted_prison.json",
+      "sha256": "2aec427c2ab9f99ef3238e2d4ff5ac69d8a2bc4f330160c1e7c0e723aa1a6a70",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/ruined_citadel.json",
+      "sha256": "01c5d5322d2f56246bd8e1f3ce0bcc3f4c9f5695e1bf85ae22264a023fd8be3a",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/soul_black_smith.json",
+      "sha256": "b99fb92f3dd7244c443861ec8daebe758cad9ef4541a7d6b4dafd1852f621c15",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/cataclysm/worldgen/structure_set/sunken_city.json",
+      "sha256": "d006b850b2255ad5831b96fff7f681008a3bf001b7f372f95cd56ff9e48f84ac",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/the_flesh_that_hates/worldgen/structure/house1.json",
+      "sha256": "5decb63a30cc65b0fa54f6380f6bdf31874fddfd1365dacb49abacd628290a0e",
+      "existed_before": true
+    },
+    {
+      "file": "kubejs/data/the_flesh_that_hates/worldgen/structure/mouth1.json",
+      "sha256": "b7afc277322b78ad218d27e856ef8f6c869fdbca8c00bc7834899ef69f77fe9a",
+      "existed_before": true
+    },
+    {
+      "file": "kubejs/data/the_flesh_that_hates/worldgen/structure/pus.json",
+      "sha256": "8a5012148be161fd92b66fa23bf4fb33bda3506ed1fb8027e1799966a3020cfd",
+      "existed_before": true
+    },
+    {
+      "file": "kubejs/data/the_flesh_that_hates/worldgen/structure/spawnmouth.json",
+      "sha256": "5c5d9159aa6a5b388542c0245f3698a1baa410dad046f227464211899987bd8d",
+      "existed_before": true
+    },
+    {
+      "file": "kubejs/data/the_flesh_that_hates/worldgen/structure/spine1.json",
+      "sha256": "e127e381ef8b69262783bbfd3e60833df7334d05e3fef6217c96a42257d0f501",
+      "existed_before": true
+    },
+    {
+      "file": "kubejs/data/the_flesh_that_hates/worldgen/structure/tree.json",
+      "sha256": "a434b2c659c9259a9c603999ad282b43f2b6a461f94227fea1e769d2361f9e4e",
+      "existed_before": true
+    },
+    {
+      "file": "kubejs/data/spore/neoforge/biome_modifier/ground_fungal_foliage_modifier.json",
+      "sha256": "2b1ac25993461c9a6dffb37a133fcabf8bff482a22946e16980ca551be15ff02",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/biomass_tower.json",
+      "sha256": "ee6dd6df886ac7daaad4ce61a1321b22e2de7de82c665e9d4eff4e6be2f59be3",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/cathedral.json",
+      "sha256": "d36dcfb6aebee84245b490ab61660a415e23328499496403799d0e772ff3a77a",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/cell.json",
+      "sha256": "48625f51ac204326383230ca27cbcbe52fdd26e4cc4cf3901ae8edafbbd1bd7c",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/celltower.json",
+      "sha256": "677fb6f6182e05317dfbfdde6da86b06aace65b07827dd4b79f78b86421d1354",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/church.json",
+      "sha256": "8e2ec9bab663f7917b9ac4896f30e65721b42de64c5c0b706a06ded3cb2d4121",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/hospital.json",
+      "sha256": "731b8a9edecf6c0f9b0569aa94d0fc3475dd9321e5b8e5db236a9ffe835bc6e5",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/iceberg_mines.json",
+      "sha256": "048a61ff33e029c9e304e68cf989360a1917126fbf155f38e69df84384d0c473",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/lab.json",
+      "sha256": "f384f76c8ecfd659266835755f6798a9daa27c3da79a2ffe8593ffaa045a6cbf",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/lodge.json",
+      "sha256": "0e25d4cb5c2be9ec7ce627f9def308c338113a34bc1501c4fe0cef800e972180",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/mass_grave.json",
+      "sha256": "a1894e5c94112ab583edee31df0bb7b6410cbeba36c099ce73f455c32ecaeb96",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/military_camp.json",
+      "sha256": "ad48c54a6a0304aa48a04e4642e48f9d8c47cba975ba68bf9291e5bfd3258ad7",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/mines.json",
+      "sha256": "ca04ae8d4b4f5e3209863e89c7fb3c6d47485d7cc5057ee673821e4aa02d71e5",
+      "existed_before": false
+    },
+    {
+      "file": "kubejs/data/spore/worldgen/structure/prison.json",
+      "sha256": "5092afeda4e361884f16e2148bb0fb5fb3c0842e013ebc5251298cdd85d1123d",
+      "existed_before": false
+    }
+  ],
+  "backup": "extras/backup-m2d-pragas-cataclysm-20261026-013022.zip",
+  "backup_sha256": "7826bdf81997699a30d3bb3feeab43188f20025ee57dda982e6b8687033187d8",
+  "backup_entries_verified": 8,
+  "inputs": {
+    "cataclysm_jar": "L_Ender's Cataclysm 1.21.1-3.33.jar",
+    "cataclysm_sha256": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+    "spore_jar": "spore_1.21.1_2.2.0j_neo.jar",
+    "spore_sha256": "0cdb027eb53e6872bdb8de601dc52c176fcb6ddd33a0a2e20a66392937c3d5fe",
+    "unique_structures": [
+      "abandoned_spire",
+      "abandoned_temple",
+      "abandoned_village",
+      "acropolis",
+      "amethyst_nest",
+      "ancient_factory",
+      "burning_arena",
+      "cursed_pyramid",
+      "desert_occupied_village",
+      "desert_site",
+      "desert_temple",
+      "frosted_prison",
+      "ruined_citadel",
+      "soul_black_smith",
+      "sunken_city"
+    ]
+  },
+  "minecraft_started": false,
+  "static_build": true,
+  "site_build_pages": 22,
+  "checks": [
+    "31 overrides exatos dos JARs de origem",
+    "Router e destinos exclusivos",
+    "15 IDs e coordenadas dentro das larguras",
+    "11 frequências naturais zero",
+    "Sintaxe Python/JS e JSON/TOML",
+    "Contrato worldgen aprovado",
+    "JAR Java 21 compilado",
+    "Instalação byte a byte e backup reaberto"
+  ],
+  "limitations": [
+    "Cliente e servidor não iniciados",
+    "Dungeons automáticas somente em mundo novo e áreas intocadas",
+    "Falhas de terreno/área usada devem ser verificadas no log",
+    "Nenhum save ou JAR de terceiros alterado"
+  ],
+  "static_mixin_targets": {
+    "net.minecraft.world.level.Level": [
+      "boolean setBlock(net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState, int, int)"
+    ],
+    "net.minecraft.server.level.WorldGenRegion": [
+      "boolean setBlock(net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState, int, int)"
+    ],
+    "net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity": [
+      "private final T blockEntity",
+      "void tick()"
+    ],
+    "net.minecraft.world.entity.LivingEntity": [
+      "boolean canBeAffected(net.minecraft.world.effect.MobEffectInstance)"
+    ],
+    "net.minecraft.world.effect.MobEffectInstance": [
+      "boolean tick(net.minecraft.world.entity.LivingEntity, java.lang.Runnable)"
+    ],
+    "com.Harbinger.Spore.Sevents.Infection": [
+      "void onEntityDeath(net.neoforged.neoforge.event.entity.living.LivingDeathEvent)"
+    ],
+    "com.Harbinger.Spore.Sevents.LivingTickEvent": [
+      "void TickEvents(net.neoforged.neoforge.event.tick.EntityTickEvent$Pre)",
+      "void TickEffects(net.neoforged.neoforge.event.tick.PlayerTickEvent$Pre)"
+    ],
+    "com.Harbinger.Spore.ExtremelySusThings.BiomeModification": [
+      "void addSpawns(net.neoforged.neoforge.common.world.ModifiableBiomeInfo$BiomeInfo$Builder, int)",
+      "void modify(net.minecraft.core.Holder<net.minecraft.world.level.biome.Biome>, net.neoforged.neoforge.common.world.BiomeModifier$Phase, net.neoforged.neoforge.common.world.ModifiableBiomeInfo$BiomeInfo$Builder)"
+    ]
+  }
+}

@@ -42,7 +42,7 @@ def expected():
                 if path.startswith('data/the_flesh_that_hates/worldgen/structure/') and path.endswith('.json'):
                     value = json.loads(flesh.read(path))
                     assert value['biomes'] == 'minecraft:mushroom_fields', 'Habitat TFTH mudou; revisar remapeamento'
-                    value['biomes'] = ['m2pokemon:minecraft/mushroom_fields', 'm2arcana:strato/mushroom_fields']
+                    value['biomes'] = ['m2arcana:strato/mushroom_fields']
                     for biome in value['biomes']:
                         ns, stem = biome.split(':')
                         assert (DATA/f'{ns}/worldgen/biome/{stem}.json').is_file()

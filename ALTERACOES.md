@@ -1,5 +1,31 @@
 # Alterações próprias — Minecraft 2
 
+## M2-028 — Spore no Pokémon; carne na Arcanus (26/10/2026)
+
+**Regra atual:** Spore somente em `m2pokemon:world`; The Flesh That Hates somente em `m2arcana:world`. Substitui a permissão histórica nas duas dimensões descrita em M2-022 abaixo; as evidências antigas permanecem históricas.
+
+Arquivos: `modpack/config/worldgenrouter/world_sets.toml`; `integration/src/main/java/br/com/minecraft2/{WorldgenIntegration.java,gameplay/GameplayRules.java,mixin/}` (mixins `Plague*`, `Spore*`, `FleshBlockTicksMixin`, `FleshFluidMixin`); `integration/src/main/resources/m2_worldgen.mixins.json`; `kubejs/data/{spore,the_flesh_that_hates}/`; geradores `development/{generate_worldgen,gameplay_data,plagues_cataclysm_data}.py`, todos em `modpack/`.
+
+Router restringe geração/spawn. A integração bloqueia novas entidades, inclusive ovos/comandos/portais, ticks de entidades antigas, blocos, fluidos e block entities fora do habitat; recusa novas colocações de blocos, inclusive em worldgen. Efeitos são recusados ou expiram antes do próximo processamento fora do habitat. Handlers de infecção/morte/tick do Spore são filtrados sem cancelar eventos globais dos demais mods. Os filtros TFTH existentes passam a aceitar somente Arcanus.
+
+Treze estruturas Spore e a feature de folhagem usam clones Pokémon dos habitats originais; a tabela configurada de spawn é injetada somente nos clones Pokémon, preservando o bônus +20 de mushroom fields. Seis estruturas TFTH usam somente o clone `m2arcana:strato/mushroom_fields`. Não altera Terralith, clima, portais ou receitas. Itens em inventários permanecem registrados; a restrição é ambiental. Conteúdo antigo não é apagado: fica inerte fora do destino. Ausência de vestígios anteriores exige mundo novo; dados internos dos mods podem continuar armazenados no Overworld sem propagação ali.
+
+**Estado: implementado/compilado, gameplay pendente.** AUTO-PRAGAS-CATACLYSM-20261026 e J32–J34 em `TESTES.md`. Spore 2.2.0j NeoForge foi lido do M2D: não consta do ZIP histórico. TFTH 1.1b-port-0.2 e Cataclysm 3.33 do perfil são idênticos aos do ZIP. Auditoria nova com hashes: `extras/auditoria-pragas-cataclysm-20261026.json`; não aprova distribuição/compatibilidade.
+
+## M2-029 — Cataclysm único por save novo (26/10/2026)
+
+Arquivos: `modpack/kubejs/server_scripts/cataclysm_unique.js`, `integration/src/main/java/br/com/minecraft2/gameplay/UniqueCataclysm.java`, registro em `WorldgenIntegration.java`, 11 overrides `kubejs/data/cataclysm/worldgen/structure_set/` e gerador `development/plagues_cataclysm_data.py`, em `modpack/`.
+
+Uma entrada persistente por cada um dos **15 IDs** do Cataclysm 3.33, incluindo estruturas menores: 12 no Overworld, `burning_arena` e `soul_black_smith` no Nether, `ruined_citadel` no End. Lista/coordenadas no script. Frequência natural dos 11 sets zerada para impedir repetições; templates e demais propriedades preservados.
+
+O script tenta um ID a cada 200 ticks, em células separadas dentro dos limites toroidais, até 64 candidatos próximos. Usa peças, alturas e verificações de terreno originais, com filtro de bioma dispensado para colocação dirigida; não força o bioma original na célula. Registra starts/referências para `/locate` e olhos, ainda pendentes em runtime. Persiste em `data/m2_unique_cataclysm.dat`, incluindo reserva antes da escrita e resultado após salvar chunks. Reinícios e `/reload` consultam esse estado.
+
+**Proteções/limites:** executor habilitado somente com tempo zero e sem regiões `.mca` no primeiro boot; saves anteriores não recebem colocação automática nem deduplicação. Recusa áreas carregadas ou em regiões salvas, incluindo margem de um chunk. Erro parcial suspende o ID; área usada, ID ausente ou 64 terrenos inválidos deixam pendência no log `[M2 CATACLYSM]`, sem contar falha como dungeon criada. Não apagar o SavedData para regenerar. Comandos administrativos ainda podem criar duplicatas. Geração inicial pode causar pausas. A frequência natural também é zerada em chunks novos de saves antigos; estruturas existentes permanecem.
+
+**Estado: implementado/compilado, execução pendente.** Não se afirma que as 15 colocações foram concluídas sem executar Minecraft. AUTO-PRAGAS-CATACLYSM-20261026 e J35–J38. Instalação local/hashes em `extras/instalacao-pragas-cataclysm-20261026.json`; relatório em `extras/PRAGAS_CATACLYSM_20261026.md`.
+
+## Registro histórico
+
 Registro oficial das diferenças frente a Minecraft Java 1.21.1 / NeoForge com os mesmos mods e suas configurações padrão. **Implementado** significa que há código/dados; não significa aprovado no cliente. Evidência antiga vale somente para os hashes de sua execução. Todos os testes de cliente abaixo permanecem em [TESTES.md](TESTES.md).
 
 | ID | Personalização e arquivos responsáveis | Estado verdadeiro | Testes |

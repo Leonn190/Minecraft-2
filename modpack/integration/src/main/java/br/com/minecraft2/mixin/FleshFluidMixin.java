@@ -18,7 +18,6 @@ public abstract class FleshFluidMixin {
     @Shadow public abstract Fluid getType();
     @Inject(method="tick", at=@At("HEAD"), cancellable=true)
     private void m2$flow(Level level, BlockPos pos, CallbackInfo ci) {
-        if (!level.isClientSide && GameplayRules.flesh(BuiltInRegistries.FLUID.getKey(getType()))
-                && !GameplayRules.fleshAllowed(level)) ci.cancel();
+        if (!level.isClientSide && GameplayRules.plagueForbidden(BuiltInRegistries.FLUID.getKey(getType()), level)) ci.cancel();
     }
 }

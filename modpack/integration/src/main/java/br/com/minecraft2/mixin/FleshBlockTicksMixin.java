@@ -18,11 +18,10 @@ public abstract class FleshBlockTicksMixin {
     @Shadow public abstract Block getBlock();
     @Inject(method={"tick", "randomTick"}, at=@At("HEAD"), cancellable=true)
     private void m2$ticks(ServerLevel level, BlockPos pos, RandomSource random, CallbackInfo ci) {
-        if (GameplayRules.flesh(BuiltInRegistries.BLOCK.getKey(getBlock())) && !GameplayRules.fleshAllowed(level)) ci.cancel();
+        if (GameplayRules.plagueForbidden(BuiltInRegistries.BLOCK.getKey(getBlock()), level)) ci.cancel();
     }
     @Inject(method="entityInside", at=@At("HEAD"), cancellable=true)
     private void m2$contact(Level level, BlockPos pos, Entity entity, CallbackInfo ci) {
-        if (!level.isClientSide && GameplayRules.flesh(BuiltInRegistries.BLOCK.getKey(getBlock()))
-                && !GameplayRules.fleshAllowed(level)) ci.cancel();
+        if (!level.isClientSide && GameplayRules.plagueForbidden(BuiltInRegistries.BLOCK.getKey(getBlock()), level)) ci.cancel();
     }
 }

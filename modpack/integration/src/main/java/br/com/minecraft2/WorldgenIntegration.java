@@ -16,6 +16,7 @@ import net.minecraft.core.registries.Registries;
 public final class WorldgenIntegration {
     public WorldgenIntegration(IEventBus bus) {
         br.com.minecraft2.gameplay.GameplayRules.register();
+        NeoForge.EVENT_BUS.addListener(br.com.minecraft2.gameplay.UniqueCataclysm::beforeStart);
         NeoForge.EVENT_BUS.addListener(WorldgenIntegration::finalizeSpawn);
         NeoForge.EVENT_BUS.addListener(br.com.minecraft2.WorldShapeDiagnostics::started);
         bus.addListener((RegisterEvent event) -> event.register(Registries.BIOME_SOURCE,
@@ -26,6 +27,8 @@ public final class WorldgenIntegration {
         if (reason != MobSpawnType.NATURAL && reason != MobSpawnType.CHUNK_GENERATION) return false;
         String namespace = BuiltInRegistries.ENTITY_TYPE.getKey(entity).getNamespace();
         String world = dimension.toString();
+        if (namespace.equals("spore")) return !world.equals("m2pokemon:world");
+        if (namespace.equals("the_flesh_that_hates")) return !world.equals("m2arcana:world");
         if (namespace.equals("alexsmobs")) {
             return world.equals("m2pokemon:world") || world.equals("m2arcana:world");
         }

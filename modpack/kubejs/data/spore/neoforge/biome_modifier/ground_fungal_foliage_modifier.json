@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "m2pokemon:minecraft/mushroom_fields"
+  ],
+  "features": "spore:ground_fungal_foliage",
+  "step": "vegetal_decoration"
+}

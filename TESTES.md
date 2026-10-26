@@ -1,5 +1,24 @@
 # Testes — Minecraft 2
 
+## M2-028/029 — 26/10/2026
+
+**Regra vigente:** Spore somente Pokémon; TFTH somente Arcanus. J19–J24 abaixo descrevem a política histórica M2-022 de duas dimensões; para a versão atual use J32–J34. Nenhum cliente ou servidor foi iniciado nesta alteração, conforme solicitado. Compilação não comprova gameplay.
+
+| ID | Procedimento | Estado verdadeiro |
+|---|---|---|
+| AUTO-PRAGAS-CATACLYSM-20261026 | Compilar `build_integration.py`; conferir 31 overrides com `plagues_cataclysm_data.py --check`; executar `audit_worldgen_contract.py` com relatório novo; JSON/TOML, assinaturas alvo, sintaxe JS/Python, lista de 15 IDs, 11 frequências zero; conferir instalação e backup por SHA-256 | Compilação e verificações estáticas executadas; sem Minecraft. Evidências novas: `extras/auditoria-pragas-cataclysm-20261026.json`, `extras/contrato-pragas-cataclysm-20261026.json`, `extras/instalacao-pragas-cataclysm-20261026.json`. Site compilado: 22 páginas; fontes/visual inalterados. |
+| J32 | Reiniciar completamente M2D, mundo novo; explorar Pokémon, Arcanus e todos os demais mundos. Observar estruturas, vegetação, spawns naturais, conversões e incubadoras dos dois mods | Pendente: Spore somente Pokémon; TFTH somente Arcanus; outros mods preservados. |
+| J33 | Nas mesmas dimensões: ovos, spawners, `/summon`, portais com entidades, colocar blocos/baldes, aplicar efeitos; manter chunks com praga carregados por vários intervalos | Pendente: entidades/blocos/efeitos novos recusados fora do destino; propagação ativa somente no destino. Itens de inventário e receitas permanecem. |
+| J34 | Em cópia de save antigo com mobs/blocos das duas pragas fora do destino: reiniciar duas vezes, observar filas, block entities e efeitos; repetir dentro do destino | Pendente: conteúdo antigo preservado/inativo fora; filas na dimensão correta; atividade original dentro. |
+| J35 | Mundo novo, aguardar fila do script; conferir 15 mensagens de sucesso e ausência de pendências `[M2 CATACLYSM]`; visitar todos os IDs do script e respectivos chefes/loot | Pendente: exatamente uma por ID, 12 Overworld, 2 Nether, 1 End. Terreno inválido ou área usada deve ser registrado como pendência, nunca aprovação. |
+| J36 | Salvar/reabrir duas vezes, usar `/reload`, explorar chunks novos e aliases toroidais; comparar starts/posições; usar `/locate` e olhos do mod | Pendente: nenhuma nova cópia natural/automática; localizadores alcançam os starts registrados. |
+| J37 | Cópia de save preexistente com construções e estruturas Cataclysm: abrir e explorar; comparar áreas anteriores e chunks novos | Pendente: executor automático desativado; construções/dungeons antigas preservadas; geração natural repetida desativada. Não promete deduplicar estruturas antigas. |
+| J38 | Perfil descartável: tornar região candidata já usada; simular ID ausente e falha de colocação; reiniciar após reserva persistida | Pendente: preflight recusa área usada; falhas não contam como sucesso nem criam nova cópia após reserva; entradas pendentes aparecem no log. |
+
+Relatórios/limites: `extras/PRAGAS_CATACLYSM_20261026.md`. Não reutilizar aprovação dos servidores históricos para o JAR novo.
+
+## Checklists anteriores
+
 Alvo: **Minecraft Java 1.21.1 / NeoForge 21.1.263 / Java 21**. Não foi aberto cliente Minecraft nesta tarefa. Os testes J abaixo são para quando o PC principal estiver disponível; **todos estão pendentes**, exceto o bloqueio de instalação identificado. Compilar, carregar servidor e publicar eventos com entidades de teste não aprova testes manuais.
 
 Antes de testar: cópia descartável do perfil, backup do save, hashes registrados e reinício completo. Não instale o JAR de testes em um perfil de uso normal: ele encerra o servidor. Não instale simultaneamente Strato upstream e fork isolado (mesmo ID). Guarde evidência com versão/hashes, seed, dimensão, coordenadas, passos, capturas/logs e resultado. Estados permitidos: **pendente**, **aprovado**, **reprovado**, **bloqueado**. Somente mude para aprovado após executar e conferir o resultado esperado.

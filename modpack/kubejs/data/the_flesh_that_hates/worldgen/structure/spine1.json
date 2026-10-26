@@ -4,7 +4,6 @@
   "size": 2,
   "max_distance_from_center": 1,
   "biomes": [
-    "m2pokemon:minecraft/mushroom_fields",
     "m2arcana:strato/mushroom_fields"
   ],
   "step": "surface_structures",

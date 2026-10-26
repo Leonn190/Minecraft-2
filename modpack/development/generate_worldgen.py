@@ -128,7 +128,8 @@ def main():
     for name, (dimension, deny) in worlds.items():
         if name!='arcanus':deny=[*deny,'strato']
         if name!='arcanus':deny=[*deny,'ars_nouveau','ars_elemental']
-        if name not in {'pokemon','arcanus'}:deny=[*deny,'the_flesh_that_hates']
+        if name != 'arcanus':deny=[*deny,'the_flesh_that_hates']
+        if name != 'pokemon':deny=[*deny,'spore']
         header = 'world_sets.'+name
         lines += ['['+header+']', 'overworld = '+json.dumps(dimension), 'default = "allow"']
         if name == 'base':

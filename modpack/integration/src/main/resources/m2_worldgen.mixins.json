@@ -18,7 +18,15 @@
     "FleshInfectionEffectMixin",
     "FleshStructuresMixin",
     "FleshStageMessagesMixin",
-    "FleshFluidMixin"
+    "FleshFluidMixin",
+    "PlaguePlacementMixin",
+    "PlagueWorldgenPlacementMixin",
+    "PlagueBlockEntityMixin",
+    "SporeInfectionMixin",
+    "SporeLivingEventsMixin",
+    "SporeBiomeModifierMixin",
+    "PlagueEffectsMixin",
+    "PlagueEffectTickMixin"
   ],
   "injectors": {
     "defaultRequire": 1
