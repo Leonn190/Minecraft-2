@@ -31,6 +31,18 @@ Antes de testar: cópia descartável do perfil, backup do save, hashes registrad
 | J23 | Persistência de filas M2-022 | Áreas de propagação separadas em Pokémon/Arcana; fila antiga sem campo de dimensão | Salvar, encerrar completamente e reabrir duas vezes; comparar coordenadas/blocos nas três áreas | Filas novas retomam na dimensão correta; fila antiga do Overworld fica inativa; nenhum bloco migra de mundo | pendente |
 | J24 | TFTH permitido e saves antigos M2-022 | Save cópia com mobs/blocos fora e dentro das dimensões permitidas | Reabrir; observar mobs fora; testar itens, receitas e efeitos visuais; explorar mushroom_fields clones | Mobs antigos fora preservados e inertes; dentro comportamento original e seis estruturas elegíveis; itens/receitas/visuais mantidos | pendente |
 
+## Presets normais — M2-027 (25/10/2026)
+
+| ID | Procedimento | Estado verdadeiro |
+|---|---|---|
+| AUTO-PRESET-20261025 | `audit_worldgen_contract.py --output extras/auditoria-presets-normais-20261025.json`; comparar `minecraft:normal` e `wover:normal` com `m2worlds:toroidal`, larguras, recursos e ZIP atual; conferir instalação dos dois JSONs e integridade do backup | Contrato estático aprovado; arquivos instalados em M2D idênticos ao repositório. Evidência: `extras/instalacao-presets-normais-20261025.json`. Nenhum save ou JAR modificado. |
+| AUTO-PRESET-RUNTIME-20261025 | Servidores NeoForge 21.1.263 descartáveis, Exotic Worlds 1.1.4, seed 420211: criar pelo `minecraft:normal`, salvar/reabrir; criar outro pelo `wover:normal`. Comparar identidade de chunks e leitura/escrita/remoção por nove aliases em nove posições nas sete dimensões | **Aprovado nos três boots**: 567 comparações por boot; 63 marcadores persistidos na reabertura do Normal. Overworld 9.984, Nether 4.992 e End 6.016; BetterX e escala Nether 2 preservados. Salvamento completo confirmado nos três encerramentos. Evidência com hashes próprios: `extras/runtime-presets-normais-20261025.json`. Não equivale a teste do cliente M2D. |
+| J31 | Reiniciar completamente M2D; criar mundo novo com a escolha Normal padrão; visitar Overworld/Nether/End; cruzar lados e cantos, colocar/remover blocos, salvar e reabrir; repetir escolhendo Normal Wover explicitamente, se oferecido | Pendente no cliente. Larguras esperadas: 9.984/4.992/6.016 blocos. Nether/End preservam BetterX e escala Nether 2. Repetição visual/F3 isolada não aprova identidade de armazenamento. |
+
+O relato do usuário corresponde à versão anterior; não aprova J31 após a instalação. O mundo descartável existente foi preservado conforme solicitado. `generate_worldgen.py` reproduz os dois presets sem editar outras dimensões; sintaxe dos três scripts Python alterados conferida por `py_compile`. `npm run build` aprovado: 22 páginas, sem alteração visual do site. `git diff --check` executado.
+
+Reprodução de servidor em pastas novas do cache: `run_topology_audit.py --server CAMINHO` testa `minecraft:normal`; `--preset wover:normal` testa o outro caminho. `--reopen` exige o mesmo preset usado na criação. A primeira tentativa no sandbox falhou antes da suíte por `Permission denied: connect` no socket local; não recebe aprovação nem substitui as evidências de uma execução concluída. O JAR de testes permanece somente nos servidores descartáveis.
+
 ## Validação automatizada (separada dos testes de cliente)
 
 | ID | Execução e critério | Evidência/estado |

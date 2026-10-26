@@ -24,6 +24,14 @@ Registro oficial das diferenças frente a Minecraft Java 1.21.1 / NeoForge com o
 | M2-026 | Diagnóstico/entrega: `WorldShapeDiagnostics.java`, metadata de dependência Exotic Worlds 1.1.4; `TopologyAudit.java`, `WorldgenSmokeTest.java`; ferramentas `run_topology_audit.py`, `inspect_saved_worldgen.py`, `audit_worldgen_contract.py`, `build_delivery.py`. | Implementado: diagnóstico de sete larguras em runtime sem converter saves; escrita/remoção por nove aliases, reabertura e amostragem espacial. Entrega com overrides e hashes, sem JAR de testes. Save local lido sem alteração: Overworld/Nether/End sem wrapping; demais quatro com wrapping. Não é aprovação de líquidos, ticks, estruturas de costura, mapas ou cliente. | AUTO-TOPO-20261024, J05/J06, J27–J30 |
 | M2-P01 | Capítulos e mapa de progressão, novas receitas, gates, recompensas e identidade visual descritos em `extras/PROGRESSAO.md`, `VISAO.md`, `ROADMAP.md`, `MODS.md`. | **Planejamento**, sem aprovação de compatibilidade/distribuição e sem implementação implícita. | Não aplicável |
 
+## M2-027 — presets normais toroidais (25/10/2026)
+
+Implementado em `modpack/kubejs/data/{minecraft,wover}/worldgen/world_preset/normal.json`: os dois presets normais passam a reproduzir `m2worlds:toroidal`. Antes, o override `minecraft:normal` ainda declarava geradores vanilla sem wrapping e `wover:normal` não tinha override; adicionar o preset M2 à tag da tela não alterava essas escolhas padrão. Overworld mantém 9.984 blocos; Nether 4.992 e End 6.016, com geradores Wover/BetterX e escala Nether 2 já definidos no preset M2. As demais dimensões não foram alteradas.
+
+`generate_worldgen.py` agora reproduz os dois overrides; `audit_worldgen_contract.py` exige igualdade com o preset M2. `run_topology_audit.py` testa `minecraft:normal` por padrão e aceita `--preset wover:normal` ou `--preset m2worlds:toroidal`, conferindo o preset na reabertura. Para reabrir auditorias históricas, informe explicitamente `--preset m2worlds:toroidal`.
+
+Instalação local restrita aos dois JSONs equivalentes em M2D, com backup verificado fora do Git. Não converte saves existentes, não modifica JARs nem as personalizações Ars/Pokémon/Macabre. Reinício completo e **mundo novo** necessários. Evidências e limites: AUTO-PRESET-20261025 e J31 em `TESTES.md`.
+
 ## M2-020 — atribuição do dano
 
 O listener `LivingIncomingDamageEvent`, prioridade LOWEST, executa somente no servidor e verifica a dimensão da vítima. Usa `DamageSource.getWeaponItem()`, que consulta a entidade direta. Golpes de jogadores/mobs são reconhecidos pelos tipos vanilla de ataque; o item deve fornecer modificador positivo de `ATTACK_DAMAGE` na mão principal. Assim machados, espadas e armas de mods seguem seus atributos, sem uma lista de IDs; maçã na mão, punhos, espinhos e ambiente não viram armas.

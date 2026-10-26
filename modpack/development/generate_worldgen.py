@@ -44,6 +44,13 @@ def toroidal(stem, width):
     return stem
 
 
+def write_normal_presets(preset):
+    # A tag da tela só oferece o preset; não muda a escolha padrão vanilla/Wover.
+    # Os dois IDs normais precisam carregar os mesmos três geradores toroidais.
+    for namespace in ('minecraft', 'wover'):
+        write(DATA/namespace/'worldgen/world_preset/normal.json', preset)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--vanilla', type=Path, required=True)
@@ -178,6 +185,7 @@ def main():
     write(DATA/'m2worlds/dimension_type/nether.json', nether_type)
     stems['minecraft:the_nether']['type'] = 'm2worlds:nether'
     write(DATA/'m2worlds/worldgen/world_preset/toroidal.json', dict(dimensions=stems))
+    write_normal_presets(dict(dimensions=stems))
     write(DATA/'minecraft/tags/worldgen/world_preset/normal.json', dict(replace=False, values=['m2worlds:toroidal']))
     write(ROOT/'modpack/worldgen-selectors.json', dict(note='Seletores derivados dos JARs; zero significa habitat original sem equivalente no Arcanus.', resources=counts))
     print(f'{len(resources)} recursos de addons; sete dimensões com limites próprios, incluindo macabre:the_pit (Carne).')

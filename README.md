@@ -60,6 +60,8 @@ Backups próprios foram compactados, reabertos e comparados byte a byte, diretam
 
 ## Documentação
 
+Correção de 25/10/2026 — M2-027: os presets **Normal** do Minecraft e do Wover agora incluem os mesmos geradores toroidais de `m2worlds:toroidal`, sem exigir escolher manualmente esse preset especial. Os dois JSONs também foram instalados no perfil local M2D, com backup e conferência de hashes. Reinicie completamente e crie **mundo novo**; saves anteriores permanecem intactos. Procedimentos e evidências em [TESTES.md](TESTES.md).
+
 - [`ALTERACOES.md`](ALTERACOES.md) — personalizações implementadas e limitações
 - [`TESTES.md`](TESTES.md) — checklist e validações reais
 - [`extras/VISAO.md`](extras/VISAO.md) — identidade e escopo

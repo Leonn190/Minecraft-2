@@ -1,0 +1,23 @@
+{
+  "state": "installed_data_only",
+  "instance": "M2D",
+  "files": {
+    "kubejs/data/minecraft/worldgen/world_preset/normal.json": {
+      "before_sha256": "ea395168e9edf40c8d1b09fb2b1d08176ec31abaa8041ac393376e888ce47260",
+      "installed_sha256": "03f97c394aacc7f942d72bc3dc163b932ba912f2d070ce52f06e79a7e1664cb1",
+      "identical_to_repository": true
+    },
+    "kubejs/data/wover/worldgen/world_preset/normal.json": {
+      "before_sha256": null,
+      "installed_sha256": "03f97c394aacc7f942d72bc3dc163b932ba912f2d070ce52f06e79a7e1664cb1",
+      "identical_to_repository": true
+    }
+  },
+  "backup": "backup-presets-normais-20261025.zip",
+  "backup_sha256": "4907ff70b60464086c86d4de436ab068db79c756c15a61600d136bdf107be490",
+  "backup_verified": true,
+  "saved_metadata_unchanged": true,
+  "jars_changed": false,
+  "client_test": "pending",
+  "note": "Somente dois presets normais; nenhum save convertido. Reinício completo e mundo novo necessários."
+}

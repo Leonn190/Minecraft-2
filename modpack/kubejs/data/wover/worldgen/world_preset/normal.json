@@ -1,0 +1,72 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "exotic_worlds:toroidal",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:overworld"
+        },
+        "settings": "minecraft:overworld",
+        "wrapping": {
+          "x": {
+            "min_chunk": -312,
+            "max_chunk": 312
+          },
+          "z": {
+            "min_chunk": -312,
+            "max_chunk": 312
+          }
+        },
+        "climate_compression": false
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "m2worlds:nether",
+      "generator": {
+        "type": "wover:betterx",
+        "settings": "minecraft:nether",
+        "biome_source": {
+          "type": "wover:nether_biome_source",
+          "seed": 0,
+          "config": {}
+        },
+        "exotic_worlds:wrapping": {
+          "x": {
+            "min_chunk": -156,
+            "max_chunk": 156
+          },
+          "z": {
+            "min_chunk": -156,
+            "max_chunk": 156
+          }
+        },
+        "exotic_worlds:climate_compression": false
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "wover:betterx",
+        "settings": "minecraft:end",
+        "biome_source": {
+          "type": "wover:end_biome_source",
+          "seed": 0,
+          "config": {}
+        },
+        "exotic_worlds:wrapping": {
+          "x": {
+            "min_chunk": -188,
+            "max_chunk": 188
+          },
+          "z": {
+            "min_chunk": -188,
+            "max_chunk": 188
+          }
+        },
+        "exotic_worlds:climate_compression": false
+      }
+    }
+  }
+}

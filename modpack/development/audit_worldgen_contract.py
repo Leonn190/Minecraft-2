@@ -30,6 +30,9 @@ def main():
     def check(ok,message):
         if not ok: errors.append(message)
     preset=json.loads((DATA/'m2worlds/worldgen/world_preset/toroidal.json').read_text(encoding="utf-8"))
+    for namespace in ('minecraft','wover'):
+        normal=json.loads((DATA/namespace/'worldgen/world_preset/normal.json').read_text(encoding='utf-8'))
+        check(normal==preset,'Preset normal deve manter os geradores toroidais: '+namespace)
     dims={}
     for id,width in WIDTHS.items():
         ns,name=id.split(':')

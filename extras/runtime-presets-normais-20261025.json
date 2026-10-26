@@ -1,0 +1,2379 @@
+{
+  "state": "dedicated_server_only",
+  "passed": true,
+  "runs": [
+    {
+      "preset": "minecraft:normal",
+      "phase": "write",
+      "passed": true,
+      "seed": 420211,
+      "dimensions": [
+        {
+          "id": "m2arcana:world",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 3008,
+          "widthZ": 3008,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 520,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1504,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1503,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": -1504,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": 1503,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1504,
+              "y": 520,
+              "z": -1504,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1504,
+              "y": 520,
+              "z": 1503,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1503,
+              "y": 520,
+              "z": -1504,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1503,
+              "y": 520,
+              "z": 1503,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "m2pokemon:world",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 4992,
+          "widthZ": 4992,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 520,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 520,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 520,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 520,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 520,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "macabre:the_pit",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 2016,
+          "widthZ": 2016,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 504,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1008,
+              "y": 504,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1007,
+              "y": 504,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 504,
+              "z": -1008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 504,
+              "z": 1007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1008,
+              "y": 504,
+              "z": -1008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1008,
+              "y": 504,
+              "z": 1007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1007,
+              "y": 504,
+              "z": -1008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1007,
+              "y": 504,
+              "z": 1007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "minecraft:overworld",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 9984,
+          "widthZ": 9984,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 520,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -4992,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 4991,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": -4992,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": 4991,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -4992,
+              "y": 520,
+              "z": -4992,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -4992,
+              "y": 520,
+              "z": 4991,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 4991,
+              "y": 520,
+              "z": -4992,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 4991,
+              "y": 520,
+              "z": 4991,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "minecraft:the_end",
+          "generatorClass": "org.betterx.wover.generator.impl.chunkgenerator.WoverChunkGenerator",
+          "widthX": 6016,
+          "widthZ": 6016,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 248,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -3008,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 3007,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": -3008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": 3007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -3008,
+              "y": 248,
+              "z": -3008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -3008,
+              "y": 248,
+              "z": 3007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 3007,
+              "y": 248,
+              "z": -3008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 3007,
+              "y": 248,
+              "z": 3007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "minecraft:the_nether",
+          "generatorClass": "org.betterx.wover.generator.impl.chunkgenerator.WoverChunkGenerator",
+          "widthX": 4992,
+          "widthZ": 4992,
+          "coordinateScale": 2.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 248,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 248,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 248,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 248,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 248,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "undergarden:undergarden",
+          "generatorClass": "quek.undergarden.world.gen.UGNoiseBasedChunkGenerator",
+          "widthX": 4992,
+          "widthZ": 4992,
+          "coordinateScale": 4.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 120,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 120,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 120,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 120,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 120,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 120,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 120,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 120,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 120,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        }
+      ],
+      "alias_comparisons": 567,
+      "persisted_markers": null,
+      "raw_sha256": "b5a4bcf6e9eb71908282aa80119cab61ac0a2b76e68d852d360e693d25733452",
+      "log_sha256": "1af451f96e04b76d73180a822042effe101570494ef91ff87bb3577777bf8230",
+      "input_manifest_sha256": "e486fde5208a3bbfa82717ca7abeb7e9e4f27c9ed38f325f1bc853356eabbc2c",
+      "inputs_sha256": {
+        "mods/alexscaves-2.0.10.jar": "6fad35bf07fcb977aaa32d3fe05bf122150c6a30ed16b057385040207a3b788f",
+        "mods/alexsmobs-1.22.17.jar": "6e502855f79e4c9f2a11d560a9b88a3ab295aa378c44b0f0a0dd95f95d0301a6",
+        "mods/alltheleaks-1.1.13+1.21.1-neoforge.jar": "c9b76623003dd05dda452d9ed42cb23623b09383fe9ac1efb41c46a3b69ff601",
+        "mods/Amplified_Nether_26.2_v1.2.16.jar": "fc49dc7f0b9e4cef665e60a97f29b5589025fb9e19b13222d9767e178093eaed",
+        "mods/aquamirae-neoforge-1.21.1-7.2.13.jar": "665927e1edf73101f2014682659a756d2972f6fbff0f54b3db4fdebba288c8e2",
+        "mods/architectury-13.0.11-neoforge.jar": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+        "mods/Ars Fauna-1.4.1.jar": "d6d3f8c9c4411870edbb7ca717eed63d67ad5fed68b398a32b3c93a567f0366a",
+        "mods/ars_additions-1.21.1-21.3.0.jar": "e634a3f0c39cd38007608cce1974a7c9bbad7d8202bfb6c75f17c2901f362c9b",
+        "mods/ars_elemental-1.21.1-0.7.10.4.jar": "9ba4393c98228bb1647e3786c71c30c7eb97574b9e65baba14f34c92f7b86eb9",
+        "mods/ars_nouveau-1.21.1-5.13.3.jar": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
+        "mods/ars_structurize-1.1.3-neoforge-1.21.1.jar": "1b32291ed2f6c9edbb510259d60a40d2a5acce65a2147b6ac61d059880188011",
+        "mods/attributefix-neoforge-1.21.1-21.1.3.jar": "b2b20f3d44e824071284c14de3f4d3323d420e1c450040b339a5c37d2c382ad4",
+        "mods/balm-neoforge-1.21.1-21.0.66.jar": "6be660e1f6d169553bf44f66d4f78bb9e96a1d66ce108d9608819e3ce6bfba34",
+        "mods/bclib-21.0.28.jar": "e8d5b8ce29d51eb0845c19fd2172d99237841bd20bc4bc25b7cbf4965a5ad506",
+        "mods/BetterEnd-21.0.38.jar": "00c9263280b5aec16703ba22b3a56457436591913133f6b1a5cf11b1f29fc0d5",
+        "mods/BetterNether-21.0.29.jar": "5136fea127f936ec1dc596bc5190e04192ef790c3638c952cea7feb147025943",
+        "mods/block_factorys_bosses-2.1.2-neo-1.21.1.jar": "9e230bd509e7aeb3af4c08125db0340734c0179d83483649a16e45c0ea085e8c",
+        "mods/BOMD-NeoForge-1.21-1.3.3.jar": "93da8753a00229e41c5ed399e6cf849737e7bd9b4109d5d8e4ad3a20136deb82",
+        "mods/bookshelf-neoforge-1.21.1-21.1.81.jar": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
+        "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
+        "mods/citadel-1.21.1-2.7.6.jar": "9e12468c49e5a95b7adbf22b3b4d05bc55565989b89c40b985cd73bdfe63c3c2",
+        "mods/cloth-config-15.0.140-neoforge.jar": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
+        "mods/Cobblemon-neoforge-1.8.2+1.21.1.jar": "43da1d268d5ee7f7f8a0f8f509efd5d198780dde676d1df2fa63e9cd902ebf11",
+        "mods/Corgilib-NeoForge-1.21.1-5.0.0.10.jar": "ae720bcc5bdff1483b0bfc7502ff885b5f27e4aaef920ba23c0f6d012c390f82",
+        "mods/cpn-neoforge-1.8.2+1.2.1.jar": "fdd2a02afea5a0cb58ac6c0aa12dac4adfb6464560b08e7bc5354e4e8bac103d",
+        "mods/create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+        "mods/create-enchantment-industry-2.4.2.jar": "81f192bb53888e01f87a82eaac2f261c93715f2221dbcf5d8a8d414f912f75ef",
+        "mods/createaddition-1.6.0.jar": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+        "mods/CreateDragonsPlus-1.11.9.jar": "37f05a6775bbe811fe8c2833fa6289a1c704d0b25bdd5f239d343a5c6f62ed8a",
+        "mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar": "ed83bea2826667fca80a6a8067f89fe7b97eb8b3213bbcb7f0f4e6a6898c0bc9",
+        "mods/cristellib-neoforge-1.21.1-3.1.7.jar": "11e05dbc97bd3fe1790bd6361747240e314c1dbf40b590ea20cc691dc8396c38",
+        "mods/curios-neoforge-9.5.1+1.21.1.jar": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+        "mods/deathcharm-1.0.1-1.21.1.jar": "cefd53d768367d00f421df61ceae07daa60fec44206186d61a6f268f787256e4",
+        "mods/dungeonnowloading-neoforge-1.21.1-2.11.6.jar": "8864f64fa2872e72402f3670aec553888fa000a0c6a1475fce5fcf25f91ec84a",
+        "mods/DungeonsArise-1.21.1-2.1.68-release.jar": "7eee1eca7e3b2c6c1bede055934f391ae2e8349ffe33e106f451176d2cfcf0e4",
+        "mods/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar": "dcd0e562710a639b4fdd60a7500dc9404c6fbd1007215a088248ce1c57ccc6dc",
+        "mods/EasyMagic-v21.1.4-1.21.1-NeoForge.jar": "e641a83dcd0dd1a66c545069a706349df94f5b64dc5a252944596439009a699f",
+        "mods/echoes-0.6-NEOFORGE-1.21.1.jar": "b95b40383474357cba807baa0764455e40486d0254006a91d577d8ce5c9f8fd0",
+        "mods/endermanoverhaul-neoforge-1.21.1-2.0.3.jar": "fe6c04dcfdbb8815058ebf1102d64cb4c86060a0a1b7350121e4a976d4a92248",
+        "mods/exotic_worlds-1.1.4+mc1.21.1.jar": "4f58182c7c7309e161577d54623b98f9194bdaa1ebfceb2fbe06d482722b39cd",
+        "mods/FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+        "mods/FastSuite-1.21.1-6.0.7.jar": "3e274cd01bdc27dff8e2514213f1c45306c86fe38e4271a4209bc1471de6c70d",
+        "mods/ferritecore-7.0.3-neoforge.jar": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+        "mods/fragmentum-5.4.0+1.21.1-neoforge.jar": "fb7e1b28d54fda52c62df2a7c050e772030d7c75663d1679371deb0a860d3c1f",
+        "mods/Galosphere-1.21.1-1.5.5-NeoForge.jar": "4e6f7084110c78180b327e134ce3f43420abe58b0719e6963b2e9e26a99bab5f",
+        "mods/geckolib-neoforge-1.21.1-4.9.3.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+        "mods/gravestone-neoforge-1.21.1-1.0.40.jar": "204be9ccb8632a56a87aee9aab4c7874d0f6749f566c07f5dd420d24e24dc8b0",
+        "mods/graveyard-2.6.2 NeoForge 1.21.1.jar": "69dd4501da1fcc596d8ab7e09f32259ad1beee7e031fd5ab2d9c6cff4a8c8b2b",
+        "mods/historystages-6.1.0-1.21.1.jar": "573d114049d26ee7a54d6f4aec01c36e12ddac09eaa61977d2bbc5c659a62730",
+        "mods/incontrol-1.21-10.3.0.jar": "3776c11310008edaffdda0320c1a8436555ff59de36a6e3959452cbdefa98111",
+        "mods/ironchest-1.21-neoforge-16.0.7.jar": "dae66a38a33c2adac6ca0b7a4fbf4b365ba37a6a1f7a10961028617965c1fcaf",
+        "mods/kotlinforforge-5.12.0-all.jar": "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46",
+        "mods/kubejs-neoforge-2101.7.2-build.377.jar": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601",
+        "mods/kubejsarsnouveau-1.3.2.jar": "5beedb785fc0a5f07ecff20645131d2cbf02d1c946a4ebb0657d9e2cbb8248cf",
+        "mods/lionfishapi-3.1.jar": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+        "mods/lithium-neoforge-0.15.4+mc1.21.1.jar": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757",
+        "mods/lithostitched-1.8.1-neoforge-21.1.jar": "e0da669fa5facc61a09b9b7bae21b322993de1fcd1eb05787adffb7309598cca",
+        "mods/lootjs-neoforge-1.21.1-3.7.0.jar": "d168fd80f45e5f23dced8a54fdee87347a4c7fc6ccd9c76d30ae4d067ba9c60a",
+        "mods/lootr-neoforge-1.21.1-1.11.38.127.jar": "5c74de4709d1c13b25880fdd241a89d5d9f331346d20edc76f80ccd4d99dc66c",
+        "mods/L_Ender's Cataclysm 1.21.1-3.33.jar": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+        "mods/m2-worldgen-1.1.0.jar": "538cf46f66f5fb6a3cc85d1f774bed1534ac507df8338990c4023e88b8967109",
+        "mods/m2-worldgen-tests-1.1.0.jar": "4d4429f0f6bc1cec8ffc231436dda38753da26d3e784fd1fd78bcd1c1a91deb1",
+        "mods/macabre-0.9.2-neoforge-1.21.1.jar": "9d48f8cdf1800f4cb20b178f92dca07a4cf43f137e31e73c7c29ebacb811af56",
+        "mods/mezz_config-1.21.1-neoforge-0.6.8-standalone.jar": "182ad8ad757175b49d573512c8fac624ee526e8138e24b36f677b0f6466e20cb",
+        "mods/modernfix-neoforge-5.27.26+mc1.21.1.jar": "09f6842c63d14b3f1707f1f4a6f4602052f237f7efa9be135e41d3d97acf2a13",
+        "mods/MonsterPlus-Neoforge1.21.1-v1.2.0.0.jar": "89d24a9581549600a0a77b248bb428e42b8f75441c2673eb0b78849285bbea1c",
+        "mods/moonlight-1.21.1-3.7.2-neoforge.jar": "4a9f15108607cc70273f8a0b6eb24e1e99af8eef44bc3ae8681767ca7ce21b0f",
+        "mods/MoreTotems-neoforge-1.21-2.20.3.jar": "27fd3b225653ebb3ebc72a4f5e4378b8c99b64505f0b8ea919daa5d6832d937d",
+        "mods/MutantMonsters-v21.1.1-1.21.1-NeoForge.jar": "1e20340a6642dcd6e43399292825f8cd84a079e0b917e36cf7341e787b626a4f",
+        "mods/netherportalfix-neoforge-1.21.1-21.1.1.jar": "c1077de0c7f1ff5289d1852e0674d9c477247d4318c9809b21c60e56a31ae31a",
+        "mods/Oh-The-Biomes-Weve-Gone-NeoForge-2.6.3.jar": "3195f394741510c3b51617f48d0fa9461284b5975e2f976857241f7f07792f11",
+        "mods/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.5.jar": "12b918a09e4786de0045d7f29d336881234a533259c10d1327051df9ba318c4f",
+        "mods/Paraglider-neoforge-21.1.5.jar": "2f084b728383d9de7e9c652c3a92cad086e0b38f131b61f8900d25ba18734e44",
+        "mods/Placebo-1.21.1-9.9.4.jar": "d8952c019d6e54befe37155bc9876985ec57bf73dd33872115c7a65ac6bceba0",
+        "mods/Platform-neoforge-1.21.1-1.4.1.jar": "d5ce33619921ea559d8cf1f062f3d69ddfa47870cd7096225da50e62531e73d9",
+        "mods/player-animation-lib-forge-2.0.4+1.21.1.jar": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+        "mods/portals-1.21.1-1.2.2.jar": "ae77bad48c4a7530473065ec70a2df932e7fb27e1ccc09c6656cf1fd9025d26f",
+        "mods/prickle-neoforge-1.21.1-21.1.11.jar": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167",
+        "mods/puzzleslib-v21.1.65-mc1.21.1+neoforge.jar": "5317fe131954accbe884b079f75713d6f9024b291085314d6c23b3a697fc2771",
+        "mods/Quark-4.1-487.jar": "2a43e4fa6254aaaf755f4ece5230708a2a6d587d8092d4db3aa53626c7bb67ab",
+        "mods/railways-0.2.1+neoforge-mc1.21.1.jar": "b7636c8b1b0352ed1a130dfe67f8bb574e2fc08803ed1cda4d3ea00505193914",
+        "mods/resourcefulconfig-neoforge-1.21-3.0.11.jar": "25b4f3502d25c535004acd4a9420272fff01d2f1e2df352239fec93fdab005d4",
+        "mods/resourcefullib-neoforge-1.21-3.0.12.jar": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261",
+        "mods/rhino-2101.2.7-build.85.jar": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+        "mods/rottencreatures-neoforge-1.21.1-1.1.2.jar": "6cac5fedf5558d4e973fd52afbf2304b5b3f0b89970d7d97210b9a7b954ae2e0",
+        "mods/sable-neoforge-1.21.1-2.0.6.jar": "9c199157843bf953a47dff625fc5bb41c01a90538d35ad18e6996bbcb8a617c2",
+        "mods/servercore-neoforge-1.5.19+1.21.1.jar": "a5706aa0bb3a47c5f1adab44306685736688ec03414f60beb4fcbe05b99f5a82",
+        "mods/simplerecall-1.0.6-1.21.1.jar": "3182907153bca1063505b1c07a4dc42be4407e6a61c0d1f5cbc79e339e5912ee",
+        "mods/SkyLands-UnofficialPort-NeoForge-1.21.1-v0.9.2.jar": "140eeddb871f5f02638d237edb5996896b4957fe98a3941e1406675fefd54964",
+        "mods/sliceanddice-4.3.4-neoforge.jar": "b3982e89611761d7f1cdce90794cd88498a2c9e1447d8a1aba33ed831f3c9201",
+        "mods/sophisticatedbackpacks-1.21.1-3.26.14.2222.jar": "f4aa76a9115c2ed1323a3e91b71561b112c0ace04062503ed297848229e530a5",
+        "mods/sophisticatedcore-1.21.1-1.5.17.2426.jar": "0ece314bf2deeeb978cdf6f38dfe691a9d2f4deb7149b4ad9c320c016a227a1b",
+        "mods/spark-1.10.124-neoforge.jar": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
+        "mods/spawn-animations-compats-18.0.jar": "02d5b3d73f38a4106e03cc0f550107f08d5886f6ec1903a0bebdcaa3706f4988",
+        "mods/spawnanimations-v1.11.6-mc1.17-26.3.9-mod.jar": "229c48cd7a17f1318a2d9e4ac8d0e2470fa198952c0efff145cd318022fc4e8a",
+        "mods/strato-0.4.1-m2.1.jar": "865451f443b83ea80e9cc5e010ac75468368610c5d75cbe1fe25a539cb4d8fa7",
+        "mods/supplementaries-1.21.1-4.0.2-neoforge.jar": "2c2e0c98e0cc21874d8b2130bc773a2a5a6cadd854b9c8163d0e1f32e2ddffb0",
+        "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8",
+        "mods/Terralith_1.21.x_v2.6.2.jar": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
+        "mods/TFTH-1.21.1-1.1b-port-0.2.jar": "8c157d2829767ecf31d0893e4905aaf0cea314683916baa4defd64eb5b975d0a",
+        "mods/theimpossiblelibrary-0.4.7.jar": "d2df15b38eb91e57fcf2ea5fb5ac2617ff333401c4ea690b8f977dbcc7a69d1e",
+        "mods/The_Undergarden-1.21.1-0.9.6.jar": "49e3db6ce2cf6864e9d45f0633de95bc3ef72cbd5ebffee493fca7198d30ccb0",
+        "mods/threateningly__mobs-1.1.1-neoforge--1.21.1.jar": "09497e04b0dcf849d96aaad3dc69faddc3b87b2806b5a3e9bead6a42b1eb8ed7",
+        "mods/t_and_t-fabric-neoforge-1.13.11.jar": "270fc0d1c99e54bc15f43d64bdaac60a90cb896efc357af624988e677136440f",
+        "mods/VisualWorkbench-v21.1.2-1.21.1-NeoForge.jar": "f9bea7865d57c0f32075fc1e8b760d048cf77513c8d93fa41c181ad190eb4449",
+        "mods/worldgenrouter-1.0.0.jar": "ecd6b7c2b06b5ae89eb936d1b8ea5545e47a04f7df61a5318d8ead526113a586",
+        "mods/worldweaver-21.0.29.jar": "ad74878bf7e555d52f7dbe7dde21c1594b1b8a8265c5eff6a9aafd210740a8f8",
+        "mods/wunderlib-21.0.11.jar": "2f39302b8da949195ffc57d07d0668f867c8ba9f2874bb6eef0bdd1e9fed9ba4",
+        "mods/xptome-1.21.1-2.4.jar": "9cc3fb2352f7024faacd081f4efe437bdb3e3af09ea4f2c0b2f8ca845de1125e",
+        "mods/xp_veins-1.0.0-neoforge-1.21.1.jar": "35c8e004e8f59a8eef7b64d4e3a06dc9d3e8584f441a1e3e4d2e1369aefe5d8e",
+        "mods/YungsApi-1.21.1-NeoForge-5.1.9.jar": "375e0b2f988ab4f5bde182166c0f0b102377adc8f823660c24ade08b0b3cde56",
+        "mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar": "61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04",
+        "mods/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar": "5625930dfb3240820d6e4ecf55fff0c39f70ce782fad117a4d418251184c7be0",
+        "mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar": "a9cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58",
+        "mods/Zeta-1.1-40.jar": "4f17d1a2b9fd6d18ddb7697aa451db7fb154053b8648f79de279ae0d7e68a2fa",
+        "kubejs/data/wover/worldgen/world_preset/normal.json": "03f97c394aacc7f942d72bc3dc163b932ba912f2d070ce52f06e79a7e1664cb1",
+        "kubejs/data/minecraft/worldgen/world_preset/normal.json": "03f97c394aacc7f942d72bc3dc163b932ba912f2d070ce52f06e79a7e1664cb1",
+        "kubejs/data/minecraft/tags/worldgen/world_preset/normal.json": "64ad4562721c74fd74048b138b27b6ab9d1db8232aad2d8441ceeee1b924f996"
+      },
+      "archive_sha256": "f9e5866f8b2b553369edaca9c9232e346c0c76dcae77c069c66f692de19f9bbe",
+      "excluded_client_jars": [
+        "appleskin-neoforge-mc1.21-3.0.9.jar",
+        "better-advanced-tooltips-2101.1.0-build.5.jar",
+        "BetterF3-11.0.3-NeoForge-1.21.1.jar",
+        "chat_heads-0.15.7-neoforge-1.21.jar",
+        "chunksfadein-neoforge-3.0.26-1.21.jar",
+        "entityculling-neoforge-1.11.3-mc1.21.1.jar",
+        "entity_pin_cushions-neoforge-1.21-1.0.jar",
+        "fancymenu_neoforge_3.9.14_MC_1.21.1.jar",
+        "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+        "iris-neoforge-1.8.12+mc1.21.1.jar",
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+        "irisblockcompat-1.21.1-1.1.0.jar",
+        "Jade-1.21.1-NeoForge-15.10.6.jar",
+        "jei-1.21.1-neoforge-19.64.0.455.jar",
+        "konkrete_neoforge_1.9.9_MC_1.21.jar",
+        "melody_neoforge_1.0.10_MC_1.21.jar",
+        "moreculling-neoforge-1.21.1-1.0.10.jar",
+        "musictriggers-7.0.4.jar",
+        "ProbeJS-8.0.3.jar",
+        "sodium-neoforge-0.8.13+mc1.21.1.jar",
+        "xaeroworldmap-neoforge-1.21.1-1.47.0.jar"
+      ],
+      "shutdown_save_confirmed": true
+    },
+    {
+      "preset": "minecraft:normal",
+      "phase": "reopen",
+      "passed": true,
+      "seed": 420211,
+      "dimensions": [
+        {
+          "id": "m2arcana:world",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 3008,
+          "widthZ": 3008,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 520,
+              "z": 0,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1504,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1503,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": -1504,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": 1503,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1504,
+              "y": 520,
+              "z": -1504,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1504,
+              "y": 520,
+              "z": 1503,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1503,
+              "y": 520,
+              "z": -1504,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1503,
+              "y": 520,
+              "z": 1503,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "m2pokemon:world",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 4992,
+          "widthZ": 4992,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 520,
+              "z": 0,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": -2496,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": 2495,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 520,
+              "z": -2496,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 520,
+              "z": 2495,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 520,
+              "z": -2496,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 520,
+              "z": 2495,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "macabre:the_pit",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 2016,
+          "widthZ": 2016,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 504,
+              "z": 0,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1008,
+              "y": 504,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1007,
+              "y": 504,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 504,
+              "z": -1008,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 504,
+              "z": 1007,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1008,
+              "y": 504,
+              "z": -1008,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1008,
+              "y": 504,
+              "z": 1007,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1007,
+              "y": 504,
+              "z": -1008,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1007,
+              "y": 504,
+              "z": 1007,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "minecraft:overworld",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 9984,
+          "widthZ": 9984,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 520,
+              "z": 0,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -4992,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 4991,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": -4992,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": 4991,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -4992,
+              "y": 520,
+              "z": -4992,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -4992,
+              "y": 520,
+              "z": 4991,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 4991,
+              "y": 520,
+              "z": -4992,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 4991,
+              "y": 520,
+              "z": 4991,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "minecraft:the_end",
+          "generatorClass": "org.betterx.wover.generator.impl.chunkgenerator.WoverChunkGenerator",
+          "widthX": 6016,
+          "widthZ": 6016,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 248,
+              "z": 0,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -3008,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 3007,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": -3008,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": 3007,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -3008,
+              "y": 248,
+              "z": -3008,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -3008,
+              "y": 248,
+              "z": 3007,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 3007,
+              "y": 248,
+              "z": -3008,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 3007,
+              "y": 248,
+              "z": 3007,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "minecraft:the_nether",
+          "generatorClass": "org.betterx.wover.generator.impl.chunkgenerator.WoverChunkGenerator",
+          "widthX": 4992,
+          "widthZ": 4992,
+          "coordinateScale": 2.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 248,
+              "z": 0,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": -2496,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": 2495,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 248,
+              "z": -2496,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 248,
+              "z": 2495,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 248,
+              "z": -2496,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 248,
+              "z": 2495,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "undergarden:undergarden",
+          "generatorClass": "quek.undergarden.world.gen.UGNoiseBasedChunkGenerator",
+          "widthX": 4992,
+          "widthZ": 4992,
+          "coordinateScale": 4.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 120,
+              "z": 0,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 120,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 120,
+              "z": 17,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 120,
+              "z": -2496,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 120,
+              "z": 2495,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 120,
+              "z": -2496,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 120,
+              "z": 2495,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 120,
+              "z": -2496,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 120,
+              "z": 2495,
+              "persistedMarker": true,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        }
+      ],
+      "alias_comparisons": 567,
+      "persisted_markers": 63,
+      "raw_sha256": "2a9ce6c49006613a79eacd8d0238ca6eb9dbd2e5c4fc7d3f10906a5576bdc429",
+      "log_sha256": "79e6b23353ba99368d1a17458c592785e0803689e7275d9e481fe5cdf5fdfb9c",
+      "input_manifest_sha256": "e486fde5208a3bbfa82717ca7abeb7e9e4f27c9ed38f325f1bc853356eabbc2c",
+      "inputs_sha256": {
+        "mods/alexscaves-2.0.10.jar": "6fad35bf07fcb977aaa32d3fe05bf122150c6a30ed16b057385040207a3b788f",
+        "mods/alexsmobs-1.22.17.jar": "6e502855f79e4c9f2a11d560a9b88a3ab295aa378c44b0f0a0dd95f95d0301a6",
+        "mods/alltheleaks-1.1.13+1.21.1-neoforge.jar": "c9b76623003dd05dda452d9ed42cb23623b09383fe9ac1efb41c46a3b69ff601",
+        "mods/Amplified_Nether_26.2_v1.2.16.jar": "fc49dc7f0b9e4cef665e60a97f29b5589025fb9e19b13222d9767e178093eaed",
+        "mods/aquamirae-neoforge-1.21.1-7.2.13.jar": "665927e1edf73101f2014682659a756d2972f6fbff0f54b3db4fdebba288c8e2",
+        "mods/architectury-13.0.11-neoforge.jar": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+        "mods/Ars Fauna-1.4.1.jar": "d6d3f8c9c4411870edbb7ca717eed63d67ad5fed68b398a32b3c93a567f0366a",
+        "mods/ars_additions-1.21.1-21.3.0.jar": "e634a3f0c39cd38007608cce1974a7c9bbad7d8202bfb6c75f17c2901f362c9b",
+        "mods/ars_elemental-1.21.1-0.7.10.4.jar": "9ba4393c98228bb1647e3786c71c30c7eb97574b9e65baba14f34c92f7b86eb9",
+        "mods/ars_nouveau-1.21.1-5.13.3.jar": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
+        "mods/ars_structurize-1.1.3-neoforge-1.21.1.jar": "1b32291ed2f6c9edbb510259d60a40d2a5acce65a2147b6ac61d059880188011",
+        "mods/attributefix-neoforge-1.21.1-21.1.3.jar": "b2b20f3d44e824071284c14de3f4d3323d420e1c450040b339a5c37d2c382ad4",
+        "mods/balm-neoforge-1.21.1-21.0.66.jar": "6be660e1f6d169553bf44f66d4f78bb9e96a1d66ce108d9608819e3ce6bfba34",
+        "mods/bclib-21.0.28.jar": "e8d5b8ce29d51eb0845c19fd2172d99237841bd20bc4bc25b7cbf4965a5ad506",
+        "mods/BetterEnd-21.0.38.jar": "00c9263280b5aec16703ba22b3a56457436591913133f6b1a5cf11b1f29fc0d5",
+        "mods/BetterNether-21.0.29.jar": "5136fea127f936ec1dc596bc5190e04192ef790c3638c952cea7feb147025943",
+        "mods/block_factorys_bosses-2.1.2-neo-1.21.1.jar": "9e230bd509e7aeb3af4c08125db0340734c0179d83483649a16e45c0ea085e8c",
+        "mods/BOMD-NeoForge-1.21-1.3.3.jar": "93da8753a00229e41c5ed399e6cf849737e7bd9b4109d5d8e4ad3a20136deb82",
+        "mods/bookshelf-neoforge-1.21.1-21.1.81.jar": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
+        "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
+        "mods/citadel-1.21.1-2.7.6.jar": "9e12468c49e5a95b7adbf22b3b4d05bc55565989b89c40b985cd73bdfe63c3c2",
+        "mods/cloth-config-15.0.140-neoforge.jar": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
+        "mods/Cobblemon-neoforge-1.8.2+1.21.1.jar": "43da1d268d5ee7f7f8a0f8f509efd5d198780dde676d1df2fa63e9cd902ebf11",
+        "mods/Corgilib-NeoForge-1.21.1-5.0.0.10.jar": "ae720bcc5bdff1483b0bfc7502ff885b5f27e4aaef920ba23c0f6d012c390f82",
+        "mods/cpn-neoforge-1.8.2+1.2.1.jar": "fdd2a02afea5a0cb58ac6c0aa12dac4adfb6464560b08e7bc5354e4e8bac103d",
+        "mods/create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+        "mods/create-enchantment-industry-2.4.2.jar": "81f192bb53888e01f87a82eaac2f261c93715f2221dbcf5d8a8d414f912f75ef",
+        "mods/createaddition-1.6.0.jar": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+        "mods/CreateDragonsPlus-1.11.9.jar": "37f05a6775bbe811fe8c2833fa6289a1c704d0b25bdd5f239d343a5c6f62ed8a",
+        "mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar": "ed83bea2826667fca80a6a8067f89fe7b97eb8b3213bbcb7f0f4e6a6898c0bc9",
+        "mods/cristellib-neoforge-1.21.1-3.1.7.jar": "11e05dbc97bd3fe1790bd6361747240e314c1dbf40b590ea20cc691dc8396c38",
+        "mods/curios-neoforge-9.5.1+1.21.1.jar": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+        "mods/deathcharm-1.0.1-1.21.1.jar": "cefd53d768367d00f421df61ceae07daa60fec44206186d61a6f268f787256e4",
+        "mods/dungeonnowloading-neoforge-1.21.1-2.11.6.jar": "8864f64fa2872e72402f3670aec553888fa000a0c6a1475fce5fcf25f91ec84a",
+        "mods/DungeonsArise-1.21.1-2.1.68-release.jar": "7eee1eca7e3b2c6c1bede055934f391ae2e8349ffe33e106f451176d2cfcf0e4",
+        "mods/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar": "dcd0e562710a639b4fdd60a7500dc9404c6fbd1007215a088248ce1c57ccc6dc",
+        "mods/EasyMagic-v21.1.4-1.21.1-NeoForge.jar": "e641a83dcd0dd1a66c545069a706349df94f5b64dc5a252944596439009a699f",
+        "mods/echoes-0.6-NEOFORGE-1.21.1.jar": "b95b40383474357cba807baa0764455e40486d0254006a91d577d8ce5c9f8fd0",
+        "mods/endermanoverhaul-neoforge-1.21.1-2.0.3.jar": "fe6c04dcfdbb8815058ebf1102d64cb4c86060a0a1b7350121e4a976d4a92248",
+        "mods/exotic_worlds-1.1.4+mc1.21.1.jar": "4f58182c7c7309e161577d54623b98f9194bdaa1ebfceb2fbe06d482722b39cd",
+        "mods/FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+        "mods/FastSuite-1.21.1-6.0.7.jar": "3e274cd01bdc27dff8e2514213f1c45306c86fe38e4271a4209bc1471de6c70d",
+        "mods/ferritecore-7.0.3-neoforge.jar": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+        "mods/fragmentum-5.4.0+1.21.1-neoforge.jar": "fb7e1b28d54fda52c62df2a7c050e772030d7c75663d1679371deb0a860d3c1f",
+        "mods/Galosphere-1.21.1-1.5.5-NeoForge.jar": "4e6f7084110c78180b327e134ce3f43420abe58b0719e6963b2e9e26a99bab5f",
+        "mods/geckolib-neoforge-1.21.1-4.9.3.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+        "mods/gravestone-neoforge-1.21.1-1.0.40.jar": "204be9ccb8632a56a87aee9aab4c7874d0f6749f566c07f5dd420d24e24dc8b0",
+        "mods/graveyard-2.6.2 NeoForge 1.21.1.jar": "69dd4501da1fcc596d8ab7e09f32259ad1beee7e031fd5ab2d9c6cff4a8c8b2b",
+        "mods/historystages-6.1.0-1.21.1.jar": "573d114049d26ee7a54d6f4aec01c36e12ddac09eaa61977d2bbc5c659a62730",
+        "mods/incontrol-1.21-10.3.0.jar": "3776c11310008edaffdda0320c1a8436555ff59de36a6e3959452cbdefa98111",
+        "mods/ironchest-1.21-neoforge-16.0.7.jar": "dae66a38a33c2adac6ca0b7a4fbf4b365ba37a6a1f7a10961028617965c1fcaf",
+        "mods/kotlinforforge-5.12.0-all.jar": "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46",
+        "mods/kubejs-neoforge-2101.7.2-build.377.jar": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601",
+        "mods/kubejsarsnouveau-1.3.2.jar": "5beedb785fc0a5f07ecff20645131d2cbf02d1c946a4ebb0657d9e2cbb8248cf",
+        "mods/lionfishapi-3.1.jar": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+        "mods/lithium-neoforge-0.15.4+mc1.21.1.jar": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757",
+        "mods/lithostitched-1.8.1-neoforge-21.1.jar": "e0da669fa5facc61a09b9b7bae21b322993de1fcd1eb05787adffb7309598cca",
+        "mods/lootjs-neoforge-1.21.1-3.7.0.jar": "d168fd80f45e5f23dced8a54fdee87347a4c7fc6ccd9c76d30ae4d067ba9c60a",
+        "mods/lootr-neoforge-1.21.1-1.11.38.127.jar": "5c74de4709d1c13b25880fdd241a89d5d9f331346d20edc76f80ccd4d99dc66c",
+        "mods/L_Ender's Cataclysm 1.21.1-3.33.jar": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+        "mods/m2-worldgen-1.1.0.jar": "538cf46f66f5fb6a3cc85d1f774bed1534ac507df8338990c4023e88b8967109",
+        "mods/m2-worldgen-tests-1.1.0.jar": "4d4429f0f6bc1cec8ffc231436dda38753da26d3e784fd1fd78bcd1c1a91deb1",
+        "mods/macabre-0.9.2-neoforge-1.21.1.jar": "9d48f8cdf1800f4cb20b178f92dca07a4cf43f137e31e73c7c29ebacb811af56",
+        "mods/mezz_config-1.21.1-neoforge-0.6.8-standalone.jar": "182ad8ad757175b49d573512c8fac624ee526e8138e24b36f677b0f6466e20cb",
+        "mods/modernfix-neoforge-5.27.26+mc1.21.1.jar": "09f6842c63d14b3f1707f1f4a6f4602052f237f7efa9be135e41d3d97acf2a13",
+        "mods/MonsterPlus-Neoforge1.21.1-v1.2.0.0.jar": "89d24a9581549600a0a77b248bb428e42b8f75441c2673eb0b78849285bbea1c",
+        "mods/moonlight-1.21.1-3.7.2-neoforge.jar": "4a9f15108607cc70273f8a0b6eb24e1e99af8eef44bc3ae8681767ca7ce21b0f",
+        "mods/MoreTotems-neoforge-1.21-2.20.3.jar": "27fd3b225653ebb3ebc72a4f5e4378b8c99b64505f0b8ea919daa5d6832d937d",
+        "mods/MutantMonsters-v21.1.1-1.21.1-NeoForge.jar": "1e20340a6642dcd6e43399292825f8cd84a079e0b917e36cf7341e787b626a4f",
+        "mods/netherportalfix-neoforge-1.21.1-21.1.1.jar": "c1077de0c7f1ff5289d1852e0674d9c477247d4318c9809b21c60e56a31ae31a",
+        "mods/Oh-The-Biomes-Weve-Gone-NeoForge-2.6.3.jar": "3195f394741510c3b51617f48d0fa9461284b5975e2f976857241f7f07792f11",
+        "mods/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.5.jar": "12b918a09e4786de0045d7f29d336881234a533259c10d1327051df9ba318c4f",
+        "mods/Paraglider-neoforge-21.1.5.jar": "2f084b728383d9de7e9c652c3a92cad086e0b38f131b61f8900d25ba18734e44",
+        "mods/Placebo-1.21.1-9.9.4.jar": "d8952c019d6e54befe37155bc9876985ec57bf73dd33872115c7a65ac6bceba0",
+        "mods/Platform-neoforge-1.21.1-1.4.1.jar": "d5ce33619921ea559d8cf1f062f3d69ddfa47870cd7096225da50e62531e73d9",
+        "mods/player-animation-lib-forge-2.0.4+1.21.1.jar": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+        "mods/portals-1.21.1-1.2.2.jar": "ae77bad48c4a7530473065ec70a2df932e7fb27e1ccc09c6656cf1fd9025d26f",
+        "mods/prickle-neoforge-1.21.1-21.1.11.jar": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167",
+        "mods/puzzleslib-v21.1.65-mc1.21.1+neoforge.jar": "5317fe131954accbe884b079f75713d6f9024b291085314d6c23b3a697fc2771",
+        "mods/Quark-4.1-487.jar": "2a43e4fa6254aaaf755f4ece5230708a2a6d587d8092d4db3aa53626c7bb67ab",
+        "mods/railways-0.2.1+neoforge-mc1.21.1.jar": "b7636c8b1b0352ed1a130dfe67f8bb574e2fc08803ed1cda4d3ea00505193914",
+        "mods/resourcefulconfig-neoforge-1.21-3.0.11.jar": "25b4f3502d25c535004acd4a9420272fff01d2f1e2df352239fec93fdab005d4",
+        "mods/resourcefullib-neoforge-1.21-3.0.12.jar": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261",
+        "mods/rhino-2101.2.7-build.85.jar": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+        "mods/rottencreatures-neoforge-1.21.1-1.1.2.jar": "6cac5fedf5558d4e973fd52afbf2304b5b3f0b89970d7d97210b9a7b954ae2e0",
+        "mods/sable-neoforge-1.21.1-2.0.6.jar": "9c199157843bf953a47dff625fc5bb41c01a90538d35ad18e6996bbcb8a617c2",
+        "mods/servercore-neoforge-1.5.19+1.21.1.jar": "a5706aa0bb3a47c5f1adab44306685736688ec03414f60beb4fcbe05b99f5a82",
+        "mods/simplerecall-1.0.6-1.21.1.jar": "3182907153bca1063505b1c07a4dc42be4407e6a61c0d1f5cbc79e339e5912ee",
+        "mods/SkyLands-UnofficialPort-NeoForge-1.21.1-v0.9.2.jar": "140eeddb871f5f02638d237edb5996896b4957fe98a3941e1406675fefd54964",
+        "mods/sliceanddice-4.3.4-neoforge.jar": "b3982e89611761d7f1cdce90794cd88498a2c9e1447d8a1aba33ed831f3c9201",
+        "mods/sophisticatedbackpacks-1.21.1-3.26.14.2222.jar": "f4aa76a9115c2ed1323a3e91b71561b112c0ace04062503ed297848229e530a5",
+        "mods/sophisticatedcore-1.21.1-1.5.17.2426.jar": "0ece314bf2deeeb978cdf6f38dfe691a9d2f4deb7149b4ad9c320c016a227a1b",
+        "mods/spark-1.10.124-neoforge.jar": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
+        "mods/spawn-animations-compats-18.0.jar": "02d5b3d73f38a4106e03cc0f550107f08d5886f6ec1903a0bebdcaa3706f4988",
+        "mods/spawnanimations-v1.11.6-mc1.17-26.3.9-mod.jar": "229c48cd7a17f1318a2d9e4ac8d0e2470fa198952c0efff145cd318022fc4e8a",
+        "mods/strato-0.4.1-m2.1.jar": "865451f443b83ea80e9cc5e010ac75468368610c5d75cbe1fe25a539cb4d8fa7",
+        "mods/supplementaries-1.21.1-4.0.2-neoforge.jar": "2c2e0c98e0cc21874d8b2130bc773a2a5a6cadd854b9c8163d0e1f32e2ddffb0",
+        "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8",
+        "mods/Terralith_1.21.x_v2.6.2.jar": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
+        "mods/TFTH-1.21.1-1.1b-port-0.2.jar": "8c157d2829767ecf31d0893e4905aaf0cea314683916baa4defd64eb5b975d0a",
+        "mods/theimpossiblelibrary-0.4.7.jar": "d2df15b38eb91e57fcf2ea5fb5ac2617ff333401c4ea690b8f977dbcc7a69d1e",
+        "mods/The_Undergarden-1.21.1-0.9.6.jar": "49e3db6ce2cf6864e9d45f0633de95bc3ef72cbd5ebffee493fca7198d30ccb0",
+        "mods/threateningly__mobs-1.1.1-neoforge--1.21.1.jar": "09497e04b0dcf849d96aaad3dc69faddc3b87b2806b5a3e9bead6a42b1eb8ed7",
+        "mods/t_and_t-fabric-neoforge-1.13.11.jar": "270fc0d1c99e54bc15f43d64bdaac60a90cb896efc357af624988e677136440f",
+        "mods/VisualWorkbench-v21.1.2-1.21.1-NeoForge.jar": "f9bea7865d57c0f32075fc1e8b760d048cf77513c8d93fa41c181ad190eb4449",
+        "mods/worldgenrouter-1.0.0.jar": "ecd6b7c2b06b5ae89eb936d1b8ea5545e47a04f7df61a5318d8ead526113a586",
+        "mods/worldweaver-21.0.29.jar": "ad74878bf7e555d52f7dbe7dde21c1594b1b8a8265c5eff6a9aafd210740a8f8",
+        "mods/wunderlib-21.0.11.jar": "2f39302b8da949195ffc57d07d0668f867c8ba9f2874bb6eef0bdd1e9fed9ba4",
+        "mods/xptome-1.21.1-2.4.jar": "9cc3fb2352f7024faacd081f4efe437bdb3e3af09ea4f2c0b2f8ca845de1125e",
+        "mods/xp_veins-1.0.0-neoforge-1.21.1.jar": "35c8e004e8f59a8eef7b64d4e3a06dc9d3e8584f441a1e3e4d2e1369aefe5d8e",
+        "mods/YungsApi-1.21.1-NeoForge-5.1.9.jar": "375e0b2f988ab4f5bde182166c0f0b102377adc8f823660c24ade08b0b3cde56",
+        "mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar": "61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04",
+        "mods/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar": "5625930dfb3240820d6e4ecf55fff0c39f70ce782fad117a4d418251184c7be0",
+        "mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar": "a9cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58",
+        "mods/Zeta-1.1-40.jar": "4f17d1a2b9fd6d18ddb7697aa451db7fb154053b8648f79de279ae0d7e68a2fa",
+        "kubejs/data/wover/worldgen/world_preset/normal.json": "03f97c394aacc7f942d72bc3dc163b932ba912f2d070ce52f06e79a7e1664cb1",
+        "kubejs/data/minecraft/worldgen/world_preset/normal.json": "03f97c394aacc7f942d72bc3dc163b932ba912f2d070ce52f06e79a7e1664cb1",
+        "kubejs/data/minecraft/tags/worldgen/world_preset/normal.json": "64ad4562721c74fd74048b138b27b6ab9d1db8232aad2d8441ceeee1b924f996"
+      },
+      "archive_sha256": "f9e5866f8b2b553369edaca9c9232e346c0c76dcae77c069c66f692de19f9bbe",
+      "excluded_client_jars": [
+        "appleskin-neoforge-mc1.21-3.0.9.jar",
+        "better-advanced-tooltips-2101.1.0-build.5.jar",
+        "BetterF3-11.0.3-NeoForge-1.21.1.jar",
+        "chat_heads-0.15.7-neoforge-1.21.jar",
+        "chunksfadein-neoforge-3.0.26-1.21.jar",
+        "entityculling-neoforge-1.11.3-mc1.21.1.jar",
+        "entity_pin_cushions-neoforge-1.21-1.0.jar",
+        "fancymenu_neoforge_3.9.14_MC_1.21.1.jar",
+        "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+        "iris-neoforge-1.8.12+mc1.21.1.jar",
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+        "irisblockcompat-1.21.1-1.1.0.jar",
+        "Jade-1.21.1-NeoForge-15.10.6.jar",
+        "jei-1.21.1-neoforge-19.64.0.455.jar",
+        "konkrete_neoforge_1.9.9_MC_1.21.jar",
+        "melody_neoforge_1.0.10_MC_1.21.jar",
+        "moreculling-neoforge-1.21.1-1.0.10.jar",
+        "musictriggers-7.0.4.jar",
+        "ProbeJS-8.0.3.jar",
+        "sodium-neoforge-0.8.13+mc1.21.1.jar",
+        "xaeroworldmap-neoforge-1.21.1-1.47.0.jar"
+      ],
+      "shutdown_save_confirmed": true
+    },
+    {
+      "preset": "wover:normal",
+      "phase": "write",
+      "passed": true,
+      "seed": 420211,
+      "dimensions": [
+        {
+          "id": "m2arcana:world",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 3008,
+          "widthZ": 3008,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 520,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1504,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1503,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": -1504,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": 1503,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1504,
+              "y": 520,
+              "z": -1504,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1504,
+              "y": 520,
+              "z": 1503,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1503,
+              "y": 520,
+              "z": -1504,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1503,
+              "y": 520,
+              "z": 1503,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "m2pokemon:world",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 4992,
+          "widthZ": 4992,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 520,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 520,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 520,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 520,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 520,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "macabre:the_pit",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 2016,
+          "widthZ": 2016,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 504,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1008,
+              "y": 504,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1007,
+              "y": 504,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 504,
+              "z": -1008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 504,
+              "z": 1007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1008,
+              "y": 504,
+              "z": -1008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -1008,
+              "y": 504,
+              "z": 1007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1007,
+              "y": 504,
+              "z": -1008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 1007,
+              "y": 504,
+              "z": 1007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "minecraft:overworld",
+          "generatorClass": "com.exoticworlds.engine.gen.LoopedChunkGenerator",
+          "widthX": 9984,
+          "widthZ": 9984,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 520,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -4992,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 4991,
+              "y": 520,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": -4992,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 520,
+              "z": 4991,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -4992,
+              "y": 520,
+              "z": -4992,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -4992,
+              "y": 520,
+              "z": 4991,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 4991,
+              "y": 520,
+              "z": -4992,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 4991,
+              "y": 520,
+              "z": 4991,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "minecraft:the_end",
+          "generatorClass": "org.betterx.wover.generator.impl.chunkgenerator.WoverChunkGenerator",
+          "widthX": 6016,
+          "widthZ": 6016,
+          "coordinateScale": 1.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 248,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -3008,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 3007,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": -3008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": 3007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -3008,
+              "y": 248,
+              "z": -3008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -3008,
+              "y": 248,
+              "z": 3007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 3007,
+              "y": 248,
+              "z": -3008,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 3007,
+              "y": 248,
+              "z": 3007,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "minecraft:the_nether",
+          "generatorClass": "org.betterx.wover.generator.impl.chunkgenerator.WoverChunkGenerator",
+          "widthX": 4992,
+          "widthZ": 4992,
+          "coordinateScale": 2.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 248,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 248,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 248,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 248,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 248,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 248,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 248,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        },
+        {
+          "id": "undergarden:undergarden",
+          "generatorClass": "quek.undergarden.world.gen.UGNoiseBasedChunkGenerator",
+          "widthX": 4992,
+          "widthZ": 4992,
+          "coordinateScale": 4.0,
+          "blockProbes": [
+            {
+              "x": 0,
+              "y": 120,
+              "z": 0,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 120,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 120,
+              "z": 17,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 120,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 17,
+              "y": 120,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 120,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": -2496,
+              "y": 120,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 120,
+              "z": -2496,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            },
+            {
+              "x": 2495,
+              "y": 120,
+              "z": 2495,
+              "persistedMarker": false,
+              "sameChunkNineAliases": true,
+              "readWriteNineAliases": true,
+              "removeNineAliases": true
+            }
+          ]
+        }
+      ],
+      "alias_comparisons": 567,
+      "persisted_markers": null,
+      "raw_sha256": "914ed0afd5c9586b58dd4f36b1bc9143c2a8d9e8eec30b9851a1b078d8e07de9",
+      "log_sha256": "5f41cf4f641af608c972047df32e97c4f33a099fba595be79683ace0888468da",
+      "input_manifest_sha256": "fdd588661fb3d6513e9c767b757329ea9336be9a2bb01bb4afba8eb02b3a31c7",
+      "inputs_sha256": {
+        "mods/alexscaves-2.0.10.jar": "6fad35bf07fcb977aaa32d3fe05bf122150c6a30ed16b057385040207a3b788f",
+        "mods/alexsmobs-1.22.17.jar": "6e502855f79e4c9f2a11d560a9b88a3ab295aa378c44b0f0a0dd95f95d0301a6",
+        "mods/alltheleaks-1.1.13+1.21.1-neoforge.jar": "c9b76623003dd05dda452d9ed42cb23623b09383fe9ac1efb41c46a3b69ff601",
+        "mods/Amplified_Nether_26.2_v1.2.16.jar": "fc49dc7f0b9e4cef665e60a97f29b5589025fb9e19b13222d9767e178093eaed",
+        "mods/aquamirae-neoforge-1.21.1-7.2.13.jar": "665927e1edf73101f2014682659a756d2972f6fbff0f54b3db4fdebba288c8e2",
+        "mods/architectury-13.0.11-neoforge.jar": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+        "mods/Ars Fauna-1.4.1.jar": "d6d3f8c9c4411870edbb7ca717eed63d67ad5fed68b398a32b3c93a567f0366a",
+        "mods/ars_additions-1.21.1-21.3.0.jar": "e634a3f0c39cd38007608cce1974a7c9bbad7d8202bfb6c75f17c2901f362c9b",
+        "mods/ars_elemental-1.21.1-0.7.10.4.jar": "9ba4393c98228bb1647e3786c71c30c7eb97574b9e65baba14f34c92f7b86eb9",
+        "mods/ars_nouveau-1.21.1-5.13.3.jar": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
+        "mods/ars_structurize-1.1.3-neoforge-1.21.1.jar": "1b32291ed2f6c9edbb510259d60a40d2a5acce65a2147b6ac61d059880188011",
+        "mods/attributefix-neoforge-1.21.1-21.1.3.jar": "b2b20f3d44e824071284c14de3f4d3323d420e1c450040b339a5c37d2c382ad4",
+        "mods/balm-neoforge-1.21.1-21.0.66.jar": "6be660e1f6d169553bf44f66d4f78bb9e96a1d66ce108d9608819e3ce6bfba34",
+        "mods/bclib-21.0.28.jar": "e8d5b8ce29d51eb0845c19fd2172d99237841bd20bc4bc25b7cbf4965a5ad506",
+        "mods/BetterEnd-21.0.38.jar": "00c9263280b5aec16703ba22b3a56457436591913133f6b1a5cf11b1f29fc0d5",
+        "mods/BetterNether-21.0.29.jar": "5136fea127f936ec1dc596bc5190e04192ef790c3638c952cea7feb147025943",
+        "mods/block_factorys_bosses-2.1.2-neo-1.21.1.jar": "9e230bd509e7aeb3af4c08125db0340734c0179d83483649a16e45c0ea085e8c",
+        "mods/BOMD-NeoForge-1.21-1.3.3.jar": "93da8753a00229e41c5ed399e6cf849737e7bd9b4109d5d8e4ad3a20136deb82",
+        "mods/bookshelf-neoforge-1.21.1-21.1.81.jar": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
+        "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
+        "mods/citadel-1.21.1-2.7.6.jar": "9e12468c49e5a95b7adbf22b3b4d05bc55565989b89c40b985cd73bdfe63c3c2",
+        "mods/cloth-config-15.0.140-neoforge.jar": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
+        "mods/Cobblemon-neoforge-1.8.2+1.21.1.jar": "43da1d268d5ee7f7f8a0f8f509efd5d198780dde676d1df2fa63e9cd902ebf11",
+        "mods/Corgilib-NeoForge-1.21.1-5.0.0.10.jar": "ae720bcc5bdff1483b0bfc7502ff885b5f27e4aaef920ba23c0f6d012c390f82",
+        "mods/cpn-neoforge-1.8.2+1.2.1.jar": "fdd2a02afea5a0cb58ac6c0aa12dac4adfb6464560b08e7bc5354e4e8bac103d",
+        "mods/create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+        "mods/create-enchantment-industry-2.4.2.jar": "81f192bb53888e01f87a82eaac2f261c93715f2221dbcf5d8a8d414f912f75ef",
+        "mods/createaddition-1.6.0.jar": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+        "mods/CreateDragonsPlus-1.11.9.jar": "37f05a6775bbe811fe8c2833fa6289a1c704d0b25bdd5f239d343a5c6f62ed8a",
+        "mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar": "ed83bea2826667fca80a6a8067f89fe7b97eb8b3213bbcb7f0f4e6a6898c0bc9",
+        "mods/cristellib-neoforge-1.21.1-3.1.7.jar": "11e05dbc97bd3fe1790bd6361747240e314c1dbf40b590ea20cc691dc8396c38",
+        "mods/curios-neoforge-9.5.1+1.21.1.jar": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+        "mods/deathcharm-1.0.1-1.21.1.jar": "cefd53d768367d00f421df61ceae07daa60fec44206186d61a6f268f787256e4",
+        "mods/dungeonnowloading-neoforge-1.21.1-2.11.6.jar": "8864f64fa2872e72402f3670aec553888fa000a0c6a1475fce5fcf25f91ec84a",
+        "mods/DungeonsArise-1.21.1-2.1.68-release.jar": "7eee1eca7e3b2c6c1bede055934f391ae2e8349ffe33e106f451176d2cfcf0e4",
+        "mods/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar": "dcd0e562710a639b4fdd60a7500dc9404c6fbd1007215a088248ce1c57ccc6dc",
+        "mods/EasyMagic-v21.1.4-1.21.1-NeoForge.jar": "e641a83dcd0dd1a66c545069a706349df94f5b64dc5a252944596439009a699f",
+        "mods/echoes-0.6-NEOFORGE-1.21.1.jar": "b95b40383474357cba807baa0764455e40486d0254006a91d577d8ce5c9f8fd0",
+        "mods/endermanoverhaul-neoforge-1.21.1-2.0.3.jar": "fe6c04dcfdbb8815058ebf1102d64cb4c86060a0a1b7350121e4a976d4a92248",
+        "mods/exotic_worlds-1.1.4+mc1.21.1.jar": "4f58182c7c7309e161577d54623b98f9194bdaa1ebfceb2fbe06d482722b39cd",
+        "mods/FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+        "mods/FastSuite-1.21.1-6.0.7.jar": "3e274cd01bdc27dff8e2514213f1c45306c86fe38e4271a4209bc1471de6c70d",
+        "mods/ferritecore-7.0.3-neoforge.jar": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+        "mods/fragmentum-5.4.0+1.21.1-neoforge.jar": "fb7e1b28d54fda52c62df2a7c050e772030d7c75663d1679371deb0a860d3c1f",
+        "mods/Galosphere-1.21.1-1.5.5-NeoForge.jar": "4e6f7084110c78180b327e134ce3f43420abe58b0719e6963b2e9e26a99bab5f",
+        "mods/geckolib-neoforge-1.21.1-4.9.3.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+        "mods/gravestone-neoforge-1.21.1-1.0.40.jar": "204be9ccb8632a56a87aee9aab4c7874d0f6749f566c07f5dd420d24e24dc8b0",
+        "mods/graveyard-2.6.2 NeoForge 1.21.1.jar": "69dd4501da1fcc596d8ab7e09f32259ad1beee7e031fd5ab2d9c6cff4a8c8b2b",
+        "mods/historystages-6.1.0-1.21.1.jar": "573d114049d26ee7a54d6f4aec01c36e12ddac09eaa61977d2bbc5c659a62730",
+        "mods/incontrol-1.21-10.3.0.jar": "3776c11310008edaffdda0320c1a8436555ff59de36a6e3959452cbdefa98111",
+        "mods/ironchest-1.21-neoforge-16.0.7.jar": "dae66a38a33c2adac6ca0b7a4fbf4b365ba37a6a1f7a10961028617965c1fcaf",
+        "mods/kotlinforforge-5.12.0-all.jar": "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46",
+        "mods/kubejs-neoforge-2101.7.2-build.377.jar": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601",
+        "mods/kubejsarsnouveau-1.3.2.jar": "5beedb785fc0a5f07ecff20645131d2cbf02d1c946a4ebb0657d9e2cbb8248cf",
+        "mods/lionfishapi-3.1.jar": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+        "mods/lithium-neoforge-0.15.4+mc1.21.1.jar": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757",
+        "mods/lithostitched-1.8.1-neoforge-21.1.jar": "e0da669fa5facc61a09b9b7bae21b322993de1fcd1eb05787adffb7309598cca",
+        "mods/lootjs-neoforge-1.21.1-3.7.0.jar": "d168fd80f45e5f23dced8a54fdee87347a4c7fc6ccd9c76d30ae4d067ba9c60a",
+        "mods/lootr-neoforge-1.21.1-1.11.38.127.jar": "5c74de4709d1c13b25880fdd241a89d5d9f331346d20edc76f80ccd4d99dc66c",
+        "mods/L_Ender's Cataclysm 1.21.1-3.33.jar": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+        "mods/m2-worldgen-1.1.0.jar": "538cf46f66f5fb6a3cc85d1f774bed1534ac507df8338990c4023e88b8967109",
+        "mods/m2-worldgen-tests-1.1.0.jar": "4d4429f0f6bc1cec8ffc231436dda38753da26d3e784fd1fd78bcd1c1a91deb1",
+        "mods/macabre-0.9.2-neoforge-1.21.1.jar": "9d48f8cdf1800f4cb20b178f92dca07a4cf43f137e31e73c7c29ebacb811af56",
+        "mods/mezz_config-1.21.1-neoforge-0.6.8-standalone.jar": "182ad8ad757175b49d573512c8fac624ee526e8138e24b36f677b0f6466e20cb",
+        "mods/modernfix-neoforge-5.27.26+mc1.21.1.jar": "09f6842c63d14b3f1707f1f4a6f4602052f237f7efa9be135e41d3d97acf2a13",
+        "mods/MonsterPlus-Neoforge1.21.1-v1.2.0.0.jar": "89d24a9581549600a0a77b248bb428e42b8f75441c2673eb0b78849285bbea1c",
+        "mods/moonlight-1.21.1-3.7.2-neoforge.jar": "4a9f15108607cc70273f8a0b6eb24e1e99af8eef44bc3ae8681767ca7ce21b0f",
+        "mods/MoreTotems-neoforge-1.21-2.20.3.jar": "27fd3b225653ebb3ebc72a4f5e4378b8c99b64505f0b8ea919daa5d6832d937d",
+        "mods/MutantMonsters-v21.1.1-1.21.1-NeoForge.jar": "1e20340a6642dcd6e43399292825f8cd84a079e0b917e36cf7341e787b626a4f",
+        "mods/netherportalfix-neoforge-1.21.1-21.1.1.jar": "c1077de0c7f1ff5289d1852e0674d9c477247d4318c9809b21c60e56a31ae31a",
+        "mods/Oh-The-Biomes-Weve-Gone-NeoForge-2.6.3.jar": "3195f394741510c3b51617f48d0fa9461284b5975e2f976857241f7f07792f11",
+        "mods/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.5.jar": "12b918a09e4786de0045d7f29d336881234a533259c10d1327051df9ba318c4f",
+        "mods/Paraglider-neoforge-21.1.5.jar": "2f084b728383d9de7e9c652c3a92cad086e0b38f131b61f8900d25ba18734e44",
+        "mods/Placebo-1.21.1-9.9.4.jar": "d8952c019d6e54befe37155bc9876985ec57bf73dd33872115c7a65ac6bceba0",
+        "mods/Platform-neoforge-1.21.1-1.4.1.jar": "d5ce33619921ea559d8cf1f062f3d69ddfa47870cd7096225da50e62531e73d9",
+        "mods/player-animation-lib-forge-2.0.4+1.21.1.jar": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+        "mods/portals-1.21.1-1.2.2.jar": "ae77bad48c4a7530473065ec70a2df932e7fb27e1ccc09c6656cf1fd9025d26f",
+        "mods/prickle-neoforge-1.21.1-21.1.11.jar": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167",
+        "mods/puzzleslib-v21.1.65-mc1.21.1+neoforge.jar": "5317fe131954accbe884b079f75713d6f9024b291085314d6c23b3a697fc2771",
+        "mods/Quark-4.1-487.jar": "2a43e4fa6254aaaf755f4ece5230708a2a6d587d8092d4db3aa53626c7bb67ab",
+        "mods/railways-0.2.1+neoforge-mc1.21.1.jar": "b7636c8b1b0352ed1a130dfe67f8bb574e2fc08803ed1cda4d3ea00505193914",
+        "mods/resourcefulconfig-neoforge-1.21-3.0.11.jar": "25b4f3502d25c535004acd4a9420272fff01d2f1e2df352239fec93fdab005d4",
+        "mods/resourcefullib-neoforge-1.21-3.0.12.jar": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261",
+        "mods/rhino-2101.2.7-build.85.jar": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+        "mods/rottencreatures-neoforge-1.21.1-1.1.2.jar": "6cac5fedf5558d4e973fd52afbf2304b5b3f0b89970d7d97210b9a7b954ae2e0",
+        "mods/sable-neoforge-1.21.1-2.0.6.jar": "9c199157843bf953a47dff625fc5bb41c01a90538d35ad18e6996bbcb8a617c2",
+        "mods/servercore-neoforge-1.5.19+1.21.1.jar": "a5706aa0bb3a47c5f1adab44306685736688ec03414f60beb4fcbe05b99f5a82",
+        "mods/simplerecall-1.0.6-1.21.1.jar": "3182907153bca1063505b1c07a4dc42be4407e6a61c0d1f5cbc79e339e5912ee",
+        "mods/SkyLands-UnofficialPort-NeoForge-1.21.1-v0.9.2.jar": "140eeddb871f5f02638d237edb5996896b4957fe98a3941e1406675fefd54964",
+        "mods/sliceanddice-4.3.4-neoforge.jar": "b3982e89611761d7f1cdce90794cd88498a2c9e1447d8a1aba33ed831f3c9201",
+        "mods/sophisticatedbackpacks-1.21.1-3.26.14.2222.jar": "f4aa76a9115c2ed1323a3e91b71561b112c0ace04062503ed297848229e530a5",
+        "mods/sophisticatedcore-1.21.1-1.5.17.2426.jar": "0ece314bf2deeeb978cdf6f38dfe691a9d2f4deb7149b4ad9c320c016a227a1b",
+        "mods/spark-1.10.124-neoforge.jar": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
+        "mods/spawn-animations-compats-18.0.jar": "02d5b3d73f38a4106e03cc0f550107f08d5886f6ec1903a0bebdcaa3706f4988",
+        "mods/spawnanimations-v1.11.6-mc1.17-26.3.9-mod.jar": "229c48cd7a17f1318a2d9e4ac8d0e2470fa198952c0efff145cd318022fc4e8a",
+        "mods/strato-0.4.1-m2.1.jar": "865451f443b83ea80e9cc5e010ac75468368610c5d75cbe1fe25a539cb4d8fa7",
+        "mods/supplementaries-1.21.1-4.0.2-neoforge.jar": "2c2e0c98e0cc21874d8b2130bc773a2a5a6cadd854b9c8163d0e1f32e2ddffb0",
+        "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8",
+        "mods/Terralith_1.21.x_v2.6.2.jar": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
+        "mods/TFTH-1.21.1-1.1b-port-0.2.jar": "8c157d2829767ecf31d0893e4905aaf0cea314683916baa4defd64eb5b975d0a",
+        "mods/theimpossiblelibrary-0.4.7.jar": "d2df15b38eb91e57fcf2ea5fb5ac2617ff333401c4ea690b8f977dbcc7a69d1e",
+        "mods/The_Undergarden-1.21.1-0.9.6.jar": "49e3db6ce2cf6864e9d45f0633de95bc3ef72cbd5ebffee493fca7198d30ccb0",
+        "mods/threateningly__mobs-1.1.1-neoforge--1.21.1.jar": "09497e04b0dcf849d96aaad3dc69faddc3b87b2806b5a3e9bead6a42b1eb8ed7",
+        "mods/t_and_t-fabric-neoforge-1.13.11.jar": "270fc0d1c99e54bc15f43d64bdaac60a90cb896efc357af624988e677136440f",
+        "mods/VisualWorkbench-v21.1.2-1.21.1-NeoForge.jar": "f9bea7865d57c0f32075fc1e8b760d048cf77513c8d93fa41c181ad190eb4449",
+        "mods/worldgenrouter-1.0.0.jar": "ecd6b7c2b06b5ae89eb936d1b8ea5545e47a04f7df61a5318d8ead526113a586",
+        "mods/worldweaver-21.0.29.jar": "ad74878bf7e555d52f7dbe7dde21c1594b1b8a8265c5eff6a9aafd210740a8f8",
+        "mods/wunderlib-21.0.11.jar": "2f39302b8da949195ffc57d07d0668f867c8ba9f2874bb6eef0bdd1e9fed9ba4",
+        "mods/xptome-1.21.1-2.4.jar": "9cc3fb2352f7024faacd081f4efe437bdb3e3af09ea4f2c0b2f8ca845de1125e",
+        "mods/xp_veins-1.0.0-neoforge-1.21.1.jar": "35c8e004e8f59a8eef7b64d4e3a06dc9d3e8584f441a1e3e4d2e1369aefe5d8e",
+        "mods/YungsApi-1.21.1-NeoForge-5.1.9.jar": "375e0b2f988ab4f5bde182166c0f0b102377adc8f823660c24ade08b0b3cde56",
+        "mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar": "61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04",
+        "mods/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar": "5625930dfb3240820d6e4ecf55fff0c39f70ce782fad117a4d418251184c7be0",
+        "mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar": "a9cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58",
+        "mods/Zeta-1.1-40.jar": "4f17d1a2b9fd6d18ddb7697aa451db7fb154053b8648f79de279ae0d7e68a2fa",
+        "kubejs/data/wover/worldgen/world_preset/normal.json": "03f97c394aacc7f942d72bc3dc163b932ba912f2d070ce52f06e79a7e1664cb1",
+        "kubejs/data/minecraft/worldgen/world_preset/normal.json": "03f97c394aacc7f942d72bc3dc163b932ba912f2d070ce52f06e79a7e1664cb1",
+        "kubejs/data/minecraft/tags/worldgen/world_preset/normal.json": "64ad4562721c74fd74048b138b27b6ab9d1db8232aad2d8441ceeee1b924f996"
+      },
+      "archive_sha256": "f9e5866f8b2b553369edaca9c9232e346c0c76dcae77c069c66f692de19f9bbe",
+      "excluded_client_jars": [
+        "appleskin-neoforge-mc1.21-3.0.9.jar",
+        "better-advanced-tooltips-2101.1.0-build.5.jar",
+        "BetterF3-11.0.3-NeoForge-1.21.1.jar",
+        "chat_heads-0.15.7-neoforge-1.21.jar",
+        "chunksfadein-neoforge-3.0.26-1.21.jar",
+        "entityculling-neoforge-1.11.3-mc1.21.1.jar",
+        "entity_pin_cushions-neoforge-1.21-1.0.jar",
+        "fancymenu_neoforge_3.9.14_MC_1.21.1.jar",
+        "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+        "iris-neoforge-1.8.12+mc1.21.1.jar",
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+        "irisblockcompat-1.21.1-1.1.0.jar",
+        "Jade-1.21.1-NeoForge-15.10.6.jar",
+        "jei-1.21.1-neoforge-19.64.0.455.jar",
+        "konkrete_neoforge_1.9.9_MC_1.21.jar",
+        "melody_neoforge_1.0.10_MC_1.21.jar",
+        "moreculling-neoforge-1.21.1-1.0.10.jar",
+        "musictriggers-7.0.4.jar",
+        "ProbeJS-8.0.3.jar",
+        "sodium-neoforge-0.8.13+mc1.21.1.jar",
+        "xaeroworldmap-neoforge-1.21.1-1.47.0.jar"
+      ],
+      "shutdown_save_confirmed": true
+    }
+  ],
+  "limitations": [
+    "Cliente, travessia visual, líquidos, entidades, mapas e multiplayer não testados nesta correção.",
+    "Base dedicada derivada do ZIP com exclusões explícitas de cliente; não equivale ao perfil cliente completo M2D.",
+    "Integração do servidor tem hash próprio; não foi instalada ou alterada na instância cliente.",
+    "Tentativa inicial restrita pelo sandbox falhou antes da suíte e não é aprovação."
+  ]
+}

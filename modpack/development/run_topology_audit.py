@@ -31,6 +31,8 @@ def main():
     parser.add_argument('--server', type=Path, default=CACHE/'toroidal-server')
     parser.add_argument('--strato', type=Path, default=CACHE/'strato-m2/build/libs/strato-0.4.1-m2.1.jar')
     parser.add_argument('--seed', type=int, default=420211)
+    parser.add_argument('--preset', choices=('minecraft:normal','wover:normal','m2worlds:toroidal'), default='minecraft:normal',
+                        help='Testa o preset normal por padrão, sem depender de escolha manual do preset M2.')
     parser.add_argument('--reopen', action='store_true')
     parser.add_argument('--suite',choices=('topology','regression','gameplay','biomes'),default='topology')
     parser.add_argument('--prepare-only', action='store_true')
@@ -52,6 +54,8 @@ def main():
         manifest=json.loads(marker.read_text())
         if manifest['seed'] != args.seed:
             parser.error('Seed diverge da fase write.')
+        if manifest.get('preset','m2worlds:toroidal') != args.preset:
+            parser.error('Preset diverge da fase write; informe --preset correspondente.')
         for name,digest in manifest['inputs'].items():
             # NeoForge/mods reformatam COMMON e completam defaults no primeiro boot.
             # JARs e datapack precisam ser idênticos; configs observadas vão ao resultado.
@@ -81,12 +85,12 @@ def main():
         for directory in ('config','defaultconfigs','kubejs'):
             shutil.copytree(ROOT/'modpack'/directory,server/directory,dirs_exist_ok=True)
         (server/'server.properties').write_text(
-            'level-name=audit-world\nlevel-type=m2worlds\\:toroidal\nlevel-seed='+str(args.seed)+
+            'level-name=audit-world\nlevel-type='+args.preset.replace(':','\\:')+'\nlevel-seed='+str(args.seed)+
             '\nonline-mode=false\nserver-ip=127.0.0.1\nserver-port=25579\nview-distance=2\n'
             'simulation-distance=2\nmax-tick-time=-1\nspawn-protection=0\n',encoding='utf-8')
         inputs={p.relative_to(server).as_posix():sha(p) for directory in ('mods','config','defaultconfigs','kubejs')
                 for p in (server/directory).rglob('*') if p.is_file()}
-        manifest=dict(seed=args.seed,archive_sha256=sha(archive),excluded=excluded,inputs=inputs,
+        manifest=dict(seed=args.seed,preset=args.preset,archive_sha256=sha(archive),excluded=excluded,inputs=inputs,
             note='Servidor dedicado descartável; exclusões de cliente e substituição única Strato; não certifica cliente completo.')
         marker.write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
     if args.prepare_only:
