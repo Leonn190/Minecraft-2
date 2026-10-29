@@ -1,0 +1,23 @@
+name: Cave layout smoke tests
+on:
+  pull_request:
+    paths:
+      - 'modpack/integration/src/main/java/br/com/minecraft2/gameplay/CaveRegionLayout.java'
+      - 'modpack/integration/src/test/java/br/com/minecraft2/test/CaveRegionLayoutTest.java'
+      - '.github/workflows/cave-layout.yml'
+  push:
+    branches: ['feat/arcanus-stamina-alexscaves-toroidal']
+jobs:
+  layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Compile and run isolated layout test
+        run: |
+          mkdir -p /tmp/m2-layout
+          javac --release 21 -d /tmp/m2-layout modpack/integration/src/main/java/br/com/minecraft2/gameplay/CaveRegionLayout.java modpack/integration/src/test/java/br/com/minecraft2/test/CaveRegionLayoutTest.java
+          java -cp /tmp/m2-layout br.com.minecraft2.test.CaveRegionLayoutTest
