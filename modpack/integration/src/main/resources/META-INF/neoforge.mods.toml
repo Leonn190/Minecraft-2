@@ -45,3 +45,25 @@ side="BOTH"
 
 [[mixins]]
 config="m2_worldgen.mixins.json"
+
+# APIs usadas pelos mixins exclusivos deste perfil
+[[dependencies.m2_worldgen]]
+modId="ars_nouveau"
+type="required"
+versionRange="[5.13.3]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.m2_worldgen]]
+modId="paraglider"
+type="required"
+versionRange="[21.1.5]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.m2_worldgen]]
+modId="alexscaves"
+type="required"
+versionRange="[2.0.10]"
+ordering="AFTER"
+side="BOTH"
