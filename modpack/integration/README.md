@@ -37,3 +37,18 @@ Leia [o relatório completo](../../extras/VALIDACAO_WORLDGEN.md) para os resulta
 ## Gameplay 1.1.0
 
 A integração também contém penalidade de armas no Undergarden e filtros TFTH. Leia [ALTERACOES.md](../../ALTERACOES.md) e [TESTES.md](../../TESTES.md) para cobertura, limitações e evidências atuais. A suíte gameplay pode ser executada separadamente com `-Dm2.audit.gameplayOnly=true`. O ZIP novo contém Strato 0.4.6; não instalar junto com o fork 0.4.1-m2.1. O staging agora recusa essa combinação antes de copiar arquivos. Os resultados de servidor usam a base histórica especificada no relatório, não os 122 JARs novos.
+
+
+## Branch experimental — 29/10/2026
+
+O código agora contém mixins específicos para `RitualBrazierTile.tryBurnStack`, `ServerPlayerMovement.updateStamina`, exaustão de deslocamento em `Player.checkMovementStatistics` e para a fonte `minecraft:multi_noise` usada pelo Overworld toroidal. As bibliotecas do Ars Nouveau, Paraglider, Alex's Caves e Citadel são exigidas na compilação. O plano de cavernas é calculado pela seed, sem carregar milhares de chunks.
+
+Para compilar na instância Windows com todas as dependências e JDK 21:
+
+```powershell
+python modpack/development/build_integration.py --jdk 'CAMINHO_JDK_21'
+python modpack/development/build_integration.py --jdk 'CAMINHO_JDK_21' --tests
+python modpack/development/build_delivery.py --jdk 'CAMINHO_JDK_21'
+```
+
+O build cria novo JAR a partir dos fontes; não reaproveitar JAR anterior, não instalar o JAR de testes no cliente. Testar em cópia separada do perfil. Não executar com saves únicos/antigos: a seleção de novas cavernas atua em **novos chunks** inclusive quando um mundo antigo é aberto. Antes de concluir a funcionalidade, ainda é preciso testar geração real, mapas e sustentar cobertura para todas as seeds. Compilação integral **não executada nesta revisão**.
