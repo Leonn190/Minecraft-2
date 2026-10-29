@@ -16,6 +16,7 @@ import net.minecraft.core.registries.Registries;
 public final class WorldgenIntegration {
     public WorldgenIntegration(IEventBus bus) {
         br.com.minecraft2.gameplay.GameplayRules.register();
+        br.com.minecraft2.gameplay.ChimeraRules.register();
         NeoForge.EVENT_BUS.addListener(br.com.minecraft2.gameplay.UniqueCataclysm::beforeStart);
         NeoForge.EVENT_BUS.addListener(WorldgenIntegration::finalizeSpawn);
         NeoForge.EVENT_BUS.addListener(br.com.minecraft2.WorldShapeDiagnostics::started);
