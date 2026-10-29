@@ -22,7 +22,8 @@ def main():
     jdk = jdk_home(args.jdk)
     libraries = server_libraries(args.libraries) if args.libraries else (curseforge_libraries(args.install) if args.install else curseforge_libraries())
     kind = 'test' if args.tests else 'main'
-    libraries += mod_apis(('portals-', 'kubejs-', 'rhino-', 'exotic_worlds-', 'worldgenrouter-'))
+    libraries += mod_apis(('portals-', 'kubejs-', 'rhino-', 'exotic_worlds-', 'worldgenrouter-',
+                           'ars_nouveau-', 'Paraglider-neoforge-', 'alexscaves-', 'citadel-'))
     if args.tests:
         libraries += [ROOT/'modpack/integration/build/m2-worldgen-1.1.0.jar']
     build = ROOT/'modpack/integration/build'
