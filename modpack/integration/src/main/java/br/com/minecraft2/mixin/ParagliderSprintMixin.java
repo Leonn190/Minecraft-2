@@ -21,10 +21,13 @@ public abstract class ParagliderSprintMixin {
     private void m2$runningConsumesSameStamina(CallbackInfo ci) {
         ServerPlayer player = ((ServerPlayerMovement)(Object)this).player();
         if (!SprintRules.running(player)) return;
+        // Mesmo esgotada, a corrida não deve recarregar stamina. Reiniciamos
+        // o atraso de recuperação antes de retornar; ao parar, o Paraglider
+        // retoma a recuperação padrão.
+        Movement.get(player).setRecoveryDelay(10);
         Stamina stamina = Stamina.get(player);
         if (stamina.isDepleted()) return;
         stamina.takeStamina(SprintRules.STAMINA_PER_TICK, false, false);
-        Movement.get(player).setRecoveryDelay(10);
         if (stamina.stamina() <= 0 && stamina.extraStamina() <= 0) {
             stamina.setDepleted(true);
         }
