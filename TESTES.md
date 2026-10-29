@@ -102,3 +102,34 @@ Checks adicionais nesta execução: `gameplay_data.py --check` falha na compara�
 Regressão nova com hashes finais: **170 verificações de gameplay e 52 casos de moldura/ignição aprovados**, viagens BBL, Catalyst Undergarden e escala Nether preservados; sete dimensões/Router válidos. Evidência: [regressao-worldgen-20261024.json](extras/regressao-worldgen-20261024.json). Os avisos/erros de recursos terceiros estão discriminados no relatório; a suíte não certifica o cliente completo. Atlas denso de biomas usa `run_topology_audit.py --suite biomes` em outro servidor novo e o JAR de testes recompilado; nunca no perfil do jogador.
 
 Atlas denso final: [atlas-arcanus-20261024.json](extras/atlas-arcanus-20261024.json), 565.504 pontos X/Z, Y=64, seed 420211; 19 biomas e ausência de archwood/montanhas/oceanos nesse plano. J26 permanece pendente; a ocorrência natural de todos os habitats Ars e dos 51 IDs não foi aprovada. A combinação experimental AUTO + mínimo climático teve contagens idênticas e foi descartada.
+
+
+## PR experimental — checklist das três alterações (29/10/2026)
+
+**Não executados neste ambiente:** compilação completa (sem mods.zip, bibliotecas Minecraft/NeoForge e runtime), servidor real, cliente, multiplayer, geração de chunks, salvamento/reabertura e mapas do Alex's Caves. Os testes anteriores registrados neste arquivo não homologam este novo código.
+
+### Verificação estática isolada de reservas
+
+Compila apenas os arquivos sem dependências Minecraft, em Java 21:
+
+```bash
+mkdir -p /tmp/m2-layout
+javac --release 21 -d /tmp/m2-layout \
+  modpack/integration/src/main/java/br/com/minecraft2/gameplay/CaveRegionLayout.java \
+  modpack/integration/src/test/java/br/com/minecraft2/test/CaveRegionLayoutTest.java
+java -cp /tmp/m2-layout br.com.minecraft2.test.CaveRegionLayoutTest
+```
+
+O teste cobre 201 seeds sintéticas, ordem determinística, seis regiões com clima aceito, limites de wrapping, separação mínima e recusa quando falta clima. **Não testa o resultado efetivo de worldgen.** A CI deste PR executa esse teste; registrar o resultado de execução somente depois de observar os logs.
+
+### Testes manuais obrigatórios em perfil descartável
+
+1. Em Arcanus, o braseiro `Summon Wilden` com Wing/Horn/Spike invoca Chimera; sem os três, o ritual usual continua.
+2. Overworld, Nether, End e dimensão Pokémon: oferecer cada augmento no braseiro mantém a pilha intacta, mostra aviso; boss não aparece com ovo/comando; itens e feitiços comuns Ars funcionam.
+3. Corrida: com stamina, decremento de 3/tick, velocidade vanilla ×1,05, sem exaustão alimentar; esgotada, sprint não interrompe, velocidade vanilla e exaustão 2×. Testar retorno da stamina após descanso.
+4. Caminhada, água, planagem, PvP, dano, mineração, Stamina Vessels, morte, reconexão e troca de dimensão sem efeitos indevidos/duplicação ou divergência em servidor dedicado.
+5. Para seeds 0, 1, 42 e outras geradas aleatoriamente em mundos **novos**, confirmar as seis regiões pelo bioma/subsolo, recursos, estruturas, mobs, mapas e comandos. Checar especificamente Chasm em oceano, dimensões secundárias e bordas ±4992.
+6. Salvar, parar, reabrir, repetir consultas dos mapas e verificar costuras sem duplicação e sem efeito em chunks preexistentes.
+7. Não instalar dois Iris nem dois Strato com o mesmo mod ID; usar fork de Strato do projeto e remover duplicata Iris **apenas na cópia de teste**.
+
+**Bloqueios conhecidos:** cobertura climática universal, prova de features e restrição automática exclusiva a mundos novos não estão garantidas pela suíte matemática. Não confundir CI verde com homologação gameplay.
