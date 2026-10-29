@@ -14,6 +14,7 @@ public final class ChimeraRules {
     private static final ResourceLocation CHIMERA = ResourceLocation.parse("ars_nouveau:wilden_chimera");
     private static final ResourceLocation ARCANUS = ResourceLocation.parse("m2arcana:world");
     private static final Component MESSAGE = Component.literal("A Wilden Chimera só pode ser invocada em Arcanus.");
+    private static final java.util.concurrent.ConcurrentHashMap<java.util.UUID, Long> LAST_NOTICE = new java.util.concurrent.ConcurrentHashMap<>();
 
     private ChimeraRules() {}
 
@@ -26,10 +27,15 @@ public final class ChimeraRules {
     }
 
     public static void warnNearby(ServerLevel level, net.minecraft.core.BlockPos pos) {
-        // Itens no chão também podem ser aspirados pelo braseiro: não há jogador associado.
-        if (level.getGameTime() % 40 != 0) return;
+        // A primeira tentativa avisa imediatamente; cooldown evita spam por itens automáticos.
+        long now = level.getGameTime();
         for (Player player : level.players()) {
-            if (player.distanceToSqr(pos.getX() + .5, pos.getY() + .5, pos.getZ() + .5) <= 64) warn(player);
+            if (player.distanceToSqr(pos.getX() + .5, pos.getY() + .5, pos.getZ() + .5) > 64) continue;
+            Long last = LAST_NOTICE.get(player.getUUID());
+            if (last == null || now < last || now - last >= 40) {
+                LAST_NOTICE.put(player.getUUID(), now);
+                warn(player);
+            }
         }
     }
 
