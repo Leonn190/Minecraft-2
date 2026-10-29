@@ -26,7 +26,13 @@
     "SporeLivingEventsMixin",
     "SporeBiomeModifierMixin",
     "PlagueEffectsMixin",
-    "PlagueEffectTickMixin"
+    "PlagueEffectTickMixin",
+    "WildenBrazierMixin",
+    "ParagliderSprintMixin",
+    "PlayerWalkingExhaustionMixin",
+    "CaveBiomeSourceMixin",
+    "CaveBiomeSeedMixin",
+    "CaveMapSearchMixin"
   ],
   "injectors": {
     "defaultRequire": 1
