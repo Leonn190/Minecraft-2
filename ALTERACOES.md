@@ -105,3 +105,12 @@ O manifesto antigo está preservado em [extras/mods-manifest-anterior.json](extr
 - Versões alvo no ZIP: Ars Nouveau 5.13.3, Paraglider 21.1.5, Alex's Caves 2.0.10, Citadel 2.7.6 e NeoForge 21.1.263.
 - O builder `build_integration.py` carrega as quatro APIs diretamente de `modpack/mods.zip`; JARs externos dos mods não devem ser adicionados ao Git. Nenhum save, site Astro ou recurso de outro mod foi alterado.
 - **Compilação e testes integrados do mod: PENDENTES.** A CI proposta verifica apenas o layout matemático das cavernas com JDK 21. Não autoriza declarar as cavernas plenamente geradas, a exaustão validada, nem a interface multiplayer aprovada.
+
+
+## Revisão das reservas do Alex's Caves — PR de correção (29/10/2026)
+
+- **Escopo:** o hook de biomas só é ativado no Overworld cujo ChunkGenerator é `LoopedChunkGenerator` de Exotic Worlds com ambos os eixos `[-312,312)` chunks (o preset `m2worlds:toroidal`). Um Overworld padrão deixa de receber reservas. Outros presets que usem exatamente esse gerador e as mesmas dimensões ainda serão elegíveis: o Minecraft não preserva diretamente o ID do preset como chave de runtime.
+- **Cobertura:** `CaveRegionLayout.plan` classifica candidatas pela distância climática, prefere candidatas com score zero e seleciona fallback mínimo quando não há clima compatível. O algoritmo agora retorna exatamente seis reservas ou falha explicitamente, nunca silenciosamente uma lista parcial. Os intervalos utilizados são os do modpack em `config/alexscaves_biome_generation/*.json`: continentalidade ampla de Magnetic/Forlorn e profundidade 0.05–2.0.
+- **Desempenho e toroidalidade:** consultas fora das seis reservas retornam sem amostragem climática adicional. Os lookups aceitam cópias da coordenada dobradas no período de 9984 blocos. As regiões permanecem afastadas de spawn, costuras e entre si.
+- **Integração:** devolve os holders originais de `alexscaves`, não cria biomas falsos nem substitui features. O pré-filtro dos mapas continua usando as reservas já computadas.
+- **Limites verificáveis:** reservar seis biomas não garante seis cavernas completas com terrain carving, estruturas, mobs e mapas. O fallback pode forçar um bioma em clima não ideal (especialmente Abyssal Chasm): verificar em runtime antes de liberar. Ainda altera chunks virgens em saves antigos que usem o mesmo gerador e as mesmas dimensões; não usar em saves existentes. A compilação NeoForge completa e testes reais permanecem pendentes.

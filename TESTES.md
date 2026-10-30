@@ -133,3 +133,16 @@ O teste cobre 201 seeds sintéticas, ordem determinística, seis regiões com cl
 7. Não instalar dois Iris nem dois Strato com o mesmo mod ID; usar fork de Strato do projeto e remover duplicata Iris **apenas na cópia de teste**.
 
 **Bloqueios conhecidos:** cobertura climática universal, prova de features e restrição automática exclusiva a mundos novos não estão garantidas pela suíte matemática. Não confundir CI verde com homologação gameplay.
+
+
+## Testes de correção de cavernas toroidais (29/10/2026)
+
+O `CaveRegionLayoutTest` agora valida 201 seeds em três regimes (clima sempre válido, clima sempre adverso e clima preferencial em X>=0); verifica seis tipos, determinismo, distâncias, borda exclusiva, lookup e dobra por 9984 blocos. Executar:
+
+```sh
+mkdir -p /tmp/m2-layout
+javac --release 21 -d /tmp/m2-layout modpack/integration/src/main/java/br/com/minecraft2/gameplay/CaveRegionLayout.java modpack/integration/src/test/java/br/com/minecraft2/test/CaveRegionLayoutTest.java
+java -cp /tmp/m2-layout br.com.minecraft2.test.CaveRegionLayoutTest
+```
+
+A suíte é puramente Java, sem classpath Minecraft. **Pendente:** compilação integral do JAR NeoForge com Exotic Worlds 1.1.4, inicialização dedicada/cliente, teste real do `ChunkStatusTasks.generateBiomes` com Mixins, seeds 0/1/42 e randômicas, seis caves físicas, mapas, features, mobs, seções subterrâneas e superfície, continuidade das costuras e exclusão do Overworld comum. Salvar/reabrir somente mundo novo descartável. Nunca aplicar a saves antigos. O CI matemático verde não confirma geração real.
