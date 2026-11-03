@@ -58,14 +58,20 @@ def main():
             assert json.loads((DATA/relative).read_text(encoding='utf-8')) == value, relative
         assert json.loads((ROOT/'modpack/gameplay-structure-manifest.json').read_text(encoding='utf-8')) == report
         manifest = json.loads((ROOT/'modpack/mods-manifest.json').read_text(encoding='utf-8'))
-        assert sha(ROOT/'modpack/mods.zip') == manifest['archive']['sha256']
+        packed = manifest
+        if manifest.get('schema') == 2:
+            packed = json.loads((ROOT/manifest['archive_audit']).read_text(encoding='utf-8'))
+            expected_zip_sha256 = packed['sha256']
+        else:
+            expected_zip_sha256 = manifest['archive']['sha256']
+        assert sha(ROOT/'modpack/mods.zip') == expected_zip_sha256
         with zipfile.ZipFile(ROOT/'modpack/mods.zip') as archive:
             actual = {n for n in archive.namelist() if n.lower().endswith('.jar')}
-            assert actual == {e['file'] for e in manifest['entries']}
-            for entry in manifest['entries']:
+            assert actual == {e['file'] for e in packed['entries']}
+            for entry in packed['entries']:
                 assert hashlib.sha256(archive.read(entry['file'])).hexdigest() == entry['sha256']
         lines = (ROOT/'modpack/mods-list.txt').read_text(encoding='utf-8').splitlines()
-        assert {line.split(' | ')[0] for line in lines if line and not line.startswith('#')} == actual
+        assert {line.split(' | ')[0] for line in lines if line and not line.startswith('#')} == {e['file'] for e in manifest['entries']}
         assert not manifest['duplicate_top_level_ids'] and not manifest['duplicate_sha256']
         moves = json.loads((ROOT/'extras/reorganizacao.json').read_text(encoding='utf-8'))['moves']
         for move in moves:

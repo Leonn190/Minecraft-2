@@ -32,7 +32,7 @@ side="BOTH"
 [[dependencies.m2_worldgen]]
 modId="exotic_worlds"
 type="required"
-versionRange="[1.1.4]"
+versionRange="[1.2.5]"
 ordering="AFTER"
 side="BOTH"
 
@@ -45,3 +45,17 @@ side="BOTH"
 
 [[mixins]]
 config="m2_worldgen.mixins.json"
+
+[[dependencies.m2_worldgen]]
+modId="sophisticatedbackpacks"
+type="required"
+versionRange="[3.26.19]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.m2_worldgen]]
+modId="sophisticatedcore"
+type="required"
+versionRange="[1.5.23]"
+ordering="AFTER"
+side="BOTH"

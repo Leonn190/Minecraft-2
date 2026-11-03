@@ -1,0 +1,291 @@
+{
+  "recipes": [
+    {
+      "jar": "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
+      "entry": "data/sophisticatedbackpacks/recipe/copper_backpack.json",
+      "recipe": {
+        "neoforge:conditions": [
+          {
+            "type": "sophisticatedcore:item_enabled",
+            "itemRegistryName": "sophisticatedbackpacks:copper_backpack"
+          }
+        ],
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "sophisticatedbackpacks:backpack"
+          },
+          "C": {
+            "tag": "c:ingots/copper"
+          }
+        },
+        "pattern": [
+          "CCC",
+          "CBC",
+          "CCC"
+        ],
+        "result": {
+          "count": 1,
+          "id": "sophisticatedbackpacks:copper_backpack"
+        }
+      }
+    },
+    {
+      "jar": "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
+      "entry": "data/sophisticatedbackpacks/recipe/backpack.json",
+      "recipe": {
+        "neoforge:conditions": [
+          {
+            "type": "sophisticatedcore:item_enabled",
+            "itemRegistryName": "sophisticatedbackpacks:backpack"
+          }
+        ],
+        "type": "sophisticatedbackpacks:basic_backpack",
+        "category": "misc",
+        "key": {
+          "C": {
+            "tag": "c:chests/wooden"
+          },
+          "L": {
+            "tag": "c:leathers"
+          },
+          "S": {
+            "tag": "c:strings"
+          }
+        },
+        "pattern": [
+          "SLS",
+          "SCS",
+          "LLL"
+        ],
+        "result": {
+          "count": 1,
+          "id": "sophisticatedbackpacks:backpack"
+        }
+      }
+    },
+    {
+      "jar": "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
+      "entry": "data/sophisticatedbackpacks/recipe/iron_backpack_from_copper.json",
+      "recipe": {
+        "neoforge:conditions": [
+          {
+            "type": "sophisticatedcore:item_enabled",
+            "itemRegistryName": "sophisticatedbackpacks:iron_backpack"
+          }
+        ],
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "sophisticatedbackpacks:copper_backpack"
+          },
+          "I": {
+            "tag": "c:ingots/iron"
+          }
+        },
+        "pattern": [
+          " I ",
+          "IBI",
+          " I "
+        ],
+        "result": {
+          "count": 1,
+          "id": "sophisticatedbackpacks:iron_backpack"
+        }
+      }
+    },
+    {
+      "jar": "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
+      "entry": "data/sophisticatedbackpacks/recipe/iron_backpack.json",
+      "recipe": {
+        "neoforge:conditions": [
+          {
+            "type": "sophisticatedcore:item_enabled",
+            "itemRegistryName": "sophisticatedbackpacks:iron_backpack"
+          }
+        ],
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "sophisticatedbackpacks:backpack"
+          },
+          "I": {
+            "tag": "c:ingots/iron"
+          }
+        },
+        "pattern": [
+          "III",
+          "IBI",
+          "III"
+        ],
+        "result": {
+          "count": 1,
+          "id": "sophisticatedbackpacks:iron_backpack"
+        }
+      }
+    },
+    {
+      "jar": "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
+      "entry": "data/sophisticatedbackpacks/recipe/netherite_backpack.json",
+      "recipe": {
+        "type": "sophisticatedbackpacks:smithing_backpack_upgrade",
+        "addition": {
+          "item": "minecraft:netherite_ingot"
+        },
+        "base": {
+          "item": "sophisticatedbackpacks:diamond_backpack"
+        },
+        "result": {
+          "count": 1,
+          "id": "sophisticatedbackpacks:netherite_backpack"
+        },
+        "template": {
+          "item": "minecraft:netherite_upgrade_smithing_template"
+        }
+      }
+    },
+    {
+      "jar": "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
+      "entry": "data/sophisticatedbackpacks/recipe/gold_backpack.json",
+      "recipe": {
+        "neoforge:conditions": [
+          {
+            "type": "sophisticatedcore:item_enabled",
+            "itemRegistryName": "sophisticatedbackpacks:gold_backpack"
+          }
+        ],
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          },
+          "G": {
+            "tag": "c:ingots/gold"
+          }
+        },
+        "pattern": [
+          "GGG",
+          "GBG",
+          "GGG"
+        ],
+        "result": {
+          "count": 1,
+          "id": "sophisticatedbackpacks:gold_backpack"
+        }
+      }
+    },
+    {
+      "jar": "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
+      "entry": "data/sophisticatedbackpacks/recipe/diamond_backpack.json",
+      "recipe": {
+        "neoforge:conditions": [
+          {
+            "type": "sophisticatedcore:item_enabled",
+            "itemRegistryName": "sophisticatedbackpacks:diamond_backpack"
+          }
+        ],
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          "D": {
+            "tag": "c:gems/diamond"
+          }
+        },
+        "pattern": [
+          "DDD",
+          "DBD",
+          "DDD"
+        ],
+        "result": {
+          "count": 1,
+          "id": "sophisticatedbackpacks:diamond_backpack"
+        }
+      }
+    }
+  ],
+  "ore_biome_references": {
+    "data/undergarden/worldgen/biome/ancient_sea.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/barren_abyss.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/blood_mushroom_bog.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/dead_sea.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/dense_forest.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/depths.json": [
+      "undergarden:utherium_ore"
+    ],
+    "data/undergarden/worldgen/biome/forgotten_field.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/frostfields.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/frosty_smogstem_forest.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/gronglegrowth.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/icy_sea.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/indigo_mushroom_bog.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/infected_depths.json": [
+      "undergarden:utherium_ore"
+    ],
+    "data/undergarden/worldgen/biome/ink_mushroom_bog.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/puff_mushroom_forest.json": [
+      "undergarden:utherium_ore"
+    ],
+    "data/undergarden/worldgen/biome/rogdorium_grove.json": [],
+    "data/undergarden/worldgen/biome/smogstem_forest.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/smog_spires.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/veil_mushroom_bog.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ],
+    "data/undergarden/worldgen/biome/wigglewood_forest.json": [
+      "undergarden:utherium_ore",
+      "undergarden:regalium_ore"
+    ]
+  },
+  "undergarden_biome_modifiers": [],
+  "note": "Leitura de dados dos JARs instalados; não prova resultado em runtime. As sete receitas antigas são removidas pelo filtro dos cinco outputs; Leather não entra no filtro."
+}

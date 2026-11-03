@@ -1,5 +1,22 @@
 # Testes — Minecraft 2
 
+## M2-030–033 — 01/11/2026, sem execução de testes
+
+Por instrução expressa do usuário, **não foram executados testes, validadores de suítes, build do site, cliente ou servidor Minecraft**. Foram feitas somente as leituras necessárias dos arquivos/JARs, inventário e comparação de metadata, compilação do JAR de produção para instalação, backups e conferência SHA-256 das cópias. Isso não aprova gameplay, carregamento de recursos, codecs ou mixins em runtime. Aprovações históricas abaixo mantêm seus hashes e datas originais.
+
+| ID | Procedimento futuro | Estado verdadeiro |
+|---|---|---|
+| INSPECAO-M2D-20261101 | Inventário de JARs/JarJar, metadados e intervalos Maven; comparação com main; backup e instalação de seis arquivos próprios | Executado como inspeção de entrega, sem Minecraft: 148 JARs, zero IDs principais duplicados, zero IDs obrigatórios ausentes, sete divergências de intervalos Minecraft. JAR compilado com Java 21 e APIs reais, incluindo Exotic Worlds 1.2.5; aviso deprecated preexistente. Hashes/backup nos relatórios novos. |
+| J39 | Após reinício completo, JEI e crafting: Leather original; cinco transições na ordem Cloggrum/Froststeel/Utherium/Regalium/Forgotten, custos 8/8/8/4/4; tentar as seis receitas evoluídas antigas, incluindo smithing | Pendente: cinco resultados exigem o antecessor; sem rotas antigas ou atalhos. IDs/receitas em `backpack_progression.js`; Leather e upgrades internos preservados. |
+| J40 | Mochilas cheias até o último slot e sete upgrades instalados; cores, nome personalizado, filtros, fluidos/energia e linked storage; repetir cada upgrade e salvar/reabrir, em dois clientes | Pendente: mesmos UUIDs/conteúdos/componentes, nenhuma perda ou redução de slots, endpoints compartilhados obedecem às restrições nativas; 120/7 mantidos depois de Cloggrum nesta configuração. |
+| J41 | Alternar pt_br/en_us, recarregar recursos; observar JEI, tooltip, inventário e resultado; conferir outras traduções | Pendente: cinco nomes novos e Leather; nomes personalizados pelo jogador preservados; outras chaves de tradução do mod continuam disponíveis. |
+| J42 | Em cópia descartável, comparar mesma seed nos chunks novos antes/depois, usando relatório de features; explorar Undergarden e outras dimensões | Pendente: tentativas 3→4 para ambos, tamanhos 8/4 e alturas originais; nenhuma nova injeção ou minério em outras dimensões; chunks existentes intactos. Estatística de blocos não foi medida. |
+| J43 | Entrar em água parada/corrente rasa no Undergarden, permanecer mais de 60 ticks, sair totalmente e entrar novamente; repetir em outras dimensões, chuva e lava | Pendente: Poison I/60 ticks só na entrada válida, sem renovação contínua. Poção de veneno preexistente mais forte/longa mantém as regras normais de combinação do Minecraft. |
+| J44 | Dois clientes; repetir contato, morte/respawn, reconexão, ida/volta entre dimensões, reinício e `/reload` | Pendente: estado independente por UUID, limpeza de ciclo de vida e um único registro Java por processo; nenhuma mudança no multiplicador ×0.40 de armas. |
+| J45 | Repetir J01–J38 em perfil descartável com os hashes atuais, sobretudo portais, pragas, Cataclysm e costuras toroidais | Pendente: fontes/dados anteriores preservados, mas a atualização de mods do perfil, incluindo Exotic Worlds 1.2.5 e Cobblemon 1.8.4, não recebeu aprovação de runtime nesta entrega. |
+
+O bloqueio de J01 abaixo refere-se ao ZIP histórico, que continua com duplicata Iris. O perfil M2D atual tem um Iris e um fork Strato, sem JAR de testes. Consulte [relatório desta entrega](extras/SINCRONIZACAO_UNDERGARDEN_20261101.md); saves não foram abertos ou modificados.
+
 ## M2-028/029 — 26/10/2026
 
 **Regra vigente:** Spore somente Pokémon; TFTH somente Arcanus. J19–J24 abaixo descrevem a política histórica M2-022 de duas dimensões; para a versão atual use J32–J34. Nenhum cliente ou servidor foi iniciado nesta alteração, conforme solicitado. Compilação não comprova gameplay.

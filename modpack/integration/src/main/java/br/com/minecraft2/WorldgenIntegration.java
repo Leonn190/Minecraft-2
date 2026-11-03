@@ -15,6 +15,8 @@ import net.minecraft.core.registries.Registries;
 @Mod("m2_worldgen")
 public final class WorldgenIntegration {
     public WorldgenIntegration(IEventBus bus) {
+        br.com.minecraft2.gameplay.BackpackProgressionRecipe.register(bus);
+        br.com.minecraft2.gameplay.UndergardenWater.register();
         br.com.minecraft2.gameplay.GameplayRules.register();
         NeoForge.EVENT_BUS.addListener(br.com.minecraft2.gameplay.UniqueCataclysm::beforeStart);
         NeoForge.EVENT_BUS.addListener(WorldgenIntegration::finalizeSpawn);

@@ -2,6 +2,14 @@
 
 Alvo: **Minecraft 1.21.1 / NeoForge 21.1.263 / Java 21**.
 
+## Entrega atual — 01/11/2026
+
+M2-030–033: o perfil M2D usa Exotic Worlds **1.2.5**, Sophisticated Backpacks **3.26.19** e Core **1.5.23**. O contrato `neoforge.mods.toml` reflete essas versões declaradas (os sufixos de build dos nomes dos JARs não integram a versão FML). Compile com `python modpack/development/build_integration.py --profile CAMINHO_M2D`. `--profile` seleciona exatamente um JAR ativo por API necessária e o engine JarJar do Exotic Worlds; não usa o ZIP histórico como fonte. Nenhuma biblioteca nova foi adicionada ao perfil.
+
+`BackpackProgressionRecipe` herda a validação nativa de linked storage e mantém componentes/UUID, ajustando slots sem reduzir a capacidade anterior. O serializer `m2_worldgen:backpack_progression` é utilizado pelas cinco receitas KubeJS. `UndergardenWater` detecta entrada em água no servidor e limpa o estado nos eventos de ciclo de vida. As duas funcionalidades exigem o JAR atualizado no cliente e no servidor. Fontes de penalidade de armas, portais e mixins de worldgen/pragas foram preservadas.
+
+JAR instalado: SHA-256 `c9513fc44a1a9d3ead00ff88c71c9b537d290dcc02981b36c3609e9e45cef16d`. Sem testes por instrução do usuário; compilação e instalação não aprovam runtime. [Relatório atual](../../extras/SINCRONIZACAO_UNDERGARDEN_20261101.md). As seções seguintes descrevem a entrega e os testes históricos, com APIs/ZIP antigos; não são evidência para o binário atual.
+
 O JAR `m2-worldgen-1.1.0.jar` é obrigatório junto dos JSONs novos. Ele registra a fonte `m2_worldgen:isolated_climate`, com a seleção climática original dos mundos Pokémon/Arcanus, e impede que as regiões globais do TerraBlender sejam acrescentadas a essas duas paletas. Os 1.713 parâmetros do Pokémon foram preservados.
 
 Também restringe o injetor de features do Cobblemon aos biomas clonados `m2pokemon`, interrompe spawns `NATURAL`/`CHUNK_GENERATION` de Alex's Mobs e dos três addons nos mundos proibidos e protege contra efeitos colaterais dos predicados do Ars Fauna. O spawner ambiental de baleias do Alex's Mobs recebe uma proteção específica: ele usa `SPAWNER` internamente. Ovos, comandos, equipamentos e invocações do jogador não recebem uma proibição geral.

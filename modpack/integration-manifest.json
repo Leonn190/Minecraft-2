@@ -12,7 +12,7 @@
     {
       "file": "m2-worldgen-1.1.0.jar",
       "version": "1.1.0",
-      "sha256": "194b1bff7f7699eaa05ff027b7b754c59e3d46101e6aa7b7186cc838f69a2fd6"
+      "sha256": "c9513fc44a1a9d3ead00ff88c71c9b537d290dcc02981b36c3609e9e45cef16d"
     },
     {
       "file": "strato-0.4.1-m2.1.jar",
@@ -20,11 +20,17 @@
       "sha256": "865451f443b83ea80e9cc5e010ac75468368610c5d75cbe1fe25a539cb4d8fa7"
     }
   ],
-  "note": "Integração própria compilada; o fork Strato é adicional histórico. Não são componentes adicionados ao ZIP nem aprovação de distribuição/compatibilidade do conjunto atual.",
-  "archive_sha256": "fb09b5b781c9605313db7740882c85ccda70f247e5babca19a62f4d4c4b144ac",
+  "note": "Instalação própria por hash; fork Strato preexistente preservado. Perfil contém Exotic Worlds 1.2.5; APIs do perfil usadas na compilação. Sem testes nesta entrega. Aprovações históricas não cobrem este JAR.",
   "deployment": {
-    "installed_in_active_profile": false,
-    "staging_blocked": true,
-    "reason": "ZIP atual contém strato 0.4.6; fork 0.4.1-m2.1 usa o mesmo ID. Não instalar juntos. Base histórica usada somente para teste isolado."
+    "installed_in_active_profile": true,
+    "staging_blocked": false,
+    "profile": "CurseForge/M2D",
+    "evidence": "extras/instalacao-undergarden-20261101-001405.json",
+    "gameplay_validated": false
+  },
+  "date": "2026-11-01",
+  "previous_manifest": {
+    "path": "extras/integration-manifest-historico-1684c5c2db8d.json",
+    "sha256": "1684c5c2db8d337f2ada494711e804f4d6213da43d120b2688bcf5ea1770e678"
   }
 }

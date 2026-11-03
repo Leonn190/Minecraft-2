@@ -82,7 +82,8 @@ def main():
     run('prepare_strato.py', '--source', source, '--vanilla', vanilla, '--output', prepared, '--staging', staging)
     # Não chama --apply, generate_worldgen ou staging de perfil: dados existentes são preservados.
     run('build_strato.py', '--jdk', jdk, '--install', args.install, '--source', prepared)
-    run('build_integration.py', '--jdk', jdk, '--install', args.install)
+    profile_args = ['--profile', args.instance_mods.parent] if args.instance_mods.is_dir() else []
+    run('build_integration.py', '--jdk', jdk, '--install', args.install, *profile_args)
     artifacts = [BUILD/'m2-worldgen-1.1.0.jar', prepared/'build/libs/strato-0.4.1-m2.1.jar']
     own = [inspect_jar(p.read_bytes(), p.name) for p in artifacts]
     own_classes = set()
@@ -108,7 +109,7 @@ def main():
     with zipfile.ZipFile(archive) as z:
         entries = [inspect_jar(z.read(n), n) for n in sorted(z.namelist()) if n.endswith('.jar')]
     previous = json.loads((ROOT/'modpack/mods-manifest.json').read_text(encoding='utf-8'))
-    inventory_matches = archive_hash == previous['archive']['sha256'] and {e['file']:e['sha256'] for e in entries} == {e['file']:e['sha256'] for e in previous['entries']}
+    inventory_matches = archive_hash == previous.get('archive', {}).get('sha256') and {e['file']:e['sha256'] for e in entries} == {e['file']:e['sha256'] for e in previous['entries']}
     # A entrega contém só os próprios. Simula a composição substituindo todo mod de ID strato.
     excluded = [e for e in entries if any(m['modId'] == 'strato' for m in e['mods'])]
     collisions = []
@@ -183,7 +184,7 @@ Este comando executa compilação e inspeção estática. Resultados de servidor
 1. Crie uma cópia descartável do perfil e faça backup do save. Não instale na instância ativa.
 2. Na cópia, retire da pasta mods qualquer JAR que declare o ID `strato` (incluindo upstream 0.4.6), bem como versões anteriores de m2_worldgen. Guarde-os fora de mods.
 3. Copie somente m2-worldgen-1.1.0.jar e strato-0.4.1-m2.1.jar desta pasta para mods. Nunca instale os dois Strato simultaneamente.
-4. Copie config, defaultconfigs e kubejs desta entrega para a cópia descartável do perfil. Seus hashes estão em delivered_overrides_sha256 no build-report.json. Mantenha os demais mods do perfil; são necessários BBL Portals 1.2.2, TerraBlender 4.1.0.8, Exotic Worlds 1.1.4 e dependências do modpack. Esta entrega não contém esses mods de terceiros.
+4. Copie config, defaultconfigs e kubejs desta entrega para a cópia descartável do perfil. Seus hashes estão em delivered_overrides_sha256 no build-report.json. Mantenha os demais mods do perfil; são necessários BBL Portals 1.2.2, TerraBlender 4.1.0.8, Exotic Worlds 1.2.5, Sophisticated Backpacks 3.26.19, Sophisticated Core 1.5.23 e dependências do modpack. Esta entrega não contém esses mods de terceiros. O inventário do ZIP é histórico; suas versões não substituem as APIs do perfil real.
 5. Confira SHA256SUMS.txt com Get-FileHash -Algorithm SHA256. Reinicie completamente e crie mundo novo com preset m2worlds:toroidal. Não converta saves pessoais.
 6. Antes de iniciar, resolva os IDs duplicados indicados abaixo na cópia de teste, mantendo somente uma versão compatível por ID. Não copie o ZIP inteiro sem conferir. Execute J01–J24 de TESTES.md. O JAR de testes que encerra o servidor NÃO faz parte desta entrega.
 
