@@ -18,6 +18,7 @@ def main():
     parser.add_argument('--libraries', type=Path, help='Bibliotecas de servidor; sem esta opção usa CurseForge 1.21.1/21.1.263.')
     parser.add_argument('--install', type=Path, help='Diretório Install do CurseForge, somente leitura.')
     parser.add_argument('--tests', action='store_true', help='Compila somente o JAR separado de testes, que encerra o servidor.')
+    parser.add_argument('--camera-tests', action='store_true', help='Compila auditoria de câmera separada; somente cliente descartável com marcador próprio.')
     parser.add_argument('--profile', type=Path, help='Perfil real como fonte das APIs, sem usar o ZIP histórico.')
     args = parser.parse_args()
     if args.profile is None:
@@ -30,7 +31,9 @@ def main():
             args.profile = profile
     jdk = jdk_home(args.jdk)
     libraries = server_libraries(args.libraries) if args.libraries else (curseforge_libraries(args.install) if args.install else curseforge_libraries())
-    kind = 'test' if args.tests else 'main'
+    if args.tests and args.camera_tests:
+        parser.error('Escolha --tests ou --camera-tests.')
+    kind = 'cameraTest' if args.camera_tests else 'test' if args.tests else 'main'
     prefixes = ('portals-', 'kubejs-', 'rhino-', 'exotic_worlds-', 'worldgenrouter-',
                 'sophisticatedbackpacks-', 'sophisticatedcore-')
     if args.profile:
@@ -49,13 +52,13 @@ def main():
                             libraries.append(target)
     else:
         libraries += mod_apis(prefixes)
-    if args.tests:
+    if args.tests or args.camera_tests:
         libraries += [ROOT/'modpack/integration/build/m2-worldgen-1.1.0.jar']
     build = ROOT/'modpack/integration/build'
     build.mkdir(parents=True, exist_ok=True)
     sources = sorted((ROOT/('modpack/integration/src/'+kind+'/java')).rglob('*.java'))
     out = compile_java(jdk, libraries, sources, build, build/('javac-'+kind+'.args'))
-    jar = ROOT/('modpack/integration/build/m2-worldgen-'+('tests-' if args.tests else '')+'1.1.0.jar')
+    jar = ROOT/('modpack/integration/build/m2-worldgen-'+('camera-tests-' if args.camera_tests else 'tests-' if args.tests else '')+'1.1.0.jar')
     with zipfile.ZipFile(jar, 'w', compression=zipfile.ZIP_DEFLATED) as z:
         for base in [out, ROOT/('modpack/integration/src/'+kind+'/resources')]:
             for p in sorted(base.rglob('*')):

@@ -1,6 +1,8 @@
 # Minecraft 2
 
-> **Status:** protótipo com personalizações implementadas; validação com cliente pendente. Ainda não há versão pública aprovada para distribuição.
+> **Status:** protótipo com personalizações implementadas; entrada singleplayer validada em cópia do cliente para M2-035. Cobertura completa de gameplay e distribuição pública ainda não aprovadas.
+
+**Correção de 03/11/2026 — M2-035:** instalado no CurseForge M2D o JAR próprio que trata câmera nula em dois pontos do Exotic Worlds 1.2.5, preservando tradução e dimensões toroidais. Testes no cliente descartável com os mesmos 148 JARs: sobrevivência, salvar/reentrar/reiniciar, criação em criativo/toroidal, 77 verificações de câmera e 63 aliases de chunks nas sete dimensões. Nenhum save pessoal aberto; 268 arquivos conferidos intactos. [Causa, hashes, instalação e limites](extras/CORRECAO_INVALID_PLAYER_DATA_20261103.md).
 
 **Minecraft 2** é um projeto de modpack para Minecraft **Java Edition 1.21.1**, com **NeoForge**, configurações e scripts **KubeJS**, progressão própria e documentação interativa em um site **Astro**.
 
@@ -36,7 +38,7 @@ A configuração já aponta para `https://leonn190.github.io/Minecraft-2/`. Para
 
 ## Modpack e desenvolvimento
 
-O inventário atual usa a instalação real **CurseForge M2D**, em 01/11/2026: **148 JARs ativos**, sendo 146 externos e duas integrações próprias (m2-worldgen e fork Strato). [mods-list.txt](modpack/mods-list.txt) e [mods-manifest.json](modpack/mods-manifest.json) registram arquivos, versões declaradas, dependências e SHA-256. O inventário anterior tinha 122 JARs: 43 nomes de arquivo adicionados, 17 substituídos/retirados da lista, 16 IDs com versões diferentes e nenhum ID principal removido. Não houve remoção de JARs da instância. Não há IDs principais duplicados nem dependências obrigatórias identificadas ausentes; sete intervalos Minecraft declarados divergem do alvo 1.21.1. Isso não certifica compatibilidade ou redistribuição.
+O inventário atual usa a instalação real **CurseForge M2D**, atualizado em 03/11/2026 ([auditoria atual](extras/auditoria-perfil-camera-20261103.json)): **148 JARs ativos**, sendo 146 externos e duas integrações próprias (m2-worldgen e fork Strato). [mods-list.txt](modpack/mods-list.txt) e [mods-manifest.json](modpack/mods-manifest.json) registram arquivos, versões declaradas, dependências e SHA-256. A comparação histórica de 01/11 com o inventário anterior de 122 JARs registrou: 43 nomes de arquivo adicionados, 17 substituídos/retirados da lista, 16 IDs com versões diferentes e nenhum ID principal removido. Não houve remoção de JARs da instância. Não há IDs principais duplicados nem dependências obrigatórias identificadas ausentes; sete intervalos Minecraft declarados divergem do alvo 1.21.1. Isso não certifica compatibilidade ou redistribuição.
 
 O ZIP local `modpack/mods.zip` continua histórico, intacto, com 134 JARs e duplicata Iris; seu inventário separado está em [auditoria do ZIP](extras/auditoria-perfil-m2d-final-20261101-zip.json). Ele não determina os mods ativos. Históricos antigos e seus hashes foram preservados. Integrações próprias: [integration-manifest.json](modpack/integration-manifest.json); planejamento: [extras/MODS.md](extras/MODS.md).
 

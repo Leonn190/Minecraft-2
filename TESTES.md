@@ -1,5 +1,21 @@
 # Testes — Minecraft 2
 
+## M2-035 — Login/câmera (03/11/2026)
+
+JAR próprio 1.1.0 SHA-256 `f416979c7d86d63109b38e4036d9b53cc7b3603d94f43fa33cf04da9be055f4e`; Exotic Worlds 1.2.5, NeoForge 21.1.263, Java 21. Cliente descartável copiado do M2D, sem saves pessoais; auditoria adicional separada da produção.
+
+| ID | Execução | Estado verdadeiro |
+|---|---|---|
+| AUTO-CAMERA-20261103 | `/m2cameraaudit` com classes reais transformadas: câmera nula, padrão, outra entidade, dimensão divergente, rebase/limpeza, pacote de spawn e sons | Aprovado: 77 verificações (11 em cada uma das sete dimensões), com transferência real do jogador em espectador. Teste de estados interno não equivale a visão do cliente acompanhando entidade viva. |
+| J47 | Entrar em mundo Normal/Default em sobrevivência, salvar, sair e reabrir | Aprovado no cliente descartável com o patch final; jogador no ambiente 3D e nova entrada após salvamento. O mundo foi criado durante a tentativa parcial, que falhou no segundo acesso de câmera; foi preservado e reaberto com o patch completo. |
+| J48 | Criar mundo novo em criativo; comparar presets normal/toroidal | Aprovado para criação/entrada no preset explícito `m2worlds:toroidal`; Normal/Default em sobrevivência também entrou. Geradores salvos e sete larguras conferidos nos dois saves descartáveis. Normal Wover não foi selecionado em cliente nesta execução; contrato estático aprovado separadamente. |
+| J49 | Visitar sete dimensões, atravessar bordas, testar espectador real e troca dimensional, persistência | Parcial: visitas reais em espectador, 77 verificações de câmera e 63 comparações de identidade (nove aliases do chunk 0,0 por dimensão) aprovadas. Travessia visual de lados/cantos, visão acompanhando entidade viva, portais/projéteis/montarias e multiplayer pendentes. Posicionamento em X=4991,99 realizado, mas entrada automatizada w não produziu movimento sustentado; sem aprovação de travessia. |
+| J50 | Reinício completo sem JAR/script de auditoria, mesmos 148 JARs de produção; quick-play no save de sobrevivência, observar ambiente 3D e salvar/sair | Aprovado. Só na cópia: heap 12 GiB, render 6/simulação 4 para conter custo da auditoria; preferências reais intactas. Aviso de histórico do save `m2_camera_tests -> MISSING` não significa JAR carregado: pasta mods conferida sem testes. Logs sem as cinco assinaturas de falha e salvamento de todas as dimensões confirmado. |
+| AUTO-INSTALL-CAMERA-20261103 | Get-Process sem Java; backup do JAR próprio; SHA-256 antes/depois; comparar 148 JARs e todos os arquivos dos saves reais; novo inventário e auditoria ZIP | Aprovado: somente m2-worldgen substituído; 147 outros JARs e 268 arquivos dos saves intactos. 148 ativos (146 externos + duas integrações), zero IDs principais duplicados e zero IDs obrigatórios identificados ausentes. Binário novo igual ao cliente descartável; nenhum teste auxiliar instalado no M2D. |
+| AUTO-CONTRATO-CAMERA-20261103 | `audit_worldgen_contract.py --output extras/contrato-invalid-player-20261103.json`; compilação Java 21; comparar entradas do JAR; `npm run build` | Contrato estático aprovado; build do site aprovado, 22 páginas e sem alterações visuais. Compilação não substitui gameplay. |
+
+Tentativas incompletas não recebem aprovação: sandbox bloqueou sockets locais no primeiro boot; o patch de um só ponto passou da falha original, mas encontrou NPE em `ListenerCopies.nearestTo` durante login. Histórico local preservado. Instalação real e validação final dos logs concluídas. Relatórios: [runtime](extras/runtime-invalid-player-20261103.json), [instalação](extras/instalacao-camera-20261103.json) e [análise/limites](extras/CORRECAO_INVALID_PLAYER_DATA_20261103.md). O cliente foi jogado somente em cópia descartável; não se abriram saves pessoais. Menções abaixo a ausência de cliente/testes são históricas, vinculadas às suas datas e hashes.
+
 ## M2-034 — Sophisticated Core (03/11/2026)
 
 | ID | Procedimento | Estado verdadeiro |

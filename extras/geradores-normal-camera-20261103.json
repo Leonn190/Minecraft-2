@@ -1,0 +1,276 @@
+{
+  "state": "read_only_saved_metadata",
+  "level_dat_sha256": "9115787b16bc352ab9fda4a276b64c3dab1dbe646258df13ca2a23ba131b0cb0",
+  "data_version": 3955,
+  "dimensions": {
+    "the_backwoods:the_familiar": {
+      "type": "exotic_worlds:toroidal",
+      "wrapping": {
+        "z": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        },
+        "x": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "75f07045afc62a60fece79462fea272b606cfbf06c432bef5a3afe7a47e93ebe"
+    },
+    "minecraft:the_nether": {
+      "type": "wover:betterx",
+      "settings": "minecraft:nether",
+      "exotic_worlds:wrapping": {
+        "z": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        },
+        "x": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        }
+      },
+      "exotic_worlds:climate_compression": 0,
+      "biome_source_type": "wover:nether_biome_source"
+    },
+    "threateningly_mobs:distortion_dimension": {
+      "type": "exotic_worlds:toroidal",
+      "wrapping": {
+        "z": {
+          "max_chunk": 78,
+          "min_chunk": -78
+        },
+        "x": {
+          "max_chunk": 78,
+          "min_chunk": -78
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "97e2cb573f06458d445ba358d6e9762778fce61e8ff4fddce068d0fa6beb0678"
+    },
+    "m2pokemon:world": {
+      "type": "exotic_worlds:toroidal",
+      "settings": "m2pokemon:overworld",
+      "wrapping": {
+        "z": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        },
+        "x": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "m2_worldgen:isolated_climate"
+    },
+    "the_backwoods:rotting": {
+      "type": "exotic_worlds:toroidal",
+      "wrapping": {
+        "z": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        },
+        "x": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "41028219c56d02ab8482122ea6ff6a4c29b95dd6081ef407af47b738513fad8f"
+    },
+    "macabre:limbo": {
+      "type": "exotic_worlds:toroidal",
+      "wrapping": {
+        "z": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        },
+        "x": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "a17bb846921e8444f916c660d930906a90284755ff69e3103a3b4962096e7608"
+    },
+    "the_backwoods:the_sub_strata": {
+      "type": "exotic_worlds:toroidal",
+      "wrapping": {
+        "z": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        },
+        "x": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "626810ce2cc70945672a09a36462cc068f78bcd6f116f1ec0add279ce0d24567"
+    },
+    "the_backwoods:backwoods": {
+      "type": "exotic_worlds:toroidal",
+      "wrapping": {
+        "z": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        },
+        "x": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "85470fbc10251dd0e8a797fa7974c27fa55ae7954a20afd18287d194865542da"
+    },
+    "the_backwoods:the_still": {
+      "type": "minecraft:noise",
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "dac4e481ddc13f5fc5154f06b168cf6d7d4c75450486755f3522229db8d7b106"
+    },
+    "m2arcana:world": {
+      "type": "exotic_worlds:toroidal",
+      "settings": "m2arcana:strato",
+      "wrapping": {
+        "z": {
+          "max_chunk": 94,
+          "min_chunk": -94
+        },
+        "x": {
+          "max_chunk": 94,
+          "min_chunk": -94
+        }
+      },
+      "climate_compression": {
+        "mode": "strong"
+      },
+      "biome_source_type": "m2_worldgen:isolated_climate"
+    },
+    "the_backwoods:loss": {
+      "type": "exotic_worlds:toroidal",
+      "wrapping": {
+        "z": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        },
+        "x": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "68b9d49cdabed25c84447771655024ae10dbd0c11c88ec44c5cf337d2aa84ccf"
+    },
+    "macabre:the_pit": {
+      "type": "exotic_worlds:toroidal",
+      "wrapping": {
+        "z": {
+          "max_chunk": 63,
+          "min_chunk": -63
+        },
+        "x": {
+          "max_chunk": 63,
+          "min_chunk": -63
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "37ba1bf62ad1ec9ec1bd2ccbb8eab3c7cd9638797109b7ef3680464e5a100b19"
+    },
+    "echoes:timeless": {
+      "type": "exotic_worlds:toroidal_flat",
+      "wrapping": {
+        "z": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        },
+        "x": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": null,
+      "inline_settings_sha256": "ee3be387344c80e83e8924328209b0a8779916e802e90c72004a9828b75afb0b"
+    },
+    "undergarden:undergarden": {
+      "type": "undergarden:noise",
+      "settings": "undergarden:undergarden",
+      "exotic_worlds:wrapping": {
+        "z": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        },
+        "x": {
+          "max_chunk": 156,
+          "min_chunk": -156
+        }
+      },
+      "exotic_worlds:climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise"
+    },
+    "minecraft:the_end": {
+      "type": "wover:betterx",
+      "settings": "minecraft:end",
+      "exotic_worlds:wrapping": {
+        "z": {
+          "max_chunk": 188,
+          "min_chunk": -188
+        },
+        "x": {
+          "max_chunk": 188,
+          "min_chunk": -188
+        }
+      },
+      "exotic_worlds:climate_compression": 0,
+      "biome_source_type": "wover:end_biome_source"
+    },
+    "minecraft:overworld": {
+      "type": "exotic_worlds:toroidal",
+      "settings": "minecraft:overworld",
+      "wrapping": {
+        "z": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        },
+        "x": {
+          "max_chunk": 312,
+          "min_chunk": -312
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "lithostitched:injector"
+    },
+    "the_backwoods:the_petrified_weald": {
+      "type": "exotic_worlds:toroidal",
+      "wrapping": {
+        "z": {
+          "max_chunk": 78,
+          "min_chunk": -78
+        },
+        "x": {
+          "max_chunk": 78,
+          "min_chunk": -78
+        }
+      },
+      "climate_compression": 0,
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "9b0ab7286c95bdd5745ae8017987b52c2af25ed4b230264fc73ed43aa1af8e28"
+    },
+    "the_backwoods:the_grain": {
+      "type": "minecraft:noise",
+      "biome_source_type": "minecraft:multi_noise",
+      "inline_settings_sha256": "762e2861ddd3ad983c046cc32c1ea3f42c31ab762f38aeb7562d292c3a2bcdc3"
+    }
+  },
+  "note": "Nenhum dado pessoal exportado. Geradores salvos não identificam por si só o preset escolhido nem provam runtime; nenhuma alteração no save."
+}

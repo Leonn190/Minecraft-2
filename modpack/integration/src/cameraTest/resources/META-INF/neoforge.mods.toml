@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="m2_camera_tests"
+version="1.0.0"
+displayName="Minecraft 2 — auditoria descartável de câmera"
+description='''Comando /m2cameraaudit; exige marcador m2-disposable-client.json. Nunca instalar no M2D real.'''
+[[dependencies.m2_camera_tests]]
+modId="m2_worldgen"
+type="required"
+versionRange="[1.1.0]"
+ordering="AFTER"
+side="BOTH"
