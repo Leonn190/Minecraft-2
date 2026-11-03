@@ -1,6 +1,7 @@
 """Inventário da pasta mods real, separado da auditoria do ZIP histórico; sem gameplay."""
 import argparse
 import collections
+from datetime import date
 import hashlib
 import json
 from pathlib import Path
@@ -61,6 +62,7 @@ def main():
     parser.add_argument('--profile', type=Path, required=True)
     parser.add_argument('--report', type=Path, required=True, help='Novo relatório; nunca sobrescreve auditoria.')
     parser.add_argument('--previous', type=Path, help='Inventário histórico escolhido para a comparação.')
+    parser.add_argument('--audited-on', type=date.fromisoformat, default=date.today(), help='Data ISO da inspeção; padrão: hoje.')
     args = parser.parse_args()
     args.report = args.report.resolve()
     if args.report.exists():
@@ -83,7 +85,7 @@ def main():
             e['category_note'] = 'Fork próprio de código de terceiros; licença original preservada.'
         entries.append(e)
     active = [e for e in entries if e['state'] == 'active']
-    report = dict(schema=2, audited_on='2026-11-01', source='CurseForge/M2D/mods',
+    report = dict(schema=2, audited_on=args.audited_on.isoformat(), source='CurseForge/M2D/mods',
         target=dict(minecraft='1.21.1', loader='NeoForge', neoforge='21.1.263'),
         entries=entries, counts=dict(active=len(active), disabled=len(entries)-len(active),
             external=sum(e['category']=='external' for e in active), integrations=sum(e['category']=='integration' for e in active)),
@@ -107,7 +109,7 @@ def main():
         report['archive_audit'] = zip_path.relative_to(ROOT).as_posix()
     write_json(args.report, report)
     write_json(manifest, report)
-    lines = ['# Minecraft 2 — inventário do perfil CurseForge M2D em 01/11/2026',
+    lines = ['# Minecraft 2 — inventário do perfil CurseForge M2D em ' + args.audited_on.strftime('%d/%m/%Y'),
              '# Ativo = arquivo .jar; não equivale a compatibilidade em jogo ou aprovação de distribuição.',
              '# Arquivo | mod ID = versão | loader | estado | categoria | SHA-256']
     for e in entries:

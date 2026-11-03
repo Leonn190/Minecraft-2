@@ -4,6 +4,8 @@
   "package": "br.com.minecraft2.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ExoticClientPositionMixin",
+    "ExoticListenerCopiesMixin",
     "ArcanusClimateFieldsMixin",
     "SpawnPlacementsMixin",
     "CobblemonBiomeModifierMixin",

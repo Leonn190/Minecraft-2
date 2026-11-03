@@ -1,5 +1,13 @@
 # Alterações próprias — Minecraft 2
 
+## M2-035 — Câmera nula no login com Exotic Worlds (03/11/2026)
+
+**Estado: instalado no M2D; entrada/reentrada e testes delimitados aprovados no cliente descartável com os mesmos 148 JARs de produção.** Logs reais apontam `ClientPosition.followCamera` 1.2.5. O bytecode carregado confirma que `com.railwayteam.railways.mixin.conductor_possession.ServerPlayerAccessor` substitui o getter vanilla e pode expor a câmera nula. Após proteger a tradução de pacotes, o teste real encontrou outro acesso inseguro em `ListenerCopies.nearestTo`, durante som de entrega de item no login; ambos são tratados.
+
+Arquivos em `modpack/`: `integration/src/main/java/br/com/minecraft2/mixin/Exotic{ClientPosition,ListenerCopies}Mixin.java`, `integration/src/main/resources/m2_worldgen.mixins.json`, auditoria separada em `integration/src/cameraTest/`, `development/build_integration.py` e `development/audit_profile.py` (data real do inventário). Cada redirect substitui somente o retorno nulo de `getCamera()` pelo jogador. Métodos originais continuam executando: sem capturar exceção, cancelar pacotes, desativar tradução ou alterar dimensões/tamanhos/presets. Nenhum JAR externo modificado. Contrato exato de Exotic Worlds 1.2.5 e intervalo Core de M2-034 preservados.
+
+Auditoria de câmera é um JAR separado, nunca destinado ao perfil real; `/m2cameraaudit` só é registrado com marcador local de cliente descartável. Evidências e limites em `extras/CORRECAO_INVALID_PLAYER_DATA_20261103.md` e `TESTES.md`; aprovações anteriores mantêm seus hashes. Instalação: `extras/instalacao-camera-20261103.json`; inventário atual e ZIP separado: `extras/auditoria-perfil-camera-20261103{,-zip}.json`; `modpack/integration-manifest.json`, `mods-manifest.json` e `mods-list.txt` refletem os arquivos reais. Só o JAR próprio foi substituído; 147 outros JARs e 268 arquivos dos saves pessoais conferidos intactos. A comparação com o inventário de 01/11 também registra atualizações externas que já estavam no perfil antes desta tarefa, sem atribuí-las ao patch.
+
 ## M2-034 — Intervalo de Sophisticated Core (03/11/2026)
 
 **Estado: compilado e instalado no M2D; carregamento no cliente e gameplay pendentes.** Em `modpack/integration/src/main/resources/META-INF/neoforge.mods.toml`, o requisito exato `[1.5.23]` passou a `[1.5.23,1.6)`, permitindo atualizações 1.5.x a partir da versão usada na implementação. A imagem do erro mostrava 1.5.22; na inspeção desta tarefa o perfil já tinha **1.5.25**, usado na compilação. Não foi declarada compatibilidade com 1.5.22 nem alterado qualquer mod externo.

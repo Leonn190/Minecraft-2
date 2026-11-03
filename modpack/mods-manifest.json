@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "audited_on": "2026-11-01",
+  "audited_on": "2026-11-03",
   "source": "CurseForge/M2D/mods",
   "target": {
     "minecraft": "1.21.1",
@@ -576,9 +576,9 @@
       "category": "external"
     },
     {
-      "file": "ars_nouveau-1.21.1-5.13.3.jar",
-      "sha256": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
-      "bytes": 19841105,
+      "file": "ars_nouveau-1.21.1-5.13.4.jar",
+      "sha256": "6bd42eae022c6b78fb907e24bede2601af32861e238dcce2573ede23c9aec86c",
+      "bytes": 19872506,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -586,7 +586,7 @@
       "mods": [
         {
           "modId": "ars_nouveau",
-          "version": "5.13.3",
+          "version": "5.13.4",
           "displayName": "Ars Nouveau"
         }
       ],
@@ -619,7 +619,7 @@
       "dimensions": [],
       "children": [
         {
-          "file": "ars_nouveau-1.21.1-5.13.3.jar!/META-INF/jarjar/nuggets-neoforge-1.21.1-1.1.0.48.jar",
+          "file": "ars_nouveau-1.21.1-5.13.4.jar!/META-INF/jarjar/nuggets-neoforge-1.21.1-1.1.0.48.jar",
           "sha256": "204bbc9e9edfe6d96ab51bb39b062388e444e621f8b2692ec78d0634d0831865",
           "bytes": 209407,
           "metadata": "META-INF/neoforge.mods.toml",
@@ -656,7 +656,7 @@
           "children": []
         },
         {
-          "file": "ars_nouveau-1.21.1-5.13.3.jar!/META-INF/jarjar/infiniverse-568341-5486311.jar",
+          "file": "ars_nouveau-1.21.1-5.13.4.jar!/META-INF/jarjar/infiniverse-568341-5486311.jar",
           "sha256": "ca0f8b3952120ec566d91d4aca79c9c9175309329c69b925507e9d627684bd5b",
           "bytes": 25065,
           "metadata": "META-INF/neoforge.mods.toml",
@@ -694,7 +694,7 @@
           "children": []
         },
         {
-          "file": "ars_nouveau-1.21.1-5.13.3.jar!/META-INF/jarjar/lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar",
+          "file": "ars_nouveau-1.21.1-5.13.4.jar!/META-INF/jarjar/lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar",
           "sha256": "5424cdba38336ba1357805008a9cccbf697fae8bcdc3f8bfa2d7359a577af265",
           "bytes": 199629,
           "metadata": "META-INF/neoforge.mods.toml",
@@ -724,7 +724,7 @@
           "dimensions": [],
           "children": [
             {
-              "file": "ars_nouveau-1.21.1-5.13.3.jar!/META-INF/jarjar/lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar!/META-INF/jars/yumi-commons-collections-1.0.0-beta.4.jar",
+              "file": "ars_nouveau-1.21.1-5.13.4.jar!/META-INF/jarjar/lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar!/META-INF/jars/yumi-commons-collections-1.0.0-beta.4.jar",
               "sha256": "465bb920fdf1ca9caeacad01994aec624deea133a7d5b5efe0ae5984406b320b",
               "bytes": 14815,
               "metadata": "fabric.mod.json",
@@ -746,7 +746,7 @@
               "children": []
             },
             {
-              "file": "ars_nouveau-1.21.1-5.13.3.jar!/META-INF/jarjar/lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar!/META-INF/jars/yumi-commons-core-1.0.0-beta.4.jar",
+              "file": "ars_nouveau-1.21.1-5.13.4.jar!/META-INF/jarjar/lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar!/META-INF/jars/yumi-commons-core-1.0.0-beta.4.jar",
               "sha256": "a104ee2c71b550bd7098ed2f97414af26a3a657c5be6e0a0e421d7d134168f06",
               "bytes": 27575,
               "metadata": "fabric.mod.json",
@@ -767,7 +767,7 @@
               "children": []
             },
             {
-              "file": "ars_nouveau-1.21.1-5.13.3.jar!/META-INF/jarjar/lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar!/META-INF/jars/yumi-commons-event-1.0.0-beta.4.jar",
+              "file": "ars_nouveau-1.21.1-5.13.4.jar!/META-INF/jarjar/lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar!/META-INF/jars/yumi-commons-event-1.0.0-beta.4.jar",
               "sha256": "ee3aab1ee1f7e3b05f44b2ef4deacfbe9dd59e48e4eec9dbeada1e8fd84eab7f",
               "bytes": 51266,
               "metadata": "fabric.mod.json",
@@ -889,9 +889,9 @@
       "category": "external"
     },
     {
-      "file": "balm-neoforge-1.21.1-21.0.66.jar",
-      "sha256": "6be660e1f6d169553bf44f66d4f78bb9e96a1d66ce108d9608819e3ce6bfba34",
-      "bytes": 783793,
+      "file": "balm-neoforge-1.21.1-21.0.67.jar",
+      "sha256": "eaae887582a67a02f55a970ec2d7353f1886a99924ed6144aa4d898266606c34",
+      "bytes": 786010,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -899,7 +899,7 @@
       "mods": [
         {
           "modId": "balm",
-          "version": "21.0.66",
+          "version": "21.0.67",
           "displayName": "Balm",
           "displayURL": "https://mods.twelveiterations.com/"
         }
@@ -926,7 +926,7 @@
       "dimensions": [],
       "children": [
         {
-          "file": "balm-neoforge-1.21.1-21.0.66.jar!/META-INF/jarjar/kuma-api-neoforge-21.0.8+1.21.jar",
+          "file": "balm-neoforge-1.21.1-21.0.67.jar!/META-INF/jarjar/kuma-api-neoforge-21.0.8+1.21.jar",
           "sha256": "cf04355de63f96a84a10309d1c985200eb54b7bc614c7c3b556b39209e829f40",
           "bytes": 32710,
           "metadata": "META-INF/neoforge.mods.toml",
@@ -1895,9 +1895,9 @@
       "category": "external"
     },
     {
-      "file": "cpn-neoforge-1.8.4-1.3.0.jar",
-      "sha256": "6a534907df7457c9e34927b144d5666c2bfce508b7fd1a0caae688b552e8b859",
-      "bytes": 63987,
+      "file": "cpn-neoforge-1.8.4-1.4.0.jar",
+      "sha256": "5b3c2a54145ce364e521bcce4e8c4958d91dca4eb9b601b15463ce4089967e9a",
+      "bytes": 65319,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -1905,7 +1905,7 @@
       "mods": [
         {
           "modId": "cobblemonpokedexnetwork",
-          "version": "1.8.4+1.3.0",
+          "version": "1.8.4+1.4.0",
           "displayName": "Cobblemon Pokedex Network"
         }
       ],
@@ -1935,7 +1935,7 @@
           {
             "modId": "cobblemon",
             "type": "required",
-            "versionRange": "[1.8.4,)",
+            "versionRange": "[1.8.2,)",
             "ordering": "AFTER",
             "side": "BOTH"
           }
@@ -2502,9 +2502,9 @@
       "category": "external"
     },
     {
-      "file": "createaddition-1.6.0.jar",
-      "sha256": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
-      "bytes": 1661802,
+      "file": "createaddition-1.7.2.jar",
+      "sha256": "71e9c3ac39089e72c1e47a129a44e41eb55efc9534eecfdead8da8fb64313414",
+      "bytes": 1772844,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -2512,7 +2512,7 @@
       "mods": [
         {
           "modId": "createaddition",
-          "version": "1.6.0",
+          "version": "1.7.2",
           "displayName": "Create Crafts & Additions",
           "displayURL": "https://github.com/mrh0/createaddition"
         }
@@ -2522,7 +2522,7 @@
           {
             "modId": "neoforge",
             "type": "required",
-            "versionRange": "[21.1.219,)",
+            "versionRange": "[21.1.248,)",
             "ordering": "NONE",
             "side": "BOTH"
           },
@@ -2564,7 +2564,7 @@
       "dimensions": [],
       "children": [
         {
-          "file": "createaddition-1.6.0.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+          "file": "createaddition-1.7.2.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
           "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
           "bytes": 35444,
           "metadata": "META-INF/neoforge.mods.toml",
@@ -5284,9 +5284,9 @@
       "category": "external"
     },
     {
-      "file": "kubejs-neoforge-2101.7.2-build.377.jar",
-      "sha256": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601",
-      "bytes": 2294111,
+      "file": "kubejs-neoforge-2101.7.2-build.381.jar",
+      "sha256": "e4539156a6e93badf140d050306d2b4d7975037541b3c51f746cf78bf6fe14a2",
+      "bytes": 2295092,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -5294,7 +5294,7 @@
       "mods": [
         {
           "modId": "kubejs",
-          "version": "2101.7.2-build.377",
+          "version": "2101.7.2-build.381",
           "displayName": "KubeJS",
           "displayURL": "https://kubejs.com"
         }
@@ -5349,7 +5349,7 @@
       "dimensions": [],
       "children": [
         {
-          "file": "kubejs-neoforge-2101.7.2-build.377.jar!/META-INF/jarjar/animated-gif-lib-for-java-animated-gif-lib-1.7.jar",
+          "file": "kubejs-neoforge-2101.7.2-build.381.jar!/META-INF/jarjar/animated-gif-lib-for-java-animated-gif-lib-1.7.jar",
           "sha256": "9bae7c1154cec27d65f0ab91e307255789a2c76b73fd3425c211b52c1de3a343",
           "bytes": 20816,
           "metadata": null,
@@ -5361,7 +5361,7 @@
           "children": []
         },
         {
-          "file": "kubejs-neoforge-2101.7.2-build.377.jar!/META-INF/jarjar/tiny-java-server-1.0.0-build.33.jar",
+          "file": "kubejs-neoforge-2101.7.2-build.381.jar!/META-INF/jarjar/tiny-java-server-1.0.0-build.33.jar",
           "sha256": "e5eb5d6dd6444cf99ecbbda7db0345e13d619b1e7ca87db7561ddf605d68b6bc",
           "bytes": 111618,
           "metadata": null,
@@ -5373,7 +5373,7 @@
           "children": []
         },
         {
-          "file": "kubejs-neoforge-2101.7.2-build.377.jar!/META-INF/jarjar/better-advanced-tooltips-2101.1.0-build.1.jar",
+          "file": "kubejs-neoforge-2101.7.2-build.381.jar!/META-INF/jarjar/better-advanced-tooltips-2101.1.0-build.1.jar",
           "sha256": "8fe810b03fd212720465956292a5a9b23b59259bbffe86b60fd65fe0558bcf5f",
           "bytes": 33167,
           "metadata": "META-INF/neoforge.mods.toml",
@@ -5748,8 +5748,8 @@
     },
     {
       "file": "m2-worldgen-1.1.0.jar",
-      "sha256": "c9513fc44a1a9d3ead00ff88c71c9b537d290dcc02981b36c3609e9e45cef16d",
-      "bytes": 47669,
+      "sha256": "f416979c7d86d63109b38e4036d9b53cc7b3603d94f43fa33cf04da9be055f4e",
+      "bytes": 49310,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -5808,7 +5808,7 @@
           {
             "modId": "sophisticatedcore",
             "type": "required",
-            "versionRange": "[1.5.23]",
+            "versionRange": "[1.5.23,1.6)",
             "ordering": "AFTER",
             "side": "BOTH"
           }
@@ -6118,9 +6118,9 @@
       "category": "external"
     },
     {
-      "file": "moreculling-neoforge-1.21.1-1.0.10.jar",
-      "sha256": "008068af65deec86382b4fdde61e7f495e54861cc28d5a5b000c32b435213ed3",
-      "bytes": 335699,
+      "file": "moreculling-neoforge-1.21.1-1.0.11.jar",
+      "sha256": "fbde3e7f2d0489c465c6b9f1642e53b9ef9b07126b505ab0193fa8679f0466e1",
+      "bytes": 337255,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -6128,7 +6128,7 @@
       "mods": [
         {
           "modId": "moreculling",
-          "version": "1.0.10",
+          "version": "1.0.11",
           "displayName": "More Culling",
           "displayURL": "https://modrinth.com/mod/moreculling"
         }
@@ -6169,7 +6169,7 @@
       "dimensions": [],
       "children": [
         {
-          "file": "moreculling-neoforge-1.21.1-1.0.10.jar!/META-INF/jarjar/mixinsquared-neoforge-0.2.0.jar",
+          "file": "moreculling-neoforge-1.21.1-1.0.11.jar!/META-INF/jarjar/mixinsquared-neoforge-0.2.0.jar",
           "sha256": "a7f45922b0027fcbd8c1a60704febb455c5406054d20429454ce20680ef5d4d9",
           "bytes": 76484,
           "metadata": null,
@@ -6180,7 +6180,7 @@
           "dimensions": [],
           "children": [
             {
-              "file": "moreculling-neoforge-1.21.1-1.0.10.jar!/META-INF/jarjar/mixinsquared-neoforge-0.2.0.jar!/META-INF/jars/MixinSquared-0.2.0.jar",
+              "file": "moreculling-neoforge-1.21.1-1.0.11.jar!/META-INF/jarjar/mixinsquared-neoforge-0.2.0.jar!/META-INF/jars/MixinSquared-0.2.0.jar",
               "sha256": "853a3008cc1839163e8b713be6b6ff6a582ba0e9720db2b4ca0e2c00e26619b8",
               "bytes": 79483,
               "metadata": null,
@@ -6194,7 +6194,7 @@
           ]
         },
         {
-          "file": "moreculling-neoforge-1.21.1-1.0.10.jar!/META-INF/jarjar/conditional-mixin-neoforge-0.6.3.jar",
+          "file": "moreculling-neoforge-1.21.1-1.0.11.jar!/META-INF/jarjar/conditional-mixin-neoforge-0.6.3.jar",
           "sha256": "a990b68c40161596fd9cebb98a715b11882aa55be9391ff543dfbf1ede594560",
           "bytes": 28549,
           "metadata": "META-INF/neoforge.mods.toml",
@@ -6224,7 +6224,7 @@
           "children": []
         },
         {
-          "file": "moreculling-neoforge-1.21.1-1.0.10.jar!/META-INF/jarjar/conditional-mixin-neoforge-0.6.3.jar",
+          "file": "moreculling-neoforge-1.21.1-1.0.11.jar!/META-INF/jarjar/conditional-mixin-neoforge-0.6.3.jar",
           "sha256": "a990b68c40161596fd9cebb98a715b11882aa55be9391ff543dfbf1ede594560",
           "bytes": 28549,
           "metadata": "META-INF/neoforge.mods.toml",
@@ -7617,22 +7617,22 @@
       "category": "external"
     },
     {
-      "file": "SkyLands-UnofficialPort-NeoForge-1.21.1-v0.9.2.jar",
-      "sha256": "140eeddb871f5f02638d237edb5996896b4957fe98a3941e1406675fefd54964",
-      "bytes": 28278633,
+      "file": "SkyLands-UnofficialPort-NeoForge-1.21.1-v0.9.3.jar",
+      "sha256": "b0736d04313ce1d450566f1ef3417677bba0fac6d8dc5d4c63e70a649b7093ca",
+      "bytes": 28629757,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
       "license": "MIT License",
       "mods": [
         {
-          "modId": "flying_stuff",
-          "version": "0.9.2",
-          "displayName": "SkyLands - Unofficial Port"
+          "modId": "skylands",
+          "version": "0.9.3",
+          "displayName": "SkyLands"
         }
       ],
       "dependencies": {
-        "flying_stuff": [
+        "skylands": [
           {
             "modId": "neoforge",
             "type": "required",
@@ -7648,9 +7648,9 @@
             "side": "BOTH"
           },
           {
-            "modId": "terrablender",
+            "modId": "lithostitched",
             "type": "required",
-            "versionRange": "[4.1.0.8,4.2)",
+            "versionRange": "[1.8.1,1.9)",
             "ordering": "AFTER",
             "side": "BOTH"
           },
@@ -8168,9 +8168,9 @@
       "category": "external"
     },
     {
-      "file": "sophisticatedcore-1.21.1-1.5.23.2446.jar",
-      "sha256": "f7c1e688e9e53c3a93fa86169c9d0026a217cd1cf5085f2dbdfd9c734ba8e188",
-      "bytes": 1829042,
+      "file": "sophisticatedcore-1.21.1-1.5.25.2451.jar",
+      "sha256": "dd42ebfccbcd5a3cb7702d3f342aff9e30b89850c10dd39e3b77eca6c597a0a0",
+      "bytes": 1830530,
       "metadata": "META-INF/neoforge.mods.toml",
       "nested": false,
       "loader": "javafml",
@@ -8178,7 +8178,7 @@
       "mods": [
         {
           "modId": "sophisticatedcore",
-          "version": "1.5.23",
+          "version": "1.5.25",
           "displayName": "Sophisticated Core",
           "displayURL": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core"
         }
@@ -9541,268 +9541,113 @@
     "integrations": 2
   },
   "previous_audit_comparison": {
-    "previous_count": 122,
+    "previous_count": 148,
     "current_count": 148,
     "added_files": [
-      "BetterEnd-21.0.39.jar",
-      "BetterNether-21.0.30.jar",
-      "BlockPops - NeoForge - 1.21.1-2.0.2.jar",
-      "Clumps-neoforge-1.21.1-19.0.0.1.jar",
-      "Cobblemon-neoforge-1.8.4+1.21.1.jar",
-      "Controlling-neoforge-1.21.1-19.0.5.jar",
-      "CreativeCore_NEOFORGE_v2.13.52_mc1.21.1.jar",
-      "Platform-neoforge-1.21.1-1.4.2.jar",
-      "Quark-4.1-488.jar",
-      "Searchables-neoforge-1.21.1-1.0.2.jar",
-      "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
-      "alltheleaks-1.1.14-1.21.1-neoforge.jar",
-      "chunksfadein-neoforge-3.0.26-1.21.jar",
-      "cpn-neoforge-1.8.4-1.3.0.jar",
-      "cultofazazelneoforge-1.1.4.12.jar",
-      "deathcharm-1.0.1-1.21.1.jar",
-      "dungeonnowloading-neoforge-1.21.1-2.11.6.jar",
-      "endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
-      "entity_pin_cushions-neoforge-1.21-1.0.jar",
-      "exotic_worlds-1.2.5-mc1.21.1.jar",
-      "incontrol-1.21-10.3.1.jar",
-      "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
-      "irisblockcompat-1.21.1-1.1.0.jar",
-      "kawaiidishes-1.13.jar",
-      "lithium-neoforge-0.15.4+mc1.21.1.jar",
-      "m2-worldgen-1.1.0.jar",
-      "macabre-1.0.0-neoforge-1.21.1.jar",
-      "mezz_config-1.21.1-neoforge-0.6.10-standalone.jar",
-      "modernfix-neoforge-5.27.27+mc1.21.1.jar",
-      "moreculling-neoforge-1.21.1-1.0.10.jar",
-      "movement_enchants-1.1.0-neoforge-1.21.1.jar",
-      "potion_combiner-1.21.1-Neoforge-1.0.0.jar",
-      "puzzleslib-v21.1.66-mc1.21.1+neoforge.jar",
-      "servercore-neoforge-1.5.19+1.21.1.jar",
-      "simplerecall-1.0.6-1.21.1.jar",
-      "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
-      "sophisticatedcore-1.21.1-1.5.23.2446.jar",
-      "spawn-animations-compats-18.0.jar",
-      "spawnanimations-v1.11.6-mc1.17-26.3.9-mod.jar",
-      "spore_1.21.1_2.2.0j_neo.jar",
-      "strato-0.4.1-m2.1.jar",
-      "the_backwoods-1.8.0-neoforge-1.21.1.jar",
-      "worldweaver-21.0.30.jar"
+      "SkyLands-UnofficialPort-NeoForge-1.21.1-v0.9.3.jar",
+      "ars_nouveau-1.21.1-5.13.4.jar",
+      "balm-neoforge-1.21.1-21.0.67.jar",
+      "cpn-neoforge-1.8.4-1.4.0.jar",
+      "createaddition-1.7.2.jar",
+      "kubejs-neoforge-2101.7.2-build.381.jar",
+      "moreculling-neoforge-1.21.1-1.0.11.jar",
+      "sophisticatedcore-1.21.1-1.5.25.2451.jar"
     ],
     "removed_files": [
-      "BetterEnd-21.0.38.jar",
-      "BetterNether-21.0.29.jar",
-      "Cobblemon-neoforge-1.8.2+1.21.1.jar",
-      "Platform-neoforge-1.21.1-1.4.jar",
-      "Quark-4.1-487.jar",
-      "cpn-neoforge-1.8.2+1.2.1.jar",
-      "exotic_worlds-1.1.4+mc1.21.1.jar",
-      "incontrol-1.21-10.3.0.jar",
-      "iris-neoforge-1.8.12+mc1.21.1.jar",
-      "macabre-0.9.2-neoforge-1.21.1.jar",
-      "mezz_config-1.21.1-neoforge-0.6.8-standalone.jar",
-      "modernfix-neoforge-5.27.26+mc1.21.1.jar",
-      "puzzleslib-v21.1.65-mc1.21.1+neoforge.jar",
-      "sophisticatedbackpacks-1.21.1-3.26.14.2222.jar",
-      "sophisticatedcore-1.21.1-1.5.17.2426.jar",
-      "strato-0.4.6.jar",
-      "worldweaver-21.0.29.jar"
+      "SkyLands-UnofficialPort-NeoForge-1.21.1-v0.9.2.jar",
+      "ars_nouveau-1.21.1-5.13.3.jar",
+      "balm-neoforge-1.21.1-21.0.66.jar",
+      "cpn-neoforge-1.8.4-1.3.0.jar",
+      "createaddition-1.6.0.jar",
+      "kubejs-neoforge-2101.7.2-build.377.jar",
+      "moreculling-neoforge-1.21.1-1.0.10.jar",
+      "sophisticatedcore-1.21.1-1.5.23.2446.jar"
     ],
-    "changed_hash": [],
+    "changed_hash": [
+      "m2-worldgen-1.1.0.jar"
+    ],
     "added_mod_ids": [
-      "alltheleaks",
-      "betterendisland",
-      "blockpops",
-      "chunksfadein",
-      "clumps",
-      "controlling",
-      "creativecore",
-      "deathcharm",
-      "dungeonnowloading",
-      "endermanoverhaul",
-      "entity_pin_cushions",
-      "irisblockcompat",
-      "kawaiidishes",
-      "lithium",
-      "m2_worldgen",
-      "moreculling",
-      "movement_enchants",
-      "mr_spawn_animationscompats",
-      "netherman",
-      "potion_blending",
-      "searchables",
-      "servercore",
-      "simplerecall",
-      "spawnanimations",
-      "spore",
-      "the_backwoods"
+      "skylands"
     ],
-    "removed_mod_ids": [],
+    "removed_mod_ids": [
+      "flying_stuff"
+    ],
     "version_changes": {
-      "betterend": {
+      "ars_nouveau": {
         "before": {
-          "file": "BetterEnd-21.0.38.jar",
-          "version": "21.0.38"
+          "file": "ars_nouveau-1.21.1-5.13.3.jar",
+          "version": "5.13.3"
         },
         "after": {
-          "file": "BetterEnd-21.0.39.jar",
-          "version": "21.0.39"
+          "file": "ars_nouveau-1.21.1-5.13.4.jar",
+          "version": "5.13.4"
         }
       },
-      "betternether": {
+      "balm": {
         "before": {
-          "file": "BetterNether-21.0.29.jar",
-          "version": "21.0.29"
+          "file": "balm-neoforge-1.21.1-21.0.66.jar",
+          "version": "21.0.66"
         },
         "after": {
-          "file": "BetterNether-21.0.30.jar",
-          "version": "21.0.30"
-        }
-      },
-      "cobblemon": {
-        "before": {
-          "file": "Cobblemon-neoforge-1.8.2+1.21.1.jar",
-          "version": "1.8.2+1.21.1"
-        },
-        "after": {
-          "file": "Cobblemon-neoforge-1.8.4+1.21.1.jar",
-          "version": "1.8.4+1.21.1"
+          "file": "balm-neoforge-1.21.1-21.0.67.jar",
+          "version": "21.0.67"
         }
       },
       "cobblemonpokedexnetwork": {
         "before": {
-          "file": "cpn-neoforge-1.8.2+1.2.1.jar",
-          "version": "1.8.2+1.2.1"
-        },
-        "after": {
           "file": "cpn-neoforge-1.8.4-1.3.0.jar",
           "version": "1.8.4+1.3.0"
-        }
-      },
-      "exotic_worlds_bundle": {
-        "before": {
-          "file": "exotic_worlds-1.1.4+mc1.21.1.jar",
-          "version": "1.1.4"
         },
         "after": {
-          "file": "exotic_worlds-1.2.5-mc1.21.1.jar",
-          "version": "1.2.5"
+          "file": "cpn-neoforge-1.8.4-1.4.0.jar",
+          "version": "1.8.4+1.4.0"
         }
       },
-      "incontrol": {
+      "createaddition": {
         "before": {
-          "file": "incontrol-1.21-10.3.0.jar",
-          "version": "1.21-10.3.0"
+          "file": "createaddition-1.6.0.jar",
+          "version": "1.6.0"
         },
         "after": {
-          "file": "incontrol-1.21-10.3.1.jar",
-          "version": "1.21-10.3.1"
+          "file": "createaddition-1.7.2.jar",
+          "version": "1.7.2"
         }
       },
-      "iris": {
+      "kubejs": {
         "before": {
-          "file": "iris-neoforge-1.8.12+mc1.21.1.jar",
-          "version": "1.8.12-snapshot+mc1.21.1-local"
+          "file": "kubejs-neoforge-2101.7.2-build.377.jar",
+          "version": "2101.7.2-build.377"
         },
         "after": {
-          "file": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
-          "version": "1.8.14-beta.1+mc1.21.1"
+          "file": "kubejs-neoforge-2101.7.2-build.381.jar",
+          "version": "2101.7.2-build.381"
         }
       },
-      "macabre": {
+      "moreculling": {
         "before": {
-          "file": "macabre-0.9.2-neoforge-1.21.1.jar",
-          "version": "0.9.1"
+          "file": "moreculling-neoforge-1.21.1-1.0.10.jar",
+          "version": "1.0.10"
         },
         "after": {
-          "file": "macabre-1.0.0-neoforge-1.21.1.jar",
-          "version": "1.0.0"
-        }
-      },
-      "modernfix": {
-        "before": {
-          "file": "modernfix-neoforge-5.27.26+mc1.21.1.jar",
-          "version": "5.27.26+mc1.21.1"
-        },
-        "after": {
-          "file": "modernfix-neoforge-5.27.27+mc1.21.1.jar",
-          "version": "5.27.27+mc1.21.1"
-        }
-      },
-      "platform": {
-        "before": {
-          "file": "Platform-neoforge-1.21.1-1.4.jar",
-          "version": "1.4"
-        },
-        "after": {
-          "file": "Platform-neoforge-1.21.1-1.4.2.jar",
-          "version": "1.4.2"
-        }
-      },
-      "puzzleslib": {
-        "before": {
-          "file": "puzzleslib-v21.1.65-mc1.21.1+neoforge.jar",
-          "version": "21.1.65"
-        },
-        "after": {
-          "file": "puzzleslib-v21.1.66-mc1.21.1+neoforge.jar",
-          "version": "21.1.66"
-        }
-      },
-      "quark": {
-        "before": {
-          "file": "Quark-4.1-487.jar",
-          "version": "4.1-487"
-        },
-        "after": {
-          "file": "Quark-4.1-488.jar",
-          "version": "4.1-488"
-        }
-      },
-      "sophisticatedbackpacks": {
-        "before": {
-          "file": "sophisticatedbackpacks-1.21.1-3.26.14.2222.jar",
-          "version": "3.26.14"
-        },
-        "after": {
-          "file": "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
-          "version": "3.26.19"
+          "file": "moreculling-neoforge-1.21.1-1.0.11.jar",
+          "version": "1.0.11"
         }
       },
       "sophisticatedcore": {
         "before": {
-          "file": "sophisticatedcore-1.21.1-1.5.17.2426.jar",
-          "version": "1.5.17"
-        },
-        "after": {
           "file": "sophisticatedcore-1.21.1-1.5.23.2446.jar",
           "version": "1.5.23"
-        }
-      },
-      "strato": {
-        "before": {
-          "file": "strato-0.4.6.jar",
-          "version": "0.4.6"
         },
         "after": {
-          "file": "strato-0.4.1-m2.1.jar",
-          "version": "0.4.1-m2.1"
-        }
-      },
-      "wover": {
-        "before": {
-          "file": "worldweaver-21.0.29.jar",
-          "version": "21.0.29"
-        },
-        "after": {
-          "file": "worldweaver-21.0.30.jar",
-          "version": "21.0.30"
+          "file": "sophisticatedcore-1.21.1-1.5.25.2451.jar",
+          "version": "1.5.25"
         }
       }
     }
   },
   "previous_manifest": {
-    "path": "extras/mods-manifest-historico-61c73ceef2da.json",
-    "sha256": "61c73ceef2dad7f37d1773958ffe6e1e5b874e9f5474d0c2da54cf6d2643d8d6"
+    "path": "extras/mods-manifest-historico-cf750d8184e1.json",
+    "sha256": "cf750d8184e1a7c620551482643621dac240094fadb5195a369acd8317fcaf2d"
   },
   "duplicate_top_level_ids": {},
   "repeated_ids_including_jarjar": {
@@ -9812,7 +9657,7 @@
         "version": "2101.1.0-build.5"
       },
       {
-        "file": "kubejs-neoforge-2101.7.2-build.377.jar!/META-INF/jarjar/better-advanced-tooltips-2101.1.0-build.1.jar",
+        "file": "kubejs-neoforge-2101.7.2-build.381.jar!/META-INF/jarjar/better-advanced-tooltips-2101.1.0-build.1.jar",
         "version": "2101.1.0-build.1"
       }
     ],
@@ -9826,11 +9671,11 @@
         "version": "0.6.4"
       },
       {
-        "file": "moreculling-neoforge-1.21.1-1.0.10.jar!/META-INF/jarjar/conditional-mixin-neoforge-0.6.3.jar",
+        "file": "moreculling-neoforge-1.21.1-1.0.11.jar!/META-INF/jarjar/conditional-mixin-neoforge-0.6.3.jar",
         "version": "0.6.3"
       },
       {
-        "file": "moreculling-neoforge-1.21.1-1.0.10.jar!/META-INF/jarjar/conditional-mixin-neoforge-0.6.3.jar",
+        "file": "moreculling-neoforge-1.21.1-1.0.11.jar!/META-INF/jarjar/conditional-mixin-neoforge-0.6.3.jar",
         "version": "0.6.3"
       }
     ],
@@ -9896,7 +9741,7 @@
     ],
     "sablecompanion": [
       {
-        "file": "createaddition-1.6.0.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+        "file": "createaddition-1.7.2.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
         "version": "1.6.0"
       },
       {
@@ -9936,50 +9781,5 @@
   "duplicate_sha256": {},
   "missing_required_ids": [],
   "note": "Ativo significa extensão carregável, não boot aprovado. Metadados não certificam gameplay ou redistribuição. Bibliotecas JarJar são discriminadas; não contadas como JARs principais.",
-  "archive_audit": "extras/auditoria-perfil-m2d-final-20261101-zip.json",
-  "declaredRangeConflicts": [
-    {
-      "file": "ars_additions-1.21.1-21.3.0.jar",
-      "dependency": "minecraft",
-      "declaredRange": "[1.21,1.21.1)",
-      "observedVersion": "1.21.1"
-    },
-    {
-      "file": "DungeonsArise-1.21.1-2.1.68-release.jar",
-      "dependency": "minecraft",
-      "declaredRange": "[1.21,1.21.1)",
-      "observedVersion": "1.21.1"
-    },
-    {
-      "file": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
-      "dependency": "minecraft",
-      "declaredRange": "[1.21,1.21.1)",
-      "observedVersion": "1.21.1"
-    },
-    {
-      "file": "ironchest-1.21-neoforge-16.0.7.jar",
-      "dependency": "minecraft",
-      "declaredRange": "[1.21,1.21.1)",
-      "observedVersion": "1.21.1"
-    },
-    {
-      "file": "jei-1.21.1-neoforge-19.64.0.455.jar",
-      "dependency": "minecraft",
-      "declaredRange": "[1.21, 1.21.1)",
-      "observedVersion": "1.21.1"
-    },
-    {
-      "file": "moreculling-neoforge-1.21.1-1.0.10.jar",
-      "dependency": "minecraft",
-      "declaredRange": "[1.21,1.21.1)",
-      "observedVersion": "1.21.1"
-    },
-    {
-      "file": "The_Undergarden-1.21.1-0.9.6.jar",
-      "dependency": "minecraft",
-      "declaredRange": "[1.21]",
-      "observedVersion": "1.21.1"
-    }
-  ],
-  "declared_range_evidence": "extras/intervalos-perfil-20261101.json"
+  "archive_audit": "extras/auditoria-perfil-camera-20261103-zip.json"
 }

@@ -1,0 +1,29 @@
+{
+  "id": "M2-035",
+  "installed_at_local": "2026-11-03T18:30:37",
+  "profile": "CurseForge/M2D",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.263",
+  "java_processes_before_install": 0,
+  "process_check": "Get-Process java,javaw na mesma chamada PowerShell, antes deste script",
+  "modified_files": [
+    {
+      "file": "mods/m2-worldgen-1.1.0.jar",
+      "version": "1.1.0",
+      "before_sha256": "72c6f8f6f72eacec03a5636f02dc141acb4d9d35039db1151a4800ba50748d46",
+      "after_sha256": "f416979c7d86d63109b38e4036d9b53cc7b3603d94f43fa33cf04da9be055f4e",
+      "local_backup": "modpack/.cache/invalid-player-20261103/backup-m2-worldgen-before-install-20261103-183035.jar",
+      "backup_sha256": "72c6f8f6f72eacec03a5636f02dc141acb4d9d35039db1151a4800ba50748d46"
+    }
+  ],
+  "active_top_level_jars": 148,
+  "unchanged_other_jars": 147,
+  "saves_files_compared": 268,
+  "saves_byte_identical_before_after": true,
+  "test_jar_installed": false,
+  "kubejs_configs_external_jars_changed": false,
+  "validated_in_disposable_client": true,
+  "live_profile_gameplay_run": false,
+  "evidence": "extras/runtime-invalid-player-20261103.json",
+  "note": "Somente o JAR proprio foi substituido. Logs/classes exportadas/saves/backups binarios permanecem locais e ignorados. O teste de cliente usou copia dos mesmos 148 JARs, sem saves pessoais."
+}

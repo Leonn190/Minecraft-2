@@ -1,0 +1,229 @@
+{
+  "id": "M2-035",
+  "date": "2026-11-03",
+  "state": "passed_for_scoped_checks",
+  "production_jar_sha256": "f416979c7d86d63109b38e4036d9b53cc7b3603d94f43fa33cf04da9be055f4e",
+  "test_jar_sha256": "e3c0033470a38ce1f57c28d3c7dc551a3840274b7cb0cc06564b69621e07fa58",
+  "camera_checks": {
+    "minecraft:overworld": {
+      "checks": [
+        "null usa ancora do jogador",
+        "pacote traduzido com camera null continua",
+        "som com camera null usa jogador",
+        "filtro de ouvintes preservado",
+        "camera padrao preservada",
+        "outra entidade acompanha copia toroidal",
+        "som acompanha outra entidade",
+        "sair da camera retorna ancora do jogador",
+        "limpeza da camera encerrada",
+        "camera em outra dimensao ignorada",
+        "rebase e camera null preservam dimensao"
+      ],
+      "dimension": "minecraft:overworld",
+      "passed": true,
+      "evidence_sha256": "526676d683addac6b06d71031a1905c32976b59f0c873fe9178307221ecb805e"
+    },
+    "minecraft:the_nether": {
+      "checks": [
+        "null usa ancora do jogador",
+        "pacote traduzido com camera null continua",
+        "som com camera null usa jogador",
+        "filtro de ouvintes preservado",
+        "camera padrao preservada",
+        "outra entidade acompanha copia toroidal",
+        "som acompanha outra entidade",
+        "sair da camera retorna ancora do jogador",
+        "limpeza da camera encerrada",
+        "camera em outra dimensao ignorada",
+        "rebase e camera null preservam dimensao"
+      ],
+      "dimension": "minecraft:the_nether",
+      "passed": true,
+      "evidence_sha256": "27504e745c517100c193fdd1e653f04800166046936a378e0eb5e29c91899843"
+    },
+    "minecraft:the_end": {
+      "checks": [
+        "null usa ancora do jogador",
+        "pacote traduzido com camera null continua",
+        "som com camera null usa jogador",
+        "filtro de ouvintes preservado",
+        "camera padrao preservada",
+        "outra entidade acompanha copia toroidal",
+        "som acompanha outra entidade",
+        "sair da camera retorna ancora do jogador",
+        "limpeza da camera encerrada",
+        "camera em outra dimensao ignorada",
+        "rebase e camera null preservam dimensao"
+      ],
+      "dimension": "minecraft:the_end",
+      "passed": true,
+      "evidence_sha256": "5aa80c3638bedec4f1c10ee804c034412bf39527058b171715e94bc13023ac08"
+    },
+    "m2pokemon:world": {
+      "checks": [
+        "null usa ancora do jogador",
+        "pacote traduzido com camera null continua",
+        "som com camera null usa jogador",
+        "filtro de ouvintes preservado",
+        "camera padrao preservada",
+        "outra entidade acompanha copia toroidal",
+        "som acompanha outra entidade",
+        "sair da camera retorna ancora do jogador",
+        "limpeza da camera encerrada",
+        "camera em outra dimensao ignorada",
+        "rebase e camera null preservam dimensao"
+      ],
+      "dimension": "m2pokemon:world",
+      "passed": true,
+      "evidence_sha256": "cc5eef64c62a3c234e962ad9d23e98f5296974622fcb75e9c523d7375ccc29be"
+    },
+    "m2arcana:world": {
+      "checks": [
+        "null usa ancora do jogador",
+        "pacote traduzido com camera null continua",
+        "som com camera null usa jogador",
+        "filtro de ouvintes preservado",
+        "camera padrao preservada",
+        "outra entidade acompanha copia toroidal",
+        "som acompanha outra entidade",
+        "sair da camera retorna ancora do jogador",
+        "limpeza da camera encerrada",
+        "camera em outra dimensao ignorada",
+        "rebase e camera null preservam dimensao"
+      ],
+      "dimension": "m2arcana:world",
+      "passed": true,
+      "evidence_sha256": "81d649734da4f7ffcc1a4f96656ec02149a3daf2393a35ff853a620b796b0198"
+    },
+    "undergarden:undergarden": {
+      "checks": [
+        "null usa ancora do jogador",
+        "pacote traduzido com camera null continua",
+        "som com camera null usa jogador",
+        "filtro de ouvintes preservado",
+        "camera padrao preservada",
+        "outra entidade acompanha copia toroidal",
+        "som acompanha outra entidade",
+        "sair da camera retorna ancora do jogador",
+        "limpeza da camera encerrada",
+        "camera em outra dimensao ignorada",
+        "rebase e camera null preservam dimensao"
+      ],
+      "dimension": "undergarden:undergarden",
+      "passed": true,
+      "evidence_sha256": "56b5f8e7350bbf6cd0d105c79d399f52c292a9184c91d0f9b1952743cc8175be"
+    },
+    "macabre:the_pit": {
+      "checks": [
+        "null usa ancora do jogador",
+        "pacote traduzido com camera null continua",
+        "som com camera null usa jogador",
+        "filtro de ouvintes preservado",
+        "camera padrao preservada",
+        "outra entidade acompanha copia toroidal",
+        "som acompanha outra entidade",
+        "sair da camera retorna ancora do jogador",
+        "limpeza da camera encerrada",
+        "camera em outra dimensao ignorada",
+        "rebase e camera null preservam dimensao"
+      ],
+      "dimension": "macabre:the_pit",
+      "passed": true,
+      "evidence_sha256": "18c0da2223c04ce04d71e04ac6abb69d1a0263bd4d07eceef2d6492d60fa7adb"
+    }
+  },
+  "unique_camera_checks": 77,
+  "scenario": [
+    {
+      "dimension": "minecraft:overworld",
+      "width": 9984.0,
+      "aliases": 9.0,
+      "passed": true
+    },
+    {
+      "dimension": "minecraft:the_nether",
+      "width": 4992.0,
+      "aliases": 9.0,
+      "passed": true
+    },
+    {
+      "dimension": "minecraft:the_end",
+      "width": 6016.0,
+      "aliases": 9.0,
+      "passed": true
+    },
+    {
+      "dimension": "m2pokemon:world",
+      "width": 4992.0,
+      "aliases": 9.0,
+      "passed": true
+    },
+    {
+      "dimension": "m2arcana:world",
+      "width": 3008.0,
+      "aliases": 9.0,
+      "passed": true
+    },
+    {
+      "dimension": "undergarden:undergarden",
+      "width": 4992.0,
+      "aliases": 9.0,
+      "passed": true
+    },
+    {
+      "dimension": "macabre:the_pit",
+      "width": 2016.0,
+      "aliases": 9.0,
+      "passed": true
+    }
+  ],
+  "chunk_identity_comparisons": 63,
+  "original_log_sha256": "025bfd89dd51236c7f4f93c6804b39534b132345a4d533509351bc366378b036",
+  "first_patch_failure_log_sha256": "96886db46b57d0ba5141e20eb171e9fa15eb843ab1845b06adc6dad588cd3d0b",
+  "successful_client_log_sha256": "ece91eb8b7a50ab9b08c28d81a0c536b9b16baa62a4feb67562b91a2ec9f47a6",
+  "initial_attempts": {
+    "sandbox": "failed before gameplay; loopback socket blocked",
+    "client_position_only": "failed at ListenerCopies.nearestTo",
+    "test_scenario": "class filter/syntax/Rhino wrapper errors corrected before final run"
+  },
+  "client_observations": {
+    "normal_survival_entry": true,
+    "survival_save_quit_reentry": true,
+    "new_explicit_toroidal_creative_entry": true,
+    "seven_dimensions_visited_in_spectator": true,
+    "all_edges_visual": "pending",
+    "live_entity_spectator_view": "pending",
+    "multiplayer": "pending",
+    "all_portals_projectiles_mounts": "pending",
+    "border_manual_attempt": "Posicionado em X=4991.99, Y=180, entrada w sem movimento sustentado; travessia nao aprovada."
+  },
+  "zero_occurrences": {
+    "Couldn't place player": 0,
+    "Invalid player data": 0,
+    "because \"camera\" is null": 0,
+    "ClientPosition.followCamera": 0,
+    "ListenerCopies.nearestTo": 0
+  },
+  "note": "Relatorio derivado; logs brutos, classes de terceiros exportadas e saves permanecem locais e ignorados. Nove aliases por dimensao no chunk (0,0), nao auditoria de todos os lados/cantos ou sessao prolongada.",
+  "test_sources_sha256": {
+    "modpack/development/camera_runtime_scenario.js": "1402069288a4b3b4f5ab1e416a8ba0d87cb9e459e0cbe2aff7f4655745b63a08",
+    "modpack/integration/src/cameraTest/java/br/com/minecraft2/test/CameraAudit.java": "35100870882358626fab0d29b3821966ab31e7e0850f25771532b24216cf8cc1"
+  },
+  "production_only_restart": {
+    "passed": true,
+    "top_level_jars": 148,
+    "test_mod_installed": false,
+    "test_script_installed": false,
+    "log_sha256": "b9a306610a04e2cf3bcd5ed355687316ca3b808a5ec1ec7d110a1aedc9c0b772",
+    "save_complete": true,
+    "zero_occurrences": {
+      "Couldn't place player": 0,
+      "Invalid player data": 0,
+      "because \"camera\" is null": 0,
+      "ClientPosition.followCamera": 0,
+      "ListenerCopies.nearestTo": 0
+    },
+    "historical_save_warning": "m2_camera_tests 1.0.0 -> MISSING: somente historico de mods do save; JAR e script realmente ausentes, entrada/salvamento aprovados",
+    "runtime": "Java 21; heap 12 GiB; render 6/simulation 4 somente na copia de teste; preferencias reais intactas"
+  }
+}

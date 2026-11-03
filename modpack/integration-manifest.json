@@ -12,7 +12,7 @@
     {
       "file": "m2-worldgen-1.1.0.jar",
       "version": "1.1.0",
-      "sha256": "72c6f8f6f72eacec03a5636f02dc141acb4d9d35039db1151a4800ba50748d46"
+      "sha256": "f416979c7d86d63109b38e4036d9b53cc7b3603d94f43fa33cf04da9be055f4e"
     },
     {
       "file": "strato-0.4.1-m2.1.jar",
@@ -20,17 +20,20 @@
       "sha256": "865451f443b83ea80e9cc5e010ac75468368610c5d75cbe1fe25a539cb4d8fa7"
     }
   ],
-  "note": "M2-034: intervalo Core [1.5.23,1.6); compilado com Core 1.5.25 do perfil. Apenas metadata difere do JAR anterior. Instalado com backup e hash; cliente/gameplay pendentes. Inventários de 01/11 são históricos.",
+  "note": "M2-035: dois guards de camera nula para Exotic Worlds 1.2.5; classes/recursos anteriores preservados. Instalado no M2D com backup. Cliente descartavel: sobrevivencia, reentrada/reinicio, criativo/toroidal, 77 checks de camera e 63 aliases de chunk; limites em TESTES.md.",
   "deployment": {
     "installed_in_active_profile": true,
     "staging_blocked": false,
     "profile": "CurseForge/M2D",
-    "evidence": "extras/instalacao-core-20261103-171631.json",
-    "gameplay_validated": false
+    "evidence": "extras/instalacao-camera-20261103.json",
+    "gameplay_validated": false,
+    "validation_scope": "Cliente descartavel com mesmos 148 JARs de producao; nao certifica todos os recursos, multiplayer ou travessia visual de todas as bordas; nenhum save pessoal aberto.",
+    "singleplayer_login_validated_in_copy": true,
+    "scoped_client_checks_passed": true
   },
   "date": "2026-11-03",
   "previous_manifest": {
-    "path": "extras/integration-manifest-historico-56159eef5456.json",
-    "sha256": "56159eef5456b130160685c230e0268ec519a3c5708c052fcac4bffb6ea52b2f"
+    "path": "extras/integration-manifest-historico-a2b9b240736f.json",
+    "sha256": "a2b9b240736f76dbc2ad893e51219bdc0aab4bac989a5eb8bdcc1e56c5095c0d"
   }
 }
