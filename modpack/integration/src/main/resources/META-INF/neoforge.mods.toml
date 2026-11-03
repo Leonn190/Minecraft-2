@@ -56,6 +56,6 @@ side="BOTH"
 [[dependencies.m2_worldgen]]
 modId="sophisticatedcore"
 type="required"
-versionRange="[1.5.23]"
+versionRange="[1.5.23,1.6)"
 ordering="AFTER"
 side="BOTH"

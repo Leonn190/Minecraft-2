@@ -1,0 +1,25 @@
+{
+  "id": "M2-034",
+  "date": "2026-11-03",
+  "profile": "CurseForge/M2D",
+  "core": {
+    "file": "sophisticatedcore-1.21.1-1.5.25.2451.jar",
+    "version": "1.5.25",
+    "sha256": "dd42ebfccbcd5a3cb7702d3f342aff9e30b89850c10dd39e3b77eca6c597a0a0"
+  },
+  "version_range": "[1.5.23,1.6)",
+  "before_sha256": "c9513fc44a1a9d3ead00ff88c71c9b537d290dcc02981b36c3609e9e45cef16d",
+  "sha256": "72c6f8f6f72eacec03a5636f02dc141acb4d9d35039db1151a4800ba50748d46",
+  "backup": {
+    "path": "extras/backup-core-m2d-20261103-171631.zip",
+    "sha256": "4df02870f596b2d0a2323e5f737655d8480236ac611037c04cb5490e09e36601",
+    "roundtrip_equal": true
+  },
+  "changed_jar_entries": [
+    "META-INF/neoforge.mods.toml"
+  ],
+  "java_processes_at_install": 0,
+  "minecraft_started": false,
+  "gameplay_validated": false,
+  "saves_accessed": false
+}

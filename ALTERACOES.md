@@ -1,5 +1,11 @@
 # Alterações próprias — Minecraft 2
 
+## M2-034 — Intervalo de Sophisticated Core (03/11/2026)
+
+**Estado: compilado e instalado no M2D; carregamento no cliente e gameplay pendentes.** Em `modpack/integration/src/main/resources/META-INF/neoforge.mods.toml`, o requisito exato `[1.5.23]` passou a `[1.5.23,1.6)`, permitindo atualizações 1.5.x a partir da versão usada na implementação. A imagem do erro mostrava 1.5.22; na inspeção desta tarefa o perfil já tinha **1.5.25**, usado na compilação. Não foi declarada compatibilidade com 1.5.22 nem alterado qualquer mod externo.
+
+Somente a entrada de metadata difere entre o JAR anterior e o novo; classes e demais recursos idênticos. JAR próprio substituído com Java encerrado, backup reaberto e cópia conferida por SHA-256. `modpack/integration-manifest.json` atualizado; manifesto anterior preservado em `extras/integration-manifest-historico-56159eef5456.json`. Evidência: `extras/instalacao-core-20261103-171631.json`. Inventários e auditorias de 01/11 permanecem históricos, com seus hashes; o ZIP não foi alterado ou reauditado. Testes: AUTO-CORE-20261103 e J46 em `TESTES.md`.
+
 ## M2-030–033 — Perfil M2D e três mecânicas Undergarden (01/11/2026)
 
 **Estado: implementado, compilado e instalado; gameplay pendente. Sem testes por instrução do usuário.** Relatório e lista completa: [extras/SINCRONIZACAO_UNDERGARDEN_20261101.md](extras/SINCRONIZACAO_UNDERGARDEN_20261101.md). Reinício completo obrigatório; saves preservados.

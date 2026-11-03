@@ -1,5 +1,12 @@
 # Testes — Minecraft 2
 
+## M2-034 — Sophisticated Core (03/11/2026)
+
+| ID | Procedimento | Estado verdadeiro |
+|---|---|---|
+| AUTO-CORE-20261103 | Compilar produção com as APIs reais do M2D; inspecionar TOML/JAR, comparar entradas com o JAR instalado anterior; reabrir backup e conferir hash após instalar; `cd site; npm run build`; `git diff --check` | Compilação aprovada com Core 1.5.25 e Java 21; somente `META-INF/neoforge.mods.toml` mudou no JAR. Backup íntegro e cópia idêntica. Site compilado: 22 páginas, sem mudanças de fontes. Evidência: `extras/instalacao-core-20261103-171631.json`. Não executado Minecraft. |
+| J46 | Reiniciar completamente o cliente M2D com Core 1.5.25 e o JAR próprio SHA-256 `72c6f8f6f72eacec03a5636f02dc141acb4d9d35039db1151a4800ba50748d46`; confirmar ausência do erro de dependência e repetir J39/J40 em cópia descartável | Pendente: inicialização, crafting e preservação das mochilas não foram testados no cliente. O intervalo aceita Core >=1.5.23 e <1.6; 1.5.22 da imagem continua abaixo do mínimo e não foi validado. |
+
 ## M2-030–033 — 01/11/2026, sem execução de testes
 
 Por instrução expressa do usuário, **não foram executados testes, validadores de suítes, build do site, cliente ou servidor Minecraft**. Foram feitas somente as leituras necessárias dos arquivos/JARs, inventário e comparação de metadata, compilação do JAR de produção para instalação, backups e conferência SHA-256 das cópias. Isso não aprova gameplay, carregamento de recursos, codecs ou mixins em runtime. Aprovações históricas abaixo mantêm seus hashes e datas originais.
